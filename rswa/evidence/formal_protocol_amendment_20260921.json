@@ -1,0 +1,217 @@
+{
+  "id": "2026-09-21-r256-only-sentinel20",
+  "utc": "2026-09-21T07:02:50.358412+00:00",
+  "authorization": "User requested stopping degraded R128 training, retaining only R256 training, and changing sentinel evaluation to every 20 updates to reduce evaluation time.",
+  "scope": {
+    "active_training_windows": [
+      "256"
+    ],
+    "sentinel_interval_updates": 20,
+    "full_dev_milestones": [
+      100,
+      150,
+      268,
+      402
+    ],
+    "r256_resume_step": 90,
+    "stopped_groups": {
+      "128-seed0": 100,
+      "full-seed0": 90
+    }
+  },
+  "preserved": {
+    "training_lr": 1e-07,
+    "inference_repetition_penalty": 1.02,
+    "teacher_forced_ce": true,
+    "data_splits": true,
+    "r256_optimizer_scheduler_rng": true,
+    "test_held_out": true
+  },
+  "canceled_job": "64551",
+  "canceled_phase": {
+    "kind": "train",
+    "window": "full",
+    "seed": 0,
+    "target": 100
+  },
+  "uncommitted_full_step100": {
+    "checkpoint_ready": true,
+    "evaluation_complete": false,
+    "saved_predictions": 12,
+    "excluded_from_history": true
+  },
+  "old_queue": [
+    {
+      "kind": "train",
+      "window": "full",
+      "seed": 0,
+      "target": 100
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 100
+    },
+    {
+      "kind": "train",
+      "window": "128",
+      "seed": 0,
+      "target": 110
+    },
+    {
+      "kind": "train",
+      "window": "full",
+      "seed": 0,
+      "target": 110
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 110
+    },
+    {
+      "kind": "train",
+      "window": "128",
+      "seed": 0,
+      "target": 120
+    },
+    {
+      "kind": "train",
+      "window": "full",
+      "seed": 0,
+      "target": 120
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 120
+    },
+    {
+      "kind": "train",
+      "window": "128",
+      "seed": 0,
+      "target": 130
+    },
+    {
+      "kind": "train",
+      "window": "full",
+      "seed": 0,
+      "target": 130
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 130
+    },
+    {
+      "kind": "train",
+      "window": "128",
+      "seed": 0,
+      "target": 140
+    },
+    {
+      "kind": "train",
+      "window": "full",
+      "seed": 0,
+      "target": 140
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 140
+    },
+    {
+      "kind": "train",
+      "window": "128",
+      "seed": 0,
+      "target": 150
+    },
+    {
+      "kind": "train",
+      "window": "full",
+      "seed": 0,
+      "target": 150
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 150
+    },
+    {
+      "kind": "extend",
+      "previous": 100,
+      "current": 150,
+      "next_target": 268
+    }
+  ],
+  "new_queue": [
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 100
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 120
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 140
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 150
+    },
+    {
+      "kind": "extend",
+      "previous": 100,
+      "current": 150,
+      "next_target": 268
+    }
+  ],
+  "source": {
+    "campaign_old_sha256": "92d863f6f5d08c5440ae73d9a00dc23dc3b9e2e138d8205578f634f14e932541",
+    "campaign_new_sha256": "7b39f7618b6e1144a210a7a4ca411326e6949d1ee77c13d370b17611a9d9afee",
+    "source_manifest_old_sha256": "3ec68a2f801db87baf136ac4c7b0d85d2ad39212ce6b354624f02b6b7bddf965",
+    "source_manifest_new_sha256": "ce7b4d1838ab5ea760bd7013d477d39b45da0e6d1e5bd7d1c929210bfbff75a8"
+  },
+  "cadence_targets": {
+    "90_to_150": [
+      100,
+      120,
+      140,
+      150
+    ],
+    "150_to_268": [
+      170,
+      190,
+      210,
+      230,
+      250,
+      268
+    ],
+    "268_to_402": [
+      288,
+      308,
+      328,
+      348,
+      368,
+      388,
+      402
+    ]
+  },
+  "note": "Steps between evaluation targets still save resumable 10-update checkpoints; they do not run generation evaluation."
+}

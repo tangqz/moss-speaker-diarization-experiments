@@ -1,0 +1,183 @@
+{
+  "records": {
+    "longest-128/hf_alignment.json": {
+      "prefix": 70678,
+      "tokens": 2050,
+      "window": 128,
+      "original_fixed_tolerance_passed": false,
+      "reference_unchanged": true,
+      "top1_agreement": 0.9975609756097561,
+      "high_margin_disagreements": [],
+      "raw_error_maxima": {
+        "max_abs": 0.65625,
+        "mean_abs": 0.0664251521229744,
+        "p99": 0.28125
+      },
+      "hf_storage_bounded": true,
+      "maximum_live_kv_pages": 4427,
+      "maximum_logical_kv_pages": 4546,
+      "vllm_pages_bounded": true,
+      "vllm_page_bound_note": "ceil(P/page)+ceil(k/page)+2; includes rounded pages and one current-write boundary"
+    },
+    "longest-256/hf_alignment.json": {
+      "prefix": 70678,
+      "tokens": 2050,
+      "window": 256,
+      "original_fixed_tolerance_passed": false,
+      "reference_unchanged": true,
+      "top1_agreement": 0.9960975609756098,
+      "high_margin_disagreements": [],
+      "raw_error_maxima": {
+        "max_abs": 0.65625,
+        "mean_abs": 0.11422518640756607,
+        "p99": 0.28125
+      },
+      "hf_storage_bounded": true,
+      "maximum_live_kv_pages": 4435,
+      "maximum_logical_kv_pages": 4546,
+      "vllm_pages_bounded": true,
+      "vllm_page_bound_note": "ceil(P/page)+ceil(k/page)+2; includes rounded pages and one current-write boundary"
+    },
+    "longest-full/hf_alignment.json": {
+      "prefix": 70678,
+      "tokens": 2050,
+      "window": null,
+      "original_fixed_tolerance_passed": false,
+      "reference_unchanged": true,
+      "top1_agreement": 0.9960975609756098,
+      "high_margin_disagreements": [],
+      "raw_error_maxima": {
+        "max_abs": 0.65625,
+        "mean_abs": 0.06403400003910065,
+        "p99": 0.28125
+      },
+      "maximum_live_kv_pages": 4546,
+      "maximum_logical_kv_pages": 4546
+    },
+    "longest-full/hf_native_alignment.json": {
+      "prefix": 70678,
+      "tokens": 2050,
+      "window": null,
+      "original_fixed_tolerance_passed": false,
+      "reference_unchanged": true,
+      "top1_agreement": 0.9970731707317073,
+      "high_margin_disagreements": [],
+      "raw_error_maxima": {
+        "max_abs": 0.4765625,
+        "mean_abs": 0.06659472733736038,
+        "p99": 0.25
+      },
+      "maximum_live_kv_pages": 4546,
+      "maximum_logical_kv_pages": 4546
+    },
+    "smoke-128/hf_alignment.json": {
+      "prefix": 6325,
+      "tokens": 512,
+      "window": 128,
+      "original_fixed_tolerance_passed": false,
+      "reference_unchanged": true,
+      "top1_agreement": 0.99609375,
+      "high_margin_disagreements": [],
+      "raw_error_maxima": {
+        "max_abs": 0.34375,
+        "mean_abs": 0.054207708686590195,
+        "p99": 0.1875
+      },
+      "hf_storage_bounded": true,
+      "maximum_live_kv_pages": 405,
+      "maximum_logical_kv_pages": 428,
+      "vllm_pages_bounded": true,
+      "vllm_page_bound_note": "ceil(P/page)+ceil(k/page)+2; includes rounded pages and one current-write boundary"
+    },
+    "smoke-256/hf_alignment.json": {
+      "prefix": 6325,
+      "tokens": 512,
+      "window": 256,
+      "original_fixed_tolerance_passed": false,
+      "reference_unchanged": true,
+      "top1_agreement": 0.990234375,
+      "high_margin_disagreements": [],
+      "raw_error_maxima": {
+        "max_abs": 0.375,
+        "mean_abs": 0.06582504510879517,
+        "p99": 0.1875
+      },
+      "hf_storage_bounded": true,
+      "maximum_live_kv_pages": 413,
+      "maximum_logical_kv_pages": 428,
+      "vllm_pages_bounded": true,
+      "vllm_page_bound_note": "ceil(P/page)+ceil(k/page)+2; includes rounded pages and one current-write boundary"
+    },
+    "smoke-full/hf_alignment.json": {
+      "prefix": 6325,
+      "tokens": 512,
+      "window": null,
+      "original_fixed_tolerance_passed": false,
+      "reference_unchanged": true,
+      "top1_agreement": 0.990234375,
+      "high_margin_disagreements": [],
+      "raw_error_maxima": {
+        "max_abs": 0.375,
+        "mean_abs": 0.06582504510879517,
+        "p99": 0.1875
+      },
+      "maximum_live_kv_pages": 428,
+      "maximum_logical_kv_pages": 428
+    },
+    "smoke-full/hf_native_alignment.json": {
+      "prefix": 6325,
+      "tokens": 512,
+      "window": null,
+      "original_fixed_tolerance_passed": false,
+      "reference_unchanged": true,
+      "top1_agreement": 0.98828125,
+      "high_margin_disagreements": [],
+      "raw_error_maxima": {
+        "max_abs": 0.34375,
+        "mean_abs": 0.050906673073768616,
+        "p99": 0.1875
+      },
+      "maximum_live_kv_pages": 428,
+      "maximum_logical_kv_pages": 428
+    },
+    "typical-128/hf_alignment.json": {
+      "prefix": 26155,
+      "tokens": 2050,
+      "window": 128,
+      "original_fixed_tolerance_passed": false,
+      "reference_unchanged": true,
+      "top1_agreement": 0.9931707317073171,
+      "high_margin_disagreements": [],
+      "raw_error_maxima": {
+        "max_abs": 0.5,
+        "mean_abs": 0.11754357814788818,
+        "p99": 0.2109375
+      },
+      "hf_storage_bounded": true,
+      "maximum_live_kv_pages": 1644,
+      "maximum_logical_kv_pages": 1763,
+      "vllm_pages_bounded": true,
+      "vllm_page_bound_note": "ceil(P/page)+ceil(k/page)+2; includes rounded pages and one current-write boundary"
+    },
+    "typical-256/hf_alignment.json": {
+      "prefix": 26155,
+      "tokens": 2050,
+      "window": 256,
+      "original_fixed_tolerance_passed": false,
+      "reference_unchanged": true,
+      "top1_agreement": 0.9970731707317073,
+      "high_margin_disagreements": [],
+      "raw_error_maxima": {
+        "max_abs": 0.4375,
+        "mean_abs": 0.07567574828863144,
+        "p99": 0.20703125
+      },
+      "hf_storage_bounded": true,
+      "maximum_live_kv_pages": 1652,
+      "maximum_logical_kv_pages": 1763,
+      "vllm_pages_bounded": true,
+      "vllm_page_bound_note": "ceil(P/page)+ceil(k/page)+2; includes rounded pages and one current-write boundary"
+    }
+  },
+  "qualification": "requires explicit numerical review; original tolerance failures preserved"
+}

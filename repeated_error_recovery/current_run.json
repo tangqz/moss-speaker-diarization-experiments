@@ -1,0 +1,17 @@
+{
+  "job_id": 63737,
+  "run_id": "sr-v3-base-error-repeat-seed1-20260916",
+  "seed": 1,
+  "initial_model": "/work/qt28/moss/models/MOSS-Transcribe-Diarize",
+  "training_root": "/work/qt28/moss/results/short-recovery-sr-v3-base-error-repeat-seed1-20260916/sub_repeat/seed-1",
+  "controller_root": "/work/qt28/moss/results/base-error-repeat-controller-seed1-20260916",
+  "stdout": "/work/qt28/moss/logs/base-error-repeat-seed1-63737.out",
+  "stderr": "/work/qt28/moss/logs/base-error-repeat-seed1-63737.err",
+  "supersedes_job": 63724,
+  "supersedes_reason": "job 63724 started from checkpoint-150; this run restarts the same protocol from the original Base model",
+  "required_node": "dkucc-core-gpu-dkurc-d-it09-8",
+  "milestones": [30, 60, 90, 120, 150],
+  "temperature": 0,
+  "repetition_penalty": 1.0,
+  "tensorboard_url": "http://127.0.0.1:6006"
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "model_tensor_count": 684,
+  "model_differences": [],
+  "optimizer_parameter_states": 683,
+  "optimizer_differences": [],
+  "scheduler_exact": true,
+  "checkpoint": "/work/qt28/moss/results/rswa-resume-gate-64089/resumed/checkpoint-1",
+  "meaning": "state immediately after native load, before first resumed forward"
+}

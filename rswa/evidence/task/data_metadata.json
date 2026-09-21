@@ -1,0 +1,43 @@
+{
+  "train": {
+    "records": 536,
+    "sha256": "ff24eae8c1b2f9650654b3bc84b005e55d0206bb7d202d8f61b14bfb6e6d064f"
+  },
+  "dev": {
+    "records": 26,
+    "sha256": "3a3f3cce9966ae2a7d7ada1140a5db48b1efaabdbb1e19db5ef8ce0b51c2517e"
+  },
+  "test": {
+    "records": 56
+  },
+  "metadata_identity_disjoint": true,
+  "audio_content_hash_audit_pending": true,
+  "original_receipts": {
+    "train": {
+      "path": "/work/qt28/moss/dkucc/ms_swift_20260914/data/train.jsonl",
+      "records": 536,
+      "sha256": "ff24eae8c1b2f9650654b3bc84b005e55d0206bb7d202d8f61b14bfb6e6d064f"
+    },
+    "dev": {
+      "path": "/work/qt28/moss/dkucc/ms_swift_20260914/data/dev.jsonl",
+      "records": 26,
+      "sha256": "3a3f3cce9966ae2a7d7ada1140a5db48b1efaabdbb1e19db5ef8ce0b51c2517e"
+    },
+    "original_train_sha256": "e2f0e529ef17e2996c753a6ac31b3be11242cbb81cce5dc5fd8e88a3c1ef6c8a",
+    "smoke": {
+      "path": "/work/qt28/moss/dkucc/ms_swift_20260914/data/smoke.jsonl",
+      "records": 4,
+      "sha256": "15c7503b5390be91c9dd3d052c11d3dec6a2c2f26c380f0863a00afa0a34821d"
+    },
+    "longest": {
+      "path": "/work/qt28/moss/dkucc/ms_swift_20260914/data/longest.jsonl",
+      "records": 4,
+      "sha256": "225ce9149337cd17d33becff75f80d389d46ecd83bda46b64586031862389499"
+    },
+    "smoke_index": 139,
+    "longest_index": 1,
+    "targets_unchanged": true
+  },
+  "processor_sha256": "a978c2dd54a65b576c3dae4b654fe9bcbac1184c6db2df0afb2c90fcdc872ae7",
+  "model_config_sha256": "2b2b7a6e61334152bdd7ecf8a4da3073b4940a097e193d1d2b22093e77535234"
+}

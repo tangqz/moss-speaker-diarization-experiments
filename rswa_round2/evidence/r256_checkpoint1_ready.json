@@ -1,0 +1,16 @@
+{
+  "step": 1,
+  "window": "256",
+  "stage_wall_seconds": 176.59799839556217,
+  "actual_updates": 1,
+  "order": {
+    "passed": true,
+    "optimizer_steps": 1,
+    "actual_meetings": 4,
+    "all_four_rank_orders_equal": true,
+    "complete_epochs": [],
+    "partial_epoch_meetings": 4,
+    "log_semantics": "actual outer-model training forwards, not collation"
+  },
+  "config_sha256": "f93c5b22a9b92edc8b69ed4e55b29bd0f3cf100665ceff3015ad06f1ca804fd3"
+}

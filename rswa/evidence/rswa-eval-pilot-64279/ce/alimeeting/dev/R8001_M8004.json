@@ -1,0 +1,12 @@
+{
+  "key": "alimeeting/dev/R8001_M8004",
+  "window": 128,
+  "target_tokens": 19686,
+  "loss_sum": 24382.295379638672,
+  "ce": 1.2385601635496633,
+  "seconds": 21.48138402402401,
+  "penalty_applied": false,
+  "verified_against_native_loss": true,
+  "complete_target": true,
+  "training_inference_input_receipts_equal": true
+}

@@ -1,0 +1,16 @@
+{
+  "job_id": 63721,
+  "checkpoint_step": 150,
+  "new_generation_meetings": 1,
+  "repetition_penalty": 1.0,
+  "problem_sample": "alimeeting/test/R8005_M8009",
+  "full_evaluation_requires_problem_review": true,
+  "cancelled_full_job": 63719,
+  "remote_run": "/work/qt28/moss/results/short-recovery-sr-v2-sub-150-20260916-r3/sub/seed-0/evaluations/problem-R8005_M8009-20260916-r2",
+  "remote_log": "/work/qt28/moss/logs/short-recovery-problem-63721.out",
+  "remote_error_log": "/work/qt28/moss/logs/short-recovery-problem-63721.err",
+  "comparison": "/work/qt28/moss/results/ms-swift-63643/evaluations/test-150",
+  "tensorboard_url": "http://127.0.0.1:6006",
+  "status": "review_failed_full_evaluation_not_started",
+  "full_evaluation_started": false
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "pilot": "/work/qt28/moss/results/rswa-eval-pilot-64279",
+  "meetings": 2,
+  "free_generations_reused_unchanged": {
+    "/work/qt28/moss/results/rswa-eval-pilot-64279/predictions/base/alimeeting/dev/R8001_M8004.json": "9d647685fa877562610a7a533d80f077e1091748ca0f7fa901359c239cf2a598",
+    "/work/qt28/moss/results/rswa-eval-pilot-64279/predictions/base/ami/dev/IS1008a.json": "5b3e14fb98a8e65de6503b78afdc5cf3567c78afccb099355f5b0543dc63da0b",
+    "/work/qt28/moss/results/rswa-eval-pilot-64279/predictions/sft/alimeeting/dev/R8001_M8004.json": "c472c17a48093feaa362be4044efe3664fdc65695b8e9718419ca76ecbcc7409",
+    "/work/qt28/moss/results/rswa-eval-pilot-64279/predictions/sft/ami/dev/IS1008a.json": "623640a845e85425f2978bb0e2b93e6428a8cc9f1b288c3329e04a9304d5a396"
+  },
+  "ce_source_manifest_sha256": "843dcb4da55a8a9fb7dd91cc3ccaee2e2c5808edb7a992b57b9d0166d7671fdd",
+  "quality_claim": false,
+  "meaning": "pipeline operation only; original processor API failure retained"
+}

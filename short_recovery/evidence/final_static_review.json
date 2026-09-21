@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "compiled_files": 16,
+  "arms": {
+    "ce": "pass",
+    "clean_aux": "pass",
+    "sub": "pass",
+    "mix": "pass"
+  },
+  "sparse_cap_checked": true,
+  "zero_probability_configs_accepted": true,
+  "config_sha256": "3c9ae9cea7672fab0a59a08fa79f207da9b031a27f360382740fb290c3094633",
+  "experiment_source_sha256": "eaaac0a3088c98532a5c32b5aa0c200f6f5ed9f10d60e8758ee525f8c07cc0d2",
+  "scope": "CPU syntax and argument contracts only; no model or training launch",
+  "incremental_review": "v2 template name, manifest/stage bindings, event metadata and Slurm cwd/env reviewed after final source freeze",
+  "slurm_bash_n": "pass"
+}

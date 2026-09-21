@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "optimizer_steps": 2,
+  "actual_meetings": 8,
+  "all_four_rank_orders_equal": true,
+  "complete_epochs": [],
+  "partial_epoch_meetings": 8,
+  "log_semantics": "actual outer-model training forwards, not collation"
+}

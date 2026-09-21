@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "update-precision",
+      "title": "首步参数更新精度",
+      "queries": [
+        {
+          "id": "first-update",
+          "source": {
+            "label": "A40 成对小实验 63401",
+            "files": [
+              "pilot-bf16.json",
+              "pilot-fp32.json"
+            ],
+            "metricDefinitions": [
+              "写回为零比例：独立 FP32 Adam 首步参照更新非零，但实际参数更新为零的抽样位置比例。"
+            ],
+            "caveats": [
+              "每个组件抽样 65,536 个位置；不是全部参数的总体比例。",
+              "两条轨迹的数值配置不同，各自以实际裁剪后梯度计算 FP32 参照。",
+              "4 步实验不证明 BF16 是长循环的根因。"
+            ]
+          },
+          "rows": [
+            {
+              "precision": "bf16",
+              "component": "LM tied embedding / output",
+              "sampled": 65536,
+              "reference_nonzero": 65076,
+              "reference_nonzero_but_actual_zero": 64473,
+              "lost_fraction": 0.9907339111193066
+            },
+            {
+              "precision": "bf16",
+              "component": "LM layer 0 · Q projection",
+              "sampled": 65536,
+              "reference_nonzero": 65508,
+              "reference_nonzero_but_actual_zero": 58585,
+              "lost_fraction": 0.8943182512059595
+            },
+            {
+              "precision": "bf16",
+              "component": "LM layer 14 · FFN down",
+              "sampled": 65536,
+              "reference_nonzero": 65503,
+              "reference_nonzero_but_actual_zero": 57272,
+              "lost_fraction": 0.8743416332076394
+            },
+            {
+              "precision": "bf16",
+              "component": "LM layer 27 · FFN down",
+              "sampled": 65536,
+              "reference_nonzero": 65341,
+              "reference_nonzero_but_actual_zero": 57940,
+              "lost_fraction": 0.8867326793284461
+            },
+            {
+              "precision": "bf16",
+              "component": "Audio layer 0 · FFN up",
+              "sampled": 65536,
+              "reference_nonzero": 65507,
+              "reference_nonzero_but_actual_zero": 52555,
+              "lost_fraction": 0.8022806722945639
+            },
+            {
+              "precision": "bf16",
+              "component": "Audio layer 23 · FFN down",
+              "sampled": 65536,
+              "reference_nonzero": 65520,
+              "reference_nonzero_but_actual_zero": 56832,
+              "lost_fraction": 0.8673992673992674
+            },
+            {
+              "precision": "bf16",
+              "component": "Audio adapter · input projection",
+              "sampled": 65536,
+              "reference_nonzero": 65518,
+              "reference_nonzero_but_actual_zero": 53855,
+              "lost_fraction": 0.8219878506669923
+            },
+            {
+              "precision": "fp32",
+              "component": "LM tied embedding / output",
+              "sampled": 65536,
+              "reference_nonzero": 65089,
+              "reference_nonzero_but_actual_zero": 0,
+              "lost_fraction": 0.0
+            },
+            {
+              "precision": "fp32",
+              "component": "LM layer 0 · Q projection",
+              "sampled": 65536,
+              "reference_nonzero": 65521,
+              "reference_nonzero_but_actual_zero": 0,
+              "lost_fraction": 0.0
+            },
+            {
+              "precision": "fp32",
+              "component": "LM layer 14 · FFN down",
+              "sampled": 65536,
+              "reference_nonzero": 65525,
+              "reference_nonzero_but_actual_zero": 0,
+              "lost_fraction": 0.0
+            },
+            {
+              "precision": "fp32",
+              "component": "LM layer 27 · FFN down",
+              "sampled": 65536,
+              "reference_nonzero": 65359,
+              "reference_nonzero_but_actual_zero": 0,
+              "lost_fraction": 0.0
+            },
+            {
+              "precision": "fp32",
+              "component": "Audio layer 0 · FFN up",
+              "sampled": 65536,
+              "reference_nonzero": 65523,
+              "reference_nonzero_but_actual_zero": 0,
+              "lost_fraction": 0.0
+            },
+            {
+              "precision": "fp32",
+              "component": "Audio layer 23 · FFN down",
+              "sampled": 65536,
+              "reference_nonzero": 65527,
+              "reference_nonzero_but_actual_zero": 0,
+              "lost_fraction": 0.0
+            },
+            {
+              "precision": "fp32",
+              "component": "Audio adapter · input projection",
+              "sampled": 65536,
+              "reference_nonzero": 65531,
+              "reference_nonzero_but_actual_zero": 0,
+              "lost_fraction": 0.0
+            }
+          ],
+          "columns": [
+            {
+              "field": "precision",
+              "label": "更新精度"
+            },
+            {
+              "field": "component",
+              "label": "组件"
+            },
+            {
+              "field": "sampled",
+              "label": "抽样位置数"
+            },
+            {
+              "field": "reference_nonzero",
+              "label": "参照非零位置数"
+            },
+            {
+              "field": "reference_nonzero_but_actual_zero",
+              "label": "实际更新为零的位置数"
+            },
+            {
+              "field": "lost_fraction",
+              "label": "写回为零比例 0–1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefix-replay",
+      "title": "相同前缀上的重复偏好",
+      "queries": [
+        {
+          "id": "repeat-prefixes",
+          "source": {
+            "label": "完整音频前缀回放 63399",
+            "files": [
+              "replay.json"
+            ],
+            "links": [
+              "https://arxiv.org/html/2206.02369"
+            ],
+            "metricDefinitions": [
+              "Margin：重复 token 的 logit 减去其他候选中的最大 logit。",
+              "熵：完整词表概率分布的 Shannon 熵，单位 nat。"
+            ],
+            "caveats": [
+              "只包含两场已知验证集失败；人工重复前缀不能用于估计自然失败率。",
+              "整段前缀预填与逐 token 生成可能存在 BF16 数值差异；本实验不定位原始轨迹的精确首次分叉。"
+            ]
+          },
+          "rows": [
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "base",
+              "k": 0,
+              "probability": 0.11843709647655487,
+              "margin": -1.625,
+              "entropy_nats": 1.2271544933319092
+            },
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "base",
+              "k": 1,
+              "probability": 0.9056618809700012,
+              "margin": 4.25,
+              "entropy_nats": 0.6848882436752319
+            },
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "base",
+              "k": 2,
+              "probability": 0.9487066864967346,
+              "margin": 5.25,
+              "entropy_nats": 0.4169413447380066
+            },
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "base",
+              "k": 4,
+              "probability": 0.19258424639701843,
+              "margin": -1.375,
+              "entropy_nats": 0.8120163679122925
+            },
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "base",
+              "k": 8,
+              "probability": 0.19865946471691132,
+              "margin": -1.375,
+              "entropy_nats": 0.6026359796524048
+            },
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "base",
+              "k": 16,
+              "probability": 0.7100162506103516,
+              "margin": 1.5,
+              "entropy_nats": 0.8444612622261047
+            },
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "base",
+              "k": 32,
+              "probability": 0.18235908448696136,
+              "margin": -1.5,
+              "entropy_nats": 0.47855842113494873
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "base",
+              "k": 0,
+              "probability": 0.24161703884601593,
+              "margin": 0.625,
+              "entropy_nats": 2.9454479217529297
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "base",
+              "k": 1,
+              "probability": 0.9997825026512146,
+              "margin": 10.0,
+              "entropy_nats": 0.0028992467559874058
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "base",
+              "k": 2,
+              "probability": 0.7904496192932129,
+              "margin": 3.25,
+              "entropy_nats": 1.2105720043182373
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "base",
+              "k": 4,
+              "probability": 0.47317391633987427,
+              "margin": 1.625,
+              "entropy_nats": 2.455533742904663
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "base",
+              "k": 8,
+              "probability": 0.3643098771572113,
+              "margin": -0.25,
+              "entropy_nats": 1.5952985286712646
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "base",
+              "k": 16,
+              "probability": 0.34805408120155334,
+              "margin": -0.375,
+              "entropy_nats": 1.4016753435134888
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "base",
+              "k": 32,
+              "probability": 0.6113919019699097,
+              "margin": 0.5,
+              "entropy_nats": 0.8264642953872681
+            },
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "sft402",
+              "k": 0,
+              "probability": 0.2509717643260956,
+              "margin": -0.25,
+              "entropy_nats": 2.5998377799987793
+            },
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "sft402",
+              "k": 1,
+              "probability": 0.6011983156204224,
+              "margin": 2.75,
+              "entropy_nats": 2.575692892074585
+            },
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "sft402",
+              "k": 2,
+              "probability": 0.827338695526123,
+              "margin": 4.0,
+              "entropy_nats": 1.329665184020996
+            },
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "sft402",
+              "k": 4,
+              "probability": 0.4571372866630554,
+              "margin": 1.125,
+              "entropy_nats": 2.8309378623962402
+            },
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "sft402",
+              "k": 8,
+              "probability": 0.5011450052261353,
+              "margin": 0.375,
+              "entropy_nats": 1.610507607460022
+            },
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "sft402",
+              "k": 16,
+              "probability": 0.6687504053115845,
+              "margin": 2.125,
+              "entropy_nats": 1.4402650594711304
+            },
+            {
+              "meeting": "alimeeting/dev/R8001_M8004",
+              "model": "sft402",
+              "k": 32,
+              "probability": 0.6623461246490479,
+              "margin": 1.0,
+              "entropy_nats": 1.1109665632247925
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "sft402",
+              "k": 0,
+              "probability": 0.2906496822834015,
+              "margin": 1.125,
+              "entropy_nats": 3.121173858642578
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "sft402",
+              "k": 1,
+              "probability": 0.9952840209007263,
+              "margin": 6.625,
+              "entropy_nats": 0.0510295145213604
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "sft402",
+              "k": 2,
+              "probability": 0.8077296018600464,
+              "margin": 2.875,
+              "entropy_nats": 1.2188706398010254
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "sft402",
+              "k": 4,
+              "probability": 0.5330255031585693,
+              "margin": 1.625,
+              "entropy_nats": 2.2912840843200684
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "sft402",
+              "k": 8,
+              "probability": 0.673581600189209,
+              "margin": 2.125,
+              "entropy_nats": 1.7602229118347168
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "sft402",
+              "k": 16,
+              "probability": 0.7328642010688782,
+              "margin": 1.75,
+              "entropy_nats": 1.398919939994812
+            },
+            {
+              "meeting": "alimeeting/dev/R8003_M8001",
+              "model": "sft402",
+              "k": 32,
+              "probability": 0.847594678401947,
+              "margin": 2.125,
+              "entropy_nats": 0.7706802487373352
+            }
+          ],
+          "columns": [
+            {
+              "field": "meeting",
+              "label": "验证会议"
+            },
+            {
+              "field": "model",
+              "label": "模型"
+            },
+            {
+              "field": "k",
+              "label": "强制重复次数"
+            },
+            {
+              "field": "probability",
+              "label": "重复概率 0–1"
+            },
+            {
+              "field": "margin",
+              "label": "重复 logit margin"
+            },
+            {
+              "field": "entropy_nats",
+              "label": "熵 nats"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pilot-validation",
+      "title": "统一推理路径的验证 loss",
+      "queries": [
+        {
+          "id": "common-bf16",
+          "source": {
+            "label": "保存重载复核 63402",
+            "files": [
+              "post-pilot.json",
+              "pilot-bf16.json"
+            ],
+            "metricDefinitions": [
+              "验证 loss：完整音频与正确历史文本上的平均 next-token 交叉熵。"
+            ],
+            "caveats": [
+              "仅两场验证会议，未完成这两个小实验权重的整场自由生成 CER/DER 评估。",
+              "16 场训练会议、4 次更新，两条轨迹均从同一 base 启动。"
+            ]
+          },
+          "rows": [
+            {
+              "key": "ami/dev/IS1008a",
+              "supervised_tokens": 5827,
+              "base": 0.3901991546154022,
+              "bf16_4step": 0.32480552792549133,
+              "fp32_4step": 0.3060290515422821
+            },
+            {
+              "key": "alimeeting/dev/R8009_M8018",
+              "supervised_tokens": 19057,
+              "base": 0.4432714879512787,
+              "bf16_4step": 0.38536515831947327,
+              "fp32_4step": 0.3653024137020111
+            }
+          ],
+          "columns": [
+            {
+              "field": "key",
+              "label": "验证会议"
+            },
+            {
+              "field": "supervised_tokens",
+              "label": "监督 token 数"
+            },
+            {
+              "field": "base",
+              "label": "Base loss"
+            },
+            {
+              "field": "bf16_4step",
+              "label": "BF16 更新 4 步 loss"
+            },
+            {
+              "field": "fp32_4step",
+              "label": "FP32 更新 4 步 loss"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

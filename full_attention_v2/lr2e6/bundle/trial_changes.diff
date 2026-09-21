@@ -1,0 +1,214 @@
+--- 63421/train.py
++++ lr2e6/train.py
+@@ -114,7 +114,7 @@
+         result = assert_precision(model, optimizer)
+         if state.global_step:
+             assert result['adam_moments'].get('torch.float32') == 2*result['parameters']
+-            expected_lr = 1e-5*(1-state.global_step/HORIZON)
++            expected_lr = 2e-6*(1-state.global_step/HORIZON)
+             assert abs(optimizer.param_groups[0]['lr']-expected_lr) < 1e-12
+         emit('precision_guard', rank=args.process_index, step=state.global_step, **result)
+ 
+@@ -126,7 +126,7 @@
+     def on_pre_optimizer_step(self, args, state, control, model=None, optimizer=None, **kwargs):
+         assert_precision(model, optimizer, gradients=True)
+         self.lr = optimizer.param_groups[0]['lr']
+-        assert abs(self.lr-1e-5*(1-state.global_step/HORIZON)) < 1e-12
++        assert abs(self.lr-2e-6*(1-state.global_step/HORIZON)) < 1e-12
+         if self.gate and args.process_index == 0:
+             torch.save(sampled_gradients(model), self.output/f'gradients-step-{state.global_step+1}.pt')
+         self.samples = {}
+@@ -261,7 +261,7 @@
+     processor = MossTranscribeDiarizeProcessor.from_pretrained(BASE, trust_remote_code=True, local_files_only=True)
+     args = TrainingArguments(output_dir=str(a.output), max_steps=HORIZON, num_train_epochs=3,
+         per_device_train_batch_size=1, gradient_accumulation_steps=a.accumulation,
+-        learning_rate=1e-5, lr_scheduler_type='linear', warmup_steps=0,
++        learning_rate=2e-6, lr_scheduler_type='linear', warmup_steps=0,
+         weight_decay=0, adam_beta1=.9, adam_beta2=.999, adam_epsilon=1e-8,
+         optim='adamw_torch_fused', max_grad_norm=1., bf16=True, fp16=False,
+         gradient_checkpointing=True, gradient_checkpointing_kwargs={'use_reentrant':False},
+--- 63421/host_runtime.py
++++ lr2e6/host_runtime.py
+@@ -62,7 +62,7 @@
+                    dict(step=state.global_step, rank=args.process_index, utc=now(),
+                         cleanup_seconds=time.perf_counter()-start, rng_unchanged=True, **memory))
+             result = super().on_step_end(args, state, control, **kwargs)
+-            if not self.gate and state.global_step in [1, 10, 20]:
++            if not self.gate and state.global_step in [1, 5]:
+                 result.should_save = True
+             return result
+ 
+--- 63421/sampler_gate.py
++++ lr2e6/sampler_gate.py
+@@ -43,7 +43,7 @@
+         dist.all_gather_object(gathered,local)
+         assert sorted(i for row in gathered for i in row)==list(range(536))
+         epochs.append(gathered)
+-    boundaries=sorted(set(range(0,402,25))|{134,268})
++    boundaries=sorted(set(range(0,402,25))|{10,134,268})
+     for step in boundaries:
+         epoch,offset=divmod(step,134)
+         loader=trainer.get_train_dataloader();loader.set_epoch(epoch)
+--- 63421/design_protocol.json
++++ lr2e6/design_protocol.json
+@@ -1,7 +1,7 @@
+ {
+   "schema_version": 1,
+-  "experiment": "moss-full-attention-sft-v2",
+-  "status": "design_not_submitted",
++  "experiment": "moss-full-attention-sft-v2-lr2e6-short",
++  "status": "authorized_short_trial",
+   "purpose": "Production-relevant full-attention SFT control, sharing its training and evaluation contracts with later KV-mask SFT and entropy RL.",
+   "initialization": {
+     "source": "/work/qt28/moss/models/MOSS-Transcribe-Diarize",
+@@ -36,9 +36,12 @@
+     "autocast": "bfloat16",
+     "loss_reduction_dtype": "float32",
+     "optimizer": "adamw_torch_fused",
+-    "learning_rate": 0.00001,
+-    "betas": [0.9, 0.999],
+-    "epsilon": 1e-8,
++    "learning_rate": 2e-06,
++    "betas": [
++      0.9,
++      0.999
++    ],
++    "epsilon": 1e-08,
+     "weight_decay": 0,
+     "max_grad_norm": 1,
+     "warmup_steps": 0,
+@@ -49,18 +52,36 @@
+     "loss": "ordinary_next_token_cross_entropy_on_all_assistant_tokens_including_eos",
+     "global_token_denominator": true,
+     "gradient_checkpointing": "non_reentrant",
+-    "cpu_saved_activation_offload_ranks": [0, 1, 2, 3],
++    "cpu_saved_activation_offload_ranks": [
++      0,
++      1,
++      2,
++      3
++    ],
+     "audio_ffn_chunk_batch": 8,
+     "projection_chunk_tokens": 512
+   },
+   "evaluation": {
+-    "dev_sets": {"alimeeting": 8, "ami": 18},
++    "dev_sets": {
++      "alimeeting": 8,
++      "ami": 18
++    },
+     "aishell4_dev": "unavailable; never select on its test set",
+     "fast_check_steps": 25,
+     "fast_check_scope": "six_duration_selected_full_audio_teacher_forced_meetings_and_separate_dev_prefix_diagnostics",
+-    "sentinel_full_generation_steps": [50],
+-    "full_dev_generation_steps": [134, 268, 402],
+-    "selection_candidates": [134, 268, 402],
++    "sentinel_full_generation_steps": [
++      50
++    ],
++    "full_dev_generation_steps": [
++      134,
++      268,
++      402
++    ],
++    "selection_candidates": [
++      134,
++      268,
++      402
++    ],
+     "decoding": {
+       "parameter_dtype": "bfloat16",
+       "do_sample": false,
+@@ -71,7 +92,8 @@
+       "logits_to_keep": 1,
+       "eos_token_id": 151645,
+       "pad_token_id": 151643,
+-      "max_new_tokens": "min(65536, 131072-prompt_len)"
++      "max_new_tokens": "min(65536, 131072-prompt_len)",
++      "audio_preprocessing": "production_cuda_bfloat16_autocast"
+     },
+     "primary_parser": "frozen_original_protocol_v1",
+     "robust_parser": "separate_versioned_supplement_applied_to_all_models_if_adopted",
+@@ -91,10 +113,27 @@
+   },
+   "checkpoints": {
+     "weights_every_steps": 25,
+-    "additional_milestones": [0, 50, 134, 268, 402],
++    "additional_milestones": [
++      0,
++      50,
++      134,
++      268,
++      402
++    ],
+     "persistent_weight_dtype": "float32",
+     "full_resume_states": "latest_two_plus_full_dev_milestones_and_selected_best",
+-    "save": ["weights", "optimizer", "scheduler", "per_rank_rng", "trainer_state", "data_order", "processor", "generation_config", "attention_policy", "source_hashes"],
++    "save": [
++      "weights",
++      "optimizer",
++      "scheduler",
++      "per_rank_rng",
++      "trainer_state",
++      "data_order",
++      "processor",
++      "generation_config",
++      "attention_policy",
++      "source_hashes"
++    ],
+     "stage_stop": "callback at milestone with horizon=402 retained; do not reset schedule or data order when resuming",
+     "space_budget_gib": 110
+   },
+@@ -124,6 +163,51 @@
+     "dynamic_cache": "retain reference plus k_max initially; never resurrect evicted KV when window grows without recorded recomputation",
+     "entropy_contract": "FP32 full-vocabulary reduction; output-token coordinates; explicitly defined temperature, token classes, quantile population, tie handling, denominator and KL routing",
+     "loss_gate_is_not_attention_mask": true,
+-    "rollout_metadata": ["sample_id", "model_hash", "input_hash", "prompt_len", "generated_ids", "absolute_positions", "attention_policy", "window_decisions", "selected_logp", "entropy", "token_type", "eos_or_failure_reason", "timing"]
++    "rollout_metadata": [
++      "sample_id",
++      "model_hash",
++      "input_hash",
++      "prompt_len",
++      "generated_ids",
++      "absolute_positions",
++      "attention_policy",
++      "window_decisions",
++      "selected_logp",
++      "entropy",
++      "token_type",
++      "eos_or_failure_reason",
++      "timing"
++    ]
++  },
++  "short_trial": {
++    "parent_training_job": 63421,
++    "corrected_comparison_job": 63441,
++    "phases": [
++      10,
++      25,
++      50
++    ],
++    "max_executed_updates": 50,
++    "scheduler_horizon": 402,
++    "gate_at_10": "Complete TS3004c; stop on truncation, empty parse or existing major-parse-loss gate.",
++    "gate_at_50": "Original six full sentinels; stop either way for review.",
++    "full_resume_steps": [
++      10,
++      25,
++      50
++    ],
++    "additional_weight_steps": [
++      1,
++      5
++    ],
++    "teacher_steps": [
++      0,
++      25,
++      50
++    ],
++    "inherited_teacher_base_job": 63421,
++    "formal_selection_performed": false,
++    "test_performed": false,
++    "operational_difference": "Additional phase boundary at 10; exact scheduler, data order and rank RNG resume semantics retained; not bitwise training determinism."
+   }
+ }

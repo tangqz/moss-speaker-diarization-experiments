@@ -1,0 +1,82 @@
+{
+  "job": 63443,
+  "verified_utc": "2026-09-13T02:47:54.348321+00:00",
+  "through_step": 3,
+  "pipeline": {
+    "stage": "training",
+    "updated_utc": "2026-09-13T02:43:42.907688+00:00",
+    "step_target": 10,
+    "resume": null,
+    "learning_rate": 2e-06,
+    "schedule_horizon": 402,
+    "checkpoints": "/work/qt28/moss/checkpoints/full-attention-v2-63443"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "lr": 2e-06,
+      "loss": 0.5253586769104004,
+      "supervised_tokens": 66609,
+      "peak_gpu_gib": 17.0275821685791
+    },
+    {
+      "step": 2,
+      "lr": 1.9950248756218904e-06,
+      "loss": 0.7113743051886559,
+      "supervised_tokens": 113740,
+      "peak_gpu_gib": 21.47730302810669
+    },
+    {
+      "step": 3,
+      "lr": 1.990049751243781e-06,
+      "loss": 0.5306519269943237,
+      "supervised_tokens": 70265,
+      "peak_gpu_gib": 21.168918132781982
+    }
+  ],
+  "matched_data_and_tokens": true,
+  "learning_rate_ratio": 0.2,
+  "precision_verified": true,
+  "first_update_lost_count": 0,
+  "components_sampled": 7,
+  "cumulative_supervised_tokens": 250614,
+  "devices": {
+    "utc": "2026-09-13T02:42:48.528543+00:00",
+    "devices": [
+      {
+        "rank": 0,
+        "name": "NVIDIA A40",
+        "free_gib": 44.16192626953125,
+        "total_gib": 44.423828125
+      },
+      {
+        "rank": 1,
+        "name": "NVIDIA A40",
+        "free_gib": 44.16192626953125,
+        "total_gib": 44.423828125
+      },
+      {
+        "rank": 2,
+        "name": "NVIDIA A40",
+        "free_gib": 44.16192626953125,
+        "total_gib": 44.423828125
+      },
+      {
+        "rank": 3,
+        "name": "NVIDIA A40",
+        "free_gib": 44.16192626953125,
+        "total_gib": 44.423828125
+      }
+    ],
+    "versions": {
+      "torch": "2.14.0",
+      "transformers": "5.17.0",
+      "accelerate": "1.15.0",
+      "safetensors": "0.8.0"
+    },
+    "topology": "\t\u001b[4mGPU0\tGPU1\tGPU2\tGPU3\tCPU Affinity\tNUMA Affinity\tGPU NUMA ID\u001b[0m\nGPU0\t X \tPIX\tNODE\tNODE\t0,2,4,6,8,10\t0\t\tN/A\nGPU1\tPIX\t X \tNODE\tNODE\t0,2,4,6,8,10\t0\t\tN/A\nGPU2\tNODE\tNODE\t X \tPIX\t0,2,4,6,8,10\t0\t\tN/A\nGPU3\tNODE\tNODE\tPIX\t X \t0,2,4,6,8,10\t0\t\tN/A\n\nLegend:\n\n  X    = Self\n  SYS  = Connection traversing PCIe as well as the SMP interconnect between NUMA nodes (e.g., QPI/UPI)\n  NODE = Connection traversing PCIe as well as the interconnect between PCIe Host Bridges within a NUMA node\n  PHB  = Connection traversing PCIe as well as a PCIe Host Bridge (typically the CPU)\n  PXB  = Connection traversing multiple PCIe bridges (without traversing the PCIe Host Bridge)\n  PIX  = Connection traversing at most a single PCIe bridge\n  NV#  = Connection traversing a bonded set of # NVLinks\n",
+    "world_size": 4,
+    "sequence_parallel_size": 1,
+    "passed": true
+  }
+}

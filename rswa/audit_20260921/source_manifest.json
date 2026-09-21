@@ -1,0 +1,192 @@
+[
+  {
+    "label": "round1/attention.py",
+    "path": "/work/qt28/moss/results/moss-rswa-20260920/source/attention.py",
+    "sha256": "79978330a1cceb2abbc3fadacc4b43f025ca4bf74598023b6f72b424d7e24d5d"
+  },
+  {
+    "label": "round1/cache.py",
+    "path": "/work/qt28/moss/results/moss-rswa-20260920/source/cache.py",
+    "sha256": "e1e09aea2275b49132a659ef3edef5983392da4000e52185d148477e983c2385"
+  },
+  {
+    "label": "round1/model_adapter.py",
+    "path": "/work/qt28/moss/results/moss-rswa-20260920/source/model_adapter.py",
+    "sha256": "ca09932bfe606c5556fc9dae6096f30687981c20d21782c9c22697f7694541ab"
+  },
+  {
+    "label": "round1/moss_rswa_plugin.py",
+    "path": "/work/qt28/moss/results/moss-rswa-20260920/source/moss_rswa_plugin.py",
+    "sha256": "9afe94feb59e8633e8fa3fa9fe0acfef720bfad32304bce4d3947bf58b4aacae"
+  },
+  {
+    "label": "round1/moss_vllm_rswa.py",
+    "path": "/work/qt28/moss/results/moss-rswa-20260920/source/moss_vllm_rswa.py",
+    "sha256": "cc83a7c98c8b8398e1fe10680c293d6b3e3b7e8b2274f87e44d5eafe45d6873b"
+  },
+  {
+    "label": "round1/evaluate_ce.py",
+    "path": "/work/qt28/moss/results/moss-rswa-20260920/source/evaluate_ce.py",
+    "sha256": "09cbb191c6aaf6062c3c36c5a5e0502ccfbc92fd70efa1376c3f1d13e573039d"
+  },
+  {
+    "label": "round1/evaluate_generate.py",
+    "path": "/work/qt28/moss/results/moss-rswa-20260920/source/evaluate_generate.py",
+    "sha256": "6140892af65deb0010d2f5c6d0c5497a08a574c28da4fed937569ded71b9ed27"
+  },
+  {
+    "label": "round1/native_sft.sh",
+    "path": "/work/qt28/moss/results/moss-rswa-20260920/source/native_sft.sh",
+    "sha256": "aaf9674fa71558a42666c5138dcc2b8544e7dd922c659a80976422e49160b6cb"
+  },
+  {
+    "label": "round1/protocol.py",
+    "path": "/work/qt28/moss/results/moss-rswa-20260920/source/protocol.py",
+    "sha256": "c1a39a66d8339f1e4d2e963e0509ea3659fa776fa8373ece9339b4c3c03bd234"
+  },
+  {
+    "label": "round1/source_manifest.json",
+    "path": "/work/qt28/moss/results/moss-rswa-20260920/source/source_manifest.json",
+    "sha256": "ce7b4d1838ab5ea760bd7013d477d39b45da0e6d1e5bd7d1c929210bfbff75a8"
+  },
+  {
+    "label": "round2/attention.py",
+    "path": "/work/qt28/moss/results/moss-rswa-r2-20260921/source/attention.py",
+    "sha256": "79978330a1cceb2abbc3fadacc4b43f025ca4bf74598023b6f72b424d7e24d5d"
+  },
+  {
+    "label": "round2/cache.py",
+    "path": "/work/qt28/moss/results/moss-rswa-r2-20260921/source/cache.py",
+    "sha256": "e1e09aea2275b49132a659ef3edef5983392da4000e52185d148477e983c2385"
+  },
+  {
+    "label": "round2/model_adapter.py",
+    "path": "/work/qt28/moss/results/moss-rswa-r2-20260921/source/model_adapter.py",
+    "sha256": "ca09932bfe606c5556fc9dae6096f30687981c20d21782c9c22697f7694541ab"
+  },
+  {
+    "label": "round2/moss_rswa_plugin.py",
+    "path": "/work/qt28/moss/results/moss-rswa-r2-20260921/source/moss_rswa_plugin.py",
+    "sha256": "9afe94feb59e8633e8fa3fa9fe0acfef720bfad32304bce4d3947bf58b4aacae"
+  },
+  {
+    "label": "round2/moss_vllm_rswa.py",
+    "path": "/work/qt28/moss/results/moss-rswa-r2-20260921/source/moss_vllm_rswa.py",
+    "sha256": "c60a9f936a81492f4941bdc0dfe496a9ca9ee884eb1c133cf26c86c0a436c828"
+  },
+  {
+    "label": "round2/evaluate_ce.py",
+    "path": "/work/qt28/moss/results/moss-rswa-r2-20260921/source/evaluate_ce.py",
+    "sha256": "09cbb191c6aaf6062c3c36c5a5e0502ccfbc92fd70efa1376c3f1d13e573039d"
+  },
+  {
+    "label": "round2/evaluate_generate.py",
+    "path": "/work/qt28/moss/results/moss-rswa-r2-20260921/source/evaluate_generate.py",
+    "sha256": "6140892af65deb0010d2f5c6d0c5497a08a574c28da4fed937569ded71b9ed27"
+  },
+  {
+    "label": "round2/native_sft.sh",
+    "path": "/work/qt28/moss/results/moss-rswa-r2-20260921/source/native_sft.sh",
+    "sha256": "273f7a7486ba411d7598488b13cd2750cef3a51bae6254f5154659b64058c4f9"
+  },
+  {
+    "label": "round2/protocol.py",
+    "path": "/work/qt28/moss/results/moss-rswa-r2-20260921/source/protocol.py",
+    "sha256": "c1a39a66d8339f1e4d2e963e0509ea3659fa776fa8373ece9339b4c3c03bd234"
+  },
+  {
+    "label": "round2/source_manifest.json",
+    "path": "/work/qt28/moss/results/moss-rswa-r2-20260921/source/source_manifest.json",
+    "sha256": "0416cf36196fcc621aa2a4b8e90e036d5b4270824c65f46386c8cebba152ea98"
+  },
+  {
+    "label": "vllm/v1/attention/ops/triton_attention_helpers.py",
+    "path": "/work/qt28/moss/envs/vllm-moss-20260914/lib/python3.12/site-packages/vllm/v1/attention/ops/triton_attention_helpers.py",
+    "sha256": "8c730611e7b3c5fb7579ec7846d56a2ab7e348ce06b39136da22072ecc363c95"
+  },
+  {
+    "label": "vllm/v1/attention/ops/triton_unified_attention.py",
+    "path": "/work/qt28/moss/envs/vllm-moss-20260914/lib/python3.12/site-packages/vllm/v1/attention/ops/triton_unified_attention.py",
+    "sha256": "a653bd1e1c200be4189804956f680bb462ca80e582b418d279b5afc6ff855311"
+  },
+  {
+    "label": "vllm/v1/attention/backends/triton_attn.py",
+    "path": "/work/qt28/moss/envs/vllm-moss-20260914/lib/python3.12/site-packages/vllm/v1/attention/backends/triton_attn.py",
+    "sha256": "15028b24f50158fa77343fc3a7cc4134e7be81ce5d067cdcfa94c02e31f43730"
+  },
+  {
+    "label": "vllm/v1/core/single_type_kv_cache_manager.py",
+    "path": "/work/qt28/moss/envs/vllm-moss-20260914/lib/python3.12/site-packages/vllm/v1/core/single_type_kv_cache_manager.py",
+    "sha256": "3431270752851fd0445c94ef9b515485efc398a9da28fdee112b39b30230c685"
+  },
+  {
+    "label": "vllm/v1/core/kv_cache_manager.py",
+    "path": "/work/qt28/moss/envs/vllm-moss-20260914/lib/python3.12/site-packages/vllm/v1/core/kv_cache_manager.py",
+    "sha256": "c273a3371aeeb90380bf2a8687d32430e112032b0f8653f798391bcdbb2ebf1a"
+  },
+  {
+    "label": "vllm/v1/core/kv_cache_coordinator.py",
+    "path": "/work/qt28/moss/envs/vllm-moss-20260914/lib/python3.12/site-packages/vllm/v1/core/kv_cache_coordinator.py",
+    "sha256": "be8d8271f7fba2be90116de7b3b15d2994055e1348c2144bafd1ccd417e3297e"
+  },
+  {
+    "label": "vllm/model_executor/layers/attention/rswa_attention.py",
+    "path": "/work/qt28/moss/envs/vllm-moss-20260914/lib/python3.12/site-packages/vllm/model_executor/layers/attention/rswa_attention.py",
+    "sha256": "e448297b960d57e3fca2a3779ee37c6cc6d6c546d6e02fac8d336cfee8938489"
+  },
+  {
+    "label": "vllm/model_executor/models/qwen3.py",
+    "path": "/work/qt28/moss/envs/vllm-moss-20260914/lib/python3.12/site-packages/vllm/model_executor/models/qwen3.py",
+    "sha256": "ff7edb758557fe2a03da50bc234f484e103e698ca522226f36372825eed0eec2"
+  },
+  {
+    "label": "vllm/model_executor/models/qwen2.py",
+    "path": "/work/qt28/moss/envs/vllm-moss-20260914/lib/python3.12/site-packages/vllm/model_executor/models/qwen2.py",
+    "sha256": "8a4fab416b44bc2d3a9a00d37b809bf30e0d8843c147348099e639570cb18cbe"
+  },
+  {
+    "label": "vllm/model_executor/models/moss_transcribe_diarize.py",
+    "path": "/work/qt28/moss/envs/vllm-moss-20260914/lib/python3.12/site-packages/vllm/model_executor/models/moss_transcribe_diarize.py",
+    "sha256": "42eed10d04e6eb714612b9c4a40ab4972549ec1453e3fcb52178608398707f33"
+  },
+  {
+    "label": "vllm/v1/worker/gpu_model_runner.py",
+    "path": "/work/qt28/moss/envs/vllm-moss-20260914/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py",
+    "sha256": "73205e9038f94d49de167b096b2ee04578007f962f7905f84c41661088498647"
+  },
+  {
+    "label": "vllm/v1/sample/ops/penalties.py",
+    "path": "/work/qt28/moss/envs/vllm-moss-20260914/lib/python3.12/site-packages/vllm/v1/sample/ops/penalties.py",
+    "sha256": "4debfcf247b3887478d2b9ec98f108756bbed2805462777ef6b56f3bdf4ce682"
+  },
+  {
+    "label": "transformers/models/qwen3/modeling_qwen3.py",
+    "path": "/work/qt28/moss/envs/ms-swift-20260914/lib/python3.12/site-packages/transformers/models/qwen3/modeling_qwen3.py",
+    "sha256": "fbdcfeeb1b54135ca67ba7df924da92f4b264e1252b517eea2de989289ebaeab"
+  },
+  {
+    "label": "transformers/loss/loss_utils.py",
+    "path": "/work/qt28/moss/envs/ms-swift-20260914/lib/python3.12/site-packages/transformers/loss/loss_utils.py",
+    "sha256": "83db16b24ce5c3a0642097624aa9a0ae7eb72445c41d8b4d5059a129862fdbbe"
+  },
+  {
+    "label": "base/config.json",
+    "path": "/work/qt28/moss/models/MOSS-Transcribe-Diarize/config.json",
+    "sha256": "2b2b7a6e61334152bdd7ecf8a4da3073b4940a097e193d1d2b22093e77535234"
+  },
+  {
+    "label": "base/modeling_moss_transcribe_diarize.py",
+    "path": "/work/qt28/moss/models/MOSS-Transcribe-Diarize/modeling_moss_transcribe_diarize.py",
+    "sha256": "a01da90fe1f7cb88942b8c56f443e7b4ecd307ed4b4c356ac08d7503dd7422c1"
+  },
+  {
+    "label": "official/finetune.py",
+    "path": "/work/qt28/moss/MOSS-Transcribe-Diarize/finetune.py",
+    "sha256": "ffb8fdc617d0010a7a64dd0a774cec642b58966dbef051fa37875d2f983f1fc7"
+  },
+  {
+    "label": "base_plugin.py",
+    "path": "/work/qt28/moss/dkucc/ms_swift_20260914/moss_plugin.py",
+    "sha256": "f00b43f5b929bc39f8ffe7c503bd25c0e5211353467045e905b541ea68ae0000"
+  }
+]

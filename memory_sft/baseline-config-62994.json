@@ -1,0 +1,19 @@
+{
+  "train_jsonl": "/work/qt28/moss/data/moss_jsonl/train_mix.jsonl",
+  "records": 536,
+  "max_length": 131072,
+  "attention": "sdpa",
+  "sequence_parallel_size": 1,
+  "world_size": 4,
+  "chunk_size": 512,
+  "loss": "checkpointed_projection_fp32_ce",
+  "cpu_offload_ranks": [
+    0
+  ],
+  "audio_chunk_batch": 8,
+  "average_tokens_across_devices": true,
+  "model_accepts_loss_kwargs": true,
+  "model_class": "<class 'transformers_modules.MOSS_hyphen_Transcribe_hyphen_Diarize.a1995439eea91af8.modeling_moss_transcribe_diarize.MossTranscribeDiarizeForConditionalGeneration'>",
+  "torch": "2.14.0+cu130",
+  "job": "62994"
+}

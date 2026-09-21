@@ -1,0 +1,68 @@
+{
+  "kernel": [
+    {
+      "window": 512,
+      "prefix": 173,
+      "length": 173,
+      "queries": 173,
+      "max_abs_error": 0.007381916046142578
+    },
+    {
+      "window": 512,
+      "prefix": 173,
+      "length": 174,
+      "queries": 1,
+      "max_abs_error": 0.0015656054019927979
+    },
+    {
+      "window": 512,
+      "prefix": 173,
+      "length": 301,
+      "queries": 1,
+      "max_abs_error": 0.000990152359008789
+    },
+    {
+      "window": 512,
+      "prefix": 173,
+      "length": 685,
+      "queries": 1,
+      "max_abs_error": 0.0008276104927062988
+    },
+    {
+      "window": 512,
+      "prefix": 173,
+      "length": 686,
+      "queries": 1,
+      "max_abs_error": 0.0005558878183364868
+    },
+    {
+      "window": 512,
+      "prefix": 173,
+      "length": 1400,
+      "queries": 1,
+      "max_abs_error": 0.0006610006093978882
+    },
+    {
+      "window": 512,
+      "prefix": 173,
+      "length": 1400,
+      "queries": 31,
+      "max_abs_error": 0.001080542802810669
+    }
+  ],
+  "eviction": [
+    {
+      "window": 512,
+      "prefix": 173,
+      "max_live_blocks": 44,
+      "block_size": 16,
+      "output_tokens": 6143,
+      "prefix_pinned": true
+    }
+  ],
+  "penalty": {
+    "passed": true,
+    "scope": "all_generated_tokens_only"
+  },
+  "passed": true
+}

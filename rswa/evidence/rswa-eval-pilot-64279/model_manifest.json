@@ -1,0 +1,10 @@
+{
+  "checkpoint": "/work/qt28/moss/results/rswa-eval-pilot-64279/varied_training/checkpoint-3",
+  "window": "128",
+  "config_sha256": "9b8a9469c989627d74a1d3460f5d986b01e2ade70178f41564d3751c39b607bb",
+  "penalty": 1.02,
+  "penalty_scope": "all_generated_tokens_only",
+  "attention_backend": "TRITON_ATTN",
+  "sentinel": false,
+  "split": "dev"
+}

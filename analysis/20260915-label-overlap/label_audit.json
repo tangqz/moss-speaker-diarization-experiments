@@ -1,0 +1,60 @@
+{
+  "scope": "All 536 current MS-Swift training records",
+  "swift_sha256": "ff24eae8c1b2f9650654b3bc84b005e55d0206bb7d202d8f61b14bfb6e6d064f",
+  "original_sha256": "e2f0e529ef17e2996c753a6ac31b3be11242cbb81cce5dc5fd8e88a3c1ef6c8a",
+  "tokenizer_sha256": "bcf03774334462d6e34b5005cb11120a62275f146ee2953e68731ecdbce84fbb",
+  "corpora": {
+    "ami": {
+      "records": 136,
+      "exact_audio_prompt_target_preserved": 136,
+      "replacement_characters": 0,
+      "null_characters": 0,
+      "segments": 66337,
+      "fully_parseable_records": 136,
+      "empty_targets": 0,
+      "start_time_regressions": 0,
+      "negative_durations": 0,
+      "zero_durations": 0,
+      "tokenizer_roundtrip_exact_records": 136,
+      "target_tokens": 2279442,
+      "text_characters": 3989383,
+      "target_characters": 5457866
+    },
+    "alimeeting": {
+      "records": 209,
+      "exact_audio_prompt_target_preserved": 209,
+      "replacement_characters": 0,
+      "null_characters": 0,
+      "segments": 186364,
+      "fully_parseable_records": 209,
+      "empty_targets": 0,
+      "start_time_regressions": 0,
+      "negative_durations": 0,
+      "zero_durations": 0,
+      "tokenizer_roundtrip_exact_records": 209,
+      "target_tokens": 5571840,
+      "text_characters": 2766025,
+      "target_characters": 6844958
+    },
+    "aishell4": {
+      "records": 191,
+      "exact_audio_prompt_target_preserved": 191,
+      "replacement_characters": 0,
+      "null_characters": 0,
+      "segments": 102701,
+      "fully_parseable_records": 191,
+      "empty_targets": 0,
+      "start_time_regressions": 0,
+      "negative_durations": 0,
+      "zero_durations": 0,
+      "tokenizer_roundtrip_exact_records": 191,
+      "target_tokens": 3041351,
+      "text_characters": 1615338,
+      "target_characters": 3871040
+    }
+  },
+  "issues": [],
+  "semantic_label_accuracy_verified": false,
+  "audio_feature_encoding_recomputed": false,
+  "note": "UTF-8, conversion, syntax and tokenizer roundtrip checks do not prove audio/text alignment or annotation correctness."
+}

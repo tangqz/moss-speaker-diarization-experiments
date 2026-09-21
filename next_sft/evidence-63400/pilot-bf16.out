@@ -1,0 +1,5 @@
+{"event": "start", "mode": "pilot", "precision": "bf16", "device": 1, "gpu": "NVIDIA A40", "free_gib": 44.161865234375, "total_gib": 44.423828125, "torch": "2.14.0+cu130"}
+{"event": "pilot_microbatch", "precision": "bf16", "step": 1, "index": 468, "tokens": 45081}
+{"event": "pilot_microbatch", "precision": "bf16", "step": 1, "index": 270, "tokens": 31865}
+{"event": "pilot_microbatch", "precision": "bf16", "step": 1, "index": 85, "tokens": 61920}
+{"event": "pilot_microbatch", "precision": "bf16", "step": 1, "index": 422, "tokens": 34371}

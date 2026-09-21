@@ -1,0 +1,533 @@
+{
+  "job": 63421,
+  "verified_utc": "2026-09-12T16:54:26.642889+00:00",
+  "through_step": 50,
+  "original_numerical_source_and_protocol_hashes_match": true,
+  "cache_unit_test": {
+    "passed": true,
+    "cached_memory_reclaimed": {
+      "before": {
+        "rss_gib": 0.6582183837890625,
+        "pinned_owned_gib": 0.0634765625,
+        "pinned_active_gib": 0.0009765625,
+        "pinned_peak_gib": 0.0634765625,
+        "cgroup_current_gib": 0.4811439514160156,
+        "cgroup_peak_gib": 0.9210662841796875
+      },
+      "after": {
+        "rss_gib": 0.5957183837890625,
+        "pinned_owned_gib": 0.0009765625,
+        "pinned_active_gib": 0.0009765625,
+        "pinned_peak_gib": 0.0634765625,
+        "cgroup_current_gib": 0.4185218811035156,
+        "cgroup_peak_gib": 0.9210662841796875
+      }
+    },
+    "live_tensor_preserved": true,
+    "rng_preserved": true,
+    "loss_and_gradient_exact": true,
+    "final": {
+      "rss_gib": 0.814910888671875,
+      "pinned_owned_gib": 0.0009765634313225746,
+      "pinned_active_gib": 0.0009765625,
+      "pinned_peak_gib": 0.0634765625,
+      "cgroup_current_gib": 0.6196556091308594,
+      "cgroup_peak_gib": 0.9210662841796875
+    },
+    "torch_version": "2.14.0+cu130"
+  },
+  "saved_resume_steps": [
+    20,
+    25,
+    50
+  ],
+  "weights_only_steps": [
+    1,
+    10
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "loss": 0.5253586769104004,
+      "summed_rank_rss_before_gib": 107.96632766723633,
+      "summed_rank_rss_after_gib": 9.136249542236328,
+      "summed_pinned_owned_before_gib": 99.08827980235219,
+      "summed_pinned_owned_after_gib": 0.2558641731739044,
+      "max_cleanup_seconds": 5.668429046869278,
+      "prior_loss": 0.5253586769104004,
+      "absolute_loss_difference": 0.0
+    },
+    {
+      "step": 2,
+      "loss": 0.6823402419686317,
+      "summed_rank_rss_before_gib": 100.61362838745117,
+      "summed_rank_rss_after_gib": 12.166362762451172,
+      "summed_pinned_owned_before_gib": 88.68007906153798,
+      "summed_pinned_owned_after_gib": 0.22388222813606262,
+      "max_cleanup_seconds": 3.2808914594352245,
+      "prior_loss": 0.6820347309112549,
+      "absolute_loss_difference": 0.00030551105737686157
+    },
+    {
+      "step": 3,
+      "loss": 0.4781946986913681,
+      "summed_rank_rss_before_gib": 89.7486572265625,
+      "summed_rank_rss_after_gib": 12.3424072265625,
+      "summed_pinned_owned_before_gib": 77.78908975794911,
+      "summed_pinned_owned_after_gib": 0.38086608052253723,
+      "max_cleanup_seconds": 3.3505757488310337,
+      "prior_loss": 0.47798071429133415,
+      "absolute_loss_difference": 0.0002139844000339508
+    },
+    {
+      "step": 4,
+      "loss": 0.47900308668613434,
+      "summed_rank_rss_before_gib": 100.9408187866211,
+      "summed_rank_rss_after_gib": 12.431053161621094,
+      "summed_pinned_owned_before_gib": 88.96352966502309,
+      "summed_pinned_owned_after_gib": 0.44483092427253723,
+      "max_cleanup_seconds": 3.3562574088573456,
+      "prior_loss": 0.479092001914978,
+      "absolute_loss_difference": 8.891522884368896e-05
+    },
+    {
+      "step": 5,
+      "loss": 0.5453728660941124,
+      "summed_rank_rss_before_gib": 122.94152069091797,
+      "summed_rank_rss_after_gib": 12.330192565917969,
+      "summed_pinned_owned_before_gib": 110.9330130405724,
+      "summed_pinned_owned_after_gib": 0.31836703419685364,
+      "max_cleanup_seconds": 6.411286368966103,
+      "prior_loss": 0.5458678975701332,
+      "absolute_loss_difference": 0.000495031476020813
+    },
+    {
+      "step": 6,
+      "loss": 0.4811231717467308,
+      "summed_rank_rss_before_gib": 100.84319686889648,
+      "summed_rank_rss_after_gib": 12.366634368896484,
+      "summed_pinned_owned_before_gib": 88.8683157749474,
+      "summed_pinned_owned_after_gib": 0.38086608052253723,
+      "max_cleanup_seconds": 3.2830724269151688,
+      "prior_loss": 0.48135195672512054,
+      "absolute_loss_difference": 0.00022878497838974
+    },
+    {
+      "step": 7,
+      "loss": 0.4609505906701088,
+      "summed_rank_rss_before_gib": 100.79795837402344,
+      "summed_rank_rss_after_gib": 12.280380249023438,
+      "summed_pinned_owned_before_gib": 88.77383144572377,
+      "summed_pinned_owned_after_gib": 0.2551327049732208,
+      "max_cleanup_seconds": 3.328362036496401,
+      "prior_loss": 0.46087314188480377,
+      "absolute_loss_difference": 7.74487853050232e-05
+    },
+    {
+      "step": 8,
+      "loss": 0.42256712913513184,
+      "summed_rank_rss_before_gib": 89.79391098022461,
+      "summed_rank_rss_after_gib": 12.37789535522461,
+      "summed_pinned_owned_before_gib": 77.80471523478627,
+      "summed_pinned_owned_after_gib": 0.38086608052253723,
+      "max_cleanup_seconds": 3.242808945477009,
+      "prior_loss": 0.42265547439455986,
+      "absolute_loss_difference": 8.834525942802429e-05
+    },
+    {
+      "step": 9,
+      "loss": 0.44794444739818573,
+      "summed_rank_rss_before_gib": 100.7727165222168,
+      "summed_rank_rss_after_gib": 12.259044647216797,
+      "summed_pinned_owned_before_gib": 88.8043475933373,
+      "summed_pinned_owned_after_gib": 0.2856488525867462,
+      "max_cleanup_seconds": 3.273722991347313,
+      "prior_loss": 0.44774051010608673,
+      "absolute_loss_difference": 0.00020393729209899902
+    },
+    {
+      "step": 10,
+      "loss": 0.39207180589437485,
+      "summed_rank_rss_before_gib": 78.81724548339844,
+      "summed_rank_rss_after_gib": 12.412948608398438,
+      "summed_pinned_owned_before_gib": 66.85049112513661,
+      "summed_pinned_owned_after_gib": 0.44336703419685364,
+      "max_cleanup_seconds": 3.0785833187401295,
+      "prior_loss": 0.3920794725418091,
+      "absolute_loss_difference": 7.666647434234619e-06
+    },
+    {
+      "step": 11,
+      "loss": 0.4128597304224968,
+      "summed_rank_rss_before_gib": 101.00527572631836,
+      "summed_rank_rss_after_gib": 12.46230697631836,
+      "summed_pinned_owned_before_gib": 88.8988333530724,
+      "summed_pinned_owned_after_gib": 0.34888365864753723,
+      "max_cleanup_seconds": 3.3600751906633377,
+      "prior_loss": 0.4127994179725647,
+      "absolute_loss_difference": 6.031244993209839e-05
+    },
+    {
+      "step": 12,
+      "loss": 0.36047453433275223,
+      "summed_rank_rss_before_gib": 89.77830505371094,
+      "summed_rank_rss_after_gib": 12.309555053710938,
+      "summed_pinned_owned_before_gib": 77.79055412486196,
+      "summed_pinned_owned_after_gib": 0.3198290169239044,
+      "max_cleanup_seconds": 3.165478840470314,
+      "prior_loss": 0.3603690192103386,
+      "absolute_loss_difference": 0.00010551512241363525
+    },
+    {
+      "step": 13,
+      "loss": 0.4254215732216835,
+      "summed_rank_rss_before_gib": 123.10564041137695,
+      "summed_rank_rss_after_gib": 12.560718536376953,
+      "summed_pinned_owned_before_gib": 111.12197693064809,
+      "summed_pinned_owned_after_gib": 0.56983283162117,
+      "max_cleanup_seconds": 5.784690428525209,
+      "prior_loss": 0.425615131855011,
+      "absolute_loss_difference": 0.00019355863332748413
+    },
+    {
+      "step": 14,
+      "loss": 0.40258968248963356,
+      "summed_rank_rss_before_gib": 151.4731788635254,
+      "summed_rank_rss_after_gib": 12.29544448852539,
+      "summed_pinned_owned_before_gib": 139.43740852549672,
+      "summed_pinned_owned_after_gib": 0.25586608052253723,
+      "max_cleanup_seconds": 8.855206951498985,
+      "prior_loss": 0.4028034284710884,
+      "absolute_loss_difference": 0.00021374598145484924
+    },
+    {
+      "step": 15,
+      "loss": 0.4691403992474079,
+      "summed_rank_rss_before_gib": 100.8667984008789,
+      "summed_rank_rss_after_gib": 12.419532775878906,
+      "summed_pinned_owned_before_gib": 88.83706386759877,
+      "summed_pinned_owned_after_gib": 0.3808651268482208,
+      "max_cleanup_seconds": 3.3377625644207,
+      "prior_loss": 0.4690878316760063,
+      "absolute_loss_difference": 5.256757140159607e-05
+    },
+    {
+      "step": 16,
+      "loss": 0.46852629631757736,
+      "summed_rank_rss_before_gib": 114.69782257080078,
+      "summed_rank_rss_after_gib": 12.432197570800781,
+      "summed_pinned_owned_before_gib": 102.65102871134877,
+      "summed_pinned_owned_after_gib": 0.38086608052253723,
+      "max_cleanup_seconds": 4.820810437202454
+    },
+    {
+      "step": 17,
+      "loss": 0.46990349143743515,
+      "summed_rank_rss_before_gib": 100.7802963256836,
+      "summed_rank_rss_after_gib": 12.268577575683594,
+      "summed_pinned_owned_before_gib": 88.74221571162343,
+      "summed_pinned_owned_after_gib": 0.22351697087287903,
+      "max_cleanup_seconds": 3.4054683968424797
+    },
+    {
+      "step": 18,
+      "loss": 0.5017723701894283,
+      "summed_rank_rss_before_gib": 87.69269943237305,
+      "summed_rank_rss_after_gib": 12.366527557373047,
+      "summed_pinned_owned_before_gib": 75.64840467646718,
+      "summed_pinned_owned_after_gib": 0.31836608052253723,
+      "max_cleanup_seconds": 3.3041898645460606
+    },
+    {
+      "step": 19,
+      "loss": 0.4255860969424248,
+      "summed_rank_rss_before_gib": 100.86322021484375,
+      "summed_rank_rss_after_gib": 12.38275146484375,
+      "summed_pinned_owned_before_gib": 88.86977871134877,
+      "summed_pinned_owned_after_gib": 0.3823299705982208,
+      "max_cleanup_seconds": 3.358201276510954
+    },
+    {
+      "step": 20,
+      "loss": 0.3762912005186081,
+      "summed_rank_rss_before_gib": 122.94573593139648,
+      "summed_rank_rss_after_gib": 12.367610931396484,
+      "summed_pinned_owned_before_gib": 110.90176017954946,
+      "summed_pinned_owned_after_gib": 0.3183651268482208,
+      "max_cleanup_seconds": 5.700112886726856
+    },
+    {
+      "step": 21,
+      "loss": 0.3734004646539688,
+      "summed_rank_rss_before_gib": 100.85591125488281,
+      "summed_rank_rss_after_gib": 12.375442504882812,
+      "summed_pinned_owned_before_gib": 88.80507953837514,
+      "summed_pinned_owned_after_gib": 0.3176317512989044,
+      "max_cleanup_seconds": 3.434523742645979
+    },
+    {
+      "step": 22,
+      "loss": 0.5472800750285387,
+      "summed_rank_rss_before_gib": 96.92023468017578,
+      "summed_rank_rss_after_gib": 12.342109680175781,
+      "summed_pinned_owned_before_gib": 84.89882953837514,
+      "summed_pinned_owned_after_gib": 0.3176327049732208,
+      "max_cleanup_seconds": 3.44608311355114
+    },
+    {
+      "step": 23,
+      "loss": 0.41611959785223007,
+      "summed_rank_rss_before_gib": 89.90498352050781,
+      "summed_rank_rss_after_gib": 12.455764770507812,
+      "summed_pinned_owned_before_gib": 77.89846618846059,
+      "summed_pinned_owned_after_gib": 0.44336703419685364,
+      "max_cleanup_seconds": 3.36573850736022
+    },
+    {
+      "step": 24,
+      "loss": 0.3529757484793663,
+      "summed_rank_rss_before_gib": 100.97372817993164,
+      "summed_rank_rss_after_gib": 12.43075942993164,
+      "summed_pinned_owned_before_gib": 88.9300833530724,
+      "summed_pinned_owned_after_gib": 0.38013365864753723,
+      "max_cleanup_seconds": 3.517271425575018
+    },
+    {
+      "step": 25,
+      "loss": 0.5259982272982597,
+      "summed_rank_rss_before_gib": 96.9552001953125,
+      "summed_rank_rss_after_gib": 12.3477783203125,
+      "summed_pinned_owned_before_gib": 84.93081291392446,
+      "summed_pinned_owned_after_gib": 0.3183641731739044,
+      "max_cleanup_seconds": 3.4867580756545067
+    },
+    {
+      "step": 26,
+      "loss": 0.39494534954428673,
+      "summed_rank_rss_before_gib": 109.32307434082031,
+      "summed_rank_rss_after_gib": 20.838699340820312,
+      "summed_pinned_owned_before_gib": 88.74403866007924,
+      "summed_pinned_owned_after_gib": 0.2565965950489044,
+      "max_cleanup_seconds": 3.3227859660983086
+    },
+    {
+      "step": 27,
+      "loss": 0.44745906069874763,
+      "summed_rank_rss_before_gib": 113.21803665161133,
+      "summed_rank_rss_after_gib": 20.856708526611328,
+      "summed_pinned_owned_before_gib": 92.63576634600759,
+      "summed_pinned_owned_after_gib": 0.2703898251056671,
+      "max_cleanup_seconds": 4.1570322178304195
+    },
+    {
+      "step": 28,
+      "loss": 0.4021993428468704,
+      "summed_rank_rss_before_gib": 92.8936653137207,
+      "summed_rank_rss_after_gib": 20.985462188720703,
+      "summed_pinned_owned_before_gib": 72.29635079577565,
+      "summed_pinned_owned_after_gib": 0.3808651268482208,
+      "max_cleanup_seconds": 3.2024168893694878
+    },
+    {
+      "step": 29,
+      "loss": 0.4831892177462578,
+      "summed_rank_rss_before_gib": 109.40674209594727,
+      "summed_rank_rss_after_gib": 20.895023345947266,
+      "summed_pinned_owned_before_gib": 88.77456196025014,
+      "summed_pinned_owned_after_gib": 0.2558641731739044,
+      "max_cleanup_seconds": 3.3499558344483376
+    },
+    {
+      "step": 30,
+      "loss": 0.36031122505664825,
+      "summed_rank_rss_before_gib": 109.50217056274414,
+      "summed_rank_rss_after_gib": 21.05295181274414,
+      "summed_pinned_owned_before_gib": 88.8675800152123,
+      "summed_pinned_owned_after_gib": 0.41138318181037903,
+      "max_cleanup_seconds": 3.3824719190597534
+    },
+    {
+      "step": 31,
+      "loss": 0.394119706004858,
+      "summed_rank_rss_before_gib": 98.51875305175781,
+      "summed_rank_rss_after_gib": 21.020706176757812,
+      "summed_pinned_owned_before_gib": 77.88284071162343,
+      "summed_pinned_owned_after_gib": 0.38086608052253723,
+      "max_cleanup_seconds": 3.324205432087183
+    },
+    {
+      "step": 32,
+      "loss": 0.46877481043338776,
+      "summed_rank_rss_before_gib": 109.59687805175781,
+      "summed_rank_rss_after_gib": 21.085159301757812,
+      "summed_pinned_owned_before_gib": 88.96133239939809,
+      "summed_pinned_owned_after_gib": 0.44263365864753723,
+      "max_cleanup_seconds": 3.3796496540308
+    },
+    {
+      "step": 33,
+      "loss": 0.36830228194594383,
+      "summed_rank_rss_before_gib": 105.61060333251953,
+      "summed_rank_rss_after_gib": 20.97193145751953,
+      "summed_pinned_owned_before_gib": 84.96206386759877,
+      "summed_pinned_owned_after_gib": 0.3183651268482208,
+      "max_cleanup_seconds": 3.3572712391614914
+    },
+    {
+      "step": 34,
+      "loss": 0.44770749658346176,
+      "summed_rank_rss_before_gib": 109.4567642211914,
+      "summed_rank_rss_after_gib": 20.978248596191406,
+      "summed_pinned_owned_before_gib": 88.80581291392446,
+      "summed_pinned_owned_after_gib": 0.3183651268482208,
+      "max_cleanup_seconds": 3.426353633403778
+    },
+    {
+      "step": 35,
+      "loss": 0.39650028944015503,
+      "summed_rank_rss_before_gib": 109.45692825317383,
+      "summed_rank_rss_after_gib": 20.974506378173828,
+      "summed_pinned_owned_before_gib": 88.80581291392446,
+      "summed_pinned_owned_after_gib": 0.3183651268482208,
+      "max_cleanup_seconds": 3.34486148878932
+    },
+    {
+      "step": 36,
+      "loss": 0.5063814371824265,
+      "summed_rank_rss_before_gib": 109.45712661743164,
+      "summed_rank_rss_after_gib": 20.97861099243164,
+      "summed_pinned_owned_before_gib": 88.80581291392446,
+      "summed_pinned_owned_after_gib": 0.3183651268482208,
+      "max_cleanup_seconds": 3.3611937165260315
+    },
+    {
+      "step": 37,
+      "loss": 0.6219353675842285,
+      "summed_rank_rss_before_gib": 109.45976257324219,
+      "summed_rank_rss_after_gib": 20.977340698242188,
+      "summed_pinned_owned_before_gib": 88.80581291392446,
+      "summed_pinned_owned_after_gib": 0.3183651268482208,
+      "max_cleanup_seconds": 3.3362181819975376
+    },
+    {
+      "step": 38,
+      "loss": 0.44228510558605194,
+      "summed_rank_rss_before_gib": 109.52250671386719,
+      "summed_rank_rss_after_gib": 21.043991088867188,
+      "summed_pinned_owned_before_gib": 88.86831386759877,
+      "summed_pinned_owned_after_gib": 0.38086608052253723,
+      "max_cleanup_seconds": 3.3687687516212463
+    },
+    {
+      "step": 39,
+      "loss": 0.3815913274884224,
+      "summed_rank_rss_before_gib": 109.44766235351562,
+      "summed_rank_rss_after_gib": 20.933990478515625,
+      "summed_pinned_owned_before_gib": 88.77383144572377,
+      "summed_pinned_owned_after_gib": 0.2551327049732208,
+      "max_cleanup_seconds": 3.433683805167675
+    },
+    {
+      "step": 40,
+      "loss": 0.3488424476236105,
+      "summed_rank_rss_before_gib": 98.4797477722168,
+      "summed_rank_rss_after_gib": 21.059825897216797,
+      "summed_pinned_owned_before_gib": 77.80398281291127,
+      "summed_pinned_owned_after_gib": 0.38013365864753723,
+      "max_cleanup_seconds": 3.3454893305897713
+    },
+    {
+      "step": 41,
+      "loss": 0.38858624547719955,
+      "summed_rank_rss_before_gib": 98.66768264770508,
+      "summed_rank_rss_after_gib": 21.189167022705078,
+      "summed_pinned_owned_before_gib": 77.99368293955922,
+      "summed_pinned_owned_after_gib": 0.50733283162117,
+      "max_cleanup_seconds": 3.3022331148386
+    },
+    {
+      "step": 42,
+      "loss": 0.2895672768354416,
+      "summed_rank_rss_before_gib": 160.2088165283203,
+      "summed_rank_rss_after_gib": 21.062332153320312,
+      "summed_pinned_owned_before_gib": 139.53115852549672,
+      "summed_pinned_owned_after_gib": 0.38086608052253723,
+      "max_cleanup_seconds": 8.68751709908247
+    },
+    {
+      "step": 43,
+      "loss": 0.3394536152482033,
+      "summed_rank_rss_before_gib": 109.51437377929688,
+      "summed_rank_rss_after_gib": 21.004608154296875,
+      "summed_pinned_owned_before_gib": 88.83706482127309,
+      "summed_pinned_owned_after_gib": 0.31836608052253723,
+      "max_cleanup_seconds": 3.3364187628030777
+    },
+    {
+      "step": 44,
+      "loss": 0.4200303703546524,
+      "summed_rank_rss_before_gib": 109.48450469970703,
+      "summed_rank_rss_after_gib": 21.00208282470703,
+      "summed_pinned_owned_before_gib": 88.80581386759877,
+      "summed_pinned_owned_after_gib": 0.3183651268482208,
+      "max_cleanup_seconds": 3.4360226765275
+    },
+    {
+      "step": 45,
+      "loss": 0.42730921134352684,
+      "summed_rank_rss_before_gib": 109.60983657836914,
+      "summed_rank_rss_after_gib": 21.13132095336914,
+      "summed_pinned_owned_before_gib": 88.93081482127309,
+      "summed_pinned_owned_after_gib": 0.44336703419685364,
+      "max_cleanup_seconds": 3.3541600555181503
+    },
+    {
+      "step": 46,
+      "loss": 0.35602813959121704,
+      "summed_rank_rss_before_gib": 109.61021041870117,
+      "summed_rank_rss_after_gib": 21.065288543701172,
+      "summed_pinned_owned_before_gib": 88.93081482127309,
+      "summed_pinned_owned_after_gib": 0.3808651268482208,
+      "max_cleanup_seconds": 3.4316168054938316
+    },
+    {
+      "step": 47,
+      "loss": 0.3383616544306278,
+      "summed_rank_rss_before_gib": 123.83313751220703,
+      "summed_rank_rss_after_gib": 21.06946563720703,
+      "summed_pinned_owned_before_gib": 103.15273769572377,
+      "summed_pinned_owned_after_gib": 0.38233092427253723,
+      "max_cleanup_seconds": 4.87627325579524
+    },
+    {
+      "step": 48,
+      "loss": 0.40048371627926826,
+      "summed_rank_rss_before_gib": 131.5819969177246,
+      "summed_rank_rss_after_gib": 21.00387191772461,
+      "summed_pinned_owned_before_gib": 110.90176208689809,
+      "summed_pinned_owned_after_gib": 0.31836608052253723,
+      "max_cleanup_seconds": 5.626899596303701
+    },
+    {
+      "step": 49,
+      "loss": 0.46942995861172676,
+      "summed_rank_rss_before_gib": 109.4869613647461,
+      "summed_rank_rss_after_gib": 21.008445739746094,
+      "summed_pinned_owned_before_gib": 88.80581386759877,
+      "summed_pinned_owned_after_gib": 0.3183651268482208,
+      "max_cleanup_seconds": 3.340141337364912
+    },
+    {
+      "step": 50,
+      "loss": 0.3735193684697151,
+      "summed_rank_rss_before_gib": 109.42583084106445,
+      "summed_rank_rss_after_gib": 20.943408966064453,
+      "summed_pinned_owned_before_gib": 88.74331196025014,
+      "summed_pinned_owned_after_gib": 0.2558641731739044,
+      "max_cleanup_seconds": 3.3684556744992733
+    }
+  ],
+  "passed_old_failure_step": true,
+  "longest_meeting_completed": true,
+  "rss_sums_note": "Sum of per-rank samples taken after each update; not a simultaneous Slurm peak."
+}

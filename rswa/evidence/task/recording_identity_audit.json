@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "records": 618,
+  "unique_recording_names": 618,
+  "collisions": [],
+  "rule": "corpus + wav stem; AMI microphone suffix after first dot removed",
+  "scope": "recording-name audit supplements byte hashes; no content-based speaker identity inference"
+}

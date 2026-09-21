@@ -1,0 +1,96 @@
+{
+  "cases/base-check/worker-1-status.json": {
+    "rank": 1,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/models/MOSS-Transcribe-Diarize",
+    "stage": "done",
+    "key": "ami/dev/TS3004c",
+    "generated_tokens": 26112,
+    "updated_utc": "2026-09-12T22:18:29.119256+00:00",
+    "elapsed_seconds": 1046.8604296930134,
+    "outcome": "ok",
+    "failures": 0
+  },
+  "cases/sentinel-0/worker-3-status.json": {
+    "rank": 3,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+    "stage": "done",
+    "key": "alimeeting/dev/R8008_M8013",
+    "generated_tokens": 23040,
+    "updated_utc": "2026-09-12T22:15:10.966385+00:00",
+    "elapsed_seconds": 849.4570103734732,
+    "outcome": "ok",
+    "failures": 0
+  },
+  "cases/sentinel-1/worker-3-status.json": {
+    "rank": 3,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+    "stage": "done",
+    "key": "alimeeting/dev/R8007_M8011",
+    "generated_tokens": 22016,
+    "updated_utc": "2026-09-12T22:29:11.267127+00:00",
+    "elapsed_seconds": 792.7965498901904,
+    "outcome": "ok",
+    "failures": 0
+  },
+  "cases/sentinel-2/worker-1-status.json": {
+    "rank": 1,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+    "stage": "done",
+    "key": "ami/dev/IB4001",
+    "generated_tokens": 15360,
+    "updated_utc": "2026-09-12T22:26:22.990442+00:00",
+    "elapsed_seconds": 441.82235124334693,
+    "outcome": "ok",
+    "failures": 0
+  },
+  "cases/sentinel-3/worker-1-status.json": {
+    "rank": 1,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+    "stage": "generating",
+    "key": "alimeeting/dev/R8001_M8004",
+    "generated_tokens": 53760,
+    "updated_utc": "2026-09-12T23:01:00.984618+00:00",
+    "elapsed_seconds": 2040.5907663926482
+  },
+  "cases/sentinel-4/worker-3-status.json": {
+    "rank": 3,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+    "stage": "done",
+    "key": "ami/dev/IS1008a",
+    "generated_tokens": 5632,
+    "updated_utc": "2026-09-12T22:33:29.676969+00:00",
+    "elapsed_seconds": 211.6336752511561,
+    "outcome": "ok",
+    "failures": 0
+  },
+  "cases/sentinel-target/worker-0-status.json": {
+    "rank": 0,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+    "stage": "done",
+    "key": "ami/dev/TS3004c",
+    "generated_tokens": 65536,
+    "updated_utc": "2026-09-12T22:57:40.746671+00:00",
+    "elapsed_seconds": 3408.997916754335,
+    "outcome": "ok",
+    "failures": 0
+  },
+  "cases/step10-check/worker-2-status.json": {
+    "rank": 2,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-10",
+    "stage": "done",
+    "key": "ami/dev/TS3004c",
+    "generated_tokens": 65536,
+    "updated_utc": "2026-09-12T22:57:37.364259+00:00",
+    "elapsed_seconds": 3405.429485242814,
+    "outcome": "ok",
+    "failures": 0
+  }
+}

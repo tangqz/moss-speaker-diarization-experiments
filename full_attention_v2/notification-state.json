@@ -1,0 +1,19 @@
+{
+  "event": "63458-lr2e-7-dev10-complete",
+  "updated_utc": "2026-09-13T08:47:38.931907+00:00",
+  "training_job": 63458,
+  "active_training_job": 63458,
+  "completion_guard": false,
+  "quiet_completion_guard": false,
+  "phase_delivery_complete": false,
+  "automation_stop_pending": false,
+  "next_notify": "Distinct failure, required login, full dev result, candidate elimination or completion; remain quiet during ordinary healthy progress.",
+  "last_train_step": 5,
+  "training_status": "full_generation",
+  "active_candidate": "lr5e-7",
+  "notification_delivery": "heartbeat_final",
+  "result_candidate": "lr2e-7",
+  "result_step": 10,
+  "result_score": 11.776307488567978,
+  "base_score": 11.789526724034861
+}

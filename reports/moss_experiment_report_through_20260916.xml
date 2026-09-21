@@ -1,0 +1,130 @@
+<title>MOSS-Transcribe-Diarize 实验总报告：全注意力 SFT、学习率对照与短程错误恢复（截至 2026-09-16）</title>
+
+<callout emoji="📌" background-color="light-red" border-color="red" text-color="red">
+  <p><b>当前结论：</b>本轮严格从 MOSS-Transcribe-Diarize 基座模型启动，使用新的 training set 随机种子 1，并在训练输入中加入低概率模型历史扰动与 3–4 次短重复。Step 30 后对问题样本 R8005_M8009 进行 temperature=0、repetition penalty=1.0 的完整自由生成，覆盖完整音频并正常输出 EOS，但仍出现连续 109 个相同 token（对应“外”字）。控制器因此按预设门禁在 Step 30 早停，没有继续 Step 60–150。</p>
+</callout>
+
+<h1>1. 实验范围与问题定义</h1>
+
+<p>本报告汇总截至 2026-09-16 的 MOSS-Transcribe-Diarize 全注意力监督微调实验，包括前两轮 full-attention SFT 对照，以及本轮短程错误恢复训练。所有实验都使用完整会议作为样本，评测重点是自由生成时的转录完整性、长循环、CER、cpCER 与说话人分离误差。teacher-forced loss 只用于观察优化过程，不能替代完整自由生成验收。</p>
+
+<p>当前重点故障是 AliMeeting 的 R8005_M8009：模型在正常转录一段时间后反复生成同一个 token（对应“外”字），随后不再恢复，也不输出 EOS。该故障属于功能性失败，即使训练 loss 继续下降，也不能视为模型可用。</p>
+
+<h1>2. 实验时间线</h1>
+
+<table>
+  <thead><tr><th>实验</th><th>训练与初始模型</th><th>停点 / 结果</th><th>主要结论</th></tr></thead>
+  <tbody>
+    <tr><td>Full-attention SFT（63521）</td><td>LR=1e-6；从基座模型训练；seed=0；完整注意力；4×A40</td><td>Step 20 在 Dev 选中；Step 40 出现灾难性输出</td><td>AMI 改善，但跨语料库泛化不稳定；AliMeeting 出现截断和循环</td></tr>
+    <tr><td>低学习率 Full-attention SFT（63643）</td><td>LR=1e-7；从基座模型训练；seed=0；训练至 Step 150</td><td>Step 150 完成；R8005_M8009 达到 65,536 token 上限</td><td>降低学习率把灾难性循环推迟到更晚步数，但没有消除机制</td></tr>
+    <tr><td>短程错误恢复（63724）</td><td>误从 63643 的 checkpoint-150 初始化；LR=1e-7；training/data seed=1；低概率扰动 + 3/4 次短重复</td><td>Step 30 评估失败并早停</td><td>该运行只能说明对已有坏 checkpoint 的恢复不足，不能回答基座起点的因果问题</td></tr>
+    <tr><td>基座短程错误恢复（63737）</td><td>从 MOSS-Transcribe-Diarize 基座初始化；LR=1e-7；training/data seed=1；低概率扰动 + 3/4 次短重复</td><td>Step 30 评估失败并早停</td><td>从基座训练后仍出现短循环，虽覆盖完整音频并输出 EOS，但未通过无重复门禁</td></tr>
+  </tbody>
+</table>
+
+<p>前两轮的完整记录可直接查看：<a type="url-preview" href="https://qcnymzjrvvm.feishu.cn/wiki/HQKjwsxgai6BYDkMhzYcW5hPnib">MS-Swift 全参数微调：Step 20 对照报告</a>；<a type="url-preview" href="https://qcnymzjrvvm.feishu.cn/wiki/GtDYw7fkOilSzpkqCN4cGHntnsE">MS-Swift LR 1e-7 / Step 150 对照报告</a>。</p>
+
+<h1>3. 前两轮基线</h1>
+
+<h2>3.1 Full-attention SFT（任务 63521）</h2>
+
+<p>第一轮使用 MS-Swift 对 MOSS-Transcribe-Diarize 做 908.5M 参数全参数微调，学习率为 1e-6。Dev 生成式选点在 Step 20 达到 11.102 的综合分数并冻结；Step 20 在 AliMeeting 与 AMI 的 Dev 上无截断或空输出，但正式 Test 中 AliMeeting 出现 2/20 条截断，说明任务分数与输出完整性必须同时检查。Step 40 的综合 Dev 分数升至 17.989，并出现灾难性自由生成输出，因此不能按最低 CE 继续训练。</p>
+
+<h2>3.2 低学习率 SFT（任务 63643）</h2>
+
+<p>第二轮将初始学习率降为 1e-7，完成 150 次参数更新。Step 150 在 AMI 上改善明显，AISHELL-4 基本持平，AliMeeting 汇总退步主要由 R8005_M8009 的长循环拉动。对该会议的逐步复测显示：Step 30 和 Step 60 在约 984 秒处分别连续生成“外”约 72 次和 102 次后恢复；Step 90、120、150 则都达到 65,536 token 上限且没有 EOS。由此可见，低学习率延后了从“可恢复短重复”到“不可恢复长循环”的跨越，但未改变故障机制。</p>
+
+<h1>4. 本轮短程错误恢复设计</h1>
+
+<p>本轮目标是让模型在错误刚出现时继续沿正确转录轨迹前进，不预先构造几十或几百个重复 token。训练中的错误历史只作为输入，监督标签仍然是正确续写；因此模型学习的是“离开错误状态并继续转录”，而不是学习生成错误。</p>
+
+<table>
+  <thead><tr><th>设计项</th><th>设置</th><th>含义</th></tr></thead>
+  <tbody>
+    <tr><td>历史来源</td><td>模型在正确历史下的实际输出分布</td><td>扰动贴近模型可能进入的状态</td></tr>
+    <tr><td>模型历史概率</td><td>1.0</td><td>辅助分支使用模型产生的历史，而不是外部随机 token</td></tr>
+    <tr><td>随机采样概率</td><td>0.02</td><td>仅约 2% 的候选分支使用 temperature sampling；其余保持 temperature=0 的结果</td></tr>
+    <tr><td>采样温度</td><td>1.0</td><td>只控制实际采样分支的分布，不改变正式推理设置</td></tr>
+    <tr><td>重复控制</td><td>额外插入 2 或 3 份同一 token</td><td>使错误 token 的连续总长度为 3 或 4 次</td></tr>
+    <tr><td>重复长度分配</td><td>每个 optimizer update 的四个 source slot 使用 2、2、3、3</td><td>在固定预算内平衡 3 次与 4 次短重复</td></tr>
+    <tr><td>恢复监督</td><td>保留错误历史，监督随后一小段正确 token</td><td>覆盖“错误后下一步”和“带着残留错误继续走”两种状态</td></tr>
+    <tr><td>正式生成</td><td>temperature=0；top_p=1；top_k=-1；repetition_penalty=1.0；presence/frequency penalty=0</td><td>不使用额外 penalty 掩盖循环</td></tr>
+  </tbody>
+</table>
+
+<p>本轮冻结配置中的 sampling probability 为 0.02，repeat probability 为 0.05；过滤前没有足够错误质量的位置允许回退为 clean auxiliary view，不强行制造离谱错误。配置与校准产物位于远端 <code>/work/qt28/moss/dkucc/short_recovery/artifacts/config.error-repeat.seed1.json</code> 和 <code>/work/qt28/moss/dkucc/short_recovery/artifacts/dev_calibration.error-repeat.seed1.json</code>。</p>
+
+<h1>5. 数据、随机种子与训练参数</h1>
+
+<p>训练集使用 meeting-level 划分，保留既有 train/dev 隔离。准备阶段生成 600 条 source rows、1,200 条 expanded rows 和 600 条 auxiliary rows；train/dev 仍对应 536/26 场会议。每个 update 的 source slot 以稳定顺序绑定 repeat_count=2、2、3、3，保证不同 rank 看到相同的事件协议。</p>
+
+<table>
+  <thead><tr><th>类别</th><th>参数</th><th>本轮设置</th></tr></thead>
+  <tbody>
+    <tr><td>初始权重</td><td>checkpoint</td><td><code>/work/qt28/moss/models/MOSS-Transcribe-Diarize</code>（基座模型）</td></tr>
+    <tr><td>模型与训练</td><td>模型 / 可训练参数</td><td>MOSS-Transcribe-Diarize；908.5133M；全参数</td></tr>
+    <tr><td>并行与精度</td><td>SP / FSDP / dtype</td><td>sequence_parallel_size=4；FSDP1 full-shard + CPU offload；BF16</td></tr>
+    <tr><td>序列与批次</td><td>长度 / micro-batch / GA</td><td>131,072 tokens；每卡 1；gradient accumulation=8</td></tr>
+    <tr><td>优化器</td><td>AdamW / 学习率</td><td>adamw_torch_fused；初始 1e-7；linear decay；无 warmup；weight decay=0；max grad norm=1</td></tr>
+    <tr><td>训练预算</td><td>Trainer horizon / 目标</td><td>402 步调度尺度；按 30 步里程碑测试，最多计划 150 步</td></tr>
+    <tr><td>随机性</td><td>seed / data_seed</td><td>1 / 1；扰动分支、source slot 和训练顺序均使用新 seed</td></tr>
+    <tr><td>日志</td><td>TensorBoard</td><td>report_to=tensorboard；每步 logging；每 30 步保存</td></tr>
+  </tbody>
+</table>
+
+<h1>6. 本轮运行过程</h1>
+
+<p>本轮正式任务为 Slurm job 63737，固定在 node-8，并明确绑定基座模型 <code>/work/qt28/moss/models/MOSS-Transcribe-Diarize</code>。校准阶段确认了基座模型树和 processor 路径；冻结配置 digest 为 <code>522f263258ddec49dbeba5a05c52d5e257ce154cee8e3901ea6681001a162859</code>。此前的 job 63724 是误从旧 Step-150 checkpoint 启动的独立运行，本报告保留它作为实验设计纠偏记录，不将它与本轮结果合并。</p>
+
+<p>smoke 阶段成功完成一次 optimizer step，loss 为 0.5183，token accuracy 为 0.8563，峰值显存约 26.58 GiB/卡。该小批次没有以 2% 概率抽中 temperature sampling 的实际错误分支，但 clean/aux 与 repeat_count=2/3 的事件审计均写出；正式训练使用同一冻结配置，不能用 smoke 的未抽中事件推断正式训练中不会出现随机错误。</p>
+
+<p>正式训练在 Step 30 完成 checkpoint 保存。最后一步 loss 为 0.4874，Step 30 的累计 train_loss 为 0.6539，最后一步 token accuracy 为 0.8662；训练耗时约 57 分钟。TensorBoard run 为 <code>short_recovery_sub150_r3\base_error_repeat_train\runs</code>，已同步 train/loss、grad_norm、learning_rate、token_acc 等曲线。</p>
+
+<h1>7. Step 30 问题样本测试</h1>
+
+<p>评测从 <code>checkpoint-30</code> 导出单卡 vLLM 引擎，对 <code>alimeeting/test/R8005_M8009</code> 做完整自由生成。解码温度为 0，repetition penalty 固定为 1.0，最多生成 65,536 个新 token；评测完成后再执行 EOS、截断、raw token repetition、时间覆盖率和解析完整性检查。</p>
+
+<table>
+  <thead><tr><th>指标</th><th>Base</th><th>Step 30 SFT</th></tr></thead>
+  <tbody>
+    <tr><td>官方字符数</td><td>11,090</td><td>11,127</td></tr>
+    <tr><td>CER</td><td>0.4908</td><td>0.4940</td></tr>
+    <tr><td>cpCER</td><td>0.4185</td><td>0.4229</td></tr>
+    <tr><td>最长相同 token 连续长度</td><td>75</td><td>109</td></tr>
+    <tr><td>输出是否截断</td><td>否</td><td>否</td></tr>
+    <tr><td>EOS</td><td>—</td><td>已出现</td></tr>
+  </tbody>
+</table>
+
+<p>Step 30 的 raw repetition 从 token 16,977 开始，period=1，连续长度为 109，重复 token id 为 47,815（解码为“外”）。随后模型脱离短循环并继续生成，最终生成 32,053 个 token、正常输出 EOS，最后时间段结束于 1,773.11 秒，参考会议最长时间为 1,773.08 秒。解析器没有发现非法标签或重大解析损失；gate 唯一失败原因为 <b>raw_token_repetition</b>。因此，本轮相较于旧 Step-150 起点的 48,399-token 截断循环有明显改善，但仍未达到“不出现循环”的功能验收标准。</p>
+
+<p>Step 30 的完整产物位于远端 <code>/work/qt28/moss/results/short-recovery-sr-v3-base-error-repeat-seed1-20260916/sub_repeat/seed-1/evaluations/problem-R8005_M8009-step-30/results/</code>，包括 <code>gate_decision.json</code>、<code>metrics_summary.json</code>、<code>output_diagnostics.json</code>、<code>transcript.txt</code> 和逐条评分文件。</p>
+
+<h1>8. 结果解释边界</h1>
+
+<p>本轮终于回答了原先未覆盖的问题：从基座模型出发，加入低概率模型历史扰动和 3–4 次短重复后训练 30 步，问题样本能够覆盖完整音频并输出 EOS，但仍会出现一段 109-token 的单 token 短循环。它因此改善了“长循环并截断”的严重程度，却没有达到完全阻止循环的标准。</p>
+
+<p>当前结果仍不能证明短程增强已经具有稳定的恢复能力：它只在一个问题样本、一个 training/data seed 和一个 30-step 门禁上显示出“从不可恢复长循环退回到可继续生成”的迹象；109-token 重复本身仍触发了严格门禁。后续应与同起点、同 seed 的原始 CE 对照比较，确认这是训练干预带来的真实改善，而不是随机差异。</p>
+
+<h1>9. 当前结论与后续实验建议</h1>
+
+<p>截至目前，降低学习率、短程单 token 恢复和 3–4 次短重复都没有满足“完整自由生成不出现长或短循环”的严格功能验收。基座起点的本轮训练把结果从 48,399-token 截断循环改善为 109-token 后恢复并输出 EOS，但重复仍发生，说明问题更像是稳定的模型—音频—历史交互脆弱点，而非偶然的单次随机输出。</p>
+
+<p>下一轮若继续研究短程恢复，应优先做从基座 checkpoint 出发的严格三组对照：原始 CE；CE 加低概率单 token 错误恢复；CE 加单 token 错误恢复和 3–4 次短重复。三组保持相同 train/dev/test 划分、训练步数、seed 记录和推理参数，并在每个 30 步 checkpoint 同时记录短重复长度、EOS、截断、时间覆盖率和 CER/cpCER。只有从基座起点的干预组相对原始 CE 降低长循环率，才能支持“在错误刚出现时阻止扩散”的因果判断。</p>
+
+<h1>10. 可复核证据索引</h1>
+
+<table>
+  <thead><tr><th>证据</th><th>位置</th></tr></thead>
+  <tbody>
+    <tr><td>当前正式训练配置</td><td><code>/work/qt28/moss/results/short-recovery-sr-v3-base-error-repeat-seed1-20260916/sub_repeat/seed-1/args.json</code></td></tr>
+    <tr><td>当前控制器状态</td><td><code>/work/qt28/moss/results/base-error-repeat-controller-seed1-20260916/status.json</code>；stage=early_stop；checkpoint_step=30</td></tr>
+    <tr><td>Step 30 gate</td><td><code>/work/qt28/moss/results/short-recovery-sr-v3-base-error-repeat-seed1-20260916/sub_repeat/seed-1/evaluations/problem-R8005_M8009-step-30/results/gate_decision.json</code></td></tr>
+    <tr><td>Step 30 诊断</td><td><code>output_diagnostics.json</code>；Base longest run=75，SFT longest run=109；SFT EOS=true，truncated=false</td></tr>
+    <tr><td>训练 TensorBoard</td><td><a type="url-preview" href="http://127.0.0.1:6006">本机 TensorBoard</a>；run=<code>short_recovery_sub150_r3\base_error_repeat_train\runs</code></td></tr>
+    <tr><td>准备清单</td><td><code>/work/qt28/moss/dkucc/short_recovery/artifacts/plan.base-error-repeat.seed1/manifest_summary.json</code></td></tr>
+    <tr><td>冻结配置摘要</td><td>config digest=<code>522f263258ddec49dbeba5a05c52d5e257ce154cee8e3901ea6681001a162859</code></td></tr>
+  </tbody>
+</table>
+
+<p>本报告的本地 XML 源文件为 <code>dkucc/reports/moss_experiment_report_through_20260916.xml</code>，用于保留可复核的写入版本。</p>

@@ -1,0 +1,62 @@
+Saved predictions: 1
+{"model": "base", "key": "ami/dev/IS1008a", "status": "ok", "generated_tokens": 6778, "ended_eos": true, "truncated": false, "e2e_seconds": 188.83297450467944, "rtf": 0.20007025817355797, "peak_allocated_gib": 3.818035125732422}
+segments 211
+first [{'start': 34.22, 'end': 34.83, 'speaker': 'S01', 'text': 'Oops.'}]
+last [{'start': 901.81, 'end': 902.88, 'speaker': 'S02', 'text': 'Okay, see you later.'}]
+worker-0-status.json {
+  "rank": 0,
+  "gpu": "NVIDIA A40",
+  "pid": 886477,
+  "stage": "generating",
+  "model": "base",
+  "split": "dev",
+  "updated_utc": "2026-09-12T02:54:32.045723+00:00",
+  "model_load_seconds": 2.5947815738618374,
+  "key": "ami/dev/IS1008d",
+  "generated_tokens": 1280,
+  "audio_seconds": 1480.8333125,
+  "elapsed_seconds": 37.84,
+  "outcome": "ok"
+}
+worker-1-status.json {
+  "rank": 1,
+  "gpu": "NVIDIA A40",
+  "pid": 886478,
+  "stage": "generating",
+  "model": "base",
+  "split": "dev",
+  "updated_utc": "2026-09-12T02:54:28.197123+00:00",
+  "model_load_seconds": 2.3964153826236725,
+  "key": "alimeeting/dev/R8001_M8004",
+  "generated_tokens": 7680,
+  "audio_seconds": 1573.85,
+  "elapsed_seconds": 223.13
+}
+worker-2-status.json {
+  "rank": 2,
+  "gpu": "NVIDIA A40",
+  "pid": 886479,
+  "stage": "generating",
+  "model": "base",
+  "split": "dev",
+  "updated_utc": "2026-09-12T02:54:28.738790+00:00",
+  "model_load_seconds": 2.4180311113595963,
+  "key": "ami/dev/ES2011a",
+  "generated_tokens": 7936,
+  "audio_seconds": 1113.845375,
+  "elapsed_seconds": 223.68
+}
+worker-3-status.json {
+  "rank": 3,
+  "gpu": "NVIDIA A40",
+  "pid": 886480,
+  "stage": "generating",
+  "model": "base",
+  "split": "dev",
+  "updated_utc": "2026-09-12T02:54:28.660577+00:00",
+  "model_load_seconds": 2.402204506099224,
+  "key": "ami/dev/IS1008c",
+  "generated_tokens": 7936,
+  "audio_seconds": 1546.3333125,
+  "elapsed_seconds": 223.6
+}

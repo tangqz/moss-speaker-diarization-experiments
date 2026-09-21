@@ -1,0 +1,72 @@
+{
+  "round": 2,
+  "parent_round": "/work/qt28/moss/results/moss-rswa-20260920",
+  "windows": [
+    256,
+    512
+  ],
+  "initialization": "same original Base; optimizer and scheduler reset",
+  "base": "/work/qt28/moss/models/MOSS-Transcribe-Diarize",
+  "learning_rate": 1e-06,
+  "lr_scheduler": "linear over all 134 steps; no warmup",
+  "epochs": 1,
+  "meetings": 536,
+  "effective_batch": 4,
+  "updates": 134,
+  "seed": 0,
+  "full_parameter": true,
+  "loss": "teacher-forced CE",
+  "checkpoint_steps": [
+    25,
+    50,
+    75,
+    100,
+    125,
+    134
+  ],
+  "engineering_step1": true,
+  "sentinel_steps": [
+    25,
+    75
+  ],
+  "sentinel_size": 4,
+  "sentinel_keys": [
+    "alimeeting/dev/R8007_M8011",
+    "alimeeting/dev/R8009_M8019",
+    "ami/dev/ES2011c",
+    "ami/dev/IB4003"
+  ],
+  "full_dev_steps": [
+    50,
+    100,
+    125
+  ],
+  "full_dev_size": 26,
+  "full_dev_includes_sentinel": true,
+  "test_size": 56,
+  "test_checkpoint": 134,
+  "penalty": 1.02,
+  "safety_stop": "engineering errors, nonfinite gradients or resource failure; no quality-based extension/early-stop rule",
+  "test_interpretation": "established Test set reused for final engineering comparison, not a new blind Test",
+  "reuse_original_qualification": "/work/qt28/moss/results/moss-rswa-20260920/qualification.json",
+  "r512_delta_qualification": "must pass before training: SP4 forward/backward, kernel, eviction, penalty, 1026-token real smoke alignment",
+  "source_manifest_sha256": "0416cf36196fcc621aa2a4b8e90e036d5b4270824c65f46386c8cebba152ea98",
+  "scheduling": "serial on four A40 GPUs; account MaxJobs=1, MaxTRES GPU=4",
+  "order": [
+    "R512 delta qualification",
+    "R256 train/dev",
+    "shared Base Test",
+    "R256 epoch-end Test",
+    "R512 train/dev/Test"
+  ],
+  "interrupted_launch": {
+    "jobs": [
+      64635,
+      64636,
+      64637
+    ],
+    "reason": "Association simultaneous-job and GPU limits discovered",
+    "committed_optimizer_updates": 0,
+    "previous_source_manifest_sha256": "03e33f23385893f03a753117e76ff6e44a9c0755dc523b3316bc631d5e6e710c"
+  }
+}

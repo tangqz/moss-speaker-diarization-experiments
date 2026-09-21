@@ -1,0 +1,185 @@
+{
+  "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-150",
+  "functional": false,
+  "failures": [
+    {
+      "key": "ami/dev/TS3004a",
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IS1008d",
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IS1008c",
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/ES2011b",
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/ES2011c",
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IS1008b",
+      "reasons": [
+        "budget_truncation",
+        "major_parse_loss"
+      ]
+    },
+    {
+      "key": "alimeeting/dev/R8007_M8010",
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/ES2011d",
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IB4003",
+      "reasons": [
+        "budget_truncation",
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "alimeeting/dev/R8003_M8001",
+      "reasons": [
+        "budget_truncation",
+        "major_parse_loss",
+        "pathological_identical_token_loop",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/TS3004b",
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IB4004",
+      "reasons": [
+        "budget_truncation",
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IB4011",
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IB4010",
+      "reasons": [
+        "budget_truncation",
+        "major_parse_loss",
+        "pathological_identical_token_loop",
+        "severe_early_end_with_text_deficit"
+      ]
+    }
+  ],
+  "S": 74.49145439408534,
+  "ce": 0.6384617645649134,
+  "RTF": 0.14036048061772796,
+  "corpora": {
+    "alimeeting": {
+      "completed": 8,
+      "expected": 8,
+      "coverage": 1.0,
+      "complete": true,
+      "truncated": 1,
+      "empty_predictions": 0,
+      "reference_characters": 81086,
+      "character_errors": 26741,
+      "cp_character_errors": 58573,
+      "CER": 0.32978565966998,
+      "cpCER": 0.7223565103717041,
+      "DeltaCP": 0.3925708507017241,
+      "audio_hours": 4.205059722222222,
+      "processing_hours": 0.5385854630865571,
+      "RTF": 0.12808033622931142,
+      "audio_seconds_per_processing_second": 7.807599741225135,
+      "max_peak_allocated_gib": 25.99522829055786,
+      "DER_collar_0": {
+        "total": 17632.599999999944,
+        "confusion": 4686.259999999995,
+        "missed detection": 4247.979999999994,
+        "false alarm": 775.6300000000041,
+        "correct": 8698.359999999955,
+        "DER": 0.5506771548155136
+      },
+      "DER_collar_0.25": {
+        "total": 13988.509999999955,
+        "confusion": 3833.944999999997,
+        "missed detection": 2912.3849999999975,
+        "false alarm": 363.52000000000265,
+        "correct": 7242.17999999996,
+        "DER": 0.5082635677423842
+      }
+    },
+    "ami": {
+      "completed": 18,
+      "expected": 18,
+      "coverage": 1.0,
+      "complete": true,
+      "truncated": 4,
+      "empty_predictions": 0,
+      "reference_characters": 364785,
+      "character_errors": 245131,
+      "cp_character_errors": 333753,
+      "CER": 0.6719876091396302,
+      "cpCER": 0.9149307126115384,
+      "DeltaCP": 0.24294310347190812,
+      "audio_hours": 9.66717373263889,
+      "processing_hours": 1.4085278918790733,
+      "RTF": 0.14570213909816448,
+      "audio_seconds_per_processing_second": 6.863317218193111,
+      "max_peak_allocated_gib": 26.83000421524048,
+      "DER_collar_0": {
+        "total": 31558.655000000006,
+        "confusion": 5072.689999999997,
+        "missed detection": 20259.425000000007,
+        "false alarm": 1577.8799999999983,
+        "correct": 6226.539999999998,
+        "DER": 0.8526977781530929
+      },
+      "DER_collar_0.25": {
+        "total": 27115.975000000006,
+        "confusion": 4319.455000000002,
+        "missed detection": 17117.170000000006,
+        "false alarm": 1181.0099999999993,
+        "correct": 5679.349999999998,
+        "DER": 0.8341073850377868
+      }
+    }
+  }
+}

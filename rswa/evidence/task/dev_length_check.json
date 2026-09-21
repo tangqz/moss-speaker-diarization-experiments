@@ -1,0 +1,163 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "key": "alimeeting/dev/R8001_M8004",
+      "prompt": 20797,
+      "target": 19686,
+      "total": 40483
+    },
+    {
+      "key": "alimeeting/dev/R8003_M8001",
+      "prompt": 27369,
+      "target": 21316,
+      "total": 48685
+    },
+    {
+      "key": "alimeeting/dev/R8007_M8010",
+      "prompt": 24556,
+      "target": 35250,
+      "total": 59806
+    },
+    {
+      "key": "alimeeting/dev/R8007_M8011",
+      "prompt": 24625,
+      "target": 23602,
+      "total": 48227
+    },
+    {
+      "key": "alimeeting/dev/R8008_M8013",
+      "prompt": 29649,
+      "target": 21257,
+      "total": 50906
+    },
+    {
+      "key": "alimeeting/dev/R8009_M8018",
+      "prompt": 21871,
+      "target": 19057,
+      "total": 40928
+    },
+    {
+      "key": "alimeeting/dev/R8009_M8019",
+      "prompt": 26118,
+      "target": 25105,
+      "total": 51223
+    },
+    {
+      "key": "alimeeting/dev/R8009_M8020",
+      "prompt": 25276,
+      "target": 23817,
+      "total": 49093
+    },
+    {
+      "key": "ami/dev/IS1008a",
+      "prompt": 12428,
+      "target": 5827,
+      "total": 18255
+    },
+    {
+      "key": "ami/dev/IS1008b",
+      "prompt": 23386,
+      "target": 10342,
+      "total": 33728
+    },
+    {
+      "key": "ami/dev/IS1008c",
+      "prompt": 20433,
+      "target": 9799,
+      "total": 30232
+    },
+    {
+      "key": "ami/dev/IS1008d",
+      "prompt": 19562,
+      "target": 11439,
+      "total": 31001
+    },
+    {
+      "key": "ami/dev/ES2011a",
+      "prompt": 14679,
+      "target": 7074,
+      "total": 21753
+    },
+    {
+      "key": "ami/dev/ES2011b",
+      "prompt": 20897,
+      "target": 12069,
+      "total": 32966
+    },
+    {
+      "key": "ami/dev/ES2011c",
+      "prompt": 21360,
+      "target": 12911,
+      "total": 34271
+    },
+    {
+      "key": "ami/dev/ES2011d",
+      "prompt": 26231,
+      "target": 14921,
+      "total": 41152
+    },
+    {
+      "key": "ami/dev/TS3004a",
+      "prompt": 17760,
+      "target": 10304,
+      "total": 28064
+    },
+    {
+      "key": "ami/dev/TS3004b",
+      "prompt": 29739,
+      "target": 19066,
+      "total": 48805
+    },
+    {
+      "key": "ami/dev/TS3004c",
+      "prompt": 39368,
+      "target": 22975,
+      "total": 62343
+    },
+    {
+      "key": "ami/dev/TS3004d",
+      "prompt": 36452,
+      "target": 24844,
+      "total": 61296
+    },
+    {
+      "key": "ami/dev/IB4001",
+      "prompt": 23550,
+      "target": 16256,
+      "total": 39806
+    },
+    {
+      "key": "ami/dev/IB4002",
+      "prompt": 24901,
+      "target": 16951,
+      "total": 41852
+    },
+    {
+      "key": "ami/dev/IB4003",
+      "prompt": 26774,
+      "target": 15881,
+      "total": 42655
+    },
+    {
+      "key": "ami/dev/IB4004",
+      "prompt": 31690,
+      "target": 20929,
+      "total": 52619
+    },
+    {
+      "key": "ami/dev/IB4010",
+      "prompt": 39242,
+      "target": 30896,
+      "total": 70138
+    },
+    {
+      "key": "ami/dev/IB4011",
+      "prompt": 32012,
+      "target": 23414,
+      "total": 55426
+    }
+  ],
+  "maximum_total": 70138,
+  "scope": "tokenizer target counts plus frozen prompt lengths; real full CE rechecks actual tensors and EOS"
+}

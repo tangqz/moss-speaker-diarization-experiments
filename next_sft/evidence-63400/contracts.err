@@ -1,0 +1,3 @@
+[transformers] `MossTranscribeDiarizeProcessor` defines `feature_extractor_class = 'AutoFeatureExtractor'`, which is deprecated. Register the correct mapping in `AutoFeatureExtractor` instead.
+Loading weights:   0%|          | 0/683 [00:00<?, ?it/s]Loading weights: 100%|██████████| 683/683 [00:00<00:00, 11889.13it/s]
+[transformers] Passing `generation_config` together with generation-related arguments=({'do_sample', 'max_new_tokens'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.

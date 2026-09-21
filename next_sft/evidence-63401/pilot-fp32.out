@@ -1,0 +1,22 @@
+{"event": "start", "mode": "pilot", "precision": "fp32", "device": 1, "gpu": "NVIDIA A40", "free_gib": 44.16192626953125, "total_gib": 44.423828125, "torch": "2.14.0+cu130"}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 1, "index": 468, "tokens": 45081}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 1, "index": 270, "tokens": 31865}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 1, "index": 85, "tokens": 61920}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 1, "index": 422, "tokens": 34371}
+{"event": "pilot_step", "precision": "fp32", "step": 1, "loss": 0.5253586769104004, "lr": 1e-05, "grad_norm": 5.173759937286377, "seconds": 153.7807178273797, "supervised_tokens": 66609, "peak_allocated_gib": 13.657786846160889, "peak_reserved_gib": 14.31640625}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 2, "index": 243, "tokens": 61178}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 2, "index": 434, "tokens": 49273}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 2, "index": 153, "tokens": 49740}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 2, "index": 512, "tokens": 51290}
+{"event": "pilot_step", "precision": "fp32", "step": 2, "loss": 0.6821165680885315, "lr": 9.975124378109452e-06, "grad_norm": 5.44801139831543, "seconds": 124.46012457087636, "supervised_tokens": 113740, "peak_allocated_gib": 18.965877056121826, "peak_reserved_gib": 19.7265625}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 3, "index": 465, "tokens": 18377}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 3, "index": 150, "tokens": 35756}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 3, "index": 93, "tokens": 50725}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 3, "index": 277, "tokens": 54814}
+{"event": "pilot_step", "precision": "fp32", "step": 3, "loss": 0.47803040593862534, "lr": 9.950248756218906e-06, "grad_norm": 1.5456448793411255, "seconds": 90.37896231561899, "supervised_tokens": 70265, "peak_allocated_gib": 19.295207977294922, "peak_reserved_gib": 20.33203125}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 4, "index": 352, "tokens": 58758}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 4, "index": 74, "tokens": 48599}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 4, "index": 42, "tokens": 41762}
+{"event": "pilot_microbatch", "precision": "fp32", "step": 4, "index": 387, "tokens": 45475}
+{"event": "pilot_step", "precision": "fp32", "step": 4, "loss": 0.479048989713192, "lr": 9.925373134328359e-06, "grad_norm": 1.250400185585022, "seconds": 117.65604171901941, "supervised_tokens": 78555, "peak_allocated_gib": 19.09311819076538, "peak_reserved_gib": 20.33203125}
+{"event": "pilot_complete", "precision": "fp32", "final_validation": [{"key": "ami/dev/IS1008a", "loss": 0.306162565946579, "supervised_tokens": 5827}, {"key": "alimeeting/dev/R8009_M8018", "loss": 0.36531201004981995, "supervised_tokens": 19057}]}

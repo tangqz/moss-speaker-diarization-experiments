@@ -1,0 +1,15 @@
+{
+  "job": 63439,
+  "remote_run": "/work/qt28/moss/results/full-attention-v2-diagnostic-63439",
+  "source_training_job": 63421,
+  "checkpoints": [
+    0,
+    1,
+    10,
+    20
+  ],
+  "key": "ami/dev/TS3004c",
+  "training_updates": 0,
+  "previous_diagnostic_job": 63432,
+  "purpose": "Locate onset before step 25 and recheck original base through the same frozen inference worker."
+}

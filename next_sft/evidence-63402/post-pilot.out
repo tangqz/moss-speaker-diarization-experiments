@@ -1,0 +1,2 @@
+{"event": "post_pilot_model", "training_precision": "bf16", "validation": [{"key": "ami/dev/IS1008a", "loss": 0.32480552792549133, "supervised_tokens": 5827}, {"key": "alimeeting/dev/R8009_M8018", "loss": 0.38536515831947327, "supervised_tokens": 19057}]}
+{"event": "post_pilot_model", "training_precision": "fp32", "validation": [{"key": "ami/dev/IS1008a", "loss": 0.3060290515422821, "supervised_tokens": 5827}, {"key": "alimeeting/dev/R8009_M8018", "loss": 0.3653024137020111, "supervised_tokens": 19057}]}

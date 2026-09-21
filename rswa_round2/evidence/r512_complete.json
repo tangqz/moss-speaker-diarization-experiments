@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "utc": "2026-09-21T10:55:14.793253+00:00",
+  "window": 512,
+  "source_manifest_sha256": "0416cf36196fcc621aa2a4b8e90e036d5b4270824c65f46386c8cebba152ea98",
+  "scope": "SP4 forward/backward, inference kernel, eviction, penalty and 1026-token real-MOSS smoke replay",
+  "quality_claim": false
+}

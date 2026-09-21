@@ -1,0 +1,1514 @@
+{
+  "archive": "/work/qt28/moss/results/moss-rswa-20260920/closure/evidence_before_cleanup.tar.gz",
+  "archive_bytes": 311773938,
+  "archive_sha256": "d87bd2abe5421768f8aeafda3f8fd5074435e84051c5633c8cc9fcc8820ae110",
+  "removed": [
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/128-seed0/step-10/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/128-seed0/step-100/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/128-seed0/step-20/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/128-seed0/step-30/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/128-seed0/step-40/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/128-seed0/step-50/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/128-seed0/step-60/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/128-seed0/step-70/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/128-seed0/step-80/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/128-seed0/step-90/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-10/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-100/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-120/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-140/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-150/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-20/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-30/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-40/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-50/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-60/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-70/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-80/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-90/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-seed0/step-10/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-seed0/step-100/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-seed0/step-20/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-seed0/step-30/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-seed0/step-40/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-seed0/step-50/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-seed0/step-60/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-seed0/step-70/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-seed0/step-80/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-seed0/step-90/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-to-128/inference_model/model.safetensors",
+      "bytes": 3634139832,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-10/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-10/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-10/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-10/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-10/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-10/training_args.bin",
+      "bytes": 7697,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-100/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-100/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-100/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-100/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-100/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-100/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-100/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-100/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-100/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-20/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-20/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-20/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-20/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-20/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-20/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-30/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-30/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-30/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-30/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-30/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-30/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-30/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-30/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-40/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-40/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-40/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-40/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-40/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-40/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-5/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-5/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-5/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-5/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-5/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-5/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-5/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-5/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-5/training_args.bin",
+      "bytes": 7697,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-50/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-50/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-50/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-50/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-50/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-50/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-60/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-60/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-60/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-60/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-60/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-60/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-70/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-70/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-70/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-70/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-70/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-70/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-80/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-80/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-80/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-80/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-80/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-80/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-90/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-90/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-90/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-90/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-90/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-90/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-90/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-90/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-90/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-10/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-10/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-10/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-10/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-10/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-10/training_args.bin",
+      "bytes": 7697,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-100/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-100/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-100/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-100/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-100/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-100/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-100/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-100/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-100/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-110/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-110/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-110/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-110/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-110/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-110/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-120/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-120/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-120/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-120/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-120/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-120/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-130/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-130/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-130/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-130/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-130/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-130/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-140/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-140/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-140/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-140/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-140/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-140/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-140/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-140/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-140/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-150/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-150/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-150/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-150/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-150/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-150/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-150/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-150/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-20/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-20/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-20/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-20/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-20/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-20/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-30/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-30/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-30/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-30/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-30/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-30/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-30/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-30/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-30/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-40/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-40/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-40/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-40/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-40/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-40/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-5/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-5/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-5/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-5/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-5/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-5/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-5/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-5/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-5/training_args.bin",
+      "bytes": 7697,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-50/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-50/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-50/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-50/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-50/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-50/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-60/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-60/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-60/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-60/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-60/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-60/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-70/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-70/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-70/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-70/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-70/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-70/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-80/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-80/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-80/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-80/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-80/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-80/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-90/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-90/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-90/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-90/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-90/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-90/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-10/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-10/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-10/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-10/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-10/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-10/training_args.bin",
+      "bytes": 7697,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-100/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-100/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-100/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-100/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-100/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-100/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-100/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-100/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-100/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-20/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-20/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-20/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-20/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-20/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-20/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-40/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-40/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-40/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-40/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-40/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-40/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-5/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-5/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-5/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-5/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-5/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-5/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-5/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-5/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-5/training_args.bin",
+      "bytes": 7697,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-50/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-50/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-50/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-50/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-50/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-50/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-60/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-60/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-60/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-60/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-60/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-60/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-70/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-70/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-70/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-70/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-70/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-70/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-80/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-80/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-80/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-80/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-80/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-80/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-80/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-80/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-80/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-90/model.safetensors",
+      "bytes": 4256469912,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-90/optimizer.bin",
+      "bytes": 7268766608,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-90/pytorch_model_fsdp.bin",
+      "bytes": 4256734413,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-90/rng_state_0.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-90/rng_state_1.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-90/rng_state_2.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-90/rng_state_3.pth",
+      "bytes": 15365,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-90/scheduler.pt",
+      "bytes": 1465,
+      "symlink": false
+    },
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-90/training_args.bin",
+      "bytes": 7825,
+      "symlink": false
+    }
+  ],
+  "freed_bytes": 433896868074,
+  "complete": true
+}

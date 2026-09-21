@@ -1,0 +1,23 @@
+{
+  "event": "63441-production-reevaluation-completed-quality-failed-and-delivered",
+  "notification_delivery": "emitted_in_this_turn_final",
+  "notification_utc": "2026-09-13T00:16:03.899896+00:00",
+  "training_job": 63421,
+  "training_status": "paused_for_sentinel_failure",
+  "completed_diagnostic_jobs": [
+    63432,
+    63439,
+    63440,
+    63441
+  ],
+  "active_diagnostic_job": null,
+  "phase_report": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\stage50-report\\MOSS_50步阶段报告.html",
+  "phase_report_sha256": "5472d1a257c365547300505517ab1fd83b038046794e32e54c824d41b3d96b95",
+  "phase_delivery_complete": true,
+  "full_training_complete": false,
+  "automation_id": "moss",
+  "automation_stop_pending": true,
+  "automation_stop_tool_available": false,
+  "quiet_completion_guard": true,
+  "next_notify": "No routine repeats. Delete moss through automation_update if it becomes available; otherwise DONT_NOTIFY. Follow a new user request if task scope changes."
+}

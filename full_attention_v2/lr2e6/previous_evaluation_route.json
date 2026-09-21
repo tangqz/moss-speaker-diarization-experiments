@@ -1,0 +1,67 @@
+{
+  "active_task": "full_attention_v2",
+  "training_job": 63421,
+  "remote_run": "/work/qt28/moss/results/full-attention-v2-63421",
+  "current_run_file": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\current_run.json",
+  "followup_file": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\FOLLOWUP.md",
+  "delivery_complete": false,
+  "automation_id": "moss",
+  "automation_prompt_update_pending": false,
+  "previous_delivery": {
+    "training_job": 62994,
+    "evaluation_job": 63363,
+    "remote_run": "/work/qt28/moss/results/eval-62994-63363",
+    "previous_attempts": [
+      {
+        "job": 63361,
+        "reason": "preflight assumed unsharded original weights; fixed"
+      }
+    ],
+    "control_path": "C:/Users/qizhi/.ssh/cm-moss-check-20260912",
+    "expected_meetings": 82,
+    "expected_predictions": 164,
+    "download_all_logs_after_completion": true,
+    "create_visual_report_after_completion": true,
+    "automation_id": "moss",
+    "delivery_complete": true,
+    "local_artifact": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363",
+    "report_verified": true,
+    "automation_stop_pending": true
+  },
+  "previous_attempts": [
+    {
+      "job": 63415,
+      "status": "OUT_OF_MEMORY",
+      "last_complete_step": 15,
+      "resumable_checkpoint": false,
+      "logs_verified": true
+    }
+  ],
+  "training_status": "paused_for_sentinel_failure",
+  "last_train_step": 50,
+  "diagnostic_job": 63441,
+  "diagnostic_run": "/work/qt28/moss/results/full-attention-v2-diagnostic-63441",
+  "diagnostic_current_run_file": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\diagnostics\\current_run.json",
+  "phase_report": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\stage50-report\\MOSS_50步阶段报告.html",
+  "phase_report_verified": true,
+  "updated_utc": "2026-09-13T00:14:52.203148+00:00",
+  "last_completed_diagnostic_job": 63441,
+  "diagnostic_status": "completed",
+  "phase_report_sha256": "5472d1a257c365547300505517ab1fd83b038046794e32e54c824d41b3d96b95",
+  "phase_report_updated_utc": "2026-09-13T00:14:52.203148+00:00",
+  "last_quiet_check_utc": "2026-09-12T23:01:45.154525+00:00",
+  "completed_early_job": 63439,
+  "evaluation_note": "生产入口完整复评 63441 已完成：base 整场 26,337 token 与历史完全相同；第 50 步仍有 2/6 场截断，第 10 步另有标签循环。正式训练保持第 50 步暂停。更正后的指标见 production_eval_63441；旧 sentinel 曲线保留为原预处理路径诊断。",
+  "production_comparison_requires_reevaluation": false,
+  "active_diagnostic_job": null,
+  "phase_delivery_complete": true,
+  "production_quality_eligible": false,
+  "automation_stop_pending": true,
+  "automation_stop_reason": "No active monitored jobs; corrected evaluation archived and delivered, training remains quality-paused.",
+  "next_trial_plan": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\diagnostics\\下一次学习率单因素短对照.md",
+  "production_evaluation": {
+    "job": 63441,
+    "local_run": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run",
+    "archive_sha256": "def0038986fad3350a75ff487c7f2b2c4d8f54531d73579e91218581a48c6e89"
+  }
+}

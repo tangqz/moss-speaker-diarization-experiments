@@ -1,0 +1,5 @@
+{
+  "uploaded": 24,
+  "source_manifest_sha256": "aa39b789b16b2a6914eaaf994ed62d353560647b61d5f5704683708fe7cceba0",
+  "checks": "TRIAL_SOURCE_AND_FAIL_CLOSED_QUALITY_CHECKS_PASS"
+}

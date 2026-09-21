@@ -1,0 +1,88 @@
+{
+  "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-140",
+  "functional": false,
+  "failures": [
+    {
+      "key": "alimeeting/dev/R8001_M8004",
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    }
+  ],
+  "S": 64.72676547058879,
+  "ce": null,
+  "RTF": 0.07528643972178227,
+  "corpora": {
+    "alimeeting": {
+      "completed": 3,
+      "expected": 3,
+      "coverage": 1.0,
+      "complete": true,
+      "truncated": 0,
+      "empty_predictions": 0,
+      "reference_characters": 28020,
+      "character_errors": 9787,
+      "cp_character_errors": 19406,
+      "CER": 0.34928622412562454,
+      "cpCER": 0.6925767309064954,
+      "DeltaCP": 0.3432905067808708,
+      "audio_hours": 1.518882638888889,
+      "processing_hours": 0.11678007190529671,
+      "RTF": 0.07688551367650437,
+      "audio_seconds_per_processing_second": 13.006351290146775,
+      "max_peak_allocated_gib": 25.996029376983643,
+      "DER_collar_0": {
+        "total": 6010.9099999999835,
+        "confusion": 1387.8600000000001,
+        "missed detection": 1528.9199999999987,
+        "false alarm": 257.06000000000074,
+        "correct": 3094.129999999987,
+        "DER": 0.5280132292780974
+      },
+      "DER_collar_0.25": {
+        "total": 4931.229999999989,
+        "confusion": 1171.475000000001,
+        "missed detection": 1109.909999999997,
+        "false alarm": 103.82000000000185,
+        "correct": 2649.844999999991,
+        "DER": 0.48369372347264383
+      }
+    },
+    "ami": {
+      "completed": 3,
+      "expected": 3,
+      "coverage": 1.0,
+      "complete": true,
+      "truncated": 0,
+      "empty_predictions": 0,
+      "reference_characters": 51912,
+      "character_errors": 8815,
+      "cp_character_errors": 43409,
+      "CER": 0.16980659577746957,
+      "cpCER": 0.8362035752812452,
+      "DeltaCP": 0.6663969795037756,
+      "audio_hours": 1.6100559201388889,
+      "processing_hours": 0.11878657231210835,
+      "RTF": 0.07377791716815736,
+      "audio_seconds_per_processing_second": 13.554191259164485,
+      "max_peak_allocated_gib": 26.830669403076172,
+      "DER_collar_0": {
+        "total": 4594.3399999999965,
+        "confusion": 1888.439999999995,
+        "missed detection": 494.91999999999985,
+        "false alarm": 499.64999999999986,
+        "correct": 2210.980000000002,
+        "DER": 0.6275134186847288
+      },
+      "DER_collar_0.25": {
+        "total": 3905.200000000004,
+        "confusion": 1585.6550000000007,
+        "missed detection": 343.5950000000009,
+        "false alarm": 322.47499999999945,
+        "correct": 1975.9500000000023,
+        "DER": 0.5765965891631667
+      }
+    }
+  }
+}

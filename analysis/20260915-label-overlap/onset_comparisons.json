@@ -1,0 +1,4605 @@
+[
+  {
+    "original_case_index": 16,
+    "key": "alimeeting/test/R8005_M8009",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\predictions\\sft\\alimeeting\\test\\R8005_M8009.json",
+    "source_sha256": "ddebe4cb7de2bce000de021d815477a2cdb6c1c36bbacfa8be58925386472302",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\references.json",
+    "model_path": "/work/qt28/moss/results/ms-swift-63521/vllm_exports/checkpoint-20",
+    "generated_anchor_seconds": 983.61,
+    "generated_before_stable_loop": ".01][S04]啊，送东西。[919.38][919.48][S02]他送到家也可以，嗯。[921.68][920.84][S03]嗯。[921.28][921.31][S04]送东西。[922.11][924.31][S02]啊。[924.88][926.11][S04]对。[926.58][926.38][S02]啊，对。[927.21][929.84][S04]还得，还得双十一，还有这个，我觉得很麻烦的，还得，还得输入地址，还得那什么，这得给这这样分啊，对吧，那那那那什么，啊。[941.71][930.21][S03]行，那也行，那。[932.08][930.21][S02]对，对。[931.11][934.48][S01]不麻烦。[935.21][938.61][S01]不是，是这样，不是，不是，他给你们一张卡，你们可以在在这里头选套餐，把你地址给写上，写上以后呢，双十一咱们打折，还能，是吗，是吧，咱们可以多买点儿嘛。[951.11][945.74][S04]嗯。[946.11][948.38][S04]这样，这打标签儿。[949.81][951.41][S04]对，啊，那，那那，那那，找一人，就是你，你一个人就分场呗，场三十份儿。[958.51][951.58][S01]品种多买点儿，便宜就多买点儿嘛。[953.81][957.68][S01]呃，不用不用不用，就那像双十一哪家都有，那我就咱们几个人商量是在京东买，淘宝买，还是京东买，还是小双十一。[968.01][959.78][S04]那，那。[960.51][961.51][S04]对啊。[961.98][963.68][S02]对。[964.01][965.81][S03]淘宝，淘淘宝好一点儿吧。[967.61][967.58][S02]反正现在年轻人淘宝比较火，是吧，啊。[972.21][969.61][S03]淘宝是吧，嗯。[971.21][970.84][S01]呃，京东比较靠谱，对吧，但是京东就是稍微贵一点儿，可能包括，其实都最便宜，但是京东。[978.41][972.64][S04]京东的，对，比较，对，京东贵点儿。[976.11][972.68][S03]京东啊。[973.41][976.38][S03]贵，贵点儿。[977.01][978.34][S03]贵点儿质量，贵点儿质量好也行。[980.81][978.61][S04]对，对，对，对。[980.81][979.11][S02]对，对。[980.81][980.21][S01]还有。[980.81][980.31][S02]对，我感觉。[981.21][981.41][S02]他多，假货比较多。[983.71][983.61][S01]呃，假货他现在整体这个，货大家也得会会买，拼多多也有，真的，知道吗，就买那假一赔十的，",
+    "generated_stable_loop_start": "外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外",
+    "reference_context": [
+      {
+        "start": 967.63,
+        "end": 973.63,
+        "speaker": "S04",
+        "text": "好像现在年轻人淘宝比较多，是吗？啊，啊。"
+      },
+      {
+        "start": 969.72,
+        "end": 971.26,
+        "speaker": "S03",
+        "text": "淘宝是吧嗯。"
+      },
+      {
+        "start": 970.92,
+        "end": 981.31,
+        "speaker": "S01",
+        "text": "呃，京东比较靠谱儿，啊比较但是京东就是稍微贵一点儿，要比淘宝，拼多多最便宜但屯民多假货多一些，但也有好的。"
+      },
+      {
+        "start": 972.7,
+        "end": 977.76,
+        "speaker": "S02",
+        "text": "京东的东西比较实惠啊，京东比较贵一点啊。哦嗯。"
+      },
+      {
+        "start": 972.77,
+        "end": 973.39,
+        "speaker": "S03",
+        "text": "京东啊。"
+      },
+      {
+        "start": 976.21,
+        "end": 980.75,
+        "speaker": "S03",
+        "text": "啊贵贵点儿啊这，贵点儿质量贵点儿质量好也行。"
+      },
+      {
+        "start": 978.65,
+        "end": 982.14,
+        "speaker": "S02",
+        "text": "拼多多拼多多质量不行，啊拼多多质量不行啊。"
+      },
+      {
+        "start": 979.88,
+        "end": 983.84,
+        "speaker": "S04",
+        "text": "拼多多，拼多多他不说假货比较多吗？"
+      },
+      {
+        "start": 983.66,
+        "end": 994.21,
+        "speaker": "S01",
+        "text": "唉假货到现在整理的也不错，但你也得会淘会买拼多多也有真的，知道吗？就买那假一赔十的，买的时候问你是假一赔十吗是，哎这个可以买。"
+      },
+      {
+        "start": 983.79,
+        "end": 986.17,
+        "speaker": "S02",
+        "text": "嗯嗯。嗯，是。"
+      },
+      {
+        "start": 984.91,
+        "end": 985.45,
+        "speaker": "S04",
+        "text": "不知道。"
+      },
+      {
+        "start": 988.71,
+        "end": 989.62,
+        "speaker": "S02",
+        "text": "哦对对对。"
+      },
+      {
+        "start": 990.45,
+        "end": 991.32,
+        "speaker": "S04",
+        "text": "对对对对。"
+      },
+      {
+        "start": 990.85,
+        "end": 991.66,
+        "speaker": "S02",
+        "text": "嗯对啊。"
+      },
+      {
+        "start": 990.95,
+        "end": 992.4,
+        "speaker": "S03",
+        "text": "嘿那行那行。"
+      },
+      {
+        "start": 992.48,
+        "end": 993.0,
+        "speaker": "S04",
+        "text": "啊这。"
+      },
+      {
+        "start": 992.66,
+        "end": 994.68,
+        "speaker": "S02",
+        "text": "啊这边啊在这块。"
+      },
+      {
+        "start": 994.32,
+        "end": 996.53,
+        "speaker": "S04",
+        "text": "那真的牌子了你们，你真正买假了？"
+      },
+      {
+        "start": 995.65,
+        "end": 1003.09,
+        "speaker": "S01",
+        "text": "赔当然赔，他有三管监法呀，三管那个在监管呀，三方的监管，他是你买了完了他可以退呀。"
+      },
+      {
+        "start": 996.96,
+        "end": 1002.89,
+        "speaker": "S02",
+        "text": "啊我有有有有啊。这个没找到了那那那可能是啊，没事儿啊。"
+      },
+      {
+        "start": 1001.64,
+        "end": 1009.46,
+        "speaker": "S04",
+        "text": "那这不是咱们一般都是呃少找麻烦吗？对不对，你那不是麻烦吗？对不对？啊。"
+      },
+      {
+        "start": 1005.39,
+        "end": 1008.64,
+        "speaker": "S01",
+        "text": "呃，这不要怕，嗯嗯嗯。"
+      },
+      {
+        "start": 1006.9,
+        "end": 1014.85,
+        "speaker": "S02",
+        "text": "对对对。确实是。是是是双十一完了反正那节过节反正就是打折抢购。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\predictions\\base\\alimeeting\\test\\R8005_M8009.json",
+    "base_context": [
+      {
+        "start": 978.34,
+        "end": 980.81,
+        "speaker": "S03",
+        "text": "贵点儿质量，贵点儿质量好也行。"
+      },
+      {
+        "start": 978.61,
+        "end": 980.84,
+        "speaker": "S04",
+        "text": "对，对，对，对。"
+      },
+      {
+        "start": 979.11,
+        "end": 980.81,
+        "speaker": "S02",
+        "text": "对，对。"
+      },
+      {
+        "start": 980.24,
+        "end": 980.81,
+        "speaker": "S01",
+        "text": "还有。"
+      },
+      {
+        "start": 980.31,
+        "end": 983.71,
+        "speaker": "S02",
+        "text": "对，我，我，我，假货比较多。"
+      },
+      {
+        "start": 983.61,
+        "end": 993.91,
+        "speaker": "S01",
+        "text": "呃，假货他现在整体的，货，大家也得会会买，拼多多也有，真的，知道吗，就买那假一赔十的，外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外。"
+      },
+      {
+        "start": 984.88,
+        "end": 985.51,
+        "speaker": "S02",
+        "text": "不知道。"
+      },
+      {
+        "start": 985.74,
+        "end": 986.14,
+        "speaker": "S04",
+        "text": "是。"
+      },
+      {
+        "start": 987.21,
+        "end": 987.64,
+        "speaker": "S04",
+        "text": "对。"
+      },
+      {
+        "start": 988.64,
+        "end": 989.44,
+        "speaker": "S04",
+        "text": "对，对对。"
+      },
+      {
+        "start": 990.31,
+        "end": 991.11,
+        "speaker": "S02",
+        "text": "对对对。"
+      },
+      {
+        "start": 990.88,
+        "end": 992.41,
+        "speaker": "S03",
+        "text": "嘿，那行，那行。"
+      },
+      {
+        "start": 992.84,
+        "end": 994.51,
+        "speaker": "S04",
+        "text": "对对，对对。"
+      },
+      {
+        "start": 994.21,
+        "end": 996.51,
+        "speaker": "S02",
+        "text": "他真的赔得了你吗，你真不买假。"
+      },
+      {
+        "start": 995.58,
+        "end": 1003.11,
+        "speaker": "S01",
+        "text": "还，他卖卖，他有三关监法呀，三关这个的监管呀，什么的，监管，他是你反正他可以买呀。"
+      },
+      {
+        "start": 997.81,
+        "end": 998.84,
+        "speaker": "S04",
+        "text": "对对对。"
+      },
+      {
+        "start": 999.54,
+        "end": 1001.84,
+        "speaker": "S04",
+        "text": "这个，那，那，那，那，对。"
+      },
+      {
+        "start": 1001.61,
+        "end": 1009.31,
+        "speaker": "S02",
+        "text": "那，这不咱们一般都，是，呃，少少麻烦嘛，对不对，他麻烦嘛，对不对，嗯。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "temperature": 0,
+      "repetition_penalty": 1,
+      "presence_penalty": 0,
+      "frequency_penalty": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "dtype": "bfloat16",
+      "eos_token_id": 151645
+    },
+    "sft_decoding": {
+      "temperature": 0,
+      "repetition_penalty": 1,
+      "presence_penalty": 0,
+      "frequency_penalty": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "dtype": "bfloat16",
+      "eos_token_id": 151645
+    },
+    "equal_initial_prompt_hash": true,
+    "repeat_unit": "外",
+    "sft_max_consecutive_unit_count": 48230,
+    "base_max_consecutive_unit_count": 75
+  },
+  {
+    "original_case_index": 17,
+    "key": "alimeeting/test/R8005_M8008",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\predictions\\sft\\alimeeting\\test\\R8005_M8008.json",
+    "source_sha256": "4a8120fd3d6c8f753368112be0b12b077bb1a89ee197607967f18136162cb50b",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\references.json",
+    "model_path": "/work/qt28/moss/results/ms-swift-63521/vllm_exports/checkpoint-20",
+    "generated_anchor_seconds": 1458.88,
+    "generated_before_stable_loop": "是一个，要不你就做，你你在那个网络线上你只能做一种，叫做跑腿儿代购，你只能跟这个品牌合作。[1384.61][1384.46][S04]不是外卖也可以，外卖也可以的，就比如说您在这个比如说三公里范围内，如果点了我家店的话，可能我是可以给你配送的。[1392.38][1391.18][S03]啊这个很有可能带责任。[1394.21][1393.51][S01]而且而且这其中又涉及到这个运输过程当中的一个技术问题，比如说冰激凌怎样才能。[1399.55][1399.95][S04]冷藏那。[1401.02][1400.68][S03]冷链物流。[1401.68][1401.78][S01]对，这个这个技术问题能不能解决？[1405.72][1402.34][S02]但。[1402.75][1406.28][S03]反正现目前大街上这这这些。[1410.08][1407.35][S04]这个一般就是点过去。[1409.02][1408.61][S02]这个没办法在在那去做。[1410.68][1411.40][S03]有的有的实体店原组，就是有一个原组的那个冷饮店是这么操作的啊，快递员来我的店里取货，我是会额外再给他一个保温箱的，你把这保温箱拿走就行了，然后再来我店里取货的时候，把这个保温箱还给我，是这样的。[1428.61][1422.68][S04]对对对，就是。[1423.82][1423.15][S02]对，它是一个冷冻箱，然后里面有冰袋。[1425.75][1427.52][S01]嗯你比如你比如说我们就是我们如果是卖冰激凌的话，他有有人线上下单，我们就是线下线下可以就是用那种用那种比如说像盒马生鲜，他有那种冰袋。[1440.44][1436.25][S03]可。[1436.71][1438.98][S03]可以这么操作。[1440.45][1439.41][S02]用冰袋那个可以去做，但是对，可以去做。[1443.51][1441.00][S01]冰袋。[1441.58][1441.30][S04]可以的，它有。[1443.08][1442.11][S03]但是你得，但是你得保证这快递员把这箱再给你还回来啊。[1446.41][1444.12][S04]距离。[1444.72][1445.96][S04]呃距离限制它是很重要的。[1448.02][1447.92][S01]对，给他寄过去，反正只要是客户有这个需求的话，我们一定要做到。[1452.02][1451.98][S03]啊其实到现在倒是也行，买个那个肉什么的，生肉都能。[1456.51][1456.78][S04]这个真的是分距离的，就是。[1458.88][1457.85][S03]啊。[1458.25][1458.48][S02]对，生鲜配送这个是可以的。[1460.65][1458.70",
+    "generated_stable_loop_start": "][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88",
+    "reference_context": [
+      {
+        "start": 1442.3,
+        "end": 1446.41,
+        "speaker": "S03",
+        "text": "但是你怎么但是你得保证这快递员把这箱子再给你还回来啊。"
+      },
+      {
+        "start": 1444.25,
+        "end": 1444.77,
+        "speaker": "S04",
+        "text": "距离。"
+      },
+      {
+        "start": 1446.12,
+        "end": 1448.07,
+        "speaker": "S04",
+        "text": "呃距离限制他还是很重要的。"
+      },
+      {
+        "start": 1448.08,
+        "end": 1452.02,
+        "speaker": "S01",
+        "text": "对给他寄过去，反正只要是客户有这个需求的话我们一定要做到。"
+      },
+      {
+        "start": 1452.1,
+        "end": 1456.4,
+        "speaker": "S03",
+        "text": "啊其实到现在倒是也行，买个那个肉什么的生肉都能。"
+      },
+      {
+        "start": 1456.95,
+        "end": 1458.85,
+        "speaker": "S04",
+        "text": "这个真的是分距离的，就是。"
+      },
+      {
+        "start": 1458.0,
+        "end": 1461.42,
+        "speaker": "S03",
+        "text": "哦没有我从我从山东买的。"
+      },
+      {
+        "start": 1458.64,
+        "end": 1460.63,
+        "speaker": "S02",
+        "text": "对生鲜配送这是可以的。"
+      },
+      {
+        "start": 1461.29,
+        "end": 1465.2,
+        "speaker": "S04",
+        "text": "那个我在东北是可以买这个冷饮就是跨省的。"
+      },
+      {
+        "start": 1462.38,
+        "end": 1463.39,
+        "speaker": "S03",
+        "text": "照样儿给我送过来了。"
+      },
+      {
+        "start": 1463.78,
+        "end": 1464.13,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 1465.5,
+        "end": 1466.25,
+        "speaker": "S01",
+        "text": "然后可以。"
+      },
+      {
+        "start": 1465.67,
+        "end": 1467.7,
+        "speaker": "S03",
+        "text": "不是，它是那顺丰冷链，可以。"
+      },
+      {
+        "start": 1466.03,
+        "end": 1467.85,
+        "speaker": "S02",
+        "text": "哦，对对，这些都可以没有问题。"
+      },
+      {
+        "start": 1468.01,
+        "end": 1468.23,
+        "speaker": "S04",
+        "text": "对。"
+      },
+      {
+        "start": 1468.3,
+        "end": 1474.43,
+        "speaker": "S01",
+        "text": "然后我们实体店还有一个就是有有还有一个优势，就是可以直接体验到这个产品。"
+      },
+      {
+        "start": 1474.58,
+        "end": 1476.62,
+        "speaker": "S03",
+        "text": "对呀呃卖衣裳的可以试。"
+      },
+      {
+        "start": 1476.94,
+        "end": 1485.46,
+        "speaker": "S02",
+        "text": "体验产品，不好多东西我不一定非要试，然后我在里面，比如说做一个虚拟镜子，然后人一站到我喜欢哪个衣服然后直接上身，这多好。"
+      },
+      {
+        "start": 1483.15,
+        "end": 1483.38,
+        "speaker": "S01",
+        "text": "对。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\predictions\\base\\alimeeting\\test\\R8005_M8008.json",
+    "base_context": [
+      {
+        "start": 1451.98,
+        "end": 1456.51,
+        "speaker": "S03",
+        "text": "啊其实到现在倒是也行，买个那个肉什么的，生肉都能。"
+      },
+      {
+        "start": 1456.88,
+        "end": 1458.91,
+        "speaker": "S04",
+        "text": "这个真的是分距离的，就是。"
+      },
+      {
+        "start": 1457.91,
+        "end": 1458.29,
+        "speaker": "S03",
+        "text": "啊。"
+      },
+      {
+        "start": 1458.58,
+        "end": 1460.71,
+        "speaker": "S02",
+        "text": "对，生鲜配送这个是可以的。"
+      },
+      {
+        "start": 1458.81,
+        "end": 1461.41,
+        "speaker": "S03",
+        "text": "没有，我从我从山东买的。"
+      },
+      {
+        "start": 1461.21,
+        "end": 1465.21,
+        "speaker": "S04",
+        "text": "那个我在东北是可以买这个冷饮，就是挎什么的。"
+      },
+      {
+        "start": 1462.31,
+        "end": 1463.49,
+        "speaker": "S03",
+        "text": "对外给我送过来的。"
+      },
+      {
+        "start": 1463.71,
+        "end": 1464.21,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 1465.41,
+        "end": 1466.11,
+        "speaker": "S01",
+        "text": "然后可以。"
+      },
+      {
+        "start": 1465.61,
+        "end": 1467.91,
+        "speaker": "S02",
+        "text": "不，哦对对，这些都可以，没有问题。"
+      },
+      {
+        "start": 1465.91,
+        "end": 1467.71,
+        "speaker": "S03",
+        "text": "就是纯送冷链，可以。"
+      },
+      {
+        "start": 1467.91,
+        "end": 1468.31,
+        "speaker": "S04",
+        "text": "对。"
+      },
+      {
+        "start": 1468.21,
+        "end": 1474.45,
+        "speaker": "S01",
+        "text": "然后我们实体店还有一个就是也也还有一个优势，就是可以直接体验到这个产品。"
+      },
+      {
+        "start": 1474.48,
+        "end": 1476.71,
+        "speaker": "S03",
+        "text": "对呀，呃卖衣裳你可以试。"
+      },
+      {
+        "start": 1476.88,
+        "end": 1485.51,
+        "speaker": "S02",
+        "text": "体验产品不好多东西我不一定非要试，然后我在里面比如说做一个虚拟镜子，然后人一站那，我喜欢哪个衣服，然后直接上身，这多好。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "temperature": 0,
+      "repetition_penalty": 1,
+      "presence_penalty": 0,
+      "frequency_penalty": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "dtype": "bfloat16",
+      "eos_token_id": 151645
+    },
+    "sft_decoding": {
+      "temperature": 0,
+      "repetition_penalty": 1,
+      "presence_penalty": 0,
+      "frequency_penalty": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "dtype": "bfloat16",
+      "eos_token_id": 151645
+    },
+    "equal_initial_prompt_hash": true
+  },
+  {
+    "original_case_index": 20,
+    "key": "alimeeting/dev/R8003_M8001",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\dev-40\\predictions\\sft\\alimeeting\\dev\\R8003_M8001.json",
+    "source_sha256": "0514affdfc76d7a2622d9177aa3eedeb6c4fc16e9365e9433c8aef21748b6093",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\dev-40\\references.json",
+    "model_path": "/work/qt28/moss/results/ms-swift-63521/vllm_exports/checkpoint-40",
+    "generated_anchor_seconds": 1322.01,
+    "generated_before_stable_loop": "不太合适，咱们就大方向往家里送。[1234.31][1229.21][S01]嗯。[1229.68][1234.71][S01]对。[1235.05][1235.26][S02]家里送呢这样的话又避免了这个三十个二十个学生，一个班的有送有不送的这种情况，啊也表明了自己送的心意，因为就像结婚份子似的。[1246.60][1242.07][S01]嗯。[1242.45][1246.98][S02]那比如说他谁结婚，那比如说都是朋友，那这五个朋友一起送，有出两百份子的，有出五百份子的，那五百份子那个人他就不平衡，所以说就各送各的。[1259.71][1251.00][S01]嗯。[1251.35][1260.26][S02]然后呢又避免了去学校，啊然后比如说对老师的打扰啊，咱们最好能把地址要到自己送到家里，这样的话也避免了学校别的老师去说三道四。[1275.15][1271.21][S01]对。[1271.58][1275.73][S03]我觉得给王老师要地址，一般的心就是纪律性的还是比较大的。[1282.45][1276.58][S01]对是。[1277.18][1283.33][S02]对。[1283.65][1284.25][S01]就是能提供的是吧？[1285.55][1285.35][S03]对我觉得纪律性还是比较大的，对。[1287.85][1286.24][S04]老师一般的跟家长都得有沟通，都得有沟通。[1290.27][1286.31][S01]对。[1286.71][1289.10][S03]都是有。[1289.71][1290.05][S01]对，但是这个如果说换作是我，反正我肯定不提供，因为这涉及隐私了，你说孩子你你你这个孩子的家长到时候你把我的这个地址你公布给别人了怎么办？[1299.78][1299.11][S03]我是更我确实更喜欢是由当面交给老师这种的，要是说晚上接送孩子，然后跟跟家跟老师有有比方说沟通交通学习啊，沟通孩子的学习啊这一这一系列的吧，然后把把东西交给老师当面给。[1314.88][1315.38][S04]现在都是都是公众，都是公众。[1319.31][1315.41][S01]当面给。[1316.04][1316.51][S02]嗯。[1316.95][1317.05][S03]对。[1317.41][1318.40][S02]对。[1318.97][1319.51][S03]都是公。[1320.15][1319.58][S04]都是场合儿。[1320.58][1320.20][S01]确实是，嗯。[1321.35][1321.08][S02]都是公众场合儿。[1322.07][1321.14][S04]所以如果你给老师什么东西，你要跟老师接触，好多人那儿都看着呢，人家老师也也不太怕。[1328.27][1321.8",
+    "generated_stable_loop_start": "1][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.0",
+    "reference_context": [
+      {
+        "start": 1298.95,
+        "end": 1309.52,
+        "speaker": "S03",
+        "text": "其实我是更，我其实更喜欢是由当面交给老师这种的，假如说晚上接送孩子，然后跟跟家，跟老师有有，比方说沟通交通学习啊。"
+      },
+      {
+        "start": 1309.86,
+        "end": 1314.84,
+        "speaker": "S03",
+        "text": "沟通孩子的学习啊，这这一系列的吧，然后把把东西交给老师，当面给。"
+      },
+      {
+        "start": 1315.49,
+        "end": 1316.02,
+        "speaker": "S01",
+        "text": "都免费。"
+      },
+      {
+        "start": 1315.51,
+        "end": 1328.38,
+        "speaker": "S04",
+        "text": "现在都是都是公众都是公众场合儿，你不管你给老师什么东西，你要跟老师接触好多人那都看着呢，人家老师也也是害怕的。"
+      },
+      {
+        "start": 1316.53,
+        "end": 1317.0,
+        "speaker": "S02",
+        "text": "嗯。"
+      },
+      {
+        "start": 1317.11,
+        "end": 1317.38,
+        "speaker": "S03",
+        "text": "对。"
+      },
+      {
+        "start": 1318.45,
+        "end": 1318.91,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 1319.61,
+        "end": 1324.37,
+        "speaker": "S03",
+        "text": "都是公，嗯，对公众，都都是公众场合，对，就。"
+      },
+      {
+        "start": 1319.67,
+        "end": 1320.08,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 1320.3,
+        "end": 1321.34,
+        "speaker": "S01",
+        "text": "确实是，嗯。"
+      },
+      {
+        "start": 1320.68,
+        "end": 1322.16,
+        "speaker": "S02",
+        "text": "嗯，都是公众场合。"
+      },
+      {
+        "start": 1325.81,
+        "end": 1326.31,
+        "speaker": "S02",
+        "text": "没错。"
+      },
+      {
+        "start": 1326.73,
+        "end": 1327.36,
+        "speaker": "S03",
+        "text": "嗯。"
+      },
+      {
+        "start": 1327.75,
+        "end": 1331.52,
+        "speaker": "S02",
+        "text": "咱们也要主主一观形态的去保护老师嘛。"
+      },
+      {
+        "start": 1331.73,
+        "end": 1338.85,
+        "speaker": "S04",
+        "text": "对因为主要是咱们送东西是是咱们的心意，但是主要人老师这个影响不影响人家。"
+      },
+      {
+        "start": 1331.79,
+        "end": 1333.02,
+        "speaker": "S01",
+        "text": "对，对对对。"
+      },
+      {
+        "start": 1335.15,
+        "end": 1335.27,
+        "speaker": "S03",
+        "text": "其。"
+      },
+      {
+        "start": 1335.23,
+        "end": 1335.55,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 1339.23,
+        "end": 1343.97,
+        "speaker": "S02",
+        "text": "对，别因为教师节人之后这个影响教学了。"
+      },
+      {
+        "start": 1339.78,
+        "end": 1340.31,
+        "speaker": "S04",
+        "text": "是不是。"
+      },
+      {
+        "start": 1342.74,
+        "end": 1344.92,
+        "speaker": "S04",
+        "text": "工作完丢了可可干了。"
+      },
+      {
+        "start": 1344.11,
+        "end": 1345.02,
+        "speaker": "S03",
+        "text": "嗯。"
+      },
+      {
+        "start": 1344.76,
+        "end": 1345.96,
+        "speaker": "S02",
+        "text": "嗯这个到时候不好。"
+      },
+      {
+        "start": 1346.23,
+        "end": 1356.39,
+        "speaker": "S03",
+        "text": "你看今，这个今年这个教师节，我们家就是我我同事的孩子，他就是买了，买了一箱这个三三只松鼠，然后给送过去的。"
+      },
+      {
+        "start": 1346.41,
+        "end": 1346.88,
+        "speaker": "S01",
+        "text": "对。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\dev-40\\predictions\\base\\alimeeting\\dev\\R8003_M8001.json",
+    "base_context": [
+      {
+        "start": 1315.41,
+        "end": 1319.38,
+        "speaker": "S04",
+        "text": "现在都是，都是公共，都是公共。"
+      },
+      {
+        "start": 1317.11,
+        "end": 1317.48,
+        "speaker": "S03",
+        "text": "对。"
+      },
+      {
+        "start": 1318.41,
+        "end": 1319.01,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 1319.58,
+        "end": 1320.01,
+        "speaker": "S03",
+        "text": "都是。"
+      },
+      {
+        "start": 1319.61,
+        "end": 1328.31,
+        "speaker": "S04",
+        "text": "都是场合儿，所以，不管你给老师什么东西，你要跟老师接触，好多人那儿都看着呢，人家老师也也不害怕。"
+      },
+      {
+        "start": 1320.25,
+        "end": 1321.41,
+        "speaker": "S01",
+        "text": "确实是，嗯。"
+      },
+      {
+        "start": 1321.11,
+        "end": 1322.11,
+        "speaker": "S02",
+        "text": "都是公共场合。"
+      },
+      {
+        "start": 1322.01,
+        "end": 1323.48,
+        "speaker": "S03",
+        "text": "都是公共场合，对。"
+      },
+      {
+        "start": 1325.78,
+        "end": 1326.31,
+        "speaker": "S02",
+        "text": "没错。"
+      },
+      {
+        "start": 1327.65,
+        "end": 1331.61,
+        "speaker": "S02",
+        "text": "咱们呢也要主主衣冠形态的去保护老师嘛。"
+      },
+      {
+        "start": 1331.68,
+        "end": 1338.88,
+        "speaker": "S04",
+        "text": "对，因为主要是咱们送东西是是咱们的心意，但是主要人老师这个影响不影响人家。"
+      },
+      {
+        "start": 1331.71,
+        "end": 1333.01,
+        "speaker": "S01",
+        "text": "对，对对对。"
+      },
+      {
+        "start": 1335.18,
+        "end": 1335.61,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 1335.51,
+        "end": 1335.91,
+        "speaker": "S01",
+        "text": "嗯。"
+      },
+      {
+        "start": 1339.15,
+        "end": 1344.01,
+        "speaker": "S02",
+        "text": "对，别因为教师节人之后这个影响教学了。"
+      },
+      {
+        "start": 1339.85,
+        "end": 1340.31,
+        "speaker": "S04",
+        "text": "是不是。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "temperature": 0,
+      "repetition_penalty": 1,
+      "presence_penalty": 0,
+      "frequency_penalty": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "dtype": "bfloat16",
+      "eos_token_id": 151645
+    },
+    "sft_decoding": {
+      "temperature": 0,
+      "repetition_penalty": 1,
+      "presence_penalty": 0,
+      "frequency_penalty": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "dtype": "bfloat16",
+      "eos_token_id": 151645
+    },
+    "equal_initial_prompt_hash": true
+  },
+  {
+    "original_case_index": 1,
+    "key": "ami/dev/IB4001",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\ami\\dev\\IB4001.json",
+    "source_sha256": "6e3f5ca638c803873b80026c3400e442789a81204fca8ecb97b97b51c3c5b89d",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+    "generated_anchor_seconds": 219.99,
+    "generated_before_stable_loop": "][Mm][219.39][219.39][Mm][219.40][219.40][Mm][219.41][219.41][Mm][219.42][219.42][Mm][219.43][219.43][Mm][219.44][219.44][Mm][219.45][219.45][Mm][219.46][219.46][Mm][219.47][219.47][Mm][219.48][219.48][Mm][219.49][219.49][Mm][219.50][219.50][Mm][219.51][219.51][Mm][219.52][219.52][Mm][219.53][219.53][Mm][219.54][219.54][Mm][219.55][219.55][Mm][219.56][219.56][Mm][219.57][219.57][Mm][219.58][219.58][Mm][219.59][219.59][Mm][219.60][219.60][Mm][219.61][219.61][Mm][219.62][219.62][Mm][219.63][219.63][Mm][219.64][219.64][Mm][219.65][219.65][Mm][219.66][219.66][Mm][219.67][219.67][Mm][219.68][219.68][Mm][219.69][219.69][Mm][219.70][219.70][Mm][219.71][219.71][Mm][219.72][219.72][Mm][219.73][219.73][Mm][219.74][219.74][Mm][219.75][219.75][Mm][219.76][219.76][Mm][219.77][219.77][Mm][219.78][219.78][Mm][219.79][219.79][Mm][219.80][219.80][Mm][219.81][219.81][Mm][219.82][219.82][Mm][219.83][219.83][Mm][219.84][219.84][Mm][219.85][219.85][Mm][219.86][219.86][Mm][219.87][219.87][Mm][219.88][219.88][Mm][219.89][219.89][Mm][219.90][219.90][Mm][219.91][219.91][Mm][219.92][219.92][Mm][219.93][219.93][Mm][219.94][219.94][Mm][219.95][219.95][Mm][219.96][219.96][Mm][219.97][219.97][Mm][219.98][219.98",
+    "generated_stable_loop_start": "][Mm][219.99][219.99][Mm][219.99][219.99][Mm][219.99][219.99][Mm][219.99][219.99][Mm][219.99][219.99][Mm][219.99][219.99][Mm][219.99][219.99][Mm][219.99][219.99][Mm][219.99][219.99",
+    "reference_context": [
+      {
+        "start": 205.9,
+        "end": 211.16,
+        "speaker": "S01",
+        "text": "So, anyone have any ideas or"
+      },
+      {
+        "start": 212.84,
+        "end": 213.29,
+        "speaker": "S01",
+        "text": "I guess"
+      },
+      {
+        "start": 214.12,
+        "end": 226.67,
+        "speaker": "S03",
+        "text": "Uh do we know if there will be a lot of people coming across the hall in terms of security stuff if we can I mean my idea is to put the photocopier and the fax in the hall."
+      },
+      {
+        "start": 226.8,
+        "end": 238.77,
+        "speaker": "S01",
+        "text": "Yeah. Um I think it's the security is sort of the same as it is in the current building. So as long as the things are physically attached to the wall, so they can't be removed, then it should be okay to leave them in the hall."
+      },
+      {
+        "start": 227.61,
+        "end": 228.32,
+        "speaker": "S03",
+        "text": "Um."
+      },
+      {
+        "start": 232.78,
+        "end": 233.13,
+        "speaker": "S03",
+        "text": "Okay."
+      },
+      {
+        "start": 235.25,
+        "end": 235.55,
+        "speaker": "S03",
+        "text": "Mm."
+      },
+      {
+        "start": 235.99,
+        "end": 237.17,
+        "speaker": "S02",
+        "text": "We can put it. Mm-hmm."
+      },
+      {
+        "start": 236.84,
+        "end": 237.45,
+        "speaker": "S03",
+        "text": "Okay."
+      },
+      {
+        "start": 238.5,
+        "end": 238.82,
+        "speaker": "S03",
+        "text": "Okay."
+      },
+      {
+        "start": 243.28,
+        "end": 247.23,
+        "speaker": "S01",
+        "text": "It's just a question of whether you are printing sensitive documents or n whatever."
+      },
+      {
+        "start": 244.29,
+        "end": 244.53,
+        "speaker": "S03",
+        "text": "Mm."
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\base\\ami\\dev\\IB4001.json",
+    "base_context": [
+      {
+        "start": 214.13,
+        "end": 223.21,
+        "speaker": "S02",
+        "text": "Uh do we know if there will be a lot of people coming across the hall in terms of security stuff if we can"
+      },
+      {
+        "start": 223.51,
+        "end": 226.76,
+        "speaker": "S02",
+        "text": "I mean my idea is to put the photocopier and the fax in the hall."
+      },
+      {
+        "start": 226.84,
+        "end": 232.73,
+        "speaker": "S01",
+        "text": "Yeah, um I think it's the security is sort of the same as it is in the current building."
+      },
+      {
+        "start": 232.76,
+        "end": 238.86,
+        "speaker": "S01",
+        "text": "So as long as the things are physically attached to the wall so they can't be removed, then it should be okay to leave them in the hall."
+      },
+      {
+        "start": 232.81,
+        "end": 233.21,
+        "speaker": "S02",
+        "text": "Okay."
+      },
+      {
+        "start": 235.26,
+        "end": 235.61,
+        "speaker": "S02",
+        "text": "Mm."
+      },
+      {
+        "start": 236.86,
+        "end": 237.21,
+        "speaker": "S02",
+        "text": "Okay."
+      },
+      {
+        "start": 238.56,
+        "end": 238.86,
+        "speaker": "S02",
+        "text": "Okay."
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "equal_initial_prompt_hash": false
+  },
+  {
+    "original_case_index": 2,
+    "key": "alimeeting/test/R8009_M8021",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8009_M8021.json",
+    "source_sha256": "0c459790e2002666a97aa0bf5326393aa090a7a4582707c79a2dc0f39d4542fd",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+    "generated_anchor_seconds": 1938.8,
+    "generated_before_stable_loop": "还有拍照留念。[1866.85][1866.85][S02]到时候。[1867.88][1868.09][S01]拍立得。[1869.07][1869.07][S01]用拍立得，拍出来就可以送给家长。[1871.67][1872.37][S02]拍立得。[1873.34][1874.45][S01]拍出来就可以送给家长。[1876.25][1877.49][S02]那画面的质量可能就不太好了。[1880.80][1881.18][S01]或者说也可以。[1883.23][1883.23][S01]我们拍。[1884.57][1884.57][S01]然后。[1885.60][1886.20][S01]后面再联系家长。[1887.68][1888.77][S02]联系家长。[1889.98][1889.91][S01]对。[1890.51][1891.58][S02]那这个又有一个老师来负责。[1894.42][1894.47][S01]对。[1895.03][1896.34][S02]那需要专业的吗？[1897.61][1897.61][S02]还是我们从外面请。[1899.55][1898.18][S01]我们自己老师就可以了呀。[1900.11][1900.67][S02]从外面租一辆，租一个摄像机。[1904.00][1904.57][S02]还是。[1905.38][1904.91][S01]我们刚才已经请了摄影了。[1907.43][1909.41][S02]那就。[1910.34][1911.78][S02]只有这些吗？[1912.74][1912.78][S01]对，大概就是这些。[1914.38][1914.32][S02]那谁去负责？[1915.58][1914.60][S01]你到时候去。[1915.75][1915.58][S02]谁去负责这些安排？[1917.02][1917.25][S01]你呀。[1917.95][1918.03][S02]我吗？[1918.80][1918.95][S01]对呀。[1919.60][1919.60][S01]那我给你讲个啥。[1921.01][1921.58][S02]那也行。[1922.81][1923.78][S02]大概就这些。[1925.03][1925.68][S02]那就是。[1926.78][1925.75][S01]对。[1926.35][1927.15][S02]会场会场会议场地的选择是。[1931.28][1931.28][S02]商场嘛。[1932.25][1932.28][S01]对。[1932.98][1932.91][S02]主持人的选择就下面我来落实。[1936.08][1936.11][S01]对。[1936.78][1937.15][S02]然后。[1938.35",
+    "generated_stable_loop_start": "][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80",
+    "reference_context": [
+      {
+        "start": 1923.78,
+        "end": 1925.03,
+        "speaker": "S02",
+        "text": "大概就这么些。"
+      },
+      {
+        "start": 1925.7,
+        "end": 1926.83,
+        "speaker": "S02",
+        "text": "那就是。"
+      },
+      {
+        "start": 1925.82,
+        "end": 1926.27,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1927.17,
+        "end": 1928.92,
+        "speaker": "S02",
+        "text": "会场会场。"
+      },
+      {
+        "start": 1928.92,
+        "end": 1932.23,
+        "speaker": "S02",
+        "text": "会议场地的选择是商场吗？"
+      },
+      {
+        "start": 1932.36,
+        "end": 1932.93,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1932.93,
+        "end": 1936.04,
+        "speaker": "S02",
+        "text": "主持人都选择了，就得下面我来落实。"
+      },
+      {
+        "start": 1936.2,
+        "end": 1936.7,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1937.16,
+        "end": 1938.65,
+        "speaker": "S02",
+        "text": "然后。"
+      },
+      {
+        "start": 1938.65,
+        "end": 1940.75,
+        "speaker": "S02",
+        "text": "环节的话，就。"
+      },
+      {
+        "start": 1941.27,
+        "end": 1943.82,
+        "speaker": "S02",
+        "text": "二一二一二一，两个节目。"
+      },
+      {
+        "start": 1943.82,
+        "end": 1945.94,
+        "speaker": "S02",
+        "text": "一个亲子活动两个节目，一个亲子活动。"
+      },
+      {
+        "start": 1946.22,
+        "end": 1946.77,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1948.44,
+        "end": 1949.93,
+        "speaker": "S02",
+        "text": "然后还有。"
+      },
+      {
+        "start": 1951.98,
+        "end": 1953.2,
+        "speaker": "S01",
+        "text": "还有拍照留念。"
+      },
+      {
+        "start": 1954.29,
+        "end": 1955.76,
+        "speaker": "S01",
+        "text": "和那个小礼品。"
+      },
+      {
+        "start": 1955.76,
+        "end": 1956.86,
+        "speaker": "S01",
+        "text": "这些不能忘。"
+      },
+      {
+        "start": 1957.74,
+        "end": 1958.51,
+        "speaker": "S02",
+        "text": "对的。"
+      },
+      {
+        "start": 1957.89,
+        "end": 1959.53,
+        "speaker": "S01",
+        "text": "大概大概就是这些。"
+      },
+      {
+        "start": 1960.02,
+        "end": 1962.95,
+        "speaker": "S02",
+        "text": "亲子互动的游戏那那些。"
+      },
+      {
+        "start": 1963.59,
+        "end": 1968.26,
+        "speaker": "S02",
+        "text": "蒙眼睛的，到时候是我去买吗？"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\base\\alimeeting\\test\\R8009_M8021.json",
+    "base_context": [
+      {
+        "start": 1932.82,
+        "end": 1936.06,
+        "speaker": "S02",
+        "text": "主持人的选择就下面我来落实。"
+      },
+      {
+        "start": 1936.1,
+        "end": 1936.8,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1937.1,
+        "end": 1940.82,
+        "speaker": "S02",
+        "text": "然后环节的话就。"
+      },
+      {
+        "start": 1941.14,
+        "end": 1946.02,
+        "speaker": "S02",
+        "text": "二一二一二一，两个节目，一个亲子活动，两个节目，一个亲子活动。"
+      },
+      {
+        "start": 1946.1,
+        "end": 1946.84,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1948.34,
+        "end": 1949.9,
+        "speaker": "S02",
+        "text": "然后还有。"
+      },
+      {
+        "start": 1951.88,
+        "end": 1953.34,
+        "speaker": "S01",
+        "text": "还有拍照留念。"
+      },
+      {
+        "start": 1954.1,
+        "end": 1956.9,
+        "speaker": "S01",
+        "text": "和那个小礼品，这些不能忘。"
+      },
+      {
+        "start": 1957.64,
+        "end": 1958.54,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 1957.8,
+        "end": 1959.58,
+        "speaker": "S01",
+        "text": "大概大概就是这些。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "equal_initial_prompt_hash": false
+  },
+  {
+    "original_case_index": 3,
+    "key": "alimeeting/test/R8006_M8012",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8006_M8012.json",
+    "source_sha256": "86343e5611c241c63cc31f2e7c2ae5b2f51c3b4ca2da7daf3b520970842b34c4",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+    "generated_anchor_seconds": 985.38,
+    "generated_before_stable_loop": "11.38][S03]哦，这个你这，这是涉及到停车管理的问题了。[915.51][911.75][S04]啊。[912.15][912.31][S02]对，他。[913.11][914.25][S04]对，对，对。[915.71][914.88][S02]他有实际问题，就，嗯。[917.61][916.45][S01]对对对，确实。[917.81][917.68][S04]这就是物业后期的一个管理问题。[919.71][919.88][S01]啊，对。[920.95][919.91][S03]这涉及到实际物，有有没有停车管停车场，有没有管理员，有管理员，分叉的时候儿干什么，干什么的。[925.51][925.88][S02]干什么，那不就他不那么说呀，都觉得他搁不了多一会儿，是，都不是停车的地儿，但是你旁边儿有收费的停车场，谁也不想去交钱去，再一个他稍微远，稍微走两步。[941.61][926.61][S03]再有你停车的地方是是首先得是安全规范停车的地方。[930.51][928.55][S01]对。[928.95][933.58][S03]那你不是规范停车地方，你被划了，你就不知道怎么罚呗。[936.95][938.71][S01]对。[939.11][942.25][S02]是吧，你停一停一个小时好几十块，他就他老觉得不值不值当的，就在家门口儿，但是真交警来了，给他贴了条儿了，拖走了，他就跑这儿又找来了，又闹来了，嗯。[956.21][954.38][S01]对对对，确实。[955.75][955.71][S03]嗯，这就是他自居民自身素质问题和停车人的素质问题。[959.21][958.28][S02]那你没办法，他实际存在的问题，这是。[961.25][960.91][S04]还有一个就是物业交收钱，其实一个组还是跟那什么一样，都有居委会，都有物业，就是都，都都都管这儿的，管小区的。[969.51][966.28][S02]那你管不了他呀，问题是，你宣传他不听你的，好多时候，是不是，啊。[973.61][968.75][S01]确实。[969.31][970.85][S01]对，宣传确实比较到位，对，对。[974.11][971.05][S03]对。[971.35][973.41][S03]啊，还是跟门岗有关系啊，他不是。[976.21][975.31][S01]对。[975.65][975.61][S02]跟门岗，那他自己小区的车，你不让他进来。[978.91][978.78][S03]自己小区的车可以进，进来是对的，他进来对了，他不往规制地儿停，那你就知道你这个位置不好了。[984.05][980.65][S02]对吧。[981.15][982.75][S02]那你谁能老盯着他呀，那咱没有那么多人呀。[986.91][985.38][S01]啊",
+    "generated_stable_loop_start": "，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对",
+    "reference_context": [
+      {
+        "start": 960.9,
+        "end": 974.58,
+        "speaker": "S04",
+        "text": "那个就靠物业到时候前期是一个总，还是跟那什么一样都有居委会都有物业，就是多多点儿多宣传一下呗，管肯定是没法儿管嘛。对。要不然就是找一个稍微大一点儿的地儿。"
+      },
+      {
+        "start": 966.38,
+        "end": 973.69,
+        "speaker": "S02",
+        "text": "那你管不了他呀。问题是你宣传他也不听你的好多时候是不是啊。"
+      },
+      {
+        "start": 970.89,
+        "end": 974.29,
+        "speaker": "S01",
+        "text": "这个就确实比较难管了对，对。"
+      },
+      {
+        "start": 971.07,
+        "end": 971.65,
+        "speaker": "S03",
+        "text": "那个坑。"
+      },
+      {
+        "start": 973.45,
+        "end": 976.3,
+        "speaker": "S03",
+        "text": "呃还是跟门岗有关系啊，他不是。"
+      },
+      {
+        "start": 975.37,
+        "end": 976.23,
+        "speaker": "S01",
+        "text": "对，跟。"
+      },
+      {
+        "start": 975.69,
+        "end": 979.01,
+        "speaker": "S02",
+        "text": "跟门岗那他自己小区的车，你不让他进来。"
+      },
+      {
+        "start": 978.88,
+        "end": 984.13,
+        "speaker": "S03",
+        "text": "自己小区的车可以进进来是对的，你进来对了他不往规矩地儿停，那以后别找我们停车费的麻烦。"
+      },
+      {
+        "start": 980.72,
+        "end": 981.24,
+        "speaker": "S02",
+        "text": "对吧？"
+      },
+      {
+        "start": 982.81,
+        "end": 988.49,
+        "speaker": "S02",
+        "text": "那你谁能老盯着他呀？那咱没有那么多人呀。啊。"
+      },
+      {
+        "start": 985.31,
+        "end": 990.53,
+        "speaker": "S04",
+        "text": "你画好停车位呀。现在不都能画好停车位，你认领你自己的停车位就行了。"
+      },
+      {
+        "start": 987.04,
+        "end": 994.43,
+        "speaker": "S01",
+        "text": "对，要不咱们也装个电子眼什么的，天天用电子眼盯着它们，不玩儿，对对对。"
+      },
+      {
+        "start": 991.84,
+        "end": 993.71,
+        "speaker": "S02",
+        "text": "哎，也行，咱自己处罚。"
+      },
+      {
+        "start": 994.8,
+        "end": 997.14,
+        "speaker": "S03",
+        "text": "呃，你没有处罚权这个但是。"
+      },
+      {
+        "start": 996.29,
+        "end": 997.45,
+        "speaker": "S04",
+        "text": "你那不行。"
+      },
+      {
+        "start": 998.32,
+        "end": 1002.04,
+        "speaker": "S04",
+        "text": "你本身你物业处罚人家你就是违法的，你没有权力处罚人家呀。"
+      },
+      {
+        "start": 998.93,
+        "end": 999.14,
+        "speaker": "S03",
+        "text": "你。"
+      },
+      {
+        "start": 1001.89,
+        "end": 1015.59,
+        "speaker": "S03",
+        "text": "呃就是我拍到啊咱们就是提高什么呀，我处在我监控范围内我拍到你了，你没在规矩范围那儿停着，你车身被划造成问题那对不起这块位置我不是我收费的位置，我不为此我不付这责任不就完了嘛。"
+      },
+      {
+        "start": 1002.12,
+        "end": 1002.4,
+        "speaker": "S02",
+        "text": "嗯。"
+      },
+      {
+        "start": 1002.18,
+        "end": 1004.01,
+        "speaker": "S01",
+        "text": "那咱们可以小区自制啊。"
+      },
+      {
+        "start": 1004.84,
+        "end": 1005.23,
+        "speaker": "S01",
+        "text": "小区。"
+      },
+      {
+        "start": 1005.12,
+        "end": 1005.42,
+        "speaker": "S02",
+        "text": "嗯。"
+      },
+      {
+        "start": 1006.81,
+        "end": 1007.22,
+        "speaker": "S02",
+        "text": "对。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\base\\alimeeting\\test\\R8006_M8012.json",
+    "base_context": [
+      {
+        "start": 978.74,
+        "end": 984.14,
+        "speaker": "S03",
+        "text": "自己小区的车可以进，进来是对的，你进来对了，他不往规制地儿停，那你就被占了，停车位高了。"
+      },
+      {
+        "start": 980.64,
+        "end": 981.34,
+        "speaker": "S02",
+        "text": "对吧。"
+      },
+      {
+        "start": 982.74,
+        "end": 987.04,
+        "speaker": "S02",
+        "text": "那你谁能老盯着他呀，那咱没有那么多人呀。"
+      },
+      {
+        "start": 985.34,
+        "end": 992.04,
+        "speaker": "S01",
+        "text": "啊，对，对，咱们也装个电子眼什么的，用用电子眼就扔下去了。"
+      },
+      {
+        "start": 987.51,
+        "end": 988.14,
+        "speaker": "S04",
+        "text": "啊。"
+      },
+      {
+        "start": 991.74,
+        "end": 993.84,
+        "speaker": "S02",
+        "text": "哎，也行，咱自己处罚。"
+      },
+      {
+        "start": 992.51,
+        "end": 993.14,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 993.74,
+        "end": 994.64,
+        "speaker": "S01",
+        "text": "对对对。"
+      },
+      {
+        "start": 994.71,
+        "end": 997.24,
+        "speaker": "S03",
+        "text": "呃你没有处罚权，这个放责任，但是。"
+      },
+      {
+        "start": 998.24,
+        "end": 1002.11,
+        "speaker": "S04",
+        "text": "你以为那你没有处罚人，你就违法了，你没有权利处罚人呀。"
+      },
+      {
+        "start": 998.88,
+        "end": 999.24,
+        "speaker": "S03",
+        "text": "你。"
+      },
+      {
+        "start": 1002.08,
+        "end": 1003.94,
+        "speaker": "S01",
+        "text": "但咱们对小区的这个。"
+      },
+      {
+        "start": 1002.28,
+        "end": 1015.64,
+        "speaker": "S03",
+        "text": "就是我拍到，咱们就是提高什么，我处在监控范围内，我拍到你了，你没在规矩范围那儿停着，你车身被划了造成问题，那对不起，这块儿位置我不是我收费的位置，我不被责，我不负这责任，不就完了嘛。"
+      },
+      {
+        "start": 1004.81,
+        "end": 1005.34,
+        "speaker": "S02",
+        "text": "对。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "equal_initial_prompt_hash": false,
+    "repeat_unit": "，对",
+    "sft_max_consecutive_unit_count": 27518,
+    "base_max_consecutive_unit_count": 5
+  },
+  {
+    "original_case_index": 4,
+    "key": "alimeeting/test/R8005_M8009",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8005_M8009.json",
+    "source_sha256": "f4fa013412d5e469c69508b8e5329bcff9248437582b9a0886f5f72dc1f497bc",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+    "generated_anchor_seconds": 328.71,
+    "generated_before_stable_loop": "77.47][270.91][S02]不是，现在是，不是，不是，不是，啊。[274.47][271.21][S01]是。[271.51][274.96][S01]你这么说啊，我觉得你，你不是你，你那意思，你那意思给钱，给钱，钱自己拿卡去购物。[286.67][277.57][S02]啊。[278.07][277.61][S04]对。[277.87][278.08][S03]跟打广告说这个团体真的不错。[280.11][280.43][S02]嗯。[280.91][283.29][S03]不好，给，放还是。[284.91][286.74][S02]对，那也行，那也行，那也行。[289.01][287.64][S03]那也行，拿给卡购物，哎，对，这也这这也挺好的。[293.37][287.71][S01]买一样，你买回家去了，是吧，是吧，是吧。[291.87][290.27][S02]我觉得，我觉得，哎，一般人一般人愿意，哎，一般人愿意要卡，对，对，对，对，我我就愿意要卡，啊，啊，你要是你要是你公司里买了，那就是，那就是回印子了，你不愿意要。[307.91][293.47][S01]你那意思把那东西挪到咱们单位里，大家花，这是给你的，是吧？[299.37][295.05][S04]给卡，给方便卡，对，给卡的方便，还是要自己掏钱，对，是吧，这是需要的东西，啊。[303.81][299.01][S03]我反正。[299.91][301.87][S01]哎，要是我也愿意。[303.07][305.17][S04]我不需要这东西，对吧，我不要这东西了，对吧，不是多多少。[310.31][308.64][S02]对，你不愿意要。[309.87][309.99][S01]你比如说你们家买足了，但是你们家你爱谁买，你们都发。[314.47][310.87][S04]对，对。[312.01][312.91][S02]对，对。[313.51][313.41][S03]不是，他不是不是，我您说那不对，也不管，你进楼了，盯着大班小班说我们单位发的，他不一样的，这你这。[320.31][314.47][S02]对，都发。[315.41][319.93][S01]啊，你是那个比较说那个，那你要买个卡，你以后，卡，你以后。[325.01][320.05][S04]啊，你你这要够多，够多，够多。[322.51][321.69][S03]那可以。[322.27][322.41][S02]哎，哎，那那年代年代不一样，啊，嗯。[327.97][323.58][S03]不是，你你说是，不不不不，我还是认为就是说，哟，大哥回来，这是我们单位发的，我们头儿，这我们头儿发的。[330.97][325.97][S04]对。[326.31][328.71][S04]就让你们，你们别介意，就，就，就让你们别介意",
+    "generated_stable_loop_start": "，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就",
+    "reference_context": [
+      {
+        "start": 310.04,
+        "end": 315.37,
+        "speaker": "S01",
+        "text": "你比说你们家买油了，但你们家你爱人也买油了，都发了就多了。"
+      },
+      {
+        "start": 313.0,
+        "end": 314.14,
+        "speaker": "S04",
+        "text": "嗯，对对对对对。"
+      },
+      {
+        "start": 313.37,
+        "end": 315.62,
+        "speaker": "S02",
+        "text": "别买油了对发油了。"
+      },
+      {
+        "start": 313.51,
+        "end": 320.43,
+        "speaker": "S03",
+        "text": "不是他不是不是我，您说那不对也不完全，就一笼子拎着大包儿小包儿来我们单位发了他不一样呢现在你就像。"
+      },
+      {
+        "start": 315.07,
+        "end": 315.89,
+        "speaker": "S04",
+        "text": "对，嗯。"
+      },
+      {
+        "start": 316.81,
+        "end": 317.06,
+        "speaker": "S04",
+        "text": "嗯。"
+      },
+      {
+        "start": 320.01,
+        "end": 325.38,
+        "speaker": "S01",
+        "text": "啊你是那个比较说哎呦，那你要拿卡去也是我们单位的。"
+      },
+      {
+        "start": 321.86,
+        "end": 328.29,
+        "speaker": "S04",
+        "text": "现在现现现在这年代不一样了，嗯，嗯。"
+      },
+      {
+        "start": 322.11,
+        "end": 323.16,
+        "speaker": "S02",
+        "text": "那个公司。"
+      },
+      {
+        "start": 323.66,
+        "end": 331.1,
+        "speaker": "S03",
+        "text": "不是师兄你说是你不不不不我还是那认为就是说呦大哥回来了都是我们单位发的，俺们头儿这是我们头儿发的。"
+      },
+      {
+        "start": 324.95,
+        "end": 326.35,
+        "speaker": "S02",
+        "text": "嗯对。"
+      },
+      {
+        "start": 327.26,
+        "end": 327.61,
+        "speaker": "S02",
+        "text": "嗯啊。"
+      },
+      {
+        "start": 328.85,
+        "end": 330.75,
+        "speaker": "S02",
+        "text": "真的你别，你们别记住你公司。"
+      },
+      {
+        "start": 328.85,
+        "end": 331.83,
+        "speaker": "S04",
+        "text": "嗯，嗯，嗯是。"
+      },
+      {
+        "start": 331.73,
+        "end": 336.92,
+        "speaker": "S02",
+        "text": "你现在你们这样你公司，如果还大包小包拎东西，现在国家，国家三令五申。"
+      },
+      {
+        "start": 331.91,
+        "end": 339.22,
+        "speaker": "S03",
+        "text": "那那卡那卡什么的他给他给两千五千人家不知道啊，对不对说我们头儿我们我。"
+      },
+      {
+        "start": 337.48,
+        "end": 350.29,
+        "speaker": "S01",
+        "text": "啊，不是我我理解我理解你的意思啊，我理解你的意思，因为现在的人呢，现在的人呢，比较实惠，怎么实惠，你给我一张卡，我到超市我愿买啥买啥。"
+      },
+      {
+        "start": 337.96,
+        "end": 340.95,
+        "speaker": "S02",
+        "text": "杜绝杜绝大吃大吃大喝，对对吧？"
+      },
+      {
+        "start": 338.17,
+        "end": 346.89,
+        "speaker": "S04",
+        "text": "呃可那卡实际上也啊，卡比较随意一点儿啊，啊啊对对。"
+      },
+      {
+        "start": 340.02,
+        "end": 340.25,
+        "speaker": "S03",
+        "text": "我们。"
+      },
+      {
+        "start": 341.28,
+        "end": 341.55,
+        "speaker": "S03",
+        "text": "啊。"
+      },
+      {
+        "start": 341.93,
+        "end": 342.23,
+        "speaker": "S02",
+        "text": "啊。"
+      },
+      {
+        "start": 343.51,
+        "end": 344.91,
+        "speaker": "S02",
+        "text": "嗯，嗯。"
+      },
+      {
+        "start": 345.91,
+        "end": 346.96,
+        "speaker": "S02",
+        "text": "就是卡。"
+      },
+      {
+        "start": 345.98,
+        "end": 346.31,
+        "speaker": "S03",
+        "text": "啊。"
+      },
+      {
+        "start": 347.87,
+        "end": 348.21,
+        "speaker": "S04",
+        "text": "对。"
+      },
+      {
+        "start": 348.08,
+        "end": 356.63,
+        "speaker": "S02",
+        "text": "卡的卡对对卡可以买油，你需要什么，你可以买什么，嗯，自己需要什么啊？对对。"
+      },
+      {
+        "start": 350.01,
+        "end": 350.6,
+        "speaker": "S04",
+        "text": "对对对。"
+      },
+      {
+        "start": 350.29,
+        "end": 359.3,
+        "speaker": "S01",
+        "text": "我可以买油，我可以买米我也可以买面，是吧，你这你这个就死行喽我发你油你就得要，你不要，不是我发你油你必须得要。"
+      },
+      {
+        "start": 350.32,
+        "end": 351.84,
+        "speaker": "S03",
+        "text": "我是我我这。"
+      },
+      {
+        "start": 351.42,
+        "end": 354.66,
+        "speaker": "S04",
+        "text": "对对，对对对，对对对。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\base\\alimeeting\\test\\R8005_M8009.json",
+    "base_context": [
+      {
+        "start": 323.54,
+        "end": 331.01,
+        "speaker": "S03",
+        "text": "不是，你你说是，不不不，我还是认为就是说，哟，大哥回来，他说我们单位发的，我们头儿，这我们头儿发的。"
+      },
+      {
+        "start": 324.28,
+        "end": 325.88,
+        "speaker": "S02",
+        "text": "那个年代年代不一样。"
+      },
+      {
+        "start": 325.91,
+        "end": 326.41,
+        "speaker": "S04",
+        "text": "对。"
+      },
+      {
+        "start": 327.31,
+        "end": 327.81,
+        "speaker": "S02",
+        "text": "嗯。"
+      },
+      {
+        "start": 328.68,
+        "end": 330.11,
+        "speaker": "S04",
+        "text": "就让你们直接进入。"
+      },
+      {
+        "start": 330.21,
+        "end": 331.31,
+        "speaker": "S02",
+        "text": "对，嗯。"
+      },
+      {
+        "start": 331.48,
+        "end": 333.41,
+        "speaker": "S04",
+        "text": "就让你们就，就就。"
+      },
+      {
+        "start": 331.78,
+        "end": 340.21,
+        "speaker": "S03",
+        "text": "那，这卡，卡你说他给，他给两千五去，人家不知道，对不对，说我们头儿，我们，我们。"
+      },
+      {
+        "start": 333.21,
+        "end": 333.64,
+        "speaker": "S04",
+        "text": "对。"
+      },
+      {
+        "start": 335.64,
+        "end": 336.51,
+        "speaker": "S04",
+        "text": "我俩不知道。"
+      },
+      {
+        "start": 337.51,
+        "end": 347.41,
+        "speaker": "S01",
+        "text": "不是，我理解我理解你意思，我理解你的意思，因为现在的人呢，现在的人呢，比较实惠，怎么说，你给我一张。"
+      },
+      {
+        "start": 337.91,
+        "end": 338.81,
+        "speaker": "S02",
+        "text": "我我我。"
+      },
+      {
+        "start": 338.21,
+        "end": 344.71,
+        "speaker": "S02",
+        "text": "我觉得都知道，说卡是那个了，啊，卡比较便宜点儿，啊，啊。"
+      },
+      {
+        "start": 341.14,
+        "end": 341.58,
+        "speaker": "S03",
+        "text": "嗯。"
+      },
+      {
+        "start": 345.21,
+        "end": 345.81,
+        "speaker": "S04",
+        "text": "实惠。"
+      },
+      {
+        "start": 345.81,
+        "end": 346.88,
+        "speaker": "S02",
+        "text": "是吧，啊。"
+      },
+      {
+        "start": 345.84,
+        "end": 346.31,
+        "speaker": "S03",
+        "text": "啊。"
+      },
+      {
+        "start": 347.78,
+        "end": 348.21,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 347.81,
+        "end": 359.31,
+        "speaker": "S01",
+        "text": "卡嘛，我到超市我愿买什么买什么，我买油，我买点米，我也可以买面，是吧，你这必须得死记硬背，发一个你就得要一样，不是，发一个东西也要。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "equal_initial_prompt_hash": false,
+    "repeat_unit": "，就",
+    "sft_max_consecutive_unit_count": 29870,
+    "base_max_consecutive_unit_count": 3
+  },
+  {
+    "original_case_index": 5,
+    "key": "alimeeting/test/R8005_M8007",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8005_M8007.json",
+    "source_sha256": "b40e8c4a2cfd43447911a8c45def3742f9d4cb4b1ca97c422f288dbc20913aad",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+    "generated_anchor_seconds": 1207.04,
+    "generated_before_stable_loop": "家电那个，有有有有有。[1164.48][1158.50][S03]就是，休息区。[1160.22][1158.76][S01]休息区。[1159.24][1161.12][S03]家。[1161.34][1162.52][S04]对，对对，应该是，就是这休息区里面儿增加一些家，就是冰箱这些东西，但是。[1167.98][1167.67][S02]这个。[1168.04][1167.88][S01]这些都，对，这。[1169.64][1168.20][S03]加微波炉，还有电视，嗯，这些都是，对，配套的，嗯。[1173.40][1170.98][S01]这些都是配套的，这都是配套的，然后那套的，那还有就是你们说的那接待区嘛，增加一些什么电视啊，什么那个音箱乱七八糟的，是不是，然后那个接待访客的时候儿，是不是，这个都可以。[1185.92][1171.83][S02]啊，对。[1172.30][1173.48][S02]配套的话，你刚说的。[1174.75][1176.42][S03]嗯。[1176.84][1176.62][S04]啊。[1176.90][1180.12][S03]都，对，是。[1181.94][1180.40][S02]啊。[1180.68][1180.66][S04]对，嗯。[1181.90][1183.04][S03]咱们都可以统一采购，嗯。[1184.86][1184.58][S02]嗯。[1184.90][1185.32][S04]对，这些都可以统一，统一那个，一家商家之后统一来，咱统一统一统一了，不需要咱们去那什么了，就可以了。[1192.44][1186.00][S02]一人一，一人一。[1186.80][1186.54][S03]嗯，改。[1187.48][1190.88][S03]对，对。[1192.28][1192.34][S01]对，首先咱们就是，到时候咱们再汇总一下儿，啊。[1195.80][1195.10][S03]汇总，嗯，可以。[1196.72][1196.10][S02]行。[1196.35][1197.62][S04]就是。[1198.08][1197.64][S01]然后。[1198.12][1197.96][S03]或者是。[1198.44][1198.36][S02]我到时候我负责，那我统计，回头。[1200.78][1201.54][S02]啊，行，我作为统计，然后我作为电子表儿，回头发那个，发一个什么，发一个什么。[1205.50][1204.36][S01]那就你，到时候到时候你汇总，然后那个。[1207.18][1206.32][S03]哦。[1206.98][1206.46][S04]啊，我我我。[1207.60][1207.04][S02]作为电子表儿，发群里，你们也都看一下，然后你待会儿，",
+    "generated_stable_loop_start": "你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去",
+    "reference_context": [
+      {
+        "start": 1190.81,
+        "end": 1192.36,
+        "speaker": "S03",
+        "text": "可以啊，对。"
+      },
+      {
+        "start": 1192.19,
+        "end": 1192.68,
+        "speaker": "S02",
+        "text": "可以，可以。"
+      },
+      {
+        "start": 1192.46,
+        "end": 1195.96,
+        "speaker": "S01",
+        "text": "对首先咱们就是，到时咱们再汇总一下啊。"
+      },
+      {
+        "start": 1193.31,
+        "end": 1193.69,
+        "speaker": "S04",
+        "text": "嗯。"
+      },
+      {
+        "start": 1194.63,
+        "end": 1194.82,
+        "speaker": "S02",
+        "text": "啊。"
+      },
+      {
+        "start": 1195.13,
+        "end": 1198.69,
+        "speaker": "S03",
+        "text": "汇总一，嗯，可以，就是。"
+      },
+      {
+        "start": 1196.23,
+        "end": 1196.49,
+        "speaker": "S02",
+        "text": "行。"
+      },
+      {
+        "start": 1197.77,
+        "end": 1198.24,
+        "speaker": "S01",
+        "text": "然后。"
+      },
+      {
+        "start": 1197.87,
+        "end": 1205.49,
+        "speaker": "S02",
+        "text": "然后我到时候我负责，那我统计回头，行我做一统计，然后我做一电子表儿回头发一下儿发下儿群。"
+      },
+      {
+        "start": 1204.48,
+        "end": 1207.47,
+        "speaker": "S01",
+        "text": "那就是你到时候，到时候你汇总，然后那个。"
+      },
+      {
+        "start": 1205.24,
+        "end": 1205.76,
+        "speaker": "S04",
+        "text": "嗯。"
+      },
+      {
+        "start": 1206.45,
+        "end": 1217.93,
+        "speaker": "S02",
+        "text": "对，我做一电子表儿发群里，你们也都看一下儿，然后你待会儿你去那个宜宜宜家的时候儿也，对，到时候在在在群里，大家都都汇都汇总一下儿看一下儿有什么。"
+      },
+      {
+        "start": 1206.6,
+        "end": 1208.16,
+        "speaker": "S04",
+        "text": "那我我。"
+      },
+      {
+        "start": 1206.64,
+        "end": 1207.08,
+        "speaker": "S03",
+        "text": "嗯。"
+      },
+      {
+        "start": 1209.27,
+        "end": 1211.64,
+        "speaker": "S03",
+        "text": "对大家也要该补的也可以补。"
+      },
+      {
+        "start": 1209.45,
+        "end": 1209.76,
+        "speaker": "S04",
+        "text": "哦。"
+      },
+      {
+        "start": 1210.74,
+        "end": 1215.31,
+        "speaker": "S04",
+        "text": "我去去那些见，我去管咱那些采那些那些那个家具跟那什么了。"
+      },
+      {
+        "start": 1215.55,
+        "end": 1216.29,
+        "speaker": "S01",
+        "text": "可以可以。"
+      },
+      {
+        "start": 1216.25,
+        "end": 1222.59,
+        "speaker": "S03",
+        "text": "可以，就是还有一些软装，比如说一些画呀啥的，这些我都可以去采购，就是。"
+      },
+      {
+        "start": 1220.83,
+        "end": 1232.04,
+        "speaker": "S02",
+        "text": "啊，呃，呃到时就是你去的时候儿，你先先照两张发群里让大家都看一下儿，对喜欢喜欢什么的，喜欢什么的到时候儿来讨论问一下儿，民主一下儿。"
+      },
+      {
+        "start": 1222.76,
+        "end": 1223.5,
+        "speaker": "S04",
+        "text": "哦。"
+      },
+      {
+        "start": 1225.35,
+        "end": 1230.1,
+        "speaker": "S03",
+        "text": "啊让大家都看一下，就是比较简单的那种，嗯嗯给墙，嗯。"
+      },
+      {
+        "start": 1226.72,
+        "end": 1227.04,
+        "speaker": "S01",
+        "text": "可以。"
+      },
+      {
+        "start": 1228.34,
+        "end": 1229.33,
+        "speaker": "S04",
+        "text": "采购啊对。"
+      },
+      {
+        "start": 1228.44,
+        "end": 1234.2,
+        "speaker": "S01",
+        "text": "可以可以就是咱们就是，征对对对征集大家的意见嘛，是不是。"
+      },
+      {
+        "start": 1231.66,
+        "end": 1232.09,
+        "speaker": "S03",
+        "text": "可以。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\base\\alimeeting\\test\\R8005_M8007.json",
+    "base_context": [
+      {
+        "start": 1198.36,
+        "end": 1205.42,
+        "speaker": "S02",
+        "text": "我到时候儿我负责，那我统计，回头，行，我作为统计，然后我作为电子表儿，回头发那个，发一个什么。"
+      },
+      {
+        "start": 1204.36,
+        "end": 1207.22,
+        "speaker": "S01",
+        "text": "那就是你，到时候儿到时候儿你汇总，然后那个。"
+      },
+      {
+        "start": 1206.34,
+        "end": 1207.8,
+        "speaker": "S04",
+        "text": "啊，对。"
+      },
+      {
+        "start": 1206.51,
+        "end": 1207.13,
+        "speaker": "S03",
+        "text": "哦。"
+      },
+      {
+        "start": 1207.04,
+        "end": 1211.12,
+        "speaker": "S02",
+        "text": "作为电子表儿发群里，你们也都看一下，然后你待会儿，你去。"
+      },
+      {
+        "start": 1209.16,
+        "end": 1211.13,
+        "speaker": "S03",
+        "text": "对，大家要盖木的，也可以。"
+      },
+      {
+        "start": 1210.58,
+        "end": 1215.88,
+        "speaker": "S04",
+        "text": "你去，去一些，家，你去我们那些那些那个家居跟那什么，隔壁。"
+      },
+      {
+        "start": 1212.22,
+        "end": 1213.44,
+        "speaker": "S02",
+        "text": "我家不是。"
+      },
+      {
+        "start": 1214.3,
+        "end": 1217.88,
+        "speaker": "S02",
+        "text": "对，就是在在在群里，大家都都汇都汇总一下，看一下有什么。"
+      },
+      {
+        "start": 1216.13,
+        "end": 1222.43,
+        "speaker": "S03",
+        "text": "可以，就是，还有一些软装，比如说一些画儿呀啥的，这些我都可以去采购，就是。"
+      },
+      {
+        "start": 1222.1,
+        "end": 1225.92,
+        "speaker": "S02",
+        "text": "呃，当然就是你去的时候，你先先照，然后发群里面，大家都看一下。"
+      },
+      {
+        "start": 1222.62,
+        "end": 1223.2,
+        "speaker": "S04",
+        "text": "啊。"
+      },
+      {
+        "start": 1225.24,
+        "end": 1229.97,
+        "speaker": "S03",
+        "text": "哦，让大家都看一下，就是比较简单的那种，嗯，嗯。"
+      },
+      {
+        "start": 1226.54,
+        "end": 1226.92,
+        "speaker": "S01",
+        "text": "可以。"
+      },
+      {
+        "start": 1227.0,
+        "end": 1228.62,
+        "speaker": "S02",
+        "text": "喜欢喜欢什么的，然后。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "equal_initial_prompt_hash": false,
+    "repeat_unit": "你去",
+    "sft_max_consecutive_unit_count": 22840,
+    "base_max_consecutive_unit_count": 1
+  },
+  {
+    "original_case_index": 6,
+    "key": "alimeeting/test/R8004_M8006",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8004_M8006.json",
+    "source_sha256": "4d5488faab95c8864b7a97b3f3a5d254b7a7960fc57bb436dbafa8c5bd37b726",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+    "generated_anchor_seconds": 228.15,
+    "generated_before_stable_loop": "1][174.81][S03]是。[175.25][175.08][S04]对。[175.45][177.45][S02]对，这个也挺好的，我们就这个，对。[179.71][178.57][S01]对。[178.95][178.86][S04]一些折返的，然后他花钱是买不到，只能，对，只能通过这种折返。[183.81][181.84][S02]他只能通过这种，对吧？这是你身份的象征，你买得不到，啊，这不行，对吧？[188.25][182.61][S03]对，只能通过这种折返。[184.01][184.23][S01]对。[184.61][185.31][S04]对对对。[185.89][185.76][S03]而且，哎为了让更多的人来参与这款游戏，我们可以设立一些什么新手福利啊什么的，就你新手来前一周，前一个半个月会给你送什么东西，对。[197.31][187.01][S04]对。[187.31][188.11][S01]对。[188.41][191.91][S01]是。[192.41][192.91][S02]啊。[193.51][195.09][S02]对，刺激一下这个前半个月他的使用，比如说他这半个月他喜欢玩儿什么游戏，他就一直玩儿，对吧？[200.21][197.78][S04]对对对。[198.29][198.61][S03]或者是，而且他新手来了以后，你新手再推荐你的朋友，你的好友来，哎，会更多更有福利，哎，对。[207.75][198.97][S01]对。[199.29][200.37][S01]对。[200.71][203.95][S02]以客带客，啊，对，真的这个我觉得，哎，比如说他通过他带很多朋友来之后，是不是可以给他一定的，比如说，奖励，对吧？[215.21][206.05][S01]对，对，而且我觉得咱们的。[209.25][207.44][S04]对对推荐福利。[208.61][212.68][S03]对就是更多给他的更多的奖励，给他送什么东西，对，而且。[216.85][213.45][S01]奖励，给他的，对，给他，给他积分增加什么的。[217.81][214.85][S04]对，可以，可以，可以，给更多的人玩儿。[217.79][218.04][S02]所以这样就通过这种办法可能就延长我们客户的一个使用时间，对吧？哎。[223.31][221.45][S03]是，对，而且不管是新手，你很多老玩家，你也可以给他老玩家回归福利，是不是，老玩家回归以后，对你可以给他送东西，是。[231.25][221.65][S01]是。[222.05][223.98][S04]对。[224.35][227.45][S01]嗯，对，而且我觉得，还可以把环节设计的更冒险一点儿，吸引人的人的注意力。[235.21][228.15][S04]对对对，啊，",
+    "generated_stable_loop_start": "那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那",
+    "reference_context": [
+      {
+        "start": 207.06,
+        "end": 216.84,
+        "speaker": "S02",
+        "text": "真的，这个完全可以。哎，比如说他通过他带他的朋友来之后，是不是可以给他一定的比如会优惠，哎奖励对吧？比如说哎。"
+      },
+      {
+        "start": 212.82,
+        "end": 217.01,
+        "speaker": "S03",
+        "text": "对就是更多给他的更多的奖励，给他送什么东西对，对。"
+      },
+      {
+        "start": 213.61,
+        "end": 218.84,
+        "speaker": "S01",
+        "text": "奖励给他个，对，给他给他积分儿增加什么的，嗯。"
+      },
+      {
+        "start": 214.79,
+        "end": 217.99,
+        "speaker": "S04",
+        "text": "对对他也可以奖励他就会推荐给更多的人玩。"
+      },
+      {
+        "start": 218.21,
+        "end": 223.57,
+        "speaker": "S02",
+        "text": "所以这样儿就通过这种方式，可能就延长我们客户的一个使用时间。对吧哎。"
+      },
+      {
+        "start": 221.57,
+        "end": 231.47,
+        "speaker": "S03",
+        "text": "是，对，而且不管是新手，你很多老玩家你也可以给他老玩家回归福利，是不是？老玩家回归以后，对你可以给他送东西，是。"
+      },
+      {
+        "start": 221.63,
+        "end": 222.21,
+        "speaker": "S01",
+        "text": "是。"
+      },
+      {
+        "start": 222.91,
+        "end": 223.06,
+        "speaker": "S01",
+        "text": "而。"
+      },
+      {
+        "start": 223.56,
+        "end": 223.76,
+        "speaker": "S01",
+        "text": "而。"
+      },
+      {
+        "start": 224.1,
+        "end": 224.5,
+        "speaker": "S04",
+        "text": "对。"
+      },
+      {
+        "start": 227.58,
+        "end": 235.31,
+        "speaker": "S01",
+        "text": "嗯对，而且我觉得，还还可以把环节涉及的更冒险一点儿，吸引人的，人的注意力。"
+      },
+      {
+        "start": 228.29,
+        "end": 228.78,
+        "speaker": "S04",
+        "text": "对对对。"
+      },
+      {
+        "start": 229.19,
+        "end": 232.04,
+        "speaker": "S02",
+        "text": "哎，对老玩家回归送东西。"
+      },
+      {
+        "start": 229.88,
+        "end": 238.5,
+        "speaker": "S04",
+        "text": "他很长时间没玩了，他可能忘了这款游戏然后突然有一天是，有一个非常好看的皮肤是老玩家回归，才，对。"
+      },
+      {
+        "start": 232.62,
+        "end": 233.76,
+        "speaker": "S03",
+        "text": "哎，对。"
+      },
+      {
+        "start": 233.76,
+        "end": 234.49,
+        "speaker": "S02",
+        "text": "对对。"
+      },
+      {
+        "start": 235.25,
+        "end": 235.57,
+        "speaker": "S03",
+        "text": "对。"
+      },
+      {
+        "start": 237.25,
+        "end": 240.46,
+        "speaker": "S02",
+        "text": "非常酷炫老玩家回归老玩家回归独属。"
+      },
+      {
+        "start": 237.81,
+        "end": 247.0,
+        "speaker": "S03",
+        "text": "那些老玩家我们必须的对呀，给专门给他设计一款啊就一想又想起了以前啊峥嵘岁月是吧？啊。"
+      },
+      {
+        "start": 238.24,
+        "end": 238.75,
+        "speaker": "S01",
+        "text": "嗯。"
+      },
+      {
+        "start": 239.62,
+        "end": 241.12,
+        "speaker": "S04",
+        "text": "对对对，必须回来。"
+      },
+      {
+        "start": 241.46,
+        "end": 244.22,
+        "speaker": "S02",
+        "text": "又来个来个老玩家限定独属。"
+      },
+      {
+        "start": 241.62,
+        "end": 243.3,
+        "speaker": "S04",
+        "text": "对，必须回来，得到这款皮肤。"
+      },
+      {
+        "start": 244.63,
+        "end": 245.14,
+        "speaker": "S04",
+        "text": "对对对。"
+      },
+      {
+        "start": 244.88,
+        "end": 245.31,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 245.38,
+        "end": 245.71,
+        "speaker": "S01",
+        "text": "嗯。"
+      },
+      {
+        "start": 245.87,
+        "end": 249.52,
+        "speaker": "S02",
+        "text": "峥嵘岁月。哇五个人一起开黑，啊，那好，厉害了。"
+      },
+      {
+        "start": 247.64,
+        "end": 248.81,
+        "speaker": "S04",
+        "text": "毕竟是一种情怀。"
+      },
+      {
+        "start": 248.05,
+        "end": 248.3,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 249.15,
+        "end": 260.27,
+        "speaker": "S01",
+        "text": "我觉得还可以把环节设计的更冒险一点儿，让观众，让那个玩儿家觉得他那个，有冒险的性可以给你有挑战欲，对对对很刺激，对。"
+      },
+      {
+        "start": 249.29,
+        "end": 249.76,
+        "speaker": "S03",
+        "text": "对对对。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\base\\alimeeting\\test\\R8004_M8006.json",
+    "base_context": [
+      {
+        "start": 218.01,
+        "end": 223.31,
+        "speaker": "S02",
+        "text": "所以这样就通过这种方式可能就延长我们客户的一个使用时间，对吧，哎。"
+      },
+      {
+        "start": 221.48,
+        "end": 231.31,
+        "speaker": "S04",
+        "text": "是，对，而且不管是新手，你很多老玩家，你也可以给他老玩家回归福利，是不是，老玩家回归以后，对你可以给他送东西，是。"
+      },
+      {
+        "start": 224.01,
+        "end": 224.41,
+        "speaker": "S03",
+        "text": "对。"
+      },
+      {
+        "start": 227.48,
+        "end": 229.91,
+        "speaker": "S01",
+        "text": "嗯，对，而且我觉得。"
+      },
+      {
+        "start": 228.18,
+        "end": 228.71,
+        "speaker": "S03",
+        "text": "对对对。"
+      },
+      {
+        "start": 229.41,
+        "end": 229.91,
+        "speaker": "S02",
+        "text": "啊。"
+      },
+      {
+        "start": 229.71,
+        "end": 231.11,
+        "speaker": "S03",
+        "text": "那那那那那那。"
+      },
+      {
+        "start": 230.81,
+        "end": 235.11,
+        "speaker": "S01",
+        "text": "还可以把环节设计的更冒险一点儿，吸引人的一个注意。"
+      },
+      {
+        "start": 232.48,
+        "end": 233.51,
+        "speaker": "S04",
+        "text": "哎，对。"
+      },
+      {
+        "start": 233.11,
+        "end": 237.51,
+        "speaker": "S03",
+        "text": "然后突然一来见是有一个非常好看的皮肤，是老玩家。"
+      },
+      {
+        "start": 233.61,
+        "end": 234.11,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 235.11,
+        "end": 235.51,
+        "speaker": "S04",
+        "text": "对。"
+      },
+      {
+        "start": 237.11,
+        "end": 237.81,
+        "speaker": "S02",
+        "text": "非常自觉的。"
+      },
+      {
+        "start": 237.68,
+        "end": 245.91,
+        "speaker": "S04",
+        "text": "哎老玩家我们必须的，对啊，给专门给他设计一款，啊，就，一想又想起了以前，啊，峥嵘岁月，啊。"
+      },
+      {
+        "start": 238.11,
+        "end": 238.61,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 238.21,
+        "end": 239.81,
+        "speaker": "S02",
+        "text": "对因为老玩家。"
+      },
+      {
+        "start": 239.41,
+        "end": 240.01,
+        "speaker": "S03",
+        "text": "对对对。"
+      },
+      {
+        "start": 241.35,
+        "end": 241.91,
+        "speaker": "S02",
+        "text": "对对。"
+      },
+      {
+        "start": 242.11,
+        "end": 242.61,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 244.48,
+        "end": 247.71,
+        "speaker": "S03",
+        "text": "对对对，峥嵘岁月，然后走，多人一起开。"
+      },
+      {
+        "start": 247.51,
+        "end": 248.85,
+        "speaker": "S03",
+        "text": "毕竟是这种情怀哈。"
+      },
+      {
+        "start": 247.91,
+        "end": 260.11,
+        "speaker": "S01",
+        "text": "对对，我觉得还可以把环节设计的更冒险一点儿，让观众让那个玩家觉得他那个有冒险的兴趣，对挑战是，对对对很刺激，对。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "equal_initial_prompt_hash": false,
+    "repeat_unit": "那",
+    "sft_max_consecutive_unit_count": 61812,
+    "base_max_consecutive_unit_count": 6
+  },
+  {
+    "original_case_index": 7,
+    "key": "alimeeting/dev/R8003_M8001",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\dev\\R8003_M8001.json",
+    "source_sha256": "63aca8108a00e71020525dc84877c1c48bb9a1dc5917a4c343dcaef1e7c54ac1",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+    "generated_anchor_seconds": 1096.21,
+    "generated_before_stable_loop": "40][1013.40][S03]就应该要寄送，因为北京同城一两天就应该就到了。[1017.61][1015.53][S01]对。[1015.78][1017.00][S01]对，如果说呀，咱们寄到家里头，那么咱们提前点儿错后点儿，这都无所谓。[1022.85][1017.78][S02]嗯。[1018.14][1022.74][S04]对。[1022.97][1023.02][S02]嗯。[1023.42][1023.67][S01]那么如果说呢咱们带到这个。[1026.58][1026.91][S03]学校，对，但是它。[1028.41][1027.25][S04]学校。[1027.47][1027.80][S01]学校去，那你肯定只能当天去，啊，现在呢也就是说咱们的难点呢就是提前跟这个老师呢，把地址能要下来。[1036.91][1028.84][S04]对。[1029.21][1029.07][S03]当天当天寄。[1030.85][1030.27][S02]对，当天寄。[1031.47][1034.07][S02]嗯。[1034.44][1037.81][S01]如果说地址能够顺利的要下来了，那么这个时间啊。[1042.04][1037.91][S02]对。[1038.27][1040.67][S04]是。[1040.95][1042.17][S02]嗯。[1042.51][1042.55][S03]就送到一点儿，送到一点儿，送到一点儿，然后然后也觉得可以。[1046.23][1042.80][S01]啊包括什么的这些难题一切都可以解决。[1045.40][1045.16][S02]对对对，时间就可以往前，时间可以往后拖，而且伸缩性。[1048.51][1046.71][S01]对。[1047.15][1047.32][S03]对，对，伸缩性。[1049.14][1049.39][S01]对，如果说老师呢地址没有给咱们，比如说说哎呀这个不方便啊什么之类的，就是没有给咱们，那么咱们只能选择后续的。[1059.05][1059.80][S03]当天或者给他寄到。[1061.61][1060.68][S01]当天用闪送邮寄，或者是咱们亲自看看接送孩子的时候，或者是这个这个。[1069.27][1067.37][S02]嗯。[1067.76][1069.88][S01]中午的时时间或者什么的去拜访一下到学校，然后把这个东西递交给老师。[1075.07][1076.73][S02]我觉得老师基本上来说这种比较有有有有有有受人尊重的这种职业，他基本上来说呢是。[1087.01][1088.00][S02]有的时候你在教师节这个特别特定的节日，你送他什么，他都会有一些。[1095.50][1094.22][S03]啊。[1094.47][1096.21][S03]",
+    "generated_stable_loop_start": "窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃",
+    "reference_context": [
+      {
+        "start": 1076.78,
+        "end": 1087.0,
+        "speaker": "S02",
+        "text": "我觉得老师基本上来说这种，比较有有有有有有受人尊重的这种职业，他基本来说呢，是。"
+      },
+      {
+        "start": 1088.05,
+        "end": 1095.55,
+        "speaker": "S02",
+        "text": "有的时候你在教师节这个特别特定的节日，你送他什么他都会有一些。"
+      },
+      {
+        "start": 1094.15,
+        "end": 1094.53,
+        "speaker": "S03",
+        "text": "他。"
+      },
+      {
+        "start": 1097.8,
+        "end": 1110.6,
+        "speaker": "S02",
+        "text": "呃，这个怎么说呢？可能她不想让人知道太多，到教师节，我收了很多礼品，虽然说都是一些，呃，有有有碍于帮助的这种礼品。"
+      },
+      {
+        "start": 1104.28,
+        "end": 1104.54,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1105.63,
+        "end": 1105.89,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1111.02,
+        "end": 1111.37,
+        "speaker": "S03",
+        "text": "我觉。"
+      },
+      {
+        "start": 1111.03,
+        "end": 1115.89,
+        "speaker": "S02",
+        "text": "所以我觉得是不是要考虑到教师的这种感受，啊能尽量的。"
+      },
+      {
+        "start": 1116.81,
+        "end": 1119.03,
+        "speaker": "S02",
+        "text": "不见光，哎尽量的。"
+      },
+      {
+        "start": 1119.8,
+        "end": 1124.04,
+        "speaker": "S01",
+        "text": "避免尴尬，啊避免尴尬，然后呢实用性还有一定的。"
+      },
+      {
+        "start": 1119.83,
+        "end": 1122.67,
+        "speaker": "S02",
+        "text": "让她舒服，哎对，让他舒服。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\base\\alimeeting\\dev\\R8003_M8001.json",
+    "base_context": [
+      {
+        "start": 1087.98,
+        "end": 1095.58,
+        "speaker": "S02",
+        "text": "有的时候你在教师节这个特别特定的节日，你送他什么，他都会有一些。"
+      },
+      {
+        "start": 1094.21,
+        "end": 1094.58,
+        "speaker": "S03",
+        "text": "啊。"
+      },
+      {
+        "start": 1096.21,
+        "end": 1097.31,
+        "speaker": "S03",
+        "text": "窃窃窃窃窃。"
+      },
+      {
+        "start": 1097.75,
+        "end": 1110.68,
+        "speaker": "S02",
+        "text": "呃，这个怎么说呢，可能他不想让人知道太多的，教师节我收了很多礼品，虽然说都是一些，呃有有有碍于帮助的这种礼品。"
+      },
+      {
+        "start": 1104.21,
+        "end": 1104.68,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1105.58,
+        "end": 1105.91,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1110.81,
+        "end": 1111.28,
+        "speaker": "S01",
+        "text": "嗯。"
+      },
+      {
+        "start": 1110.95,
+        "end": 1115.95,
+        "speaker": "S02",
+        "text": "所以我觉得是不是要考虑到教师的这种感受，啊能尽量的。"
+      },
+      {
+        "start": 1111.01,
+        "end": 1111.48,
+        "speaker": "S03",
+        "text": "对。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "equal_initial_prompt_hash": false,
+    "repeat_unit": "窃",
+    "sft_max_consecutive_unit_count": 54586,
+    "base_max_consecutive_unit_count": 5
+  },
+  {
+    "original_case_index": 8,
+    "key": "alimeeting/dev/R8001_M8004",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json",
+    "source_sha256": "56e8528408457844fe5ef5c90e283e4de34e7aa1ca38553fb338de40f6818aef",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+    "generated_anchor_seconds": 526.28,
+    "generated_before_stable_loop": "就是活活呃每日活跃人数嘛，像抖音这种，它日活跃人数可能有超过三亿吧，还有快手这种日活日。[474.55][466.31][S01]啊。[466.78][467.91][S01]嗯。[468.28][470.35][S01]啊。[470.68][472.78][S01]对，抖音啊。[473.91][473.98][S02]其实其实我觉得咱们那个平台上面，然后还可以做一些就是咱们自己人呗，然后给他就是呃点赞呀或者什么的，然后让他更火一些，因为咱们自己的品牌，咱自己公司的，出一个呃，然后大量的呃推一下这个广告。[489.81][475.55][S01]啊。[475.88][477.91][S01]嗯。[478.21][482.38][S01]对，可以。[483.68][482.91][S03]或者是我们自己的产品。[484.41][485.85][S04]自己官网，对对对。[487.41][486.75][S01]可以可以，是吧。[487.61][490.61][S01]就是。[491.08][490.68][S02]对，但是咱们自己要做的话，然后还需要这个这个就是人数粉丝的积累，对吧，然后。[497.11][496.01][S03]啊，你可以推一个品牌嘛，咱咱咱这个出的吧，可以出可以在这个咱们APP合作吧。[502.71][496.38][S04]反正反正前期前期我感觉可以。[498.91][496.71][S01]推个推个推款嘛，推款肯定推，推，嗯，对。[500.01][498.11][S01]对，对。[498.91][500.91][S01]啊，啊。[501.61][502.71][S04]前期我感觉可以就是借用这些成熟的平台，我们在自己慢慢以后就是开拓一些自己的平台嘛，对对对。[510.21][503.71][S01]嗯。[503.98][504.55][S01]说。[504.78][506.51][S01]带上边去。[507.81][508.61][S02]对，这个积累咱们的，咱们现在如果赶双十一的话，估计这个速度有可能会跟不上，嗯。[514.21][509.25][S01]对，带上边去，啊，嗯。[511.81][513.48][S01]跟不上，反正我觉得不不也不未必，不也不未必，咱们可以说这个，刚才说自己做一个也是也是可以，是吧，嗯。[521.21][513.51][S04]对。[513.81][514.01][S03]跟不上，这这这这个。[515.61][520.45][S02]对我觉得反正可以几个平台直呃那个全部同时下来，同同时，对，对，对，对，对，对。[527.41][524.01][S04]呃，我感觉现在不用做平台，就是像各大各大。[527.61][524.61][S01]对。[524.88][526.28][S03]对，你你你你做直接卖出去，",
+    "generated_stable_loop_start": "你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你",
+    "reference_context": [
+      {
+        "start": 508.61,
+        "end": 514.38,
+        "speaker": "S02",
+        "text": "对这个积累那那咱们现在如果赶在双十一的话，估计这个速度有可能会跟不上，嗯。"
+      },
+      {
+        "start": 509.25,
+        "end": 511.88,
+        "speaker": "S01",
+        "text": "附带附带的去做宣传，对，嗯。"
+      },
+      {
+        "start": 511.4,
+        "end": 511.79,
+        "speaker": "S03",
+        "text": "嗯。"
+      },
+      {
+        "start": 513.49,
+        "end": 521.25,
+        "speaker": "S01",
+        "text": "跟不上，反正我觉得我不不过也未必，不过也未必，咱们可以说这个，刚才说自己做一个也是也是可以的，对，嗯。"
+      },
+      {
+        "start": 513.55,
+        "end": 513.89,
+        "speaker": "S04",
+        "text": "对。"
+      },
+      {
+        "start": 514.06,
+        "end": 516.71,
+        "speaker": "S03",
+        "text": "跟不上啊，这个这这个要错过的，嗯。"
+      },
+      {
+        "start": 520.48,
+        "end": 528.09,
+        "speaker": "S02",
+        "text": "对我觉得反正可以几个平台直呃那个全部同时下单，同同时同时开始，因为现在这个呃。"
+      },
+      {
+        "start": 520.74,
+        "end": 521.03,
+        "speaker": "S03",
+        "text": "对。"
+      },
+      {
+        "start": 522.77,
+        "end": 523.0,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 523.78,
+        "end": 532.95,
+        "speaker": "S04",
+        "text": "呃呃是，我感觉现在不用做平台，就是像各大各大就各大电商那种官方旗舰店都可以做直播的有这种功能。"
+      },
+      {
+        "start": 524.65,
+        "end": 527.01,
+        "speaker": "S01",
+        "text": "对，反正收入费用嗯。"
+      },
+      {
+        "start": 526.02,
+        "end": 535.86,
+        "speaker": "S03",
+        "text": "对不不，不一定是自己做，直接找那个大V去合作完后，可以请他们来我们的平台，呃完后。嗯。"
+      },
+      {
+        "start": 531.6,
+        "end": 540.83,
+        "speaker": "S02",
+        "text": "对，然后一个是直播，然后再有一个是咱们那个什么京东啊什么的这些然后都是同时起同时起，嗯，然后几条路一块儿走。"
+      },
+      {
+        "start": 532.45,
+        "end": 532.81,
+        "speaker": "S01",
+        "text": "嗯。"
+      },
+      {
+        "start": 534.35,
+        "end": 535.17,
+        "speaker": "S01",
+        "text": "对，嗯。"
+      },
+      {
+        "start": 538.77,
+        "end": 539.04,
+        "speaker": "S03",
+        "text": "嗯。"
+      },
+      {
+        "start": 539.24,
+        "end": 539.82,
+        "speaker": "S01",
+        "text": "对嗯。"
+      },
+      {
+        "start": 541.09,
+        "end": 551.98,
+        "speaker": "S01",
+        "text": "咱们现在就就选主流的呗，主流几大大大媒体呗是吧，就是大平台啊，然后咱们这个产品首先咱们不能光卖光卖这个裸机吧，啊然后咱们那个产品赠品这一块儿。"
+      },
+      {
+        "start": 544.51,
+        "end": 545.76,
+        "speaker": "S03",
+        "text": "对，对。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\base\\alimeeting\\dev\\R8001_M8004.json",
+    "base_context": [
+      {
+        "start": 520.41,
+        "end": 525.11,
+        "speaker": "S02",
+        "text": "对，我觉得反正可以几个平台直呃那个全部同时下来，同同时。"
+      },
+      {
+        "start": 524.01,
+        "end": 527.71,
+        "speaker": "S04",
+        "text": "呃，我感觉现在不用做平台，就是像各大各大。"
+      },
+      {
+        "start": 525.21,
+        "end": 526.01,
+        "speaker": "S02",
+        "text": "可以开始。"
+      },
+      {
+        "start": 526.21,
+        "end": 528.71,
+        "speaker": "S03",
+        "text": "对，就是这个自己做直接的。"
+      },
+      {
+        "start": 528.43,
+        "end": 532.98,
+        "speaker": "S04",
+        "text": "就各大电商这种官方旗舰店都可以做直播的，有这种功能。"
+      },
+      {
+        "start": 529.41,
+        "end": 529.81,
+        "speaker": "S03",
+        "text": "然后。"
+      },
+      {
+        "start": 531.51,
+        "end": 534.51,
+        "speaker": "S03",
+        "text": "可以形成一个直播的平台，啊。"
+      },
+      {
+        "start": 531.51,
+        "end": 540.01,
+        "speaker": "S02",
+        "text": "对，然后这个直播，然后再一个是咱们那个什么京东啊什么的这些，然后都是同时起同时起，嗯，然后几条路。"
+      },
+      {
+        "start": 534.31,
+        "end": 535.11,
+        "speaker": "S01",
+        "text": "对，嗯。"
+      },
+      {
+        "start": 538.21,
+        "end": 538.81,
+        "speaker": "S01",
+        "text": "同时起。"
+      },
+      {
+        "start": 540.38,
+        "end": 556.81,
+        "speaker": "S01",
+        "text": "嗯，那就现在就就选主流的呗，比如说几家大大媒体呗，是吧，就是大平台，啊，然后咱们这个产品首先咱们不能光卖光卖这个裸机吧，啊咱们这个产品赠品这一块儿，大家觉得就是选一个什么样的产品，因为咱们定位刚才确定了，定位更多是年轻化。"
+      },
+      {
+        "start": 544.48,
+        "end": 544.88,
+        "speaker": "S02",
+        "text": "对。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "equal_initial_prompt_hash": false,
+    "repeat_unit": "你",
+    "sft_max_consecutive_unit_count": 60013,
+    "base_max_consecutive_unit_count": 3
+  },
+  {
+    "original_case_index": 9,
+    "key": "ami/dev/TS3004c",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-50\\predictions\\sft\\ami\\dev\\TS3004c.json",
+    "source_sha256": "7ef74654d9ce7f26f26503e6868afcc431950b4f98274a81348f58a5c15511e4",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-50\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+    "generated_anchor_seconds": 2502.38,
+    "generated_before_stable_loop": "[2421.62][2420.73][S03]It's uh no, yeah, well that's integrated in the chip, so if you use the speech recognition, that's in it.[2425.91][2424.48][S02]Okay, that's a r that's that's a advanced[2426.80][2425.82][S01]But it is a separate chip.[2427.07][2428.48][S03]I dunno, but if we use speech recognition, that will be in it as well.[2432.34][2429.90][S02]Mm.[2430.01][2432.81][S04]Okay.[2433.25][2435.45][S01]Yeah, I don't know anything about[2436.85][2437.04][S04]Uh b this, but not[2438.40][2438.02][S02]No, we just decide not to put it in, because it's too difficult.[2440.72][2441.95][S01]I dunno.[2442.46][2442.71][S03]Well, it it would be would be a good feature, feature.[2445.39][2444.92][S04]Yeah.[2445.21][2445.42][S02]Okay, we just put it in, because it's a good feature.[2447.86][2446.64][S03]Okay. No no worries about cost, et cetera, and there's a chip in it.[2451.07][2448.71][S02]We have to stop now, okay, we just we have to stop it now.[2451.63][2451.41][S01]Yeah.[2451.65][2451.89][S03]Okay.[2452.25][2452.30][S04]Fine.[2452.63][2466.92][S03]Thirty minutes?[2467.55][2468.46][S02]Yeah.[2468.67][2469.42][S03]Okay.[2469.86][2472.06][S03]Ciao.[2472.37][2501.56][S01]Hallo?[2501.91]",
+    "generated_stable_loop_start": "[2502.38][S03]Mm.[2502.51][2502.89][S04]Mm.[2503.16][2503.16][S03]Mm.[2503.28][2503.28][S04]Mm.[2503.43][2503.43][S03]Mm.[2503.51][2503.51][S04]Mm.[2503.60][2503.60][S03]Mm.[2503.6",
+    "reference_context": [],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-50\\predictions\\base\\ami\\dev\\TS3004c.json",
+    "base_context": [
+      {
+        "start": 2501.54,
+        "end": 2502.02,
+        "speaker": "S04",
+        "text": "Hallo?"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true,
+      "eos_token_id": 151645,
+      "pad_token_id": 151643
+    },
+    "equal_initial_prompt_hash": false
+  },
+  {
+    "original_case_index": 10,
+    "key": "aishell4/test/L_R003S04C02",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\aishell4\\test\\L_R003S04C02.json",
+    "source_sha256": "3e25ab14baa1cc1df20b215c7eefdad2729c82da16f708e7b032a5783d6d0a60",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+    "generated_anchor_seconds": 536.54,
+    "generated_before_stable_loop": "][S02]嗯[378.41][378.84][S06]该扣工资扣工资该走人走人[381.11][381.01][S02]嗯[381.51][382.34][S06]那下面你你们是不是各自部门儿的问题处理一下吧你们说一下[388.51][388.81][S05]我来说一下儿吧我是后勤保障部啊[393.08][393.98][S05]哎刚才老总说的这些[399.14][400.34][S05]我给你说一下儿啊[402.24][402.78][S05]这这这这设备老化什么什么这这这电路啊什么消防器材啊[409.08][410.08][S05]是我都看了多少遍了我着急啊我不着急我也着急啊[416.71][416.84][S05]那没办法呀我光给上光给你说光打报告没钱呀[422.41][422.88][S05]你你你总不能说好过一段儿时间好过一段儿时间[426.98][427.08][S02]过一段儿时间[428.21][428.21][S05]那我总不能我总总不能我我我我去偷去抢我去把这些都换了吧[436.54][437.14][S05]你老总都不批条儿不批钱我这儿[440.68][441.14][S05]草木难为无米之炊你说[443.88][444.24][S05]这些东西怎么办嗯[447.28][448.04][S05]啊到出事儿了你来找我来了哎[451.78][453.58][S05]我能说啥[454.98][456.98][S05]不对不对你这个东西[459.51][461.78][S05]条例[462.78][463.84][S06]有[464.61][464.68][S05]奖惩条例也全[466.71][467.88][S05]不能说怪这伙子啊不尽心不尽力你说[473.51][474.31][S05]按月按周都是你像这个线路啊什么[478.98][479.41][S05]都有监控都有那什么[481.51][482.14][S05]有什么毛病能不知道吗都给你都给你说了多少回都给你报告都打了多少回就是不批钱那没办法[491.61][493.04][S05]这个停停业整顿[495.21][495.78][S05]是说我这儿这个这个这个消防器材嗯不过关啊线路老化设备陈旧[504.01][504.98][S05]那不是没坏吗那不是也能将就着用吗[508.11][508.61][S05]对不对啊[509.78][512.04][S05]啊再一个你说[514.11][515.14][S05]呃嫌这个什么消极怠工啊什么的那你就说是你半年没开工资啦啊[525.61][526.04][S05]你说这这这这[528.48][529.04][S05]孩子上学交学费老婆要买衣服嗯家庭要用度你说[536.28][536.54][S05]你说这这这这这你说这这你说这这你说这这这你说",
+    "generated_stable_loop_start": "这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这",
+    "reference_context": [
+      {
+        "start": 515.18,
+        "end": 525.63,
+        "speaker": "S05",
+        "text": "嗯嫌这块儿什么消极怠工啦什么那你竟说这你半年没开工资啦啊"
+      },
+      {
+        "start": 525.91,
+        "end": 528.57,
+        "speaker": "S05",
+        "text": "你说这这这这"
+      },
+      {
+        "start": 528.88,
+        "end": 544.49,
+        "speaker": "S05",
+        "text": "孩子上学交学费老婆呃要买衣服嗯家庭要用度你说你说这这这这呃俗话儿说阎王还不差饿鬼呐是吧"
+      },
+      {
+        "start": 544.57,
+        "end": 547.93,
+        "speaker": "S05",
+        "text": "怎么都这这喂饱了吧"
+      },
+      {
+        "start": 550.13,
+        "end": 552.68,
+        "speaker": "S05",
+        "text": "这这这这个这个"
+      },
+      {
+        "start": 552.82,
+        "end": 556.54,
+        "speaker": "S05",
+        "text": "当然啦领导也有领导的难处哈"
+      },
+      {
+        "start": 560.64,
+        "end": 564.91,
+        "speaker": "S05",
+        "text": "我先表个态啊那个"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\base\\aishell4\\test\\L_R003S04C02.json",
+    "base_context": [
+      {
+        "start": 529.01,
+        "end": 544.41,
+        "speaker": "S05",
+        "text": "孩子上学交学费，老婆要买衣服，嗯家庭要用度，你说你说这这这这，你说这都你说俗话儿说，阎王还不拆饿鬼呢，是吧？"
+      },
+      {
+        "start": 544.68,
+        "end": 547.88,
+        "speaker": "S05",
+        "text": "怎么着这不先得把肚皮喂饱了嘛。"
+      },
+      {
+        "start": 550.11,
+        "end": 552.41,
+        "speaker": "S05",
+        "text": "这这这个这个。"
+      },
+      {
+        "start": 552.98,
+        "end": 556.38,
+        "speaker": "S05",
+        "text": "当然啦，领导也有领导的难处啊。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "equal_initial_prompt_hash": false,
+    "repeat_unit": "这",
+    "sft_max_consecutive_unit_count": 62098,
+    "base_max_consecutive_unit_count": 4
+  },
+  {
+    "original_case_index": 11,
+    "key": "alimeeting/dev/R8001_M8004",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63443\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json",
+    "source_sha256": "aa98ced441eadf9b95811fea32f5617aecbe066ceee56de73d193bf118cb911f",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63443\\raw\\run\\evaluations\\sentinel-50\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63443/checkpoint-50",
+    "generated_anchor_seconds": 527.15,
+    "generated_before_stable_loop": "4][S01]就是咱们选一个。[465.55][464.95][S03]品牌我觉得品牌肯定是得有销售的。[468.05][465.87][S04]我感觉就是还是根据客户就是活活嗯每日活跃人数嘛，像抖音这种，它日活跃人数可能有超过三亿吧，还有快手这种日活日。[474.54][466.28][S01]啊。[466.77][467.90][S01]嗯。[468.29][470.32][S01]啊。[470.67][472.75][S01]对，抖音咱们。[474.05][473.95][S02]其实其实我觉得咱们那个平台上面，然后还可以做一些就是咱们自己人呗，然后给他就是呃点赞呀或者什么的，然后让他更活一些，因为咱们自己品牌，咱自己公司的，出一个呃然后大量的呃推一下这个广告。[489.81][475.52][S01]啊。[475.84][477.90][S01]嗯。[478.26][482.37][S01]对，可以。[483.65][482.90][S03]或者是我们自己的产品。[484.40][485.81][S04]自己官网，对对对。[487.45][486.71][S01]可以出一个，是吧。[487.60][490.59][S01]就是。[491.08][490.64][S02]对，但是咱们自己要做的话，然后还需要这个这个就是人数粉丝的积累，然后这个这个。[497.38][495.95][S03]啊你可以推推推推，咱咱咱这个推的话，可以推可以在这个咱们必须合作吧。[502.72][496.35][S04]反正反正前期前期我感觉可以。[498.89][496.71][S01]推推推推满的话，推满的话，推满，嗯，对，推一下，啊。[501.57][502.67][S04]前期我感觉可以就是借用这些成熟的平台，我们在自己慢慢以后就是开拓一些自己的平台嘛，对对对。[510.22][503.68][S01]嗯。[504.02][506.48][S01]带上边儿去。[507.67][508.56][S02]就是这个精力，咱们咱们现在如果赶双十一的话，估计这个速度有可能会跟不上，嗯。[514.22][509.22][S01]对，带上边儿去，啊，嗯。[511.84][513.45][S01]跟不上，咱们我觉得不不也未必，不也未必，咱们可以说这个，刚才说自己做一个也是也是可以，是吧，嗯。[521.20][513.50][S04]对。[513.83][514.00][S03]跟不上，这这这这个。[515.58][520.42][S02]对我觉得反正可以几个平台直呃那个全部同时下单，同同时同时开始，因为毕竟这个。[527.35][524.00][S04]呃我感觉现在不用做平台，就是像各大各大。[527.63][524.57][S01]对。[524.87][526.25][526.69",
+    "generated_stable_loop_start": "][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][52",
+    "reference_context": [
+      {
+        "start": 508.61,
+        "end": 514.38,
+        "speaker": "S02",
+        "text": "对这个积累那那咱们现在如果赶在双十一的话，估计这个速度有可能会跟不上，嗯。"
+      },
+      {
+        "start": 513.49,
+        "end": 521.25,
+        "speaker": "S01",
+        "text": "跟不上，反正我觉得我不不过也未必，不过也未必，咱们可以说这个，刚才说自己做一个也是也是可以的，对，嗯。"
+      },
+      {
+        "start": 513.55,
+        "end": 513.89,
+        "speaker": "S04",
+        "text": "对。"
+      },
+      {
+        "start": 514.06,
+        "end": 516.71,
+        "speaker": "S03",
+        "text": "跟不上啊，这个这这个要错过的，嗯。"
+      },
+      {
+        "start": 520.48,
+        "end": 528.09,
+        "speaker": "S02",
+        "text": "对我觉得反正可以几个平台直呃那个全部同时下单，同同时同时开始，因为现在这个呃。"
+      },
+      {
+        "start": 520.74,
+        "end": 521.03,
+        "speaker": "S03",
+        "text": "对。"
+      },
+      {
+        "start": 522.77,
+        "end": 523.0,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 523.78,
+        "end": 532.95,
+        "speaker": "S04",
+        "text": "呃呃是，我感觉现在不用做平台，就是像各大各大就各大电商那种官方旗舰店都可以做直播的有这种功能。"
+      },
+      {
+        "start": 524.65,
+        "end": 527.01,
+        "speaker": "S01",
+        "text": "对，反正收入费用嗯。"
+      },
+      {
+        "start": 526.02,
+        "end": 535.86,
+        "speaker": "S03",
+        "text": "对不不，不一定是自己做，直接找那个大V去合作完后，可以请他们来我们的平台，呃完后。嗯。"
+      },
+      {
+        "start": 531.6,
+        "end": 540.83,
+        "speaker": "S02",
+        "text": "对，然后一个是直播，然后再有一个是咱们那个什么京东啊什么的这些然后都是同时起同时起，嗯，然后几条路一块儿走。"
+      },
+      {
+        "start": 532.45,
+        "end": 532.81,
+        "speaker": "S01",
+        "text": "嗯。"
+      },
+      {
+        "start": 534.35,
+        "end": 535.17,
+        "speaker": "S01",
+        "text": "对，嗯。"
+      },
+      {
+        "start": 538.77,
+        "end": 539.04,
+        "speaker": "S03",
+        "text": "嗯。"
+      },
+      {
+        "start": 539.24,
+        "end": 539.82,
+        "speaker": "S01",
+        "text": "对嗯。"
+      },
+      {
+        "start": 541.09,
+        "end": 551.98,
+        "speaker": "S01",
+        "text": "咱们现在就就选主流的呗，主流几大大大媒体呗是吧，就是大平台啊，然后咱们这个产品首先咱们不能光卖光卖这个裸机吧，啊然后咱们那个产品赠品这一块儿。"
+      },
+      {
+        "start": 544.51,
+        "end": 545.76,
+        "speaker": "S03",
+        "text": "对，对。"
+      },
+      {
+        "start": 551.98,
+        "end": 561.74,
+        "speaker": "S01",
+        "text": "大家觉得是选一个什么样的产品？咱们定位刚才确定了定位咱们说年轻化，那大家伙觉得什么样的这个这个赠品更符合咱们手机这个定位，咱们这个产品的定论。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63443\\raw\\run\\evaluations\\sentinel-50\\predictions\\base\\alimeeting\\dev\\R8001_M8004.json",
+    "base_context": [
+      {
+        "start": 520.41,
+        "end": 525.11,
+        "speaker": "S02",
+        "text": "对，我觉得反正可以几个平台直呃那个全部同时下来，同同时。"
+      },
+      {
+        "start": 524.01,
+        "end": 527.71,
+        "speaker": "S04",
+        "text": "呃，我感觉现在不用做平台，就是像各大各大。"
+      },
+      {
+        "start": 525.21,
+        "end": 526.01,
+        "speaker": "S02",
+        "text": "可以开始。"
+      },
+      {
+        "start": 526.21,
+        "end": 528.71,
+        "speaker": "S03",
+        "text": "对，就是这个自己做直接的。"
+      },
+      {
+        "start": 528.43,
+        "end": 532.98,
+        "speaker": "S04",
+        "text": "就各大电商这种官方旗舰店都可以做直播的，有这种功能。"
+      },
+      {
+        "start": 529.41,
+        "end": 529.81,
+        "speaker": "S03",
+        "text": "然后。"
+      },
+      {
+        "start": 531.51,
+        "end": 534.51,
+        "speaker": "S03",
+        "text": "可以形成一个直播的平台，啊。"
+      },
+      {
+        "start": 531.51,
+        "end": 540.01,
+        "speaker": "S02",
+        "text": "对，然后这个直播，然后再一个是咱们那个什么京东啊什么的这些，然后都是同时起同时起，嗯，然后几条路。"
+      },
+      {
+        "start": 534.31,
+        "end": 535.11,
+        "speaker": "S01",
+        "text": "对，嗯。"
+      },
+      {
+        "start": 538.21,
+        "end": 538.81,
+        "speaker": "S01",
+        "text": "同时起。"
+      },
+      {
+        "start": 540.38,
+        "end": 556.81,
+        "speaker": "S01",
+        "text": "嗯，那就现在就就选主流的呗，比如说几家大大媒体呗，是吧，就是大平台，啊，然后咱们这个产品首先咱们不能光卖光卖这个裸机吧，啊咱们这个产品赠品这一块儿，大家觉得就是选一个什么样的产品，因为咱们定位刚才确定了，定位更多是年轻化。"
+      },
+      {
+        "start": 544.48,
+        "end": 544.88,
+        "speaker": "S02",
+        "text": "对。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true,
+      "eos_token_id": 151645,
+      "pad_token_id": 151643
+    },
+    "equal_initial_prompt_hash": false
+  },
+  {
+    "original_case_index": 12,
+    "key": "ami/dev/TS3004c",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-25\\predictions\\sft\\ami\\dev\\TS3004c.json",
+    "source_sha256": "5c5223755d35e71d493bda3e0e6f7f9ed39eda52e09a72ce8f5e640df87b6eef",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-25\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-25",
+    "generated_anchor_seconds": 2502.35,
+    "generated_before_stable_loop": "w, so it's[2421.61][2420.71][S02]It's uh no, yeah, well that's integrated in the chip, so if we use the speech recognition, that's in it.[2425.91][2424.47][S04]Okay, that's a r that's that's a advanced[2426.77][2425.81][S01]But it is a separate chip.[2427.05][2428.46][S02]I dunno, but if we use speech recognition, that will be in it as well.[2432.30][2429.88][S04]Mm.[2430.05][2432.80][S03]Okay.[2433.21][2435.44][S01]Yeah, I don't know anything about this, but[2437.95][2437.99][S04]No, we just decide not to put it in, because it's too difficult.[2440.69][2438.15][S03]No.[2438.36][2441.93][S01]I dunno.[2442.44][2442.69][S02]Well, it it would be would be a good feature, feature.[2445.37][2444.90][S03]Yeah.[2445.25][2445.40][S04]Okay, we just put it in, because it's a good feature.[2447.85][2446.62][S02]Okay.[2446.95][2447.66][S02]No no worries about cost, et cetera, and there's a chip in it, so[2451.61][2448.70][S04]We have to stop now, okay, we just we have to stop it now.[2451.61][2451.88][S02]Okay.[2452.24][2452.28][S03]Fine.[2452.59][2466.91][S02]Thirty minutes?[2467.51][2468.44][S04]Yep.[2468.66][2469.40][S02]Okay.[2469.82][2472.04][S02]Ciao.[2472.33][2501.55][S04]Hallo?[2501.90]",
+    "generated_stable_loop_start": "[2502.35][S02]Mm.[2502.48][2502.87][S03]Mm.[2503.08][2503.08][S02]Mm.[2503.17][2503.17][S03]Mm.[2503.26][2503.26][S02]Mm.[2503.35][2503.35][S03]Mm.[2503.44][2503.44][S02]Mm.[2503.5",
+    "reference_context": [],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-25\\predictions\\base\\ami\\dev\\TS3004c.json",
+    "base_context": [
+      {
+        "start": 2501.54,
+        "end": 2502.02,
+        "speaker": "S04",
+        "text": "Hallo?"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true,
+      "eos_token_id": 151645,
+      "pad_token_id": 151643
+    },
+    "equal_initial_prompt_hash": false
+  },
+  {
+    "original_case_index": 13,
+    "key": "ami/dev/TS3004c",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\step10-check\\predictions\\sft\\ami\\dev\\TS3004c.json",
+    "source_sha256": "b3d0ec8d141621325971055e39fbe9eb2a2c6f1509bd0f14f8d9704b5f7b9e1e",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\step10-check\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-10",
+    "generated_anchor_seconds": 66.65,
+    "generated_before_stable_loop": "[45.99][S01]Bonjour.[46.59][46.07][S02]It's it won't wake up.[48.53][51.17][S02]Yeah, it was a bit early, I[52.73][56.79][S03]Why?[57.13][56.80][S02]Right. No, I just came in here, and normally I was one of them.[60.59][61.30][S03]Okay.[61.75][63.88][S02]Come on.[64.44][64.33][Música][64.65][64.34][S03]Check check check check.[65.90][64.70][Música][65.25][65.57][Música][66.00][66.41][Música][66.65][66.42][Música][66.65][66.44][Música][66.65][66.46][Música][66.65][66.52][Música][66.65][66.54][Música][66.65][66.55][Música][66.65][66.56][Música][66.65][66.57][Música][66.65][66.58][Música][66.65][66.59",
+    "generated_stable_loop_start": "][Música][66.65][66.66][Música][66.65][66.66][Música][66.65][66.66][Música][66.65][66.66][Música][66.65][66.66][Música][66.65][66.66][Música][66.65][66.66][Música][66.65][66.66][Mú",
+    "reference_context": [
+      {
+        "start": 51.2,
+        "end": 52.78,
+        "speaker": "S02",
+        "text": "Yeah. I was a bit early. Like"
+      },
+      {
+        "start": 56.81,
+        "end": 57.37,
+        "speaker": "S01",
+        "text": "Why?"
+      },
+      {
+        "start": 56.85,
+        "end": 60.76,
+        "speaker": "S02",
+        "text": "What? No, I just came in. Uh normally I was one of them."
+      },
+      {
+        "start": 61.38,
+        "end": 61.79,
+        "speaker": "S01",
+        "text": "Okay."
+      },
+      {
+        "start": 63.89,
+        "end": 64.53,
+        "speaker": "S02",
+        "text": "Come on."
+      },
+      {
+        "start": 64.32,
+        "end": 66.06,
+        "speaker": "S01",
+        "text": "Check check check check."
+      },
+      {
+        "start": 64.71,
+        "end": 67.04,
+        "speaker": "S03",
+        "text": "Hello. Oop."
+      },
+      {
+        "start": 66.45,
+        "end": 67.64,
+        "speaker": "S02",
+        "text": "Why won't it wake up?"
+      },
+      {
+        "start": 78.2,
+        "end": 78.7,
+        "speaker": "S02",
+        "text": "Is it on?"
+      },
+      {
+        "start": 87.57,
+        "end": 90.98,
+        "speaker": "S01",
+        "text": "The power light doesn't work. You turned it off."
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\step10-check\\predictions\\base\\ami\\dev\\TS3004c.json",
+    "base_context": [
+      {
+        "start": 61.22,
+        "end": 61.88,
+        "speaker": "S01",
+        "text": "Okay."
+      },
+      {
+        "start": 63.81,
+        "end": 64.48,
+        "speaker": "S02",
+        "text": "Come on."
+      },
+      {
+        "start": 64.28,
+        "end": 65.34,
+        "speaker": "S01",
+        "text": "Check, check, check."
+      },
+      {
+        "start": 64.64,
+        "end": 65.34,
+        "speaker": "S03",
+        "text": "Hello."
+      },
+      {
+        "start": 65.51,
+        "end": 65.98,
+        "speaker": "S01",
+        "text": "Check."
+      },
+      {
+        "start": 66.32,
+        "end": 67.62,
+        "speaker": "S02",
+        "text": "Why won't it wake up?"
+      },
+      {
+        "start": 78.02,
+        "end": 78.81,
+        "speaker": "S02",
+        "text": "Is it on?"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true,
+      "eos_token_id": 151645,
+      "pad_token_id": 151643
+    },
+    "equal_initial_prompt_hash": false
+  },
+  {
+    "original_case_index": 14,
+    "key": "ami/dev/TS3004c",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\ami\\dev\\TS3004c.json",
+    "source_sha256": "6881894c20468182eb8edf9e1afaa8e5b3cb5abcfbcf9e96bb5935e7d1745c34",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+    "generated_anchor_seconds": 2502.38,
+    "generated_before_stable_loop": ".62][2420.73][S02]It's uh no, yeah, well that's integrated in the chip, so if you use the speech recognition, that's in it.[2425.91][2424.48][S04]Okay, that's a r that's that's a that's a[2426.80][2425.82][S01]But it is a separate chip.[2427.08][2428.48][S02]I don't know, but if we use speech recognition, that will be in it as well.[2432.34][2432.81][S03]Okay.[2433.25][2435.45][S01]Yeah, I don't know anything about[2436.85][2437.04][S03]Uh b this, but not[2438.41][2438.02][S04]No, we just decide not to put it in, because it's too difficult.[2440.72][2441.95][S01]I don't know.[2442.47][2442.71][S02]Well it it would be would be a good feature, feature.[2445.39][2444.92][S03]Yeah.[2445.21][2445.42][S04]Okay, we just put it in, because it's a good feature.[2447.86][2446.64][S02]Okay.[2446.97][2447.66][S02]No no worries about cost, et cetera, and there's a chip in it.[2451.07][2448.71][S04]We have to stop now, okay, we just we have to stop it now.[2451.63][2451.39][S01]Yeah.[2451.65][2451.89][S02]Okay.[2452.26][2452.30][S03]Fine.[2452.63][2466.92][S02]Thirty minutes?[2467.55][2468.46][S04]Yeah.[2468.67][2469.42][S02]Okay.[2469.86][2472.06][S02]Ciao.[2472.37][2501.56][S04]Hallo?[2501.92]",
+    "generated_stable_loop_start": "[2502.38][S01]Mm.[2502.51][2502.89][S02]Mm.[2503.15][2503.15][S01]Mm.[2503.22][2503.22][S02]Mm.[2503.38][2503.38][S01]Mm.[2503.44][2503.44][S02]Mm.[2503.53][2503.53][S01]Mm.[2503.5",
+    "reference_context": [],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\predictions\\base\\ami\\dev\\TS3004c.json",
+    "base_context": [
+      {
+        "start": 2501.54,
+        "end": 2502.02,
+        "speaker": "S04",
+        "text": "Hallo?"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true,
+      "eos_token_id": 151645,
+      "pad_token_id": 151643
+    },
+    "equal_initial_prompt_hash": false
+  },
+  {
+    "original_case_index": 15,
+    "key": "alimeeting/dev/R8001_M8004",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json",
+    "source_sha256": "e110b6c2026ad76129905df8a1887d2af217fbc08aaf878716c267401f3079fe",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+    "generated_anchor_seconds": 1190.85,
+    "generated_before_stable_loop": ".34][S04]你要是特别大的大V的话，他肯定的时间肯定不够。[1124.92][1122.38][S02]我我感觉我我们可以先确定几个人选，就是在组，最后再商量确定那个。[1128.98][1124.07][S01]对。[1124.38][1125.54][S01]对。[1125.88][1125.68][S03]然后费用还特别高。[1127.20][1128.60][S01]对，先先找几个这个流量不是特别大的人看看。[1131.44][1130.23][S02]对，先确定几个人选就是。[1132.38][1132.35][S01]啊。[1132.66][1133.14][S01]我现在有一些个这个，看他们的时间吧，反正看人家的档期嘛，对吧，你给我去规定一下。[1138.54][1137.38][S04]主要还是看怎么样去推这个产品，先说我们的呃产品呃亮点，还有我们那个力度赠的什么东西。[1146.72][1139.62][S01]嗯。[1139.88][1140.87][S01]嗯。[1141.12][1142.26][S01]看一下这个。[1142.98][1146.84][S01]嗯。[1147.14][1147.40][S04]这样人家一选耳朵会。[1149.10][1149.62][S01]还是说。[1150.10][1149.85][S03]会拧。[1150.26][1150.16][S03]但是我觉得现在走直播的话，它好像不不需要什么你特别特别多的呃好的亮点啊，或者说那什么，它直接就是大家一看就是我今天送什么，然后你再送什么，我还送什么，我今天也得加个粉，对，也加个粉，就是点点，今天做这个，然后就给他。[1166.44][1152.03][S01]我觉得。[1152.40][1156.52][S01]嗯。[1156.82][1158.09][S01]但。[1158.30][1161.88][S01]对，所以在送之前，这个产品咱们要，对，咱们要进行进行把思路给它，对。[1166.88][1162.55][S02]对对对。[1163.12][1167.00][S03]我们走流量，走流量走一次，然后把这个东西推出来。[1170.02][1169.12][S01]好。[1169.34][1170.88][S01]但那咱们的所有的这个都要一步一步都一起去推行啊，包括说咱们做，如果做这个宣传的时候，咱们的产品，咱们的盲盒产品肯定要是在这个直播间这边儿去上线的，啊，所以说这边要加快速度去跟去谈一下，啊。[1185.32][1184.60][S03]嗯，还要沟通一下是先那个，咱们还要确定一个流程，我觉得有一个时间点是先做直播，然后先先做直播，对，对。[1194.58][1189.08][S01]嗯。[1189.32][1190.85][S01]这样我们就，",
+    "generated_stable_loop_start": "下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下",
+    "reference_context": [
+      {
+        "start": 1170.92,
+        "end": 1181.46,
+        "speaker": "S01",
+        "text": "咱们把咱们这所有的这个都要一步一步步走，一起去推行啊，包括说你当时做，如果做这个宣传的时候，咱们这产品咱们的盲盒儿产品，肯定要是在这个直播间这边去上线的。"
+      },
+      {
+        "start": 1181.83,
+        "end": 1185.31,
+        "speaker": "S01",
+        "text": "啊，所以说这边要加快速度，去跟人家谈一下，嗯。"
+      },
+      {
+        "start": 1184.66,
+        "end": 1194.96,
+        "speaker": "S02",
+        "text": "你还要沟通一下是先那个，咱们还要确定一个流程。我觉得有一个时间点是先做哪步然后先是先是直播还是先是？"
+      },
+      {
+        "start": 1190.88,
+        "end": 1196.71,
+        "speaker": "S01",
+        "text": "这样我们就下下周，下周二吧，下周二之前把这方案定过来，好不好，那有没有意见。"
+      },
+      {
+        "start": 1191.42,
+        "end": 1195.54,
+        "speaker": "S04",
+        "text": "对对。对我们要制定一套完整的方案对。"
+      },
+      {
+        "start": 1191.66,
+        "end": 1192.0,
+        "speaker": "S03",
+        "text": "嗯。"
+      },
+      {
+        "start": 1194.83,
+        "end": 1197.52,
+        "speaker": "S03",
+        "text": "还还是先把，先把计划制定出来。"
+      },
+      {
+        "start": 1197.61,
+        "end": 1200.61,
+        "speaker": "S01",
+        "text": "对下下周二的时间，你们就谈吧可以，下周二把把方案定过来。"
+      },
+      {
+        "start": 1197.87,
+        "end": 1198.39,
+        "speaker": "S02",
+        "text": "嗯。"
+      },
+      {
+        "start": 1198.7,
+        "end": 1199.01,
+        "speaker": "S03",
+        "text": "嗯。"
+      },
+      {
+        "start": 1199.34,
+        "end": 1205.72,
+        "speaker": "S02",
+        "text": "那咱们先做那个商场的，然后还是先做那个电商的，还是先做直播的？我觉得。"
+      },
+      {
+        "start": 1202.71,
+        "end": 1203.48,
+        "speaker": "S03",
+        "text": "肯定要先。"
+      },
+      {
+        "start": 1205.27,
+        "end": 1207.05,
+        "speaker": "S03",
+        "text": "同时，同时开始呗。"
+      },
+      {
+        "start": 1205.47,
+        "end": 1211.98,
+        "speaker": "S01",
+        "text": "所以我觉得，平常有有这么多人吗？方案可能会比较乱一些，对，嗯。"
+      },
+      {
+        "start": 1206.48,
+        "end": 1208.41,
+        "speaker": "S04",
+        "text": "我感觉可以同时同时做比较好吧。"
+      },
+      {
+        "start": 1207.86,
+        "end": 1211.13,
+        "speaker": "S02",
+        "text": "同时呢还是会是会不会有点乱，然后。"
+      },
+      {
+        "start": 1207.91,
+        "end": 1208.24,
+        "speaker": "S03",
+        "text": "嗯。"
+      },
+      {
+        "start": 1210.62,
+        "end": 1217.75,
+        "speaker": "S03",
+        "text": "不会的，你你你线上呃，线上和线下同时开始，还是很是很是备受关注的。"
+      },
+      {
+        "start": 1214.21,
+        "end": 1214.37,
+        "speaker": "S01",
+        "text": "人。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\predictions\\base\\alimeeting\\dev\\R8001_M8004.json",
+    "base_context": [
+      {
+        "start": 1184.61,
+        "end": 1192.81,
+        "speaker": "S02",
+        "text": "嗯，还要弄一下是先那个，咱们还要确定一个流程，我觉得有一个时间点是先做直播，然后先。"
+      },
+      {
+        "start": 1190.81,
+        "end": 1196.71,
+        "speaker": "S01",
+        "text": "这样我们就，下下周，下周二下周二之前把它放一下，对吧，对。"
+      },
+      {
+        "start": 1191.35,
+        "end": 1194.31,
+        "speaker": "S04",
+        "text": "对，对我们要制定一套完整的。"
+      },
+      {
+        "start": 1192.61,
+        "end": 1193.01,
+        "speaker": "S02",
+        "text": "对。"
+      },
+      {
+        "start": 1193.81,
+        "end": 1197.61,
+        "speaker": "S03",
+        "text": "对，先先把先把计划制定出来。"
+      },
+      {
+        "start": 1197.55,
+        "end": 1200.51,
+        "speaker": "S01",
+        "text": "对，下下周二时间你们可不可以，下周二把放一下。"
+      },
+      {
+        "start": 1199.28,
+        "end": 1205.71,
+        "speaker": "S02",
+        "text": "那咱们是先做那个商场的，然后还是先做电商的，还是先做直播的，就是。"
+      },
+      {
+        "start": 1202.68,
+        "end": 1203.51,
+        "speaker": "S03",
+        "text": "肯定要先。"
+      },
+      {
+        "start": 1205.18,
+        "end": 1206.71,
+        "speaker": "S03",
+        "text": "同时同时。"
+      },
+      {
+        "start": 1205.41,
+        "end": 1206.11,
+        "speaker": "S01",
+        "text": "我觉得。"
+      },
+      {
+        "start": 1206.41,
+        "end": 1208.31,
+        "speaker": "S04",
+        "text": "我感觉可以同时同时做比较好。"
+      },
+      {
+        "start": 1206.71,
+        "end": 1207.61,
+        "speaker": "S01",
+        "text": "当然，这个。"
+      },
+      {
+        "start": 1207.81,
+        "end": 1211.01,
+        "speaker": "S02",
+        "text": "同时的还是不，会有点儿乱，然后。"
+      },
+      {
+        "start": 1208.71,
+        "end": 1210.91,
+        "speaker": "S01",
+        "text": "方案可能会比较乱一些，对。"
+      },
+      {
+        "start": 1210.68,
+        "end": 1216.31,
+        "speaker": "S03",
+        "text": "会的，你你你线上呃线上和线下同时开始还是很。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true,
+      "eos_token_id": 151645,
+      "pad_token_id": 151643
+    },
+    "equal_initial_prompt_hash": false,
+    "repeat_unit": "下",
+    "sft_max_consecutive_unit_count": 51141,
+    "base_max_consecutive_unit_count": 2
+  },
+  {
+    "original_case_index": 18,
+    "key": "ami/dev/TS3004c",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63439\\raw\\run\\checkpoint-20\\predictions\\sft\\ami\\dev\\TS3004c.json",
+    "source_sha256": "0bceb2a20437c2c6c45310a7c4b69d374fb535a5b416b85c53223c69614699d2",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63439\\raw\\run\\checkpoint-20\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-20",
+    "generated_anchor_seconds": 2502.38,
+    "generated_before_stable_loop": "in the chip, so if you use the speech recognition, that's in it.[2426.01][2424.48][S03]Okay, that's a r that's that's a that's a[2426.71][2425.81][S04]But it is a separate chip.[2427.01][2428.48][S02]I dunno, but if we use speech recognition, that will be in it as well.[2432.31][2429.91][S03]Mm.[2430.01][2432.81][S01]Okay.[2433.21][2435.48][S04]Yeah, I don't know anything about[2436.81][2437.01][S01]Uh b this, but[2437.91][2438.01][S03]No, we just decide not to put it in, because it's too difficult.[2440.65][2438.11][S01]No.[2438.31][2441.95][S04]I dunno.[2442.41][2442.71][S02]Well it it would be would be a good feature.[2444.51][2444.91][S01]Yeah.[2445.21][2444.98][S02]Feature.[2445.35][2445.41][S03]Okay, we just put it in, because it's a good feature.[2447.81][2446.61][S02]Okay.[2446.91][2447.68][S02]No no worries about cost, et cetera, and there's a chip in it.[2451.11][2448.71][S03]We have to stop now, okay, we just we have to stop it now.[2451.61][2451.41][S04]Yeah.[2451.61][2451.91][S02]Okay.[2452.21][2452.31][S01]Fine.[2452.55][2466.91][S01]Thirty minutes?[2467.51][2468.48][S03]Yep.[2468.65][2469.41][S01]Okay.[2469.81][2472.08][S01]Ciao.[2472.31][2501.58][S03]Hallo?[2501.85]",
+    "generated_stable_loop_start": "[2502.38][S04]Mm.[2502.45][2502.81][S01]Mm.[2503.01][2503.01][S04]Mm.[2503.11][2503.11][S01]Mm.[2503.21][2503.21][S04]Mm.[2503.31][2503.31][S01]Mm.[2503.41][2503.41][S04]Mm.[2503.5",
+    "reference_context": [],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63439\\raw\\run\\checkpoint-20\\predictions\\base\\ami\\dev\\TS3004c.json",
+    "base_context": [
+      {
+        "start": 2501.54,
+        "end": 2502.02,
+        "speaker": "S04",
+        "text": "Hallo?"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true,
+      "eos_token_id": 151645,
+      "pad_token_id": 151643
+    },
+    "equal_initial_prompt_hash": false
+  },
+  {
+    "original_case_index": 19,
+    "key": "ami/dev/TS3004c",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63439\\raw\\run\\checkpoint-10\\predictions\\sft\\ami\\dev\\TS3004c.json",
+    "source_sha256": "67e56c79358edb9fea04a510c9d3e8cd67d63889d4b2eb3086f9b8026277241f",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63439\\raw\\run\\checkpoint-10\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-10",
+    "generated_anchor_seconds": 66.7,
+    "generated_before_stable_loop": "[45.99][S01]Bonjour.[46.59][46.06][S02]It's it won't wake up.[48.53][51.17][S02]Yeah, it was a bit early, I[52.73][56.79][S01]Why?[57.15][56.80][S02]Right. No, I just came in here, and normally I was one of them.[60.59][61.30][S01]Okay.[61.75][63.88][S02]Come on.[64.44][64.32][S01]Check check check check.[65.90][64.69][S03]Hello.[65.27][65.57][S01]Check.[65.95][66.41][?][66.65][66.42][?][66.62][66.44][?][66.66][66.52][?][66.68][66.54][?][66.68][66.56][?][66.68][66.57][?][66.68][66.68][?][66.70][66.69",
+    "generated_stable_loop_start": "][?][66.70][66.70][?][66.70][66.70][?][66.70][66.70][?][66.70][66.70][?][66.70][66.70][?][66.70][66.70][?][66.70][66.70][?][66.70][66.70][?][66.70][66.70][?][66.70][66.70][?][66.70",
+    "reference_context": [
+      {
+        "start": 51.2,
+        "end": 52.78,
+        "speaker": "S02",
+        "text": "Yeah. I was a bit early. Like"
+      },
+      {
+        "start": 56.81,
+        "end": 57.37,
+        "speaker": "S01",
+        "text": "Why?"
+      },
+      {
+        "start": 56.85,
+        "end": 60.76,
+        "speaker": "S02",
+        "text": "What? No, I just came in. Uh normally I was one of them."
+      },
+      {
+        "start": 61.38,
+        "end": 61.79,
+        "speaker": "S01",
+        "text": "Okay."
+      },
+      {
+        "start": 63.89,
+        "end": 64.53,
+        "speaker": "S02",
+        "text": "Come on."
+      },
+      {
+        "start": 64.32,
+        "end": 66.06,
+        "speaker": "S01",
+        "text": "Check check check check."
+      },
+      {
+        "start": 64.71,
+        "end": 67.04,
+        "speaker": "S03",
+        "text": "Hello. Oop."
+      },
+      {
+        "start": 66.45,
+        "end": 67.64,
+        "speaker": "S02",
+        "text": "Why won't it wake up?"
+      },
+      {
+        "start": 78.2,
+        "end": 78.7,
+        "speaker": "S02",
+        "text": "Is it on?"
+      },
+      {
+        "start": 87.57,
+        "end": 90.98,
+        "speaker": "S01",
+        "text": "The power light doesn't work. You turned it off."
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63439\\raw\\run\\checkpoint-10\\predictions\\base\\ami\\dev\\TS3004c.json",
+    "base_context": [
+      {
+        "start": 61.22,
+        "end": 61.88,
+        "speaker": "S01",
+        "text": "Okay."
+      },
+      {
+        "start": 63.81,
+        "end": 64.48,
+        "speaker": "S02",
+        "text": "Come on."
+      },
+      {
+        "start": 64.28,
+        "end": 65.34,
+        "speaker": "S01",
+        "text": "Check, check, check."
+      },
+      {
+        "start": 64.64,
+        "end": 65.34,
+        "speaker": "S03",
+        "text": "Hello."
+      },
+      {
+        "start": 65.51,
+        "end": 65.98,
+        "speaker": "S01",
+        "text": "Check."
+      },
+      {
+        "start": 66.32,
+        "end": 67.62,
+        "speaker": "S02",
+        "text": "Why won't it wake up?"
+      },
+      {
+        "start": 78.02,
+        "end": 78.81,
+        "speaker": "S02",
+        "text": "Is it on?"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true,
+      "eos_token_id": 151645,
+      "pad_token_id": 151643
+    },
+    "equal_initial_prompt_hash": false
+  },
+  {
+    "original_case_index": 21,
+    "key": "alimeeting/dev/R8007_M8011",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\sft\\alimeeting\\dev\\R8007_M8011.json",
+    "source_sha256": "0754211d7b6d95de64f9c0ea2e91865a2206e3df2f6a2206e60897796af4cbc5",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63458/lr2e-6/checkpoint-20",
+    "generated_anchor_seconds": 1113.3,
+    "generated_before_stable_loop": "，所以这一点都特别好。[1036.98][1037.14][S02]嗯。[1037.60][1037.98][S01]对，尤其是今年在疫情期间，我认为短视频的发展是做了一个前奏的一个推广。[1044.60][1044.88][S04]是的。[1045.68][1045.22][S02]对都在家呆着呢。[1046.64][1046.64][S04]没错。[1047.32][1046.98][S01]全民推广全民短视频，全民在发短视频。[1050.06][1047.02][S03]对。[1047.40][1049.74][S02]全面都在用。[1050.90][1050.52][S02]而且健身的视频还挺蛮多的，自己在家健身。[1054.56][1053.00][S03]哎对。[1053.61][1053.78][S01]对，健身啊食谱啊这一些会就是所有人都能够用得上的或者做到的是会很风靡，我记得前段时间我认为对用用户影响最大的就是前一段时间。[1066.72][1054.54][S03]健蹦的。[1056.12][1067.04][S01]出了一款什么新菜，然后所有人大家都在短视频里分享自己所做的这个新菜，对。[1074.64][1073.00][S04]就。[1073.98][1074.46][S03]反正那一段时间我朋友圈儿也好，或者是那个看的刷的好，全部都是什么凉皮儿啊，然后自己做的凉皮儿啊，自己蒸的什么馒头花卷儿啊之类的，反正都是这类的。[1085.81][1075.00][S04]自己做的。[1075.92][1076.48][S01]对。[1076.88][1084.92][S02]对然后发现自己做的跟视频里别人做的完全不一样。[1088.70][1088.88][S03]那就是一看就会一学就会吗？[1091.72][1091.66][S02]对，都是手残党。[1094.44][1093.40][S03]我。[1093.75][1094.86][S03]对但是很快。[1096.91][1095.08][S01]但是的确是在疫情期间为大家提供了一些快感，在这个压抑比较压抑性的这个环境里边，大家还是也能做到一个类似于自娱自乐吧。[1106.56][1099.30][S02]对娱乐。[1100.56][1106.52][S02]嗯嗯。[1107.06][1106.88][S03]对还是很快乐的那个。[1108.78][1107.28][S01]这个是这个对对用户一个比较好的影响。[1110.14][1109.90][S03]虽然作废了，但是心里还是很美的。[1112.21][1111.74][S02]对很很高兴的。[1113.00][1113.12][S01]对，至少我今天我是做到了一些什么东西，我有付出的，对我有付出的。[1118.98][1113.2",
+    "generated_stable_loop_start": "0][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.3",
+    "reference_context": [
+      {
+        "start": 1095.15,
+        "end": 1106.47,
+        "speaker": "S01",
+        "text": "但这的确是在疫情期间为大家提供了一些快感，在这个压抑比较压抑性的这个环境里边，大家还是，也能做到一个类似于自娱自乐吧。"
+      },
+      {
+        "start": 1099.36,
+        "end": 1100.49,
+        "speaker": "S03",
+        "text": "对，娱乐。"
+      },
+      {
+        "start": 1102.18,
+        "end": 1102.37,
+        "speaker": "S04",
+        "text": "嗯。"
+      },
+      {
+        "start": 1106.55,
+        "end": 1107.04,
+        "speaker": "S03",
+        "text": "嗯嗯。"
+      },
+      {
+        "start": 1106.93,
+        "end": 1108.76,
+        "speaker": "S02",
+        "text": "对还是很快乐的觉得。"
+      },
+      {
+        "start": 1107.32,
+        "end": 1110.09,
+        "speaker": "S01",
+        "text": "这也是一对对对用户一个比较好的影响。"
+      },
+      {
+        "start": 1109.72,
+        "end": 1109.86,
+        "speaker": "S04",
+        "text": "呃。"
+      },
+      {
+        "start": 1109.9,
+        "end": 1112.21,
+        "speaker": "S02",
+        "text": "虽然做废了，但是心里还是很美的。"
+      },
+      {
+        "start": 1111.78,
+        "end": 1113.04,
+        "speaker": "S03",
+        "text": "对，很很高兴的。"
+      },
+      {
+        "start": 1113.18,
+        "end": 1114.53,
+        "speaker": "S01",
+        "text": "对至少我今天我是。"
+      },
+      {
+        "start": 1113.21,
+        "end": 1114.07,
+        "speaker": "S02",
+        "text": "对自己动手儿。"
+      },
+      {
+        "start": 1115.4,
+        "end": 1118.99,
+        "speaker": "S01",
+        "text": "做到了一些什么东西，我有付出了对我有付出了。"
+      },
+      {
+        "start": 1116.38,
+        "end": 1121.13,
+        "speaker": "S03",
+        "text": "对我有事儿要做，而且我我也做了，虽然我没做好。"
+      },
+      {
+        "start": 1121.57,
+        "end": 1123.03,
+        "speaker": "S02",
+        "text": "对这个这个倒是。"
+      },
+      {
+        "start": 1122.6,
+        "end": 1127.17,
+        "speaker": "S04",
+        "text": "短视频它之所以叫短视频是因为它每一个视频的时长都比较短。"
+      },
+      {
+        "start": 1127.76,
+        "end": 1128.06,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1128.04,
+        "end": 1136.29,
+        "speaker": "S04",
+        "text": "对于咱们来说，就是用咱们碎片的时间，学习也好，娱乐也好，都特别方便。"
+      },
+      {
+        "start": 1136.86,
+        "end": 1138.77,
+        "speaker": "S04",
+        "text": "另外一个就是可以。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\base\\alimeeting\\dev\\R8007_M8011.json",
+    "base_context": [
+      {
+        "start": 1106.88,
+        "end": 1108.81,
+        "speaker": "S03",
+        "text": "对，还是很快乐的那个。"
+      },
+      {
+        "start": 1107.28,
+        "end": 1110.21,
+        "speaker": "S01",
+        "text": "这个是，对，对用户一个比较好的影响。"
+      },
+      {
+        "start": 1109.91,
+        "end": 1112.27,
+        "speaker": "S03",
+        "text": "虽然作废了，但是心里还是很美的。"
+      },
+      {
+        "start": 1111.74,
+        "end": 1113.01,
+        "speaker": "S04",
+        "text": "对，很高兴的。"
+      },
+      {
+        "start": 1113.14,
+        "end": 1119.01,
+        "speaker": "S01",
+        "text": "对，至少我今天我是做到了一些什么东西，我有付出的，对我有付出的。"
+      },
+      {
+        "start": 1113.21,
+        "end": 1114.11,
+        "speaker": "S03",
+        "text": "对，自己动了。"
+      },
+      {
+        "start": 1116.34,
+        "end": 1117.87,
+        "speaker": "S04",
+        "text": "对我有事儿要做。"
+      },
+      {
+        "start": 1118.48,
+        "end": 1121.11,
+        "speaker": "S04",
+        "text": "而且我我也做了，虽然我没做好。"
+      },
+      {
+        "start": 1121.56,
+        "end": 1123.07,
+        "speaker": "S03",
+        "text": "对，这个这个倒是。"
+      },
+      {
+        "start": 1122.58,
+        "end": 1127.21,
+        "speaker": "S02",
+        "text": "短视频，它之所以叫短视频，是因为它每一个视频的时长都比较短。"
+      },
+      {
+        "start": 1127.71,
+        "end": 1128.11,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1128.01,
+        "end": 1136.41,
+        "speaker": "S02",
+        "text": "对于咱们来说，就是用咱们碎片的时间，学习也好，娱乐也好，都特别方便。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true,
+      "eos_token_id": 151645,
+      "pad_token_id": 151643
+    },
+    "equal_initial_prompt_hash": false
+  },
+  {
+    "original_case_index": 22,
+    "key": "alimeeting/dev/R8007_M8010",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\sft\\alimeeting\\dev\\R8007_M8010.json",
+    "source_sha256": "71fea6e42ba2149be2eb628955150b0ec532ded59a7d756c0d5d78d9b007b135",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63458/lr2e-6/checkpoint-20",
+    "generated_anchor_seconds": 504.68,
+    "generated_before_stable_loop": "就只能上厕所。[433.45][433.48][S01]啊，先把它记下来，这厕所也不让抽这个，我跟你说，就是，啊，就是就是说可以考虑，比如说。[440.68][437.56][S02]是，这个就是大伙儿嘞，注意的意见就是考虑一下，让领导给让领导考虑一下了，嗯，饮水机那好用，主要是主要是男士的抽烟。[449.01][441.72][S01]这个饮水机啊，微波炉啊这些东西啊。[444.98][444.21][S04]对。[444.57][446.32][S04]嗯嗯嗯。[447.37][449.85][S04]下楼下嘛，那就下楼下抽，嗯。[452.43][452.25][S01]这个问题到时候我再报一下，然后就是说大家对装修啊，比如现在电脑到时候肯定都得搬过去。[459.92][452.33][S02]对，这个是，嗯，这个你就是定下来了。[456.73][460.26][S01]然后呢，装修的话就是一个人一个写字台这种吗？还是说对于灯啊，或者说那个环境啊。[466.91][467.01][S02]装修最方便，主要是说的，呃，小隔间儿一人儿一个特别方便，嗯，小隔间儿。[474.85][467.81][S04]是要那种小隔间儿还是那个一间儿一个。[471.08][470.36][S01]小隔间儿呗。[471.17][471.20][S03]嗯。[471.72][472.58][S03]嗯，员工一星啊，都是小隔间儿。[474.40][473.23][S01]嗯。[473.62][473.68][S04]但是其实那种那种那种开通的那种也挺好的，其实小隔间儿。[479.01][478.31][S02]这个咋说呢，这就是看具体的就是空间了，去研究这个事儿，要空间小的话，你隔间儿隔不开呀，你。[486.92][482.85][S04]嗯，其实，因为有时候有时候你开会的话，有个小隔间反而不方便，有时候开会说说开会的。[489.40][488.59][S02]开工咱不有，咱不有会议室吗？嗯。[491.88][490.12][S04]哦对，不一定非得到会议室，有的时候有的时候你聊点儿简单的。[494.91][490.37][S01]对，到时候，哦，是小隔间儿呗。[492.62][493.18][S03]现在。[493.72][493.43][S02]要是空间够用的话，咱们可以会议室。[496.35][494.48][S01]还有一个会议室，对，到时候那个装修的这个风格的话，你觉得就是有什么是陶瓷呀，还是说这个地板啊墙啊。[503.47][495.25][S04]对。[495.70][502.38][S02]这个吧，就是没啥要求，只要是得亮堂儿的瞅着特别特别舒服温馨的多，完了员工干活儿工作了特别有劲儿，嗯。[513.10][504.53][S01]地板上。[505.14][504.5",
+    "generated_stable_loop_start": "8][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][5",
+    "reference_context": [
+      {
+        "start": 488.74,
+        "end": 492.03,
+        "speaker": "S02",
+        "text": "开会咱不有，咱不有会议室吗？嗯。"
+      },
+      {
+        "start": 489.24,
+        "end": 490.94,
+        "speaker": "S01",
+        "text": "啊啊对到时候。"
+      },
+      {
+        "start": 490.48,
+        "end": 497.18,
+        "speaker": "S04",
+        "text": "不一定非得到会议室，有的时候有的时候你，聊点简单的事儿，不用去会议室啊。"
+      },
+      {
+        "start": 491.39,
+        "end": 496.4,
+        "speaker": "S03",
+        "text": "最好是小隔间儿的，现在啊咱有会议室这这。"
+      },
+      {
+        "start": 493.61,
+        "end": 496.43,
+        "speaker": "S02",
+        "text": "要是空间够用的话，咱们可以会议室。"
+      },
+      {
+        "start": 495.29,
+        "end": 495.55,
+        "speaker": "S01",
+        "text": "好。"
+      },
+      {
+        "start": 496.51,
+        "end": 503.61,
+        "speaker": "S01",
+        "text": "到时候那个装修的这个风格的话，你觉得就是有什么是陶瓷呀，还是说这个地板啊墙啊。"
+      },
+      {
+        "start": 498.33,
+        "end": 498.83,
+        "speaker": "S02",
+        "text": "嗯。"
+      },
+      {
+        "start": 502.5,
+        "end": 513.26,
+        "speaker": "S02",
+        "text": "这个吧就没啥要求，只要说得亮堂的，瞅着特别，特别舒服，温馨的那种，完了员工干活儿，工作了就特别得劲儿，嗯。"
+      },
+      {
+        "start": 503.62,
+        "end": 505.35,
+        "speaker": "S03",
+        "text": "嗯地板砖。"
+      },
+      {
+        "start": 504.79,
+        "end": 505.57,
+        "speaker": "S01",
+        "text": "没啥要求。"
+      },
+      {
+        "start": 505.39,
+        "end": 509.43,
+        "speaker": "S04",
+        "text": "地毯吧，还是地毯好一点儿，地毯比较安静一点儿。"
+      },
+      {
+        "start": 509.12,
+        "end": 510.74,
+        "speaker": "S01",
+        "text": "呃舒服温馨。"
+      },
+      {
+        "start": 511.14,
+        "end": 514.67,
+        "speaker": "S04",
+        "text": "地毯就是保洁就是保洁费劲一点儿啊。"
+      },
+      {
+        "start": 511.66,
+        "end": 513.78,
+        "speaker": "S03",
+        "text": "地毯安静，对对对整地毯行。"
+      },
+      {
+        "start": 512.94,
+        "end": 513.52,
+        "speaker": "S01",
+        "text": "那就是。"
+      },
+      {
+        "start": 513.82,
+        "end": 524.76,
+        "speaker": "S02",
+        "text": "对，现在好像都是，那就买吸尘器了，地毯就吸尘器特别方便了，欻欻就能整完，但是说是，地毯吗？咱们温习一下的就是说，嗯。"
+      },
+      {
+        "start": 514.14,
+        "end": 514.36,
+        "speaker": "S01",
+        "text": "就。"
+      },
+      {
+        "start": 515.44,
+        "end": 515.65,
+        "speaker": "S03",
+        "text": "这。"
+      },
+      {
+        "start": 516.69,
+        "end": 517.0,
+        "speaker": "S03",
+        "text": "啊。"
+      },
+      {
+        "start": 516.96,
+        "end": 517.39,
+        "speaker": "S04",
+        "text": "啊。"
+      },
+      {
+        "start": 517.07,
+        "end": 517.4,
+        "speaker": "S01",
+        "text": "好的。"
+      },
+      {
+        "start": 518.06,
+        "end": 519.2,
+        "speaker": "S01",
+        "text": "那就是说我们。"
+      },
+      {
+        "start": 518.37,
+        "end": 519.35,
+        "speaker": "S03",
+        "text": "嗯啊。"
+      },
+      {
+        "start": 518.58,
+        "end": 519.02,
+        "speaker": "S04",
+        "text": "嗯。"
+      },
+      {
+        "start": 520.3,
+        "end": 520.71,
+        "speaker": "S04",
+        "text": "对。"
+      },
+      {
+        "start": 523.64,
+        "end": 528.21,
+        "speaker": "S01",
+        "text": "大家觉得那个墙的话，是要贴纸还是说直接刷漆的这种？"
+      },
+      {
+        "start": 528.34,
+        "end": 529.03,
+        "speaker": "S03",
+        "text": "刷漆呗。"
+      },
+      {
+        "start": 529.32,
+        "end": 529.7,
+        "speaker": "S01",
+        "text": "啊。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\base\\alimeeting\\dev\\R8007_M8010.json",
+    "base_context": [
+      {
+        "start": 494.47,
+        "end": 503.51,
+        "speaker": "S01",
+        "text": "还有会议室，对，到时候那个装修的这个风格的话，你觉得就是有什么是陶瓷呀，还是说这个地板啊，墙啊。"
+      },
+      {
+        "start": 502.37,
+        "end": 520.07,
+        "speaker": "S02",
+        "text": "这个吧，就是没啥要求，只要是得亮堂儿的，瞅着特别，特别舒服温馨的多，完了员工干活儿工作了，特别有劲儿，嗯，对，现在好像都是，那就买吸尘器了，地毯这吸尘器特别方便了，擦擦就能整完。"
+      },
+      {
+        "start": 504.51,
+        "end": 505.21,
+        "speaker": "S01",
+        "text": "地板上。"
+      },
+      {
+        "start": 505.17,
+        "end": 507.37,
+        "speaker": "S03",
+        "text": "地毯吧，还是地毯好点儿。"
+      },
+      {
+        "start": 508.07,
+        "end": 510.07,
+        "speaker": "S03",
+        "text": "地毯比较安静一点儿，是。"
+      },
+      {
+        "start": 508.97,
+        "end": 509.51,
+        "speaker": "S01",
+        "text": "啊。"
+      },
+      {
+        "start": 509.71,
+        "end": 510.71,
+        "speaker": "S04",
+        "text": "舒服温馨。"
+      },
+      {
+        "start": 511.01,
+        "end": 514.37,
+        "speaker": "S03",
+        "text": "地毯就是保洁，就是保洁费近一点儿，嗯。"
+      },
+      {
+        "start": 511.51,
+        "end": 513.01,
+        "speaker": "S04",
+        "text": "对，它安静对对对。"
+      },
+      {
+        "start": 512.67,
+        "end": 513.41,
+        "speaker": "S01",
+        "text": "对对对。"
+      },
+      {
+        "start": 516.81,
+        "end": 517.27,
+        "speaker": "S03",
+        "text": "啊。"
+      },
+      {
+        "start": 518.01,
+        "end": 519.11,
+        "speaker": "S01",
+        "text": "那就是说我们。"
+      },
+      {
+        "start": 519.01,
+        "end": 524.71,
+        "speaker": "S02",
+        "text": "擦擦就能整完，但是说是地毯吧，咱们温馨一下子，就说，嗯。"
+      },
+      {
+        "start": 520.17,
+        "end": 520.67,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 523.51,
+        "end": 528.17,
+        "speaker": "S01",
+        "text": "大家觉得那个墙的话是要贴纸，还是说直接刷漆的这种。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true,
+      "eos_token_id": 151645,
+      "pad_token_id": 151643
+    },
+    "equal_initial_prompt_hash": false
+  },
+  {
+    "original_case_index": 23,
+    "key": "alimeeting/dev/R8003_M8001",
+    "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\sft\\alimeeting\\dev\\R8003_M8001.json",
+    "source_sha256": "91b453f174c6e08af9432965b9dd35ec544d31d51cd2fec7dc4d475ef061866e",
+    "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\references.json",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63458/lr2e-6/checkpoint-20",
+    "generated_anchor_seconds": 1096.14,
+    "generated_before_stable_loop": "来啊。[1006.60][1004.92][S03]那如果要是如果说是当呃比方说九月十号是是教师节的话，那我们可能要提前一两天就应该要寄送，因为北京同城一两天就应该就到了。[1017.61][1011.03][S01]嗯。[1011.41][1015.48][S01]对。[1015.83][1016.95][S01]对，如果说呀咱们寄到家里头，那么咱们提前点儿错后点儿这都无所谓。[1022.86][1017.76][S04]嗯。[1018.15][1022.69][S03]对。[1022.98][1023.00][S02]嗯。[1023.45][1023.63][S01]那么如果说呢咱们带到这个。[1026.61][1026.88][S03]学校。[1027.42][1027.21][S03]学校，那那。[1028.37][1027.74][S01]学校去，那你肯定只能当天去啊，现在呢也就是说咱们的难点呢就是提前跟这个老师呢把地址能要下来。[1036.92][1028.80][S04]对对。[1029.31][1029.91][S03]当天对。[1030.87][1030.22][S02]对对当天。[1031.45][1037.80][S01]如果说地址能够顺利的要下来了，那么这个时间啊。[1042.02][1037.88][S02]对。[1038.31][1040.63][S04]嗯。[1041.05][1042.13][S02]嗯。[1042.55][1042.51][S03]就做到一点儿之后，就是说稍微有些问题。[1046.18][1042.74][S01]啊包括什么的这些难题一切都可以解决。[1045.38][1045.11][S02]对对对，时间就可以往前，也可以往后做，而且伸缩性。[1048.51][1046.65][S01]对。[1047.16][1047.28][S03]哦对，伸缩性。[1049.14][1049.35][S01]对，如果说老师呢地址没有给咱们，比如说说哎呀这个不方便啊什么之类的，就是没有给咱们，那么咱们只能选择后续的。[1059.04][1059.77][S03]当天或者改天。[1061.11][1060.63][S01]当天用闪送邮寄，或者是咱们亲自看看接送孩子的时候儿，或者是这个这个中午的时时间或者什么的去拜访一下儿到学校，然后把这个东西递交给老师。[1075.05][1067.35][S02]嗯。[1067.81][1076.69][S02]我觉得老师基本上来说这种比较有有有有有有受人尊重的这种职业，他基本来说呢是。[1087.01][1087.96][S02]有的时候你在教师节这个特别特定的节日，你送他什么，他都会有一些。[1095.51][1094.18][S03]啊。[1094.51][1096.14][S03]",
+    "generated_stable_loop_start": "窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃",
+    "reference_context": [
+      {
+        "start": 1076.78,
+        "end": 1087.0,
+        "speaker": "S02",
+        "text": "我觉得老师基本上来说这种，比较有有有有有有受人尊重的这种职业，他基本来说呢，是。"
+      },
+      {
+        "start": 1088.05,
+        "end": 1095.55,
+        "speaker": "S02",
+        "text": "有的时候你在教师节这个特别特定的节日，你送他什么他都会有一些。"
+      },
+      {
+        "start": 1094.15,
+        "end": 1094.53,
+        "speaker": "S03",
+        "text": "他。"
+      },
+      {
+        "start": 1097.8,
+        "end": 1110.6,
+        "speaker": "S02",
+        "text": "呃，这个怎么说呢？可能她不想让人知道太多，到教师节，我收了很多礼品，虽然说都是一些，呃，有有有碍于帮助的这种礼品。"
+      },
+      {
+        "start": 1104.28,
+        "end": 1104.54,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1105.63,
+        "end": 1105.89,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1111.02,
+        "end": 1111.37,
+        "speaker": "S03",
+        "text": "我觉。"
+      },
+      {
+        "start": 1111.03,
+        "end": 1115.89,
+        "speaker": "S02",
+        "text": "所以我觉得是不是要考虑到教师的这种感受，啊能尽量的。"
+      },
+      {
+        "start": 1116.81,
+        "end": 1119.03,
+        "speaker": "S02",
+        "text": "不见光，哎尽量的。"
+      },
+      {
+        "start": 1119.8,
+        "end": 1124.04,
+        "speaker": "S01",
+        "text": "避免尴尬，啊避免尴尬，然后呢实用性还有一定的。"
+      },
+      {
+        "start": 1119.83,
+        "end": 1122.67,
+        "speaker": "S02",
+        "text": "让她舒服，哎对，让他舒服。"
+      }
+    ],
+    "base_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\base\\alimeeting\\dev\\R8003_M8001.json",
+    "base_context": [
+      {
+        "start": 1087.98,
+        "end": 1095.58,
+        "speaker": "S02",
+        "text": "有的时候你在教师节这个特别特定的节日，你送他什么，他都会有一些。"
+      },
+      {
+        "start": 1094.21,
+        "end": 1094.58,
+        "speaker": "S03",
+        "text": "啊。"
+      },
+      {
+        "start": 1096.21,
+        "end": 1097.31,
+        "speaker": "S03",
+        "text": "窃窃窃窃窃。"
+      },
+      {
+        "start": 1097.75,
+        "end": 1110.68,
+        "speaker": "S02",
+        "text": "呃，这个怎么说呢，可能他不想让人知道太多的，教师节我收了很多礼品，虽然说都是一些，呃有有有碍于帮助的这种礼品。"
+      },
+      {
+        "start": 1104.21,
+        "end": 1104.68,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1105.58,
+        "end": 1105.91,
+        "speaker": "S01",
+        "text": "对。"
+      },
+      {
+        "start": 1110.81,
+        "end": 1111.28,
+        "speaker": "S01",
+        "text": "嗯。"
+      },
+      {
+        "start": 1110.95,
+        "end": 1115.95,
+        "speaker": "S02",
+        "text": "所以我觉得是不是要考虑到教师的这种感受，啊能尽量的。"
+      },
+      {
+        "start": 1111.01,
+        "end": 1111.48,
+        "speaker": "S03",
+        "text": "对。"
+      }
+    ],
+    "base_ended_eos": true,
+    "base_truncated": false,
+    "base_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true
+    },
+    "sft_decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "max_new_tokens_cap": 65536,
+      "max_context": 131072,
+      "attention": "sdpa",
+      "dtype": "bfloat16",
+      "logits_to_keep": 1,
+      "use_cache": true,
+      "eos_token_id": 151645,
+      "pad_token_id": 151643
+    },
+    "equal_initial_prompt_hash": false,
+    "repeat_unit": "窃",
+    "sft_max_consecutive_unit_count": 55506,
+    "base_max_consecutive_unit_count": 5
+  }
+]

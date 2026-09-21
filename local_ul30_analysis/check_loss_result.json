@@ -1,0 +1,268 @@
+{
+  "schema_version": "local-ul30-loss-audit-v1",
+  "status": "pass",
+  "tests": {
+    "stable_ul": {
+      "passed": true,
+      "ul_at_p_near_1": 77.69741821289062,
+      "repeat_probability_fp32": 1.0,
+      "repeat_gradient": 1.0,
+      "gradient_l2": 1.0488088130950928,
+      "moderate_ul": 0.7291067838668823,
+      "moderate_reference": 0.7291067194318687,
+      "interpretation": "finite UL and nonzero gradient remain when p rounds to 1 in fp32"
+    },
+    "causal_query_boundary": {
+      "passed": true,
+      "anchor": 3,
+      "repeat_count_inserted": 3,
+      "recovery_start": 7,
+      "ul_query_abs": 6,
+      "expected_last_repeated_position": 6,
+      "repeated_positions": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "original_eos_position_after_insert": 23,
+      "interpretation": "UL is evaluated at the last repeated token, whose next-token logits see the complete repeated prefix"
+    },
+    "event_normalization": {
+      "passed": true,
+      "event_count": 4,
+      "tail_terms_per_event": 15,
+      "recovery_expected_unweighted": 1.37,
+      "recovery_after_four_rows": 0.137,
+      "recovery_lambda_weighted_target": 0.137,
+      "ul_expected_event_mean": 1.025,
+      "ul_after_four_rows": 0.10250000000000001,
+      "ul_lambda_weighted_target": 0.1025,
+      "aux_exit_scale": 2.5,
+      "aux_tail_scale": 0.16666666666666666,
+      "world_denominator": 400,
+      "interpretation": "four rows produce a mean over events; the exit is one term and the remaining 15 CE terms are averaged"
+    },
+    "sp4_fsdp_average_gradient_parity": {
+      "passed": true,
+      "world_size": 4,
+      "shard_ranges": [
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          12,
+          15
+        ]
+      ],
+      "queries_tested": [
+        3,
+        4,
+        7,
+        8,
+        11,
+        12,
+        15
+      ],
+      "rows": [
+        {
+          "query": 3,
+          "owner_rank": 0,
+          "direct_loss": 2.6823530197143555,
+          "sp4_fsdp_avg_loss": 2.6823530197143555,
+          "loss_abs_error": 0.0,
+          "grad_max_abs_error": 0.0,
+          "grad_l2_error": 0.0,
+          "local_valid_label_counts": [
+            3,
+            3,
+            3,
+            0
+          ],
+          "zero_label_ranks": [
+            3
+          ],
+          "nonowner_ul_graph_l1": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "passed": true
+        },
+        {
+          "query": 4,
+          "owner_rank": 1,
+          "direct_loss": 2.680328845977783,
+          "sp4_fsdp_avg_loss": 2.680328845977783,
+          "loss_abs_error": 0.0,
+          "grad_max_abs_error": 0.0,
+          "grad_l2_error": 0.0,
+          "local_valid_label_counts": [
+            3,
+            3,
+            3,
+            0
+          ],
+          "zero_label_ranks": [
+            3
+          ],
+          "nonowner_ul_graph_l1": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "passed": true
+        },
+        {
+          "query": 7,
+          "owner_rank": 1,
+          "direct_loss": 2.6876895427703857,
+          "sp4_fsdp_avg_loss": 2.6876895427703857,
+          "loss_abs_error": 0.0,
+          "grad_max_abs_error": 0.0,
+          "grad_l2_error": 0.0,
+          "local_valid_label_counts": [
+            3,
+            3,
+            3,
+            0
+          ],
+          "zero_label_ranks": [
+            3
+          ],
+          "nonowner_ul_graph_l1": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "passed": true
+        },
+        {
+          "query": 8,
+          "owner_rank": 2,
+          "direct_loss": 2.6925208568573,
+          "sp4_fsdp_avg_loss": 2.6925208568573,
+          "loss_abs_error": 0.0,
+          "grad_max_abs_error": 0.0,
+          "grad_l2_error": 0.0,
+          "local_valid_label_counts": [
+            3,
+            3,
+            3,
+            0
+          ],
+          "zero_label_ranks": [
+            3
+          ],
+          "nonowner_ul_graph_l1": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "passed": true
+        },
+        {
+          "query": 11,
+          "owner_rank": 2,
+          "direct_loss": 2.6815543174743652,
+          "sp4_fsdp_avg_loss": 2.6815543174743652,
+          "loss_abs_error": 0.0,
+          "grad_max_abs_error": 0.0,
+          "grad_l2_error": 0.0,
+          "local_valid_label_counts": [
+            3,
+            3,
+            3,
+            0
+          ],
+          "zero_label_ranks": [
+            3
+          ],
+          "nonowner_ul_graph_l1": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "passed": true
+        },
+        {
+          "query": 12,
+          "owner_rank": 3,
+          "direct_loss": 2.6908321380615234,
+          "sp4_fsdp_avg_loss": 2.6908321380615234,
+          "loss_abs_error": 0.0,
+          "grad_max_abs_error": 0.0,
+          "grad_l2_error": 0.0,
+          "local_valid_label_counts": [
+            3,
+            3,
+            3,
+            0
+          ],
+          "zero_label_ranks": [
+            3
+          ],
+          "nonowner_ul_graph_l1": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "passed": true
+        },
+        {
+          "query": 15,
+          "owner_rank": 3,
+          "direct_loss": 2.6829264163970947,
+          "sp4_fsdp_avg_loss": 2.6829264163970947,
+          "loss_abs_error": 0.0,
+          "grad_max_abs_error": 0.0,
+          "grad_l2_error": 0.0,
+          "local_valid_label_counts": [
+            3,
+            3,
+            3,
+            0
+          ],
+          "zero_label_ranks": [
+            3
+          ],
+          "nonowner_ul_graph_l1": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "passed": true
+        }
+      ],
+      "interpretation": "CPU deterministic shard simulation: GatherLoss world-size backward compensation followed by four-rank gradient average matches the SP1 direct target"
+    }
+  },
+  "source_evidence": {
+    "design_sha256": "6d29ca4476da3ca3c69be6c369c874814ce0f37c9befe382a02ce9365eafb721",
+    "trainer_sha256": "ff38901fe173efa012990baa940cccf6511edfa24c9fa3f4c75926e53311a4b7",
+    "gatherloss_utils_sha256": "903a73a03ac9461cbeab6d3cf10985d0f16ec81ad66ba93c52555717f82ff1fd",
+    "seq2seq_trainer_sha256": "5b9bc6ea9cf2aeaf217135224fbba91e5e1cadbd3b33e9ac35087cd7dcd0c5e2",
+    "prepare_sha256": "b713afa216d4be2d7664078fd37e8dbf10048f6b39b306c8f0659c22566ad50a",
+    "core_sha256": "cfc3e4ef9d03c6f057a9ddfbeb7182bb4c0aad7ab4285114d3060a2e396790c1",
+    "production_helper": "dkucc/local_ul30/trainer.py:_ul_value_from_row (AST extracted)",
+    "gatherloss_contract": "dkucc/ms_swift/.../swift/sequence_parallel/utils.py:55-62 (source-read; mock uses the same world-size factor)",
+    "token_denominator_contract": "dkucc/ms_swift/.../swift/trainers/seq2seq_trainer.py:219-245 (source-read)",
+    "query_contract": "dkucc/local_ul30/trainer.py:489-493 (source-read)",
+    "cpu_only": true,
+    "real_gpu_or_nccl_parity": false
+  },
+  "limitations": [
+    "The SP4/FSDP check is a deterministic CPU autograd simulation, not a four-process NCCL or GPU run.",
+    "It validates the loss/gradient normalization contract with synthetic logits and labels; it does not validate model forward equivalence, padding kernels, FSDP parameter sharding, or AMP behavior.",
+    "End-to-end smoke and real GPU evidence remain the execution agent's responsibility."
+  ]
+}

@@ -1,0 +1,6 @@
+{"event": "start", "mode": "replay", "precision": null, "device": 1, "gpu": "NVIDIA A40", "free_gib": 44.161865234375, "total_gib": 44.423828125, "torch": "2.14.0+cu130"}
+{"event": "replay_start", "model": "base", "key": "alimeeting/dev/R8001_M8004", "prompt_tokens": 20797, "history_tokens": 5523}
+{"event": "replay_start", "model": "base", "key": "alimeeting/dev/R8003_M8001", "prompt_tokens": 27369, "history_tokens": 10950}
+{"event": "replay_start", "model": "sft402", "key": "alimeeting/dev/R8001_M8004", "prompt_tokens": 20797, "history_tokens": 5523}
+{"event": "replay_start", "model": "sft402", "key": "alimeeting/dev/R8003_M8001", "prompt_tokens": 27369, "history_tokens": 10950}
+{"event": "replay_complete", "records": 4}

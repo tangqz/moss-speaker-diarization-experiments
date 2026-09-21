@@ -1,0 +1,163 @@
+{
+  "checked_utc": "2026-09-12T17:42:40.532538+00:00",
+  "job": 63421,
+  "step": 50,
+  "stage": "sentinel_generation",
+  "workers": [
+    {
+      "rank": 0,
+      "gpu": "NVIDIA A40",
+      "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+      "stage": "generating",
+      "key": "ami/dev/TS3004c",
+      "generated_tokens": 59392,
+      "updated_utc": "2026-09-12T17:42:32.689100+00:00",
+      "elapsed_seconds": 2975.49591743201
+    },
+    {
+      "rank": 1,
+      "gpu": "NVIDIA A40",
+      "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+      "stage": "done",
+      "key": "alimeeting/dev/R8008_M8013",
+      "generated_tokens": 23296,
+      "updated_utc": "2026-09-12T17:05:57.714594+00:00",
+      "elapsed_seconds": 778.7338880188763,
+      "outcome": "ok",
+      "failures": 0
+    },
+    {
+      "rank": 2,
+      "gpu": "NVIDIA A40",
+      "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+      "stage": "done",
+      "key": "alimeeting/dev/R8007_M8011",
+      "generated_tokens": 22016,
+      "updated_utc": "2026-09-12T17:07:15.929166+00:00",
+      "elapsed_seconds": 681.2895303592086,
+      "outcome": "ok",
+      "failures": 0
+    },
+    {
+      "rank": 3,
+      "gpu": "NVIDIA A40",
+      "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+      "stage": "done",
+      "key": "ami/dev/IB4001",
+      "generated_tokens": 15104,
+      "updated_utc": "2026-09-12T17:08:58.814837+00:00",
+      "elapsed_seconds": 433.95584474503994,
+      "outcome": "ok",
+      "failures": 0
+    }
+  ],
+  "records": [
+    {
+      "key": "alimeeting/dev/R8001_M8004",
+      "status": "ok",
+      "generated_tokens": 18131,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "e2e_seconds": 519.6470681577921,
+      "diagnostics": {
+        "official_characters": 10153,
+        "legal_scan_characters": 10153,
+        "major_parse_loss": false,
+        "longest_identical_run": {
+          "start": 13512,
+          "count": 9,
+          "token": 16872
+        },
+        "invalid_tags": [],
+        "invalid_tag_count": 0
+      }
+    },
+    {
+      "key": "alimeeting/dev/R8007_M8011",
+      "status": "ok",
+      "generated_tokens": 22267,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "e2e_seconds": 690.4789800457656,
+      "diagnostics": {
+        "official_characters": 10996,
+        "legal_scan_characters": 10996,
+        "major_parse_loss": false,
+        "longest_identical_run": {
+          "start": 1452,
+          "count": 5,
+          "token": 35946
+        },
+        "invalid_tags": [],
+        "invalid_tag_count": 0
+      }
+    },
+    {
+      "key": "alimeeting/dev/R8008_M8013",
+      "status": "ok",
+      "generated_tokens": 23327,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "e2e_seconds": 780.0059382244945,
+      "diagnostics": {
+        "official_characters": 8565,
+        "legal_scan_characters": 8565,
+        "major_parse_loss": false,
+        "longest_identical_run": {
+          "start": 9778,
+          "count": 4,
+          "token": 16
+        },
+        "invalid_tags": [],
+        "invalid_tag_count": 0
+      }
+    },
+    {
+      "key": "ami/dev/IB4001",
+      "status": "ok",
+      "generated_tokens": 15329,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "e2e_seconds": 441.09755693748593,
+      "diagnostics": {
+        "official_characters": 18367,
+        "legal_scan_characters": 18367,
+        "major_parse_loss": false,
+        "longest_identical_run": {
+          "start": 8617,
+          "count": 4,
+          "token": 16
+        },
+        "invalid_tags": [],
+        "invalid_tag_count": 0
+      }
+    },
+    {
+      "key": "ami/dev/IS1008a",
+      "status": "ok",
+      "generated_tokens": 5871,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "e2e_seconds": 167.49949020892382,
+      "diagnostics": {
+        "official_characters": 9816,
+        "legal_scan_characters": 9816,
+        "major_parse_loss": false,
+        "longest_identical_run": {
+          "start": 490,
+          "count": 3,
+          "token": 16
+        },
+        "invalid_tags": [],
+        "invalid_tag_count": 0
+      }
+    }
+  ],
+  "completed": 5,
+  "expected": 6
+}

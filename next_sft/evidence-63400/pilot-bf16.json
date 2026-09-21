@@ -1,0 +1,63 @@
+{
+  "precision": "bf16",
+  "seed": 0,
+  "start": "original_base",
+  "attention": "full",
+  "sp": 1,
+  "data_indices": [
+    468,
+    270,
+    85,
+    422,
+    243,
+    434,
+    153,
+    512,
+    465,
+    150,
+    93,
+    277,
+    352,
+    74,
+    42,
+    387
+  ],
+  "data_audios": [
+    "/work/qt28/moss/data/audio16k/aishell4/20200703_M_R002S07C01.wav",
+    "/work/qt28/moss/data/audio16k/aishell4/20200710_M_R002S05C01.wav",
+    "/work/qt28/moss/data/external/ami/audio/ES2014d.Mix-Headset.wav",
+    "/work/qt28/moss/data/external/ami/audio/TS3009a.Mix-Headset.wav",
+    "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0143.wav",
+    "/work/qt28/moss/data/audio16k/alimeeting/R2105_M3175.wav",
+    "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0145.wav",
+    "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0169.wav",
+    "/work/qt28/moss/data/external/ami/audio/IS1003a.Mix-Headset.wav",
+    "/work/qt28/moss/data/audio16k/aishell4/20200618_M_R001S07C01.wav",
+    "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0073.wav",
+    "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4031.wav",
+    "/work/qt28/moss/data/external/ami/audio/TS3009c.Mix-Headset.wav",
+    "/work/qt28/moss/data/external/ami/audio/ES2015b.Mix-Headset.wav",
+    "/work/qt28/moss/data/audio16k/aishell4/20200714_M_R002S01C01.wav",
+    "/work/qt28/moss/data/audio16k/aishell4/20200617_M_R001S03C01.wav"
+  ],
+  "effective_batch": 4,
+  "steps_planned": 4,
+  "schedule_horizon": 402,
+  "warmup": 0,
+  "learning_rate": 1e-05,
+  "weight_decay": 0.0,
+  "note": "One GPU with accumulation 4, full meetings; isolated diagnostic, not DDP qualification or final training.",
+  "initial_validation": [
+    {
+      "key": "ami/dev/IS1008a",
+      "loss": 0.3901991546154022,
+      "supervised_tokens": 5827
+    },
+    {
+      "key": "alimeeting/dev/R8009_M8018",
+      "loss": 0.4432714879512787,
+      "supervised_tokens": 19057
+    }
+  ],
+  "steps": []
+}

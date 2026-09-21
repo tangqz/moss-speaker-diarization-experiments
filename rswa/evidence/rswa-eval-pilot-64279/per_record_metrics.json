@@ -1,0 +1,206 @@
+[
+  {
+    "key": "alimeeting/dev/R8001_M8004",
+    "dataset": "alimeeting",
+    "split": "dev",
+    "session_id": "R8001_M8004",
+    "model": "base",
+    "duration": 1573.85,
+    "rank": 0,
+    "generated_tokens": 16593,
+    "prompt_len": 20797,
+    "e2e_seconds": 148.39122167602181,
+    "generation_seconds": 147.15327383950353,
+    "rtf": 0.09428549205834216,
+    "peak_allocated_gib": 25.62792730331421,
+    "peak_reserved_gib": 26.353515625,
+    "ended_eos": true,
+    "truncated": false,
+    "parse_empty": false,
+    "text": {
+      "reference_characters": 10715,
+      "hypothesis_characters": 9541,
+      "character_errors": 3148,
+      "cp_character_errors": 2776,
+      "substitutions": 1232,
+      "deletions": 1545,
+      "insertions": 371,
+      "CER": 0.2937937470835278,
+      "cpCER": 0.2590760615958936,
+      "DeltaCP": -0.03471768548763416,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 4
+    },
+    "diarization": {
+      "DER_collar_0": {
+        "total": 2049.2399999999966,
+        "false alarm": 76.2400000000019,
+        "missed detection": 219.54999999999967,
+        "confusion": 35.84000000000103,
+        "correct": 1793.8499999999974,
+        "diarization error rate": 0.16183072748921706
+      },
+      "DER_collar_0.25": {
+        "total": 1600.0199999999961,
+        "false alarm": 39.53499999999963,
+        "missed detection": 133.95499999999865,
+        "confusion": 23.855000000000274,
+        "correct": 1442.2099999999969,
+        "diarization error rate": 0.12333908326145862
+      }
+    }
+  },
+  {
+    "key": "ami/dev/IS1008a",
+    "dataset": "ami",
+    "split": "dev",
+    "session_id": "IS1008a",
+    "model": "base",
+    "duration": 943.8333125,
+    "rank": 1,
+    "generated_tokens": 6500,
+    "prompt_len": 12428,
+    "e2e_seconds": 41.710872016847134,
+    "generation_seconds": 40.87028396874666,
+    "rtf": 0.04419304920099134,
+    "peak_allocated_gib": 24.91972017288208,
+    "peak_reserved_gib": 25.373046875,
+    "ended_eos": true,
+    "truncated": false,
+    "parse_empty": false,
+    "text": {
+      "reference_characters": 9792,
+      "hypothesis_characters": 9471,
+      "character_errors": 713,
+      "cp_character_errors": 582,
+      "substitutions": 90,
+      "deletions": 472,
+      "insertions": 151,
+      "CER": 0.07281454248366014,
+      "cpCER": 0.05943627450980392,
+      "DeltaCP": -0.013378267973856208,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 5
+    },
+    "diarization": {
+      "DER_collar_0": {
+        "total": 784.7500000000002,
+        "false alarm": 15.459999999999091,
+        "missed detection": 56.8099999999996,
+        "confusion": 5.190000000000225,
+        "correct": 722.7500000000005,
+        "diarization error rate": 0.09870659445683197
+      },
+      "DER_collar_0.25": {
+        "total": 715.9399999999999,
+        "false alarm": 2.4249999999997556,
+        "missed detection": 42.94000000000002,
+        "confusion": 3.3000000000000966,
+        "correct": 669.6999999999998,
+        "diarization error rate": 0.0679735732044583
+      }
+    }
+  },
+  {
+    "key": "alimeeting/dev/R8001_M8004",
+    "dataset": "alimeeting",
+    "split": "dev",
+    "session_id": "R8001_M8004",
+    "model": "sft",
+    "duration": 1573.85,
+    "rank": 0,
+    "generated_tokens": 59375,
+    "prompt_len": 20797,
+    "e2e_seconds": 651.2344795539975,
+    "generation_seconds": 650.0325605496764,
+    "rtf": 0.4137843374870525,
+    "peak_allocated_gib": 25.627927780151367,
+    "peak_reserved_gib": 26.353515625,
+    "ended_eos": true,
+    "truncated": false,
+    "parse_empty": false,
+    "text": {
+      "reference_characters": 10715,
+      "hypothesis_characters": 1682,
+      "character_errors": 9241,
+      "cp_character_errors": 10636,
+      "substitutions": 126,
+      "deletions": 9074,
+      "insertions": 41,
+      "CER": 0.862435837610826,
+      "cpCER": 0.992627158189454,
+      "DeltaCP": 0.1301913205786281,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 10
+    },
+    "diarization": {
+      "DER_collar_0": {
+        "total": 2049.2399999999975,
+        "false alarm": 11.200000000000156,
+        "missed detection": 1720.8299999999977,
+        "confusion": 182.84999999999994,
+        "correct": 145.5599999999999,
+        "diarization error rate": 0.9344342292752436
+      },
+      "DER_collar_0.25": {
+        "total": 1600.0199999999954,
+        "false alarm": 5.075000000000049,
+        "missed detection": 1315.004999999996,
+        "confusion": 160.84,
+        "correct": 124.17499999999991,
+        "diarization error rate": 0.9255634304571194
+      }
+    }
+  },
+  {
+    "key": "ami/dev/IS1008a",
+    "dataset": "ami",
+    "split": "dev",
+    "session_id": "IS1008a",
+    "model": "sft",
+    "duration": 943.8333125,
+    "rank": 1,
+    "generated_tokens": 4019,
+    "prompt_len": 12428,
+    "e2e_seconds": 25.441092383116484,
+    "generation_seconds": 24.646457437425852,
+    "rtf": 0.026955069339234073,
+    "peak_allocated_gib": 24.91972064971924,
+    "peak_reserved_gib": 25.373046875,
+    "ended_eos": true,
+    "truncated": false,
+    "parse_empty": false,
+    "text": {
+      "reference_characters": 9792,
+      "hypothesis_characters": 1781,
+      "character_errors": 8046,
+      "cp_character_errors": 8522,
+      "substitutions": 23,
+      "deletions": 8017,
+      "insertions": 6,
+      "CER": 0.8216911764705882,
+      "cpCER": 0.8703022875816994,
+      "DeltaCP": 0.04861111111111111,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 6
+    },
+    "diarization": {
+      "DER_collar_0": {
+        "total": 784.7500000000005,
+        "false alarm": 9.209999999999923,
+        "missed detection": 640.4200000000004,
+        "confusion": 57.859999999999985,
+        "correct": 86.47000000000003,
+        "diarization error rate": 0.9015482637782732
+      },
+      "DER_collar_0.25": {
+        "total": 715.9399999999999,
+        "false alarm": 4.309999999999917,
+        "missed detection": 584.3749999999999,
+        "confusion": 53.80000000000001,
+        "correct": 77.76500000000004,
+        "diarization error rate": 0.8974006201637006
+      }
+    }
+  }
+]

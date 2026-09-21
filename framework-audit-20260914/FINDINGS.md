@@ -1,0 +1,15 @@
+# MS-Swift / MOSS implementation audit — 2026-09-14
+
+Read-only remote inspection of `/dkucc/home/qt28/envs/moss312/bin/python` found no installed `ms-swift` distribution. Versions: transformers 5.17.0, torch 2.14.0, accelerate 1.15.0. See `remote_environment.json`.
+
+Remote MOSS repository HEAD is `61bc29cd4120be7b5d3b761b64cd5dff57263642`, working tree clean. Its `finetune.py` SHA-256 equals both the upstream pinned revision and fetched current main: `ffb8fdc617d0010a7a64dd0a774cec642b58966dbef051fa37875d2f983f1fc7`.
+
+Job 63458 uses the archived `../full_attention_v2/artifacts/63458/raw/run/source/train.py`, which imports the official ConversationDataset/DataCollator but subclasses Transformers Trainer as AuditedTrainer. It installs custom loss-only forward, checkpointed 512-token vocabulary projection / FP32 cross entropy, saved-tensor CPU offload, and bounded Whisper FFN computation. Parameters, gradients and Adam states are FP32; forward uses BF16 autocast. All parameters remain trainable, including the audio encoder and adaptor. Full causal SDPA is retained. This is an adaptation of the official pipeline, not an unchanged execution of the official entry point and not an MS-Swift run.
+
+MS-Swift upstream tree was checked at `0673cf75dca7d0b9b608b4a76632fb508ead5076`. The supported-model documentation and inspected model registration did not reveal MOSS-Transcribe-Diarize integration. The `moss.py` adapter registers MOSS-VL visual models, not this audio model. Sources and hashes are recorded in `upstream_sources.json`; tree snapshot in `swift_tree.json`.
+
+ASR support does exist: `Qwen3ASRLoader` registers Qwen3-ASR 0.6B/1.7B; `Qwen3ASRTemplate` implements audio loading, feature extraction, variable-length audio placeholder expansion, labels and audio batching. `examples/train/multimodal/audio.sh` demonstrates Qwen2-Audio ASR training on an AISHELL-1 source with LoRA, frozen audio tower/aligner, max_length 2048, gradient accumulation 16, LR 1e-4 and warmup_ratio 0.05. This model-specific example is not a validated MOSS long-meeting recipe and cannot be copied unchanged while retaining our all-parameter control.
+
+Interpretation boundary: 2e-6/step20 has 3 capped Chinese outputs and 3 distinct AMI outputs with major parser loss. 1e-6/step30 has score regression but zero capped outputs and zero major parser-loss flags. Smaller candidates stopped after 10 steps. These observations establish a discrepancy between teacher-forced CE and production generation quality, but do not prove LR is merely a time rescaling, all rates inevitably repeat, or standard SFT is fundamentally invalid. Caps/parser failures also are not synonymous with independently diagnosed repetition.
+
+Before attributing failure to the SFT objective or changing frameworks, a controlled official-versus-adapted implementation comparison should check input features, expanded tokens, labels/EOS, loss, gradients and parameter updates, followed by matched short training and identical production generation. ASR data-label alignment, target formatting/segmentation and audio-encoder updates remain plausible variables, not proven causes.

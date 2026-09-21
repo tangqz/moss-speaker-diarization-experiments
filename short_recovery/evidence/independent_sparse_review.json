@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "schema_version": "sparse-sampling-review-v2",
+  "synthetic_positions": 10000,
+  "source_distribution": [
+    0.8,
+    0.15,
+    0.05
+  ],
+  "gold_id": 0,
+  "temperature_branches": 187,
+  "changed_tokens": 33,
+  "sample_equals_gold": 154,
+  "repeat_probability": 0.05,
+  "repeat_events": 508,
+  "zero_probability_identity": true,
+  "note": "Deterministic synthetic CPU semantics only, not actual MOSS error or efficacy measurement."
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "tokens": 300,
+    "repeat": 0,
+    "seconds": 2.008088704198599,
+    "prefill_seconds": 0.5675316490232944,
+    "decode_seconds": 1.304860919713974,
+    "timing": {
+      "tokens": 300,
+      "samples": [
+        {
+          "kind": "backbone_cuda",
+          "output_index": 0,
+          "milliseconds": 351.0097961425781
+        },
+        {
+          "kind": "output_penalty_cuda",
+          "output_index": 0,
+          "milliseconds": 0.03174399957060814
+        },
+        {
+          "kind": "backbone_cuda",
+          "output_index": 64,
+          "milliseconds": 3.631103992462158
+        },
+        {
+          "kind": "output_penalty_cuda",
+          "output_index": 64,
+          "milliseconds": 0.03481600061058998
+        },
+        {
+          "kind": "backbone_cuda",
+          "output_index": 128,
+          "milliseconds": 3.6464641094207764
+        },
+        {
+          "kind": "output_penalty_cuda",
+          "output_index": 128,
+          "milliseconds": 0.03481600061058998
+        },
+        {
+          "kind": "backbone_cuda",
+          "output_index": 192,
+          "milliseconds": 3.6567039489746094
+        },
+        {
+          "kind": "output_penalty_cuda",
+          "output_index": 192,
+          "milliseconds": 0.035840000957250595
+        },
+        {
+          "kind": "backbone_cuda",
+          "output_index": 256,
+          "milliseconds": 3.6659200191497803
+        },
+        {
+          "kind": "output_penalty_cuda",
+          "output_index": 256,
+          "milliseconds": 0.035840000957250595
+        }
+      ],
+      "sampling_stride": 64,
+      "timing_scope": "backbone excludes LM head and sampler; output penalty measured separately",
+      "forced_token_copy_and_sampling_included_in_wall_latency": true
+    },
+    "memory": {
+      "peak_allocated_bytes": 24901179904,
+      "peak_reserved_bytes": 25243418624,
+      "allocated_bytes": 24314545664,
+      "reserved_bytes": 25243418624,
+      "interpretation": "worker allocator including preallocated vLLM KV pool"
+    },
+    "encoder_cache_empty_before_request": true,
+    "trajectory_sha256": "d75fafaeb8698aedfc440956062ecd3e3b635f3835ec8ee01ea1ba2b8518b1b0",
+    "request_metrics": {
+      "num_generation_tokens": 300,
+      "arrival_time": 1789907433.4056747,
+      "queued_ts": 18385471.485677786,
+      "scheduled_ts": 18385471.485695273,
+      "first_token_ts": 18385472.05322692,
+      "last_token_ts": 18385473.35808784,
+      "first_token_latency": 0.7031984329223633,
+      "is_corrupted": false
+    },
+    "request_id": "1"
+  }
+]

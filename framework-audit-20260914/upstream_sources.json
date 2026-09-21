@@ -1,0 +1,32 @@
+[
+  {
+    "file": "swift_model_qwen.py",
+    "url": "https://raw.githubusercontent.com/modelscope/ms-swift/0673cf75dca7d0b9b608b4a76632fb508ead5076/swift/model/models/qwen.py",
+    "sha256": "1dbbc8e70b098a4713ad1b3f700afd44b4aae38731c1115e9ebfa309724cf7a6"
+  },
+  {
+    "file": "swift_template_qwen.py",
+    "url": "https://raw.githubusercontent.com/modelscope/ms-swift/0673cf75dca7d0b9b608b4a76632fb508ead5076/swift/template/templates/qwen.py",
+    "sha256": "35a348b25b10f6488994a0894c0359a72066f2d63da964e28fcba0944796ee5c"
+  },
+  {
+    "file": "swift_model_moss.py",
+    "url": "https://raw.githubusercontent.com/modelscope/ms-swift/0673cf75dca7d0b9b608b4a76632fb508ead5076/swift/model/models/moss.py",
+    "sha256": "a58a1253d4f8c6e0d09ee53457308ce8d4d3d474bf4de82522616c9c2e137fd1"
+  },
+  {
+    "file": "swift_audio.sh",
+    "url": "https://raw.githubusercontent.com/modelscope/ms-swift/0673cf75dca7d0b9b608b4a76632fb508ead5076/examples/train/multimodal/audio.sh",
+    "sha256": "79842ec6baeb45cb716349f80386873b6c3b34705d08969a61733b0677bd4395"
+  },
+  {
+    "file": "upstream_finetune_current.py",
+    "url": "https://raw.githubusercontent.com/OpenMOSS/MOSS-Transcribe-Diarize/main/finetune.py",
+    "sha256": "ffb8fdc617d0010a7a64dd0a774cec642b58966dbef051fa37875d2f983f1fc7"
+  },
+  {
+    "file": "upstream_finetune_frozen.py",
+    "url": "https://raw.githubusercontent.com/OpenMOSS/MOSS-Transcribe-Diarize/61bc29cd4120be7b5d3b761b64cd5dff57263642/finetune.py",
+    "sha256": "ffb8fdc617d0010a7a64dd0a774cec642b58966dbef051fa37875d2f983f1fc7"
+  }
+]

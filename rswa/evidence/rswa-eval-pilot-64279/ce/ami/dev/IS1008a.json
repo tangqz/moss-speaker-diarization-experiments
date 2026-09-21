@@ -1,0 +1,12 @@
+{
+  "key": "ami/dev/IS1008a",
+  "window": 128,
+  "target_tokens": 5827,
+  "loss_sum": 3467.7274169921875,
+  "ce": 0.5951136806233375,
+  "seconds": 17.481287874281406,
+  "penalty_applied": false,
+  "verified_against_native_loss": true,
+  "complete_target": true,
+  "training_inference_input_receipts_equal": true
+}

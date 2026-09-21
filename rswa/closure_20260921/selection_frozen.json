@@ -1,0 +1,109 @@
+{
+  "full": {
+    "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-seed0/step-30",
+    "functional": true,
+    "failures": [],
+    "S": 11.487172066149542,
+    "ce": 0.5209814931062023,
+    "RTF": 0.09936987811555606,
+    "corpora": {
+      "alimeeting": {
+        "completed": 8,
+        "expected": 8,
+        "coverage": 1.0,
+        "complete": true,
+        "truncated": 0,
+        "empty_predictions": 0,
+        "reference_characters": 81086,
+        "character_errors": 15220,
+        "cp_character_errors": 12041,
+        "CER": 0.1877019460819377,
+        "cpCER": 0.1484966578694226,
+        "DeltaCP": -0.03920528821251511,
+        "audio_hours": 4.205059722222222,
+        "processing_hours": 0.43230194922536613,
+        "RTF": 0.10280518655675838,
+        "audio_seconds_per_processing_second": 9.727135697068197,
+        "max_peak_allocated_gib": 25.995227813720703,
+        "DER_collar_0": {
+          "total": 17632.599999999933,
+          "confusion": 226.76999999999862,
+          "missed detection": 1254.9399999999969,
+          "false alarm": 751.2599999999999,
+          "correct": 16150.88999999994,
+          "DER": 0.1266387259961664
+        },
+        "DER_collar_0.25": {
+          "total": 13988.509999999955,
+          "confusion": 116.25999999999883,
+          "missed detection": 695.7249999999999,
+          "false alarm": 245.92999999999986,
+          "correct": 13176.524999999956,
+          "DER": 0.07562742565148126
+        }
+      },
+      "ami": {
+        "completed": 18,
+        "expected": 18,
+        "coverage": 1.0,
+        "complete": true,
+        "truncated": 0,
+        "empty_predictions": 0,
+        "reference_characters": 364785,
+        "character_errors": 52341,
+        "cp_character_errors": 36198,
+        "CER": 0.14348451827788972,
+        "cpCER": 0.09923105390846663,
+        "DeltaCP": -0.04425346436942308,
+        "audio_hours": 9.66717373263889,
+        "processing_hours": 0.9461801983747218,
+        "RTF": 0.09787557610350703,
+        "audio_seconds_per_processing_second": 10.217053526637363,
+        "max_peak_allocated_gib": 26.83000373840332,
+        "DER_collar_0": {
+          "total": 31558.654999999995,
+          "confusion": 368.82000000000284,
+          "missed detection": 4232.715000000004,
+          "false alarm": 958.8999999999864,
+          "correct": 26957.119999999988,
+          "DER": 0.17619366224574506
+        },
+        "DER_collar_0.25": {
+          "total": 27115.975000000006,
+          "confusion": 192.33000000000212,
+          "missed detection": 3146.085000000001,
+          "false alarm": 352.92999999999705,
+          "correct": 23777.56,
+          "DER": 0.13613174521661123
+        }
+      }
+    },
+    "step": 30,
+    "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30"
+  },
+  "windows": {
+    "128": null,
+    "256": null
+  },
+  "winner": null,
+  "test_checkpoints": {
+    "full": {
+      "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30",
+      "step": 30,
+      "functional": true,
+      "dev_qualified": true
+    },
+    "128": {
+      "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-30",
+      "step": 30,
+      "functional": false,
+      "dev_qualified": false
+    },
+    "256": {
+      "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-150",
+      "step": 150,
+      "functional": false,
+      "dev_qualified": false
+    }
+  }
+}

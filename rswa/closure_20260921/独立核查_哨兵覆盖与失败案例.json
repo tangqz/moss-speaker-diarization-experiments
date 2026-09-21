@@ -1,0 +1,499 @@
+{
+  "sentinel_keys": [
+    "alimeeting/dev/R8001_M8004",
+    "alimeeting/dev/R8008_M8013",
+    "alimeeting/dev/R8009_M8018",
+    "ami/dev/IB4002",
+    "ami/dev/IS1008a",
+    "ami/dev/TS3004c"
+  ],
+  "same_checkpoint_coverage": [
+    {
+      "group": "full-seed0",
+      "step": 0,
+      "sentinel_failures": 0,
+      "sentinel_size": 6,
+      "other_failures": 0,
+      "other_size": 20,
+      "failure_corpora": {}
+    },
+    {
+      "group": "full-seed0",
+      "step": 30,
+      "sentinel_failures": 0,
+      "sentinel_size": 6,
+      "other_failures": 0,
+      "other_size": 20,
+      "failure_corpora": {}
+    },
+    {
+      "group": "128-seed0",
+      "step": 0,
+      "sentinel_failures": 4,
+      "sentinel_size": 6,
+      "other_failures": 19,
+      "other_size": 20,
+      "failure_corpora": {
+        "ami": 18,
+        "alimeeting": 5
+      }
+    },
+    {
+      "group": "128-seed0",
+      "step": 30,
+      "sentinel_failures": 5,
+      "sentinel_size": 6,
+      "other_failures": 19,
+      "other_size": 20,
+      "failure_corpora": {
+        "ami": 18,
+        "alimeeting": 6
+      }
+    },
+    {
+      "group": "128-seed0",
+      "step": 100,
+      "sentinel_failures": 4,
+      "sentinel_size": 6,
+      "other_failures": 19,
+      "other_size": 20,
+      "failure_corpora": {
+        "ami": 18,
+        "alimeeting": 5
+      }
+    },
+    {
+      "group": "256-seed0",
+      "step": 0,
+      "sentinel_failures": 0,
+      "sentinel_size": 6,
+      "other_failures": 14,
+      "other_size": 20,
+      "failure_corpora": {
+        "ami": 12,
+        "alimeeting": 2
+      }
+    },
+    {
+      "group": "256-seed0",
+      "step": 30,
+      "sentinel_failures": 1,
+      "sentinel_size": 6,
+      "other_failures": 13,
+      "other_size": 20,
+      "failure_corpora": {
+        "alimeeting": 2,
+        "ami": 12
+      }
+    },
+    {
+      "group": "256-seed0",
+      "step": 100,
+      "sentinel_failures": 0,
+      "sentinel_size": 6,
+      "other_failures": 12,
+      "other_size": 20,
+      "failure_corpora": {
+        "ami": 12
+      }
+    },
+    {
+      "group": "256-seed0",
+      "step": 150,
+      "sentinel_failures": 0,
+      "sentinel_size": 6,
+      "other_failures": 14,
+      "other_size": 20,
+      "failure_corpora": {
+        "ami": 12,
+        "alimeeting": 2
+      }
+    }
+  ],
+  "r256_step150_examples": [
+    {
+      "key": "ami/dev/TS3004a",
+      "duration": 1345.322625,
+      "generated_tokens": 4300,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "ref_last_end": 1329.24,
+      "hyp_last_end": 172.84,
+      "parsed_segments": 47,
+      "reference_text_characters": 14510,
+      "hypothesis_text_characters": 1289,
+      "official_normalized_characters": 969,
+      "legal_scan_normalized_characters": 969,
+      "unparsed_normalized_characters": 9087,
+      "longest_identical_token_run": 3,
+      "longest_short_period": {
+        "period": 0,
+        "start": 0,
+        "length": 0,
+        "cycles": 0
+      },
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IS1008d",
+      "duration": 1480.8333125,
+      "generated_tokens": 6446,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "ref_last_end": 1440.42,
+      "hyp_last_end": 143.32,
+      "parsed_segments": 30,
+      "reference_text_characters": 21338,
+      "hypothesis_text_characters": 1097,
+      "official_normalized_characters": 866,
+      "legal_scan_normalized_characters": 866,
+      "unparsed_normalized_characters": 14538,
+      "longest_identical_token_run": 3,
+      "longest_short_period": {
+        "period": 0,
+        "start": 0,
+        "length": 0,
+        "cycles": 0
+      },
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IS1008c",
+      "duration": 1546.3333125,
+      "generated_tokens": 6585,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "ref_last_end": 1515.6,
+      "hyp_last_end": 982.7,
+      "parsed_segments": 118,
+      "reference_text_characters": 21115,
+      "hypothesis_text_characters": 12257,
+      "official_normalized_characters": 9626,
+      "legal_scan_normalized_characters": 9626,
+      "unparsed_normalized_characters": 5508,
+      "longest_identical_token_run": 3,
+      "longest_short_period": {
+        "period": 0,
+        "start": 0,
+        "length": 0,
+        "cycles": 0
+      },
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/ES2011b",
+      "duration": 1581.269375,
+      "generated_tokens": 5539,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "ref_last_end": 1571.53,
+      "hyp_last_end": 170.64,
+      "parsed_segments": 32,
+      "reference_text_characters": 22595,
+      "hypothesis_text_characters": 1766,
+      "official_normalized_characters": 1356,
+      "legal_scan_normalized_characters": 1356,
+      "unparsed_normalized_characters": 14740,
+      "longest_identical_token_run": 2,
+      "longest_short_period": {
+        "period": 0,
+        "start": 0,
+        "length": 0,
+        "cycles": 0
+      },
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/ES2011c",
+      "duration": 1616.064,
+      "generated_tokens": 5519,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "ref_last_end": 1611.87,
+      "hyp_last_end": 285.34,
+      "parsed_segments": 21,
+      "reference_text_characters": 23892,
+      "hypothesis_text_characters": 2410,
+      "official_normalized_characters": 1895,
+      "legal_scan_normalized_characters": 1895,
+      "unparsed_normalized_characters": 14798,
+      "longest_identical_token_run": 2,
+      "longest_short_period": {
+        "period": 0,
+        "start": 0,
+        "length": 0,
+        "cycles": 0
+      },
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IS1008b",
+      "duration": 1768.5,
+      "generated_tokens": 65536,
+      "ended_eos": false,
+      "truncated": true,
+      "parse_empty": false,
+      "ref_last_end": 1736.11,
+      "hyp_last_end": 1325.86,
+      "parsed_segments": 171,
+      "reference_text_characters": 22340,
+      "hypothesis_text_characters": 15889,
+      "official_normalized_characters": 12380,
+      "legal_scan_normalized_characters": 12380,
+      "unparsed_normalized_characters": 120931,
+      "longest_identical_token_run": 4,
+      "longest_short_period": {
+        "period": 2,
+        "start": 9265,
+        "length": 56271,
+        "cycles": 28135.5
+      },
+      "reasons": [
+        "budget_truncation",
+        "major_parse_loss"
+      ]
+    },
+    {
+      "key": "alimeeting/dev/R8007_M8010",
+      "duration": 1856.3219375,
+      "generated_tokens": 26567,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "ref_last_end": 1853.9,
+      "hyp_last_end": 569.11,
+      "parsed_segments": 290,
+      "reference_text_characters": 17028,
+      "hypothesis_text_characters": 4472,
+      "official_normalized_characters": 3856,
+      "legal_scan_normalized_characters": 11645,
+      "unparsed_normalized_characters": 22,
+      "longest_identical_token_run": 5,
+      "longest_short_period": {
+        "period": 0,
+        "start": 0,
+        "length": 0,
+        "cycles": 0
+      },
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/ES2011d",
+      "duration": 1982.325375,
+      "generated_tokens": 6170,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "ref_last_end": 1977.02,
+      "hyp_last_end": 398.26,
+      "parsed_segments": 55,
+      "reference_text_characters": 22642,
+      "hypothesis_text_characters": 3971,
+      "official_normalized_characters": 3088,
+      "legal_scan_normalized_characters": 3088,
+      "unparsed_normalized_characters": 13086,
+      "longest_identical_token_run": 3,
+      "longest_short_period": {
+        "period": 0,
+        "start": 0,
+        "length": 0,
+        "cycles": 0
+      },
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IB4003",
+      "duration": 2023.253375,
+      "generated_tokens": 65536,
+      "ended_eos": false,
+      "truncated": true,
+      "parse_empty": false,
+      "ref_last_end": 1982.11,
+      "hyp_last_end": 50.58,
+      "parsed_segments": 18,
+      "reference_text_characters": 33469,
+      "hypothesis_text_characters": 340,
+      "official_normalized_characters": 259,
+      "legal_scan_normalized_characters": 259,
+      "unparsed_normalized_characters": 227412,
+      "longest_identical_token_run": 3,
+      "longest_short_period": {
+        "period": 26,
+        "start": 4200,
+        "length": 61336,
+        "cycles": 2359.076923076923
+      },
+      "reasons": [
+        "budget_truncation",
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "alimeeting/dev/R8003_M8001",
+      "duration": 2068.0,
+      "generated_tokens": 65536,
+      "ended_eos": false,
+      "truncated": true,
+      "parse_empty": false,
+      "ref_last_end": 2067.7,
+      "hyp_last_end": 1095.51,
+      "parsed_segments": 260,
+      "reference_text_characters": 11731,
+      "hypothesis_text_characters": 5924,
+      "official_normalized_characters": 5257,
+      "legal_scan_normalized_characters": 5257,
+      "unparsed_normalized_characters": 56700,
+      "longest_identical_token_run": 56700,
+      "longest_short_period": {
+        "period": 1,
+        "start": 8836,
+        "length": 56700,
+        "cycles": 56700.0
+      },
+      "reasons": [
+        "budget_truncation",
+        "major_parse_loss",
+        "pathological_identical_token_loop",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/TS3004b",
+      "duration": 2246.058625,
+      "generated_tokens": 20388,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "ref_last_end": 2209.05,
+      "hyp_last_end": 290.11,
+      "parsed_segments": 63,
+      "reference_text_characters": 31226,
+      "hypothesis_text_characters": 2340,
+      "official_normalized_characters": 1738,
+      "legal_scan_normalized_characters": 1738,
+      "unparsed_normalized_characters": 55896,
+      "longest_identical_token_run": 3,
+      "longest_short_period": {
+        "period": 0,
+        "start": 0,
+        "length": 0,
+        "cycles": 0
+      },
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IB4004",
+      "duration": 2392.832,
+      "generated_tokens": 65536,
+      "ended_eos": false,
+      "truncated": true,
+      "parse_empty": false,
+      "ref_last_end": 2376.15,
+      "hyp_last_end": 372.32,
+      "parsed_segments": 55,
+      "reference_text_characters": 39572,
+      "hypothesis_text_characters": 5219,
+      "official_normalized_characters": 4053,
+      "legal_scan_normalized_characters": 4053,
+      "unparsed_normalized_characters": 75664,
+      "longest_identical_token_run": 4,
+      "longest_short_period": {
+        "period": 2,
+        "start": 8127,
+        "length": 57409,
+        "cycles": 28704.5
+      },
+      "reasons": [
+        "budget_truncation",
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IB4011",
+      "duration": 2416.981375,
+      "generated_tokens": 25826,
+      "ended_eos": true,
+      "truncated": false,
+      "parse_empty": false,
+      "ref_last_end": 2386.49,
+      "hyp_last_end": 85.66,
+      "parsed_segments": 22,
+      "reference_text_characters": 38435,
+      "hypothesis_text_characters": 732,
+      "official_normalized_characters": 573,
+      "legal_scan_normalized_characters": 573,
+      "unparsed_normalized_characters": 80151,
+      "longest_identical_token_run": 4,
+      "longest_short_period": {
+        "period": 0,
+        "start": 0,
+        "length": 0,
+        "cycles": 0
+      },
+      "reasons": [
+        "major_parse_loss",
+        "severe_early_end_with_text_deficit"
+      ]
+    },
+    {
+      "key": "ami/dev/IB4010",
+      "duration": 2960.5546875,
+      "generated_tokens": 65536,
+      "ended_eos": false,
+      "truncated": true,
+      "parse_empty": false,
+      "ref_last_end": 2937.86,
+      "hyp_last_end": 422.05,
+      "parsed_segments": 40,
+      "reference_text_characters": 48589,
+      "hypothesis_text_characters": 5864,
+      "official_normalized_characters": 4498,
+      "legal_scan_normalized_characters": 4507,
+      "unparsed_normalized_characters": 4428,
+      "longest_identical_token_run": 61180,
+      "longest_short_period": {
+        "period": 1,
+        "start": 4356,
+        "length": 61180,
+        "cycles": 61180.0
+      },
+      "reasons": [
+        "budget_truncation",
+        "major_parse_loss",
+        "pathological_identical_token_loop",
+        "severe_early_end_with_text_deficit"
+      ]
+    }
+  ]
+}

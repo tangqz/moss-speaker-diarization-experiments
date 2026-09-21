@@ -1,0 +1,47 @@
+{
+  "selection": "Each dev corpus: floor(q*(n-1)) duration ranks, q=0,0.5,1; tie by key. No outcome filtering.",
+  "records": [
+    {
+      "key": "alimeeting/dev/R8001_M8004",
+      "audio": "/work/qt28/moss/data/audio16k/alimeeting/R8001_M8004.wav",
+      "duration": 1573.85,
+      "prompt_len": 20797,
+      "prompt": "请将音频转写为文本，每一段需以起始时间戳和说话人编号（[S01]、[S02]、[S03]…）开头，正文为对应的语音内容，并在段末标注结束时间戳，以清晰标明该段语音范围。"
+    },
+    {
+      "key": "alimeeting/dev/R8007_M8011",
+      "audio": "/work/qt28/moss/data/audio16k/alimeeting/R8007_M8011.wav",
+      "duration": 1861.546,
+      "prompt_len": 24625,
+      "prompt": "请将音频转写为文本，每一段需以起始时间戳和说话人编号（[S01]、[S02]、[S03]…）开头，正文为对应的语音内容，并在段末标注结束时间戳，以清晰标明该段语音范围。"
+    },
+    {
+      "key": "alimeeting/dev/R8008_M8013",
+      "audio": "/work/qt28/moss/data/audio16k/alimeeting/R8008_M8013.wav",
+      "duration": 2239.4705,
+      "prompt_len": 29649,
+      "prompt": "请将音频转写为文本，每一段需以起始时间戳和说话人编号（[S01]、[S02]、[S03]…）开头，正文为对应的语音内容，并在段末标注结束时间戳，以清晰标明该段语音范围。"
+    },
+    {
+      "key": "ami/dev/IS1008a",
+      "audio": "/work/qt28/moss/data/external/ami/audio/IS1008a.Mix-Headset.wav",
+      "duration": 943.8333125,
+      "prompt_len": 12428,
+      "prompt": "请将音频转写为文本，每一段需以起始时间戳和说话人编号（[S01]、[S02]、[S03]…）开头，正文为对应的语音内容，并在段末标注结束时间戳，以清晰标明该段语音范围。"
+    },
+    {
+      "key": "ami/dev/IB4001",
+      "audio": "/work/qt28/moss/data/external/ami/audio/IB4001.Mix-Headset.wav",
+      "duration": 1780.6506875,
+      "prompt_len": 23550,
+      "prompt": "请将音频转写为文本，每一段需以起始时间戳和说话人编号（[S01]、[S02]、[S03]…）开头，正文为对应的语音内容，并在段末标注结束时间戳，以清晰标明该段语音范围。"
+    },
+    {
+      "key": "ami/dev/TS3004c",
+      "audio": "/work/qt28/moss/data/external/ami/audio/TS3004c.Mix-Headset.wav",
+      "duration": 2970.0,
+      "prompt_len": 39368,
+      "prompt": "请将音频转写为文本，每一段需以起始时间戳和说话人编号（[S01]、[S02]、[S03]…）开头，正文为对应的语音内容，并在段末标注结束时间戳，以清晰标明该段语音范围。"
+    }
+  ]
+}

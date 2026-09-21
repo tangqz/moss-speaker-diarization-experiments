@@ -1,0 +1,2479 @@
+{
+  "complete": true,
+  "meetings": 56,
+  "scored_predictions": 112,
+  "collar": 0.25,
+  "original_DER_reproduced": true,
+  "wall_seconds": 189.92537593841553,
+  "inference_rerun": false,
+  "groups": {
+    "base/aishell4": {
+      "records": 20,
+      "include_overlap": {
+        "total": 39763.562999999995,
+        "correct": 38364.80159999998,
+        "confusion": 595.7053999999999,
+        "missed detection": 803.0560000000168,
+        "false alarm": 956.3847999999957,
+        "DER": 0.059228751709197
+      },
+      "exclude_overlap": {
+        "total": 36893.22319999999,
+        "correct": 36051.205099999985,
+        "confusion": 393.6064999999984,
+        "missed detection": 448.41160000001054,
+        "false alarm": 937.8189999999967,
+        "DER": 0.04824292771470306
+      }
+    },
+    "sft/aishell4": {
+      "records": 20,
+      "include_overlap": {
+        "total": 39763.562999999995,
+        "correct": 38372.408699999985,
+        "confusion": 594.1794000000006,
+        "missed detection": 796.9749000000064,
+        "false alarm": 1033.4983000000082,
+        "DER": 0.06097674396029388
+      },
+      "exclude_overlap": {
+        "total": 36893.22319999999,
+        "correct": 36027.577399999995,
+        "confusion": 395.67469999999884,
+        "missed detection": 469.9711000000039,
+        "false alarm": 1000.7143000000099,
+        "DER": 0.050588155171002055
+      }
+    },
+    "base/alimeeting": {
+      "records": 20,
+      "include_overlap": {
+        "total": 35773.08999999987,
+        "correct": 33475.124999999876,
+        "confusion": 187.77499999999847,
+        "missed detection": 2110.1899999999996,
+        "false alarm": 479.9300000000025,
+        "DER": 0.07765320244910379
+      },
+      "exclude_overlap": {
+        "total": 25254.899999999918,
+        "correct": 25077.23999999992,
+        "confusion": 26.264999999999848,
+        "missed detection": 151.39499999999714,
+        "false alarm": 432.65000000000174,
+        "DER": 0.02416600342903756
+      }
+    },
+    "sft/alimeeting": {
+      "records": 20,
+      "include_overlap": {
+        "total": 35773.08999999987,
+        "correct": 31110.58499999989,
+        "confusion": 164.32499999999652,
+        "missed detection": 4498.179999999988,
+        "false alarm": 431.874999999996,
+        "DER": 0.1424081621129178
+      },
+      "exclude_overlap": {
+        "total": 25254.899999999918,
+        "correct": 24017.504999999917,
+        "confusion": 28.23499999999869,
+        "missed detection": 1209.1600000000014,
+        "false alarm": 389.10999999999393,
+        "DER": 0.06440354149095816
+      }
+    },
+    "base/ami": {
+      "records": 16,
+      "include_overlap": {
+        "total": 26624.473999999984,
+        "correct": 21045.75499999998,
+        "confusion": 124.56999999999772,
+        "missed detection": 5454.149000000008,
+        "false alarm": 336.7649999999966,
+        "DER": 0.22218219221908406
+      },
+      "exclude_overlap": {
+        "total": 20834.243999999995,
+        "correct": 18415.874999999993,
+        "confusion": 79.9899999999982,
+        "missed detection": 2338.3790000000063,
+        "false alarm": 335.7349999999967,
+        "DER": 0.13219121365766867
+      }
+    },
+    "sft/ami": {
+      "records": 16,
+      "include_overlap": {
+        "total": 26624.473999999984,
+        "correct": 22663.199999999993,
+        "confusion": 143.66999999999868,
+        "missed detection": 3817.6039999999925,
+        "false alarm": 390.8299999999981,
+        "DER": 0.16346253450866266
+      },
+      "exclude_overlap": {
+        "total": 20834.243999999995,
+        "correct": 19451.28,
+        "confusion": 79.9699999999988,
+        "missed detection": 1302.993999999998,
+        "false alarm": 388.3649999999984,
+        "DER": 0.08502007560245506
+      }
+    }
+  },
+  "records": [
+    {
+      "key": "ami/test/IS1009a",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 77.71999999999994,
+        "confusion": 2.8400000000000034,
+        "false alarm": 8.294999999999867,
+        "correct": 510.1700000000003,
+        "total": 590.7300000000001,
+        "diarization error rate": 0.15041558749343997
+      },
+      "exclude_overlap": {
+        "missed detection": 31.719999999999935,
+        "confusion": 1.2650000000000716,
+        "false alarm": 8.294999999999867,
+        "correct": 447.1950000000002,
+        "total": 480.18000000000023,
+        "diarization error rate": 0.08596776208921623
+      }
+    },
+    {
+      "key": "ami/test/IS1009a",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 60.21999999999969,
+        "confusion": 8.090000000000174,
+        "false alarm": 11.60499999999994,
+        "correct": 522.4200000000004,
+        "total": 590.7300000000001,
+        "diarization error rate": 0.13528177001337294
+      },
+      "exclude_overlap": {
+        "missed detection": 27.930000000000042,
+        "confusion": 0.605000000000274,
+        "false alarm": 11.60499999999994,
+        "correct": 451.64499999999987,
+        "total": 480.18000000000023,
+        "diarization error rate": 0.08359365238035786
+      }
+    },
+    {
+      "key": "ami/test/ES2004a",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 124.90499999999943,
+        "confusion": 1.1749999999997272,
+        "false alarm": 8.360000000000147,
+        "correct": 649.6900000000006,
+        "total": 775.7699999999998,
+        "diarization error rate": 0.17329878701161344
+      },
+      "exclude_overlap": {
+        "missed detection": 58.035000000000096,
+        "confusion": 0.8399999999998613,
+        "false alarm": 8.360000000000147,
+        "correct": 549.1150000000005,
+        "total": 607.9900000000004,
+        "diarization error rate": 0.11058570042270442
+      }
+    },
+    {
+      "key": "ami/test/ES2004a",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 105.39999999999992,
+        "confusion": 1.1349999999998204,
+        "false alarm": 7.335000000000264,
+        "correct": 669.235,
+        "total": 775.7699999999998,
+        "diarization error rate": 0.14678319605037582
+      },
+      "exclude_overlap": {
+        "missed detection": 45.205000000000155,
+        "confusion": 0.814999999999884,
+        "false alarm": 7.335000000000264,
+        "correct": 561.9700000000003,
+        "total": 607.9900000000004,
+        "diarization error rate": 0.08775637757199999
+      }
+    },
+    {
+      "key": "ami/test/TS3003a",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 162.30400000000063,
+        "confusion": 17.585000000000015,
+        "false alarm": 5.914999999999736,
+        "correct": 746.5250000000002,
+        "total": 926.4140000000009,
+        "diarization error rate": 0.20056259944258203
+      },
+      "exclude_overlap": {
+        "missed detection": 137.24900000000025,
+        "confusion": 13.014999999999958,
+        "false alarm": 5.914999999999736,
+        "correct": 727.2499999999998,
+        "total": 877.5139999999999,
+        "diarization error rate": 0.17797892683193656
+      }
+    },
+    {
+      "key": "ami/test/TS3003a",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 158.30900000000133,
+        "confusion": 3.5850000000000293,
+        "false alarm": 4.81999999999929,
+        "correct": 764.5199999999995,
+        "total": 926.4140000000009,
+        "diarization error rate": 0.17995626145546212
+      },
+      "exclude_overlap": {
+        "missed detection": 135.1540000000009,
+        "confusion": 2.595000000000141,
+        "false alarm": 4.81999999999929,
+        "correct": 739.764999999999,
+        "total": 877.514,
+        "diarization error rate": 0.16246920277055446
+      }
+    },
+    {
+      "key": "alimeeting/test/R8005_M8009",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 543.7249999999981,
+        "confusion": 44.95499999999984,
+        "false alarm": 47.91000000000035,
+        "correct": 1772.2799999999984,
+        "total": 2360.96,
+        "diarization error rate": 0.2696318446733525
+      },
+      "exclude_overlap": {
+        "missed detection": 3.390000000000274,
+        "confusion": 0.8750000000000426,
+        "false alarm": 38.230000000000544,
+        "correct": 484.76500000000067,
+        "total": 489.030000000001,
+        "diarization error rate": 0.08689650941660178
+      }
+    },
+    {
+      "key": "alimeeting/test/R8005_M8009",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 1311.594999999996,
+        "confusion": 30.300000000000054,
+        "false alarm": 22.9050000000006,
+        "correct": 1019.0649999999997,
+        "total": 2360.959999999999,
+        "diarization error rate": 0.578069937652479
+      },
+      "exclude_overlap": {
+        "missed detection": 237.33000000000172,
+        "confusion": 0.4949999999999761,
+        "false alarm": 17.405000000000207,
+        "correct": 251.20499999999927,
+        "total": 489.030000000001,
+        "diarization error rate": 0.5219107212236497
+      }
+    },
+    {
+      "key": "ami/test/EN2002b",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 384.67499999999774,
+        "confusion": 12.62999999999984,
+        "false alarm": 12.835000000000804,
+        "correct": 1245.2249999999983,
+        "total": 1642.5299999999959,
+        "diarization error rate": 0.24970015768357315
+      },
+      "exclude_overlap": {
+        "missed detection": 60.285000000000224,
+        "confusion": 7.614999999999853,
+        "false alarm": 12.830000000000695,
+        "correct": 921.7500000000019,
+        "total": 989.650000000002,
+        "diarization error rate": 0.08157429394230345
+      }
+    },
+    {
+      "key": "ami/test/EN2002b",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 375.7649999999993,
+        "confusion": 13.58999999999962,
+        "false alarm": 7.535000000000537,
+        "correct": 1253.174999999997,
+        "total": 1642.5299999999959,
+        "diarization error rate": 0.2416333339421505
+      },
+      "exclude_overlap": {
+        "missed detection": 66.86500000000078,
+        "confusion": 7.240000000000023,
+        "false alarm": 7.33000000000041,
+        "correct": 915.5450000000012,
+        "total": 989.650000000002,
+        "diarization error rate": 0.08228666700348714
+      }
+    },
+    {
+      "key": "alimeeting/test/R8008_M8017",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 35.885000000000346,
+        "confusion": 0.27499999999997726,
+        "false alarm": 10.779999999999959,
+        "correct": 1436.0799999999979,
+        "total": 1472.2399999999982,
+        "diarization error rate": 0.03188338857794948
+      },
+      "exclude_overlap": {
+        "missed detection": 11.555000000000092,
+        "confusion": 0.13499999999987722,
+        "false alarm": 10.779999999999959,
+        "correct": 1368.6499999999996,
+        "total": 1380.3399999999995,
+        "diarization error rate": 0.016278598026573117
+      }
+    },
+    {
+      "key": "alimeeting/test/R8008_M8017",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 39.28499999999924,
+        "confusion": 0.06500000000005457,
+        "false alarm": 3.2599999999994793,
+        "correct": 1432.8899999999987,
+        "total": 1472.2399999999982,
+        "diarization error rate": 0.02894229201760503
+      },
+      "exclude_overlap": {
+        "missed detection": 15.449999999999587,
+        "confusion": 0.06500000000005457,
+        "false alarm": 3.2599999999994793,
+        "correct": 1364.8249999999998,
+        "total": 1380.3399999999995,
+        "diarization error rate": 0.013601721315037693
+      }
+    },
+    {
+      "key": "ami/test/IS1009c",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 73.1999999999993,
+        "confusion": 3.729999999999734,
+        "false alarm": 17.08999999999991,
+        "correct": 1373.9099999999992,
+        "total": 1450.839999999998,
+        "diarization error rate": 0.06480383777673561
+      },
+      "exclude_overlap": {
+        "missed detection": 47.38999999999974,
+        "confusion": 0.9550000000000409,
+        "false alarm": 17.084999999999916,
+        "correct": 1314.2050000000002,
+        "total": 1362.5500000000002,
+        "diarization error rate": 0.04802025613738922
+      }
+    },
+    {
+      "key": "ami/test/IS1009c",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 72.87500000000023,
+        "confusion": 5.249999999999602,
+        "false alarm": 18.11000000000015,
+        "correct": 1372.7149999999983,
+        "total": 1450.8399999999983,
+        "diarization error rate": 0.06633053954950242
+      },
+      "exclude_overlap": {
+        "missed detection": 48.430000000000845,
+        "confusion": 0.9349999999999454,
+        "false alarm": 18.090000000000053,
+        "correct": 1313.1849999999993,
+        "total": 1362.5500000000002,
+        "diarization error rate": 0.04950644013063801
+      }
+    },
+    {
+      "key": "alimeeting/test/R8006_M8012",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 157.51500000000172,
+        "confusion": 14.365000000000308,
+        "false alarm": 17.604999999999208,
+        "correct": 1700.7499999999982,
+        "total": 1872.6300000000003,
+        "diarization error rate": 0.1011865664867065
+      },
+      "exclude_overlap": {
+        "missed detection": 7.355000000000576,
+        "confusion": 2.0300000000000296,
+        "false alarm": 15.259999999999108,
+        "correct": 1111.9349999999981,
+        "total": 1121.3199999999988,
+        "diarization error rate": 0.02197856098169991
+      }
+    },
+    {
+      "key": "alimeeting/test/R8006_M8012",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 145.9149999999995,
+        "confusion": 12.770000000000309,
+        "false alarm": 17.50499999999972,
+        "correct": 1713.9450000000004,
+        "total": 1872.6300000000003,
+        "diarization error rate": 0.09408692587430487
+      },
+      "exclude_overlap": {
+        "missed detection": 7.834999999999862,
+        "confusion": 0.9599999999999795,
+        "false alarm": 15.419999999999611,
+        "correct": 1112.524999999999,
+        "total": 1121.3199999999988,
+        "diarization error rate": 0.02159508436485524
+      }
+    },
+    {
+      "key": "alimeeting/test/R8008_M8016",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 45.710000000001195,
+        "confusion": 4.014999999999439,
+        "false alarm": 23.62499999999553,
+        "correct": 1510.5249999999965,
+        "total": 1560.249999999997,
+        "diarization error rate": 0.0470116968434522
+      },
+      "exclude_overlap": {
+        "missed detection": 10.450000000000491,
+        "confusion": 3.4349999999999596,
+        "false alarm": 22.80999999999559,
+        "correct": 1336.814999999995,
+        "total": 1350.6999999999953,
+        "diarization error rate": 0.027167394684234968
+      }
+    },
+    {
+      "key": "alimeeting/test/R8008_M8016",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 42.42000000000098,
+        "confusion": 4.370000000000175,
+        "false alarm": 26.10499999999761,
+        "correct": 1513.459999999996,
+        "total": 1560.249999999997,
+        "diarization error rate": 0.04672007691075077
+      },
+      "exclude_overlap": {
+        "missed detection": 11.075000000000859,
+        "confusion": 3.520000000000266,
+        "false alarm": 24.524999999997718,
+        "correct": 1336.1049999999943,
+        "total": 1350.6999999999953,
+        "diarization error rate": 0.028962760050343508
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8024",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 3.8349999999995106,
+        "confusion": 0.0,
+        "false alarm": 21.41499999999911,
+        "correct": 1391.5649999999928,
+        "total": 1395.3999999999921,
+        "diarization error rate": 0.01809516984377151
+      },
+      "exclude_overlap": {
+        "missed detection": 2.3849999999999483,
+        "confusion": 0.0,
+        "false alarm": 21.41499999999911,
+        "correct": 1354.7949999999935,
+        "total": 1357.1799999999935,
+        "diarization error rate": 0.017536362162719147
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8024",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 6.754999999999299,
+        "confusion": 0.0,
+        "false alarm": 17.01499999999875,
+        "correct": 1388.644999999993,
+        "total": 1395.3999999999921,
+        "diarization error rate": 0.017034542066789584
+      },
+      "exclude_overlap": {
+        "missed detection": 4.909999999999798,
+        "confusion": 0.0,
+        "false alarm": 17.01499999999875,
+        "correct": 1352.2699999999936,
+        "total": 1357.1799999999935,
+        "diarization error rate": 0.016154821025949877
+      }
+    },
+    {
+      "key": "alimeeting/test/R8005_M8007",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 260.1149999999992,
+        "confusion": 19.21000000000184,
+        "false alarm": 22.10999999999996,
+        "correct": 1837.5249999999946,
+        "total": 2116.849999999995,
+        "diarization error rate": 0.142397902543875
+      },
+      "exclude_overlap": {
+        "missed detection": 8.094999999999667,
+        "confusion": 2.3100000000000023,
+        "false alarm": 12.83499999999933,
+        "correct": 814.975000000001,
+        "total": 825.3800000000008,
+        "diarization error rate": 0.02815672781021951
+      }
+    },
+    {
+      "key": "alimeeting/test/R8005_M8007",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 1466.5049999999972,
+        "confusion": 8.725000000000009,
+        "false alarm": 5.654999999999614,
+        "correct": 641.6199999999985,
+        "total": 2116.849999999993,
+        "diarization error rate": 0.6995701159742077
+      },
+      "exclude_overlap": {
+        "missed detection": 504.46500000000134,
+        "confusion": 2.0600000000000307,
+        "false alarm": 3.7249999999995644,
+        "correct": 318.8549999999994,
+        "total": 825.3800000000008,
+        "diarization error rate": 0.6182001017713058
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8027",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 15.649999999997906,
+        "confusion": 0.12000000000006139,
+        "false alarm": 31.129999999998844,
+        "correct": 1434.0399999999938,
+        "total": 1449.8099999999918,
+        "diarization error rate": 0.03234906642939218
+      },
+      "exclude_overlap": {
+        "missed detection": 11.759999999998303,
+        "confusion": 0.12000000000006139,
+        "false alarm": 31.129999999998844,
+        "correct": 1382.8699999999956,
+        "total": 1394.7499999999939,
+        "diarization error rate": 0.03083706757483233
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8027",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 19.869999999998054,
+        "confusion": 0.4249999999999545,
+        "false alarm": 50.16499999999821,
+        "correct": 1429.5149999999937,
+        "total": 1449.8099999999918,
+        "diarization error rate": 0.04859947165490417
+      },
+      "exclude_overlap": {
+        "missed detection": 16.23499999999815,
+        "confusion": 0.4249999999999545,
+        "false alarm": 50.16499999999821,
+        "correct": 1378.0899999999956,
+        "total": 1394.7499999999939,
+        "diarization error rate": 0.047911812152713104
+      }
+    },
+    {
+      "key": "alimeeting/test/R8008_M8015",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 96.92499999999998,
+        "confusion": 18.87000000000028,
+        "false alarm": 33.769999999997964,
+        "correct": 1578.005000000001,
+        "total": 1693.8000000000013,
+        "diarization error rate": 0.0883014523556489
+      },
+      "exclude_overlap": {
+        "missed detection": 20.179999999998785,
+        "confusion": 6.820000000000384,
+        "false alarm": 33.769999999997964,
+        "correct": 1351.909999999999,
+        "total": 1378.909999999998,
+        "diarization error rate": 0.04407104161982814
+      }
+    },
+    {
+      "key": "alimeeting/test/R8008_M8015",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 99.36000000000189,
+        "confusion": 13.669999999999405,
+        "false alarm": 28.50999999999893,
+        "correct": 1580.77,
+        "total": 1693.8000000000013,
+        "diarization error rate": 0.083563584838824
+      },
+      "exclude_overlap": {
+        "missed detection": 21.365000000000514,
+        "confusion": 6.614999999999625,
+        "false alarm": 28.50999999999893,
+        "correct": 1350.9299999999978,
+        "total": 1378.909999999998,
+        "diarization error rate": 0.04096714071259121
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8028",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 14.595000000000447,
+        "confusion": 0.13999999999998636,
+        "false alarm": 10.635000000000385,
+        "correct": 1595.0549999999885,
+        "total": 1609.7899999999888,
+        "diarization error rate": 0.015759819603799873
+      },
+      "exclude_overlap": {
+        "missed detection": 4.130000000000237,
+        "confusion": 0.13999999999998636,
+        "false alarm": 10.635000000000385,
+        "correct": 1511.9999999999889,
+        "total": 1516.269999999989,
+        "diarization error rate": 0.009830043461916885
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8028",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 14.430000000000426,
+        "confusion": 0.3100000000000591,
+        "false alarm": 11.994999999999887,
+        "correct": 1595.0499999999884,
+        "total": 1609.7899999999888,
+        "diarization error rate": 0.01660775629119361
+      },
+      "exclude_overlap": {
+        "missed detection": 3.8400000000003303,
+        "confusion": 0.3100000000000591,
+        "false alarm": 11.994999999999887,
+        "correct": 1512.1199999999887,
+        "total": 1516.269999999989,
+        "diarization error rate": 0.010647839764685968
+      }
+    },
+    {
+      "key": "alimeeting/test/R8008_M8014",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 59.970000000000056,
+        "confusion": 5.904999999999177,
+        "false alarm": 12.475000000001458,
+        "correct": 1725.8949999999982,
+        "total": 1791.7699999999975,
+        "diarization error rate": 0.043727710587854914
+      },
+      "exclude_overlap": {
+        "missed detection": 14.490000000000297,
+        "confusion": 2.239999999999668,
+        "false alarm": 12.445000000001485,
+        "correct": 1522.9300000000003,
+        "total": 1539.6600000000005,
+        "diarization error rate": 0.01894898873777421
+      }
+    },
+    {
+      "key": "alimeeting/test/R8008_M8014",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 60.89000000000047,
+        "confusion": 5.979999999999279,
+        "false alarm": 11.800000000000722,
+        "correct": 1724.8999999999976,
+        "total": 1791.7699999999975,
+        "diarization error rate": 0.043906304938692235
+      },
+      "exclude_overlap": {
+        "missed detection": 15.235000000000737,
+        "confusion": 2.329999999999643,
+        "false alarm": 11.755000000000877,
+        "correct": 1522.095,
+        "total": 1539.6600000000005,
+        "diarization error rate": 0.019043165374174328
+      }
+    },
+    {
+      "key": "ami/test/IS1009d",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 125.22499999999914,
+        "confusion": 27.429999999999495,
+        "false alarm": 47.120000000002044,
+        "correct": 1329.0250000000015,
+        "total": 1481.68,
+        "diarization error rate": 0.13483005777225898
+      },
+      "exclude_overlap": {
+        "missed detection": 49.46500000000035,
+        "confusion": 17.14999999999901,
+        "false alarm": 46.57500000000197,
+        "correct": 1213.2650000000006,
+        "total": 1279.88,
+        "diarization error rate": 0.08843797856049108
+      }
+    },
+    {
+      "key": "ami/test/IS1009d",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 153.97499999999656,
+        "confusion": 27.18499999999989,
+        "false alarm": 10.24000000000023,
+        "correct": 1300.5200000000036,
+        "total": 1481.68,
+        "diarization error rate": 0.12917769018951236
+      },
+      "exclude_overlap": {
+        "missed detection": 74.27999999999955,
+        "confusion": 15.18999999999977,
+        "false alarm": 10.14000000000032,
+        "correct": 1190.4100000000008,
+        "total": 1279.88,
+        "diarization error rate": 0.0778276088383283
+      }
+    },
+    {
+      "key": "alimeeting/test/R8005_M8008",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 63.280000000001635,
+        "confusion": 5.509999999999522,
+        "false alarm": 17.185000000000485,
+        "correct": 1845.169999999999,
+        "total": 1913.9600000000003,
+        "diarization error rate": 0.044919956529917884
+      },
+      "exclude_overlap": {
+        "missed detection": 5.274999999999817,
+        "confusion": 0.4649999999998613,
+        "false alarm": 14.205000000001105,
+        "correct": 1233.9600000000016,
+        "total": 1239.7000000000014,
+        "diarization error rate": 0.0160885698152785
+      }
+    },
+    {
+      "key": "alimeeting/test/R8005_M8008",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 514.1499999999993,
+        "confusion": 4.945000000000306,
+        "false alarm": 28.36500000000101,
+        "correct": 1394.8650000000007,
+        "total": 1913.9600000000003,
+        "diarization error rate": 0.28603523584609947
+      },
+      "exclude_overlap": {
+        "missed detection": 312.40499999999986,
+        "confusion": 0.12000000000017508,
+        "false alarm": 21.815000000000808,
+        "correct": 927.1750000000014,
+        "total": 1239.7000000000016,
+        "diarization error rate": 0.2696942808744054
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8023",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 13.770000000000927,
+        "confusion": 0.1600000000001387,
+        "false alarm": 26.01500000000327,
+        "correct": 1480.6899999999853,
+        "total": 1494.6199999999865,
+        "diarization error rate": 0.026725856739508835
+      },
+      "exclude_overlap": {
+        "missed detection": 5.3850000000005664,
+        "confusion": 0.1600000000001387,
+        "false alarm": 26.01500000000327,
+        "correct": 1381.0349999999899,
+        "total": 1386.5799999999904,
+        "diarization error rate": 0.02276103794949025
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8023",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 10.785000000000075,
+        "confusion": 0.08500000000015007,
+        "false alarm": 12.755000000002935,
+        "correct": 1483.7499999999861,
+        "total": 1494.6199999999865,
+        "diarization error rate": 0.015806693340115464
+      },
+      "exclude_overlap": {
+        "missed detection": 3.94000000000063,
+        "confusion": 0.08500000000015007,
+        "false alarm": 12.755000000002935,
+        "correct": 1382.5549999999896,
+        "total": 1386.5799999999904,
+        "diarization error rate": 0.012101717895832793
+      }
+    },
+    {
+      "key": "alimeeting/test/R8004_M8006",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 413.3550000000012,
+        "confusion": 45.24499999999859,
+        "false alarm": 27.690000000000904,
+        "correct": 2023.4399999999996,
+        "total": 2482.039999999993,
+        "diarization error rate": 0.19592351452837264
+      },
+      "exclude_overlap": {
+        "missed detection": 3.094999999999459,
+        "confusion": 2.110000000000163,
+        "false alarm": 13.630000000000583,
+        "correct": 631.0650000000021,
+        "total": 636.2700000000017,
+        "diarization error rate": 0.029602212897040812
+      }
+    },
+    {
+      "key": "alimeeting/test/R8004_M8006",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 363.23999999999876,
+        "confusion": 47.95499999999858,
+        "false alarm": 37.9700000000004,
+        "correct": 2070.8450000000016,
+        "total": 2482.039999999993,
+        "diarization error rate": 0.18096606017630618
+      },
+      "exclude_overlap": {
+        "missed detection": 4.6449999999995555,
+        "confusion": 2.4400000000001043,
+        "false alarm": 19.72999999999938,
+        "correct": 629.185000000002,
+        "total": 636.2700000000017,
+        "diarization error rate": 0.04214405834001127
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8026",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 27.639999999997457,
+        "confusion": 2.119999999999782,
+        "false alarm": 46.12499999999996,
+        "correct": 1563.23999999999,
+        "total": 1592.9999999999875,
+        "diarization error rate": 0.04763653483992329
+      },
+      "exclude_overlap": {
+        "missed detection": 11.174999999998533,
+        "confusion": 2.119999999999782,
+        "false alarm": 46.12499999999996,
+        "correct": 1473.1249999999916,
+        "total": 1486.4199999999896,
+        "diarization error rate": 0.0399752425290286
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8026",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 32.02999999999747,
+        "confusion": 2.214999999999751,
+        "false alarm": 47.304999999999104,
+        "correct": 1558.75499999999,
+        "total": 1592.9999999999875,
+        "diarization error rate": 0.051192718141868786
+      },
+      "exclude_overlap": {
+        "missed detection": 15.66499999999768,
+        "confusion": 2.214999999999751,
+        "false alarm": 47.304999999999104,
+        "correct": 1468.5399999999922,
+        "total": 1486.4199999999896,
+        "diarization error rate": 0.04385368872862111
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8021",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 9.654999999999355,
+        "confusion": 0.17000000000018645,
+        "false alarm": 19.73500000000108,
+        "correct": 1487.5749999999898,
+        "total": 1497.3999999999892,
+        "diarization error rate": 0.01974088419927931
+      },
+      "exclude_overlap": {
+        "missed detection": 5.214999999999286,
+        "confusion": 0.17000000000018645,
+        "false alarm": 19.73500000000108,
+        "correct": 1228.4949999999958,
+        "total": 1233.879999999995,
+        "diarization error rate": 0.020358543780595074
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8021",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 12.849999999999955,
+        "confusion": 0.2099999999999227,
+        "false alarm": 8.359999999998834,
+        "correct": 1484.3399999999895,
+        "total": 1497.3999999999892,
+        "diarization error rate": 0.014304794977961043
+      },
+      "exclude_overlap": {
+        "missed detection": 7.3250000000001165,
+        "confusion": 0.2099999999999227,
+        "false alarm": 8.359999999998834,
+        "correct": 1226.3449999999953,
+        "total": 1233.879999999995,
+        "diarization error rate": 0.012882127921677098
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8022",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 15.294999999999781,
+        "confusion": 0.0,
+        "false alarm": 18.464999999999126,
+        "correct": 1738.8249999999878,
+        "total": 1754.1199999999876,
+        "diarization error rate": 0.01924611771144457
+      },
+      "exclude_overlap": {
+        "missed detection": 0.7250000000001009,
+        "confusion": 0.0,
+        "false alarm": 18.464999999999126,
+        "correct": 1601.6149999999905,
+        "total": 1602.3399999999906,
+        "diarization error rate": 0.01197623475666796
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8022",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 16.05499999999928,
+        "confusion": 0.0,
+        "false alarm": 19.959999999999436,
+        "correct": 1738.0649999999885,
+        "total": 1754.1199999999876,
+        "diarization error rate": 0.02053166260004958
+      },
+      "exclude_overlap": {
+        "missed detection": 0.7050000000000516,
+        "confusion": 0.0,
+        "false alarm": 19.959999999999436,
+        "correct": 1601.6349999999907,
+        "total": 1602.3399999999906,
+        "diarization error rate": 0.012896763483405274
+      }
+    },
+    {
+      "key": "alimeeting/test/R8002_M8003",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 139.85000000000053,
+        "confusion": 10.640000000000072,
+        "false alarm": 28.47500000000384,
+        "correct": 1730.2900000000004,
+        "total": 1880.780000000001,
+        "diarization error rate": 0.09515466987101327
+      },
+      "exclude_overlap": {
+        "missed detection": 9.045000000000428,
+        "confusion": 0.8400000000000034,
+        "false alarm": 24.97500000000324,
+        "correct": 1066.345000000002,
+        "total": 1076.2300000000025,
+        "diarization error rate": 0.03239084582292223
+      }
+    },
+    {
+      "key": "alimeeting/test/R8002_M8003",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 143.28499999999923,
+        "confusion": 13.384999999999337,
+        "false alarm": 27.18000000000155,
+        "correct": 1724.1100000000026,
+        "total": 1880.780000000001,
+        "diarization error rate": 0.09775199651208541
+      },
+      "exclude_overlap": {
+        "missed detection": 10.070000000000128,
+        "confusion": 1.4499999999995339,
+        "false alarm": 23.35500000000102,
+        "correct": 1064.710000000003,
+        "total": 1076.2300000000025,
+        "diarization error rate": 0.03240478336415134
+      }
+    },
+    {
+      "key": "ami/test/IS1009b",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 121.89999999999955,
+        "confusion": 8.549999999999663,
+        "false alarm": 10.100000000000058,
+        "correct": 1617.219999999999,
+        "total": 1747.669999999998,
+        "diarization error rate": 0.08042136101209006
+      },
+      "exclude_overlap": {
+        "missed detection": 51.68500000000002,
+        "confusion": 5.4499999999995055,
+        "false alarm": 10.060000000000095,
+        "correct": 1460.0050000000008,
+        "total": 1517.14,
+        "diarization error rate": 0.0442905730519264
+      }
+    },
+    {
+      "key": "ami/test/IS1009b",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 115.76499999999922,
+        "confusion": 8.86000000000012,
+        "false alarm": 9.609999999999296,
+        "correct": 1623.044999999999,
+        "total": 1747.669999999998,
+        "diarization error rate": 0.07680797862296589
+      },
+      "exclude_overlap": {
+        "missed detection": 52.73500000000105,
+        "confusion": 5.334999999999781,
+        "false alarm": 8.474999999999305,
+        "correct": 1459.0699999999995,
+        "total": 1517.14,
+        "diarization error rate": 0.04386213533358828
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8025",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 6.844999999999665,
+        "confusion": 0.0049999999999954525,
+        "false alarm": 25.65000000000061,
+        "correct": 1793.9999999999748,
+        "total": 1800.8499999999744,
+        "diarization error rate": 0.018047033345365095
+      },
+      "exclude_overlap": {
+        "missed detection": 1.1700000000000799,
+        "confusion": 0.0049999999999954525,
+        "false alarm": 25.65000000000061,
+        "correct": 1636.8749999999804,
+        "total": 1638.0499999999806,
+        "diarization error rate": 0.016376178993315834
+      }
+    },
+    {
+      "key": "alimeeting/test/R8009_M8025",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 8.285000000000316,
+        "confusion": 0.0,
+        "false alarm": 25.08999999999945,
+        "correct": 1792.5649999999741,
+        "total": 1800.8499999999744,
+        "diarization error rate": 0.01853291501235541
+      },
+      "exclude_overlap": {
+        "missed detection": 1.3200000000004835,
+        "confusion": 0.0,
+        "false alarm": 25.08999999999945,
+        "correct": 1636.72999999998,
+        "total": 1638.0499999999806,
+        "diarization error rate": 0.01612282897347471
+      }
+    },
+    {
+      "key": "alimeeting/test/R8002_M8002",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 75.24999999999983,
+        "confusion": 10.974999999999895,
+        "false alarm": 25.130000000000265,
+        "correct": 1874.504999999996,
+        "total": 1960.7299999999957,
+        "diarization error rate": 0.05679262315566153
+      },
+      "exclude_overlap": {
+        "missed detection": 6.900000000000034,
+        "confusion": 2.0499999999997556,
+        "false alarm": 22.86000000000037,
+        "correct": 1302.4999999999975,
+        "total": 1311.4499999999973,
+        "diarization error rate": 0.02425559495215237
+      }
+    },
+    {
+      "key": "alimeeting/test/R8002_M8002",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 89.11499999999948,
+        "confusion": 9.009999999999664,
+        "false alarm": 17.324999999999946,
+        "correct": 1862.6049999999966,
+        "total": 1960.7299999999957,
+        "diarization error rate": 0.05888113100732857
+      },
+      "exclude_overlap": {
+        "missed detection": 7.2449999999997114,
+        "confusion": 1.564999999999742,
+        "false alarm": 15.809999999999818,
+        "correct": 1302.6399999999978,
+        "total": 1311.4499999999973,
+        "diarization error rate": 0.018773113729077983
+      }
+    },
+    {
+      "key": "alimeeting/test/R8004_M8005",
+      "model": "base",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 111.32500000000061,
+        "confusion": 5.094999999999388,
+        "false alarm": 14.005000000000205,
+        "correct": 1955.669999999996,
+        "total": 2072.0899999999956,
+        "diarization error rate": 0.0629436945306432
+      },
+      "exclude_overlap": {
+        "missed detection": 9.620000000000175,
+        "confusion": 0.23999999999995225,
+        "false alarm": 11.680000000000067,
+        "correct": 1280.5799999999977,
+        "total": 1290.439999999998,
+        "diarization error rate": 0.016691981029726473
+      }
+    },
+    {
+      "key": "alimeeting/test/R8004_M8005",
+      "model": "sft",
+      "dataset": "alimeeting",
+      "include_overlap": {
+        "missed detection": 101.36000000000041,
+        "confusion": 9.904999999999504,
+        "false alarm": 12.64999999999985,
+        "correct": 1960.824999999996,
+        "total": 2072.0899999999956,
+        "diarization error rate": 0.05980193910496167
+      },
+      "exclude_overlap": {
+        "missed detection": 8.100000000000364,
+        "confusion": 3.3699999999997203,
+        "false alarm": 11.154999999999902,
+        "correct": 1278.969999999998,
+        "total": 1290.4399999999978,
+        "diarization error rate": 0.017532779517063966
+      }
+    },
+    {
+      "key": "ami/test/EN2002a",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 867.5100000000011,
+        "confusion": 2.5250000000001265,
+        "false alarm": 12.839999999999705,
+        "correct": 1188.524999999998,
+        "total": 2058.559999999999,
+        "diarization error rate": 0.42887989662676884
+      },
+      "exclude_overlap": {
+        "missed detection": 260.9349999999997,
+        "confusion": 2.0950000000001197,
+        "false alarm": 12.839999999999705,
+        "correct": 971.7799999999987,
+        "total": 1234.8099999999986,
+        "diarization error rate": 0.22341088912464255
+      }
+    },
+    {
+      "key": "ami/test/EN2002a",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 546.2350000000025,
+        "confusion": 19.650000000000144,
+        "false alarm": 7.244999999999702,
+        "correct": 1492.6749999999968,
+        "total": 2058.559999999999,
+        "diarization error rate": 0.2784130654438067
+      },
+      "exclude_overlap": {
+        "missed detection": 116.44500000000065,
+        "confusion": 9.999999999999709,
+        "false alarm": 7.174999999999765,
+        "correct": 1108.3649999999982,
+        "total": 1234.8099999999986,
+        "diarization error rate": 0.10821097982685618
+      }
+    },
+    {
+      "key": "aishell4/test/L_R004S01C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 18.788599999999743,
+        "confusion": 10.796299999999917,
+        "false alarm": 24.747199999999513,
+        "correct": 1827.1898999999958,
+        "total": 1856.7747999999956,
+        "diarization error rate": 0.029261545341954933
+      },
+      "exclude_overlap": {
+        "missed detection": 11.940500000000153,
+        "confusion": 8.593400000000145,
+        "false alarm": 24.747199999999513,
+        "correct": 1780.2831,
+        "total": 1800.8170000000002,
+        "diarization error rate": 0.02514475374232907
+      }
+    },
+    {
+      "key": "aishell4/test/L_R004S01C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 22.332300000001023,
+        "confusion": 10.855999999999938,
+        "false alarm": 21.597999999999665,
+        "correct": 1823.5864999999947,
+        "total": 1856.7747999999956,
+        "diarization error rate": 0.029506163052191763
+      },
+      "exclude_overlap": {
+        "missed detection": 15.5958000000013,
+        "confusion": 8.65560000000022,
+        "false alarm": 21.597999999999665,
+        "correct": 1776.565599999999,
+        "total": 1800.8170000000002,
+        "diarization error rate": 0.02546033272675745
+      }
+    },
+    {
+      "key": "ami/test/EN2002d",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 678.0800000000006,
+        "confusion": 18.64500000000107,
+        "false alarm": 10.66000000000011,
+        "correct": 1540.1549999999943,
+        "total": 2236.879999999995,
+        "diarization error rate": 0.31623734844962775
+      },
+      "exclude_overlap": {
+        "missed detection": 87.93000000000036,
+        "confusion": 15.13000000000028,
+        "false alarm": 10.625000000000256,
+        "correct": 1111.2799999999993,
+        "total": 1214.34,
+        "diarization error rate": 0.0936187558673855
+      }
+    },
+    {
+      "key": "ami/test/EN2002d",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 632.3350000000008,
+        "confusion": 19.469999999999864,
+        "false alarm": 21.969999999999843,
+        "correct": 1585.0749999999953,
+        "total": 2236.879999999995,
+        "diarization error rate": 0.3012119559386297
+      },
+      "exclude_overlap": {
+        "missed detection": 69.49999999999923,
+        "confusion": 13.714999999999662,
+        "false alarm": 21.934999999999988,
+        "correct": 1131.125000000001,
+        "total": 1214.34,
+        "diarization error rate": 0.08659024655368257
+      }
+    },
+    {
+      "key": "ami/test/TS3003b",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 131.12500000000279,
+        "confusion": 1.185000000000045,
+        "false alarm": 60.83499999999978,
+        "correct": 1519.2299999999962,
+        "total": 1651.539999999999,
+        "diarization error rate": 0.11694842389527514
+      },
+      "exclude_overlap": {
+        "missed detection": 107.65500000000128,
+        "confusion": 0.620000000000104,
+        "false alarm": 60.83499999999978,
+        "correct": 1466.3649999999948,
+        "total": 1574.6399999999962,
+        "diarization error rate": 0.1073959762231377
+      }
+    },
+    {
+      "key": "ami/test/TS3003b",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 112.11500000000119,
+        "confusion": 1.2750000000004178,
+        "false alarm": 55.07499999999975,
+        "correct": 1538.1499999999974,
+        "total": 1651.539999999999,
+        "diarization error rate": 0.10200479552417831
+      },
+      "exclude_overlap": {
+        "missed detection": 91.38999999999957,
+        "confusion": 0.7250000000003496,
+        "false alarm": 55.059999999999874,
+        "correct": 1482.5249999999962,
+        "total": 1574.6399999999962,
+        "diarization error rate": 0.09346580805771487
+      }
+    },
+    {
+      "key": "aishell4/test/L_R004S06C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 22.981500000000167,
+        "confusion": 0.8100000000000023,
+        "false alarm": 16.08510000000053,
+        "correct": 1931.4452000000003,
+        "total": 1955.2367000000006,
+        "diarization error rate": 0.020394768572010072
+      },
+      "exclude_overlap": {
+        "missed detection": 22.6969,
+        "confusion": 0.32280000000000797,
+        "false alarm": 16.08510000000053,
+        "correct": 1926.9072000000006,
+        "total": 1949.9269000000006,
+        "diarization error rate": 0.020054495376211554
+      }
+    },
+    {
+      "key": "aishell4/test/L_R004S06C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 29.06840000000028,
+        "confusion": 1.5004000000000017,
+        "false alarm": 14.008400000000634,
+        "correct": 1924.6679000000004,
+        "total": 1955.2367000000006,
+        "diarization error rate": 0.02279887647362639
+      },
+      "exclude_overlap": {
+        "missed detection": 28.8138000000003,
+        "confusion": 0.9732000000000083,
+        "false alarm": 14.008400000000634,
+        "correct": 1920.1399000000004,
+        "total": 1949.9269000000006,
+        "diarization error rate": 0.022460021450035346
+      }
+    },
+    {
+      "key": "aishell4/test/S_R003S01C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 12.82350000000012,
+        "confusion": 20.27059999999983,
+        "false alarm": 56.05529999999888,
+        "correct": 1842.941399999999,
+        "total": 1876.035499999999,
+        "diarization error rate": 0.04752010289783902
+      },
+      "exclude_overlap": {
+        "missed detection": 7.268100000000724,
+        "confusion": 9.136899999999969,
+        "false alarm": 55.51459999999955,
+        "correct": 1780.008000000003,
+        "total": 1796.4130000000039,
+        "diarization error rate": 0.04003511441967971
+      }
+    },
+    {
+      "key": "aishell4/test/S_R003S01C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 14.024400000000327,
+        "confusion": 19.567199999999616,
+        "false alarm": 48.81990000000161,
+        "correct": 1842.443899999999,
+        "total": 1876.035499999999,
+        "diarization error rate": 0.04392853973179164
+      },
+      "exclude_overlap": {
+        "missed detection": 8.830300000000278,
+        "confusion": 8.684599999999705,
+        "false alarm": 47.94290000000257,
+        "correct": 1778.898100000004,
+        "total": 1796.4130000000039,
+        "diarization error rate": 0.0364380573954889
+      }
+    },
+    {
+      "key": "ami/test/ES2004d",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 235.82000000000494,
+        "confusion": 6.090000000000503,
+        "false alarm": 17.290000000000106,
+        "correct": 1445.409999999994,
+        "total": 1687.3199999999993,
+        "diarization error rate": 0.15361638574781647
+      },
+      "exclude_overlap": {
+        "missed detection": 115.9000000000004,
+        "confusion": 4.2350000000004275,
+        "false alarm": 17.275000000000233,
+        "correct": 1211.2449999999967,
+        "total": 1331.3799999999976,
+        "diarization error rate": 0.10320870074659473
+      }
+    },
+    {
+      "key": "ami/test/ES2004d",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 120.5150000000016,
+        "confusion": 15.880000000000665,
+        "false alarm": 105.46000000000198,
+        "correct": 1550.9249999999968,
+        "total": 1687.3199999999993,
+        "diarization error rate": 0.14333677073702936
+      },
+      "exclude_overlap": {
+        "missed detection": 29.195000000000576,
+        "confusion": 11.965000000000048,
+        "false alarm": 104.885000000002,
+        "correct": 1290.219999999997,
+        "total": 1331.3799999999976,
+        "diarization error rate": 0.10969445237272822
+      }
+    },
+    {
+      "key": "aishell4/test/L_R004S02C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 23.77070000000102,
+        "confusion": 46.47350000000005,
+        "false alarm": 67.82919999999936,
+        "correct": 1950.0966999999955,
+        "total": 2020.3408999999967,
+        "diarization error rate": 0.0683416348201438
+      },
+      "exclude_overlap": {
+        "missed detection": 16.23390000000071,
+        "confusion": 41.32100000000025,
+        "false alarm": 67.74629999999925,
+        "correct": 1848.6568999999956,
+        "total": 1906.2117999999966,
+        "diarization error rate": 0.0657330942972866
+      }
+    },
+    {
+      "key": "aishell4/test/L_R004S02C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 24.57420000000227,
+        "confusion": 46.50309999999967,
+        "false alarm": 65.63499999999974,
+        "correct": 1949.2635999999945,
+        "total": 2020.3408999999967,
+        "diarization error rate": 0.06766793663386307
+      },
+      "exclude_overlap": {
+        "missed detection": 16.837500000002116,
+        "confusion": 41.35059999999964,
+        "false alarm": 65.62639999999962,
+        "correct": 1848.0236999999947,
+        "total": 1906.2117999999966,
+        "diarization error rate": 0.06495317047140385
+      }
+    },
+    {
+      "key": "aishell4/test/L_R004S03C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 38.24840000000309,
+        "confusion": 40.61150000000063,
+        "false alarm": 59.013199999998726,
+        "correct": 1979.4498999999971,
+        "total": 2058.309800000001,
+        "diarization error rate": 0.06698364842843502
+      },
+      "exclude_overlap": {
+        "missed detection": 17.869300000002106,
+        "confusion": 31.494500000000613,
+        "false alarm": 58.31289999999898,
+        "correct": 1821.8081999999974,
+        "total": 1871.1720000000003,
+        "diarization error rate": 0.05754505732236358
+      }
+    },
+    {
+      "key": "aishell4/test/L_R004S03C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 39.208700000002366,
+        "confusion": 40.86000000000145,
+        "false alarm": 64.54129999999803,
+        "correct": 1978.241099999997,
+        "total": 2058.309800000001,
+        "diarization error rate": 0.070256673703833
+      },
+      "exclude_overlap": {
+        "missed detection": 18.82650000000117,
+        "confusion": 31.993400000001333,
+        "false alarm": 63.41099999999868,
+        "correct": 1820.3520999999978,
+        "total": 1871.1720000000003,
+        "diarization error rate": 0.061047781818026975
+      }
+    },
+    {
+      "key": "aishell4/test/L_R003S02C02",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 54.928000000002996,
+        "confusion": 30.015299999999627,
+        "false alarm": 24.387800000000787,
+        "correct": 1825.9139999999982,
+        "total": 1910.8573000000008,
+        "diarization error rate": 0.057215732435908925
+      },
+      "exclude_overlap": {
+        "missed detection": 41.958700000002395,
+        "confusion": 28.398199999999463,
+        "false alarm": 23.9276000000008,
+        "correct": 1752.9125999999992,
+        "total": 1823.269500000001,
+        "diarization error rate": 0.051711773821699204
+      }
+    },
+    {
+      "key": "aishell4/test/L_R003S02C02",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 48.55240000000085,
+        "confusion": 29.32609999999994,
+        "false alarm": 26.11819999999934,
+        "correct": 1832.9788,
+        "total": 1910.8573000000008,
+        "diarization error rate": 0.0544241058712234
+      },
+      "exclude_overlap": {
+        "missed detection": 36.42590000000043,
+        "confusion": 27.80959999999976,
+        "false alarm": 25.69799999999932,
+        "correct": 1759.0340000000008,
+        "total": 1823.269500000001,
+        "diarization error rate": 0.0493254014285872
+      }
+    },
+    {
+      "key": "aishell4/test/M_R003S04C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 16.14440000000029,
+        "confusion": 32.08410000000063,
+        "false alarm": 167.876299999999,
+        "correct": 1694.4383000000034,
+        "total": 1742.6668000000043,
+        "diarization error rate": 0.1240081006879797
+      },
+      "exclude_overlap": {
+        "missed detection": 4.3463999999997895,
+        "confusion": 22.216700000000202,
+        "false alarm": 165.6409999999994,
+        "correct": 1488.224400000002,
+        "total": 1514.7875000000022,
+        "diarization error rate": 0.12688519016693703
+      }
+    },
+    {
+      "key": "aishell4/test/M_R003S04C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 30.733800000002063,
+        "confusion": 32.51960000000048,
+        "false alarm": 118.46460000000269,
+        "correct": 1679.4134000000017,
+        "total": 1742.6668000000043,
+        "diarization error rate": 0.10427581451600776
+      },
+      "exclude_overlap": {
+        "missed detection": 13.081500000001315,
+        "confusion": 22.910400000000266,
+        "false alarm": 116.42260000000252,
+        "correct": 1478.7956000000006,
+        "total": 1514.7875000000022,
+        "diarization error rate": 0.1006177434128575
+      }
+    },
+    {
+      "key": "aishell4/test/L_R003S03C02",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 96.61090000000034,
+        "confusion": 150.28530000000075,
+        "false alarm": 37.737399999999795,
+        "correct": 1857.5635000000004,
+        "total": 2104.4597000000017,
+        "diarization error rate": 0.13525257813205008
+      },
+      "exclude_overlap": {
+        "missed detection": 31.768499999999296,
+        "confusion": 75.78669999999947,
+        "false alarm": 36.641899999999666,
+        "correct": 1606.5340999999983,
+        "total": 1714.0892999999974,
+        "diarization error rate": 0.08412461357759987
+      }
+    },
+    {
+      "key": "aishell4/test/L_R003S03C02",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 67.10699999999892,
+        "confusion": 153.30350000000118,
+        "false alarm": 139.69440000000054,
+        "correct": 1884.0492000000013,
+        "total": 2104.4597000000017,
+        "diarization error rate": 0.17111513230688158
+      },
+      "exclude_overlap": {
+        "missed detection": 19.499699999999926,
+        "confusion": 76.94819999999838,
+        "false alarm": 128.37490000000082,
+        "correct": 1617.6413999999988,
+        "total": 1714.0892999999971,
+        "diarization error rate": 0.13116166118066283
+      }
+    },
+    {
+      "key": "aishell4/test/S_R003S03C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 13.792899999999586,
+        "confusion": 16.377100000000496,
+        "false alarm": 51.64759999999568,
+        "correct": 1824.0320000000015,
+        "total": 1854.2020000000014,
+        "diarization error rate": 0.044125505203853575
+      },
+      "exclude_overlap": {
+        "missed detection": 3.5890000000002917,
+        "confusion": 7.347799999999893,
+        "false alarm": 49.51979999999547,
+        "correct": 1761.1443000000006,
+        "total": 1772.0811000000006,
+        "diarization error rate": 0.03411615867919117
+      }
+    },
+    {
+      "key": "aishell4/test/S_R003S03C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 14.875699999999393,
+        "confusion": 13.279599999999732,
+        "false alarm": 47.84229999999957,
+        "correct": 1826.0467000000021,
+        "total": 1854.2020000000014,
+        "diarization error rate": 0.04098668861321401
+      },
+      "exclude_overlap": {
+        "missed detection": 3.3247999999998914,
+        "confusion": 6.376999999999839,
+        "false alarm": 46.013399999999365,
+        "correct": 1762.3793000000007,
+        "total": 1772.0811000000006,
+        "diarization error rate": 0.031440547500901105
+      }
+    },
+    {
+      "key": "aishell4/test/M_R003S01C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 51.15910000000156,
+        "confusion": 12.41859999999997,
+        "false alarm": 34.335100000001205,
+        "correct": 1879.1291999999983,
+        "total": 1942.7069,
+        "diarization error rate": 0.05040019160893634
+      },
+      "exclude_overlap": {
+        "missed detection": 24.184999999999718,
+        "confusion": 7.3478000000000065,
+        "false alarm": 32.956400000001,
+        "correct": 1751.8287999999995,
+        "total": 1783.3615999999993,
+        "diarization error rate": 0.036161595046120064
+      }
+    },
+    {
+      "key": "aishell4/test/M_R003S01C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 52.00960000000178,
+        "confusion": 11.776599999999917,
+        "false alarm": 38.567600000000624,
+        "correct": 1878.920699999998,
+        "total": 1942.7069,
+        "diarization error rate": 0.0526861772097491
+      },
+      "exclude_overlap": {
+        "missed detection": 26.93429999999942,
+        "confusion": 6.837200000000394,
+        "false alarm": 35.968700000000894,
+        "correct": 1749.5900999999994,
+        "total": 1783.3615999999993,
+        "diarization error rate": 0.03910603435668949
+      }
+    },
+    {
+      "key": "aishell4/test/S_R004S04C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 4.755999999999652,
+        "confusion": 37.31539999999997,
+        "false alarm": 5.8927000000006515,
+        "correct": 1921.276600000002,
+        "total": 1963.3480000000015,
+        "diarization error rate": 0.02442974959100487
+      },
+      "exclude_overlap": {
+        "missed detection": 4.214799999999535,
+        "confusion": 37.31539999999997,
+        "false alarm": 5.8927000000006515,
+        "correct": 1920.7354000000018,
+        "total": 1962.2656000000013,
+        "diarization error rate": 0.02416742157636567
+      }
+    },
+    {
+      "key": "aishell4/test/S_R004S04C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 6.121399999999362,
+        "confusion": 37.31539999999997,
+        "false alarm": 4.743000000000826,
+        "correct": 1919.9112000000023,
+        "total": 1963.3480000000015,
+        "diarization error rate": 0.024539612946864294
+      },
+      "exclude_overlap": {
+        "missed detection": 5.580199999999245,
+        "confusion": 37.31539999999997,
+        "false alarm": 4.743000000000826,
+        "correct": 1919.3700000000022,
+        "total": 1962.2656000000013,
+        "diarization error rate": 0.024277345533652534
+      }
+    },
+    {
+      "key": "aishell4/test/S_R004S02C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 26.76000000000093,
+        "confusion": 28.304100000000346,
+        "false alarm": 4.368200000000829,
+        "correct": 1942.7011999999966,
+        "total": 1997.765299999998,
+        "diarization error rate": 0.029749390481455536
+      },
+      "exclude_overlap": {
+        "missed detection": 21.497500000000883,
+        "confusion": 26.873900000000333,
+        "false alarm": 4.368200000000829,
+        "correct": 1930.1580999999971,
+        "total": 1978.5294999999985,
+        "diarization error rate": 0.02665595837716955
+      }
+    },
+    {
+      "key": "aishell4/test/S_R004S02C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 31.169400000001616,
+        "confusion": 27.832100000000082,
+        "false alarm": 4.365000000000695,
+        "correct": 1938.763799999996,
+        "total": 1997.765299999998,
+        "diarization error rate": 0.03171869087925516
+      },
+      "exclude_overlap": {
+        "missed detection": 25.846900000001625,
+        "confusion": 26.42190000000005,
+        "false alarm": 4.365000000000695,
+        "correct": 1926.2606999999966,
+        "total": 1978.5294999999985,
+        "diarization error rate": 0.028624187812212258
+      }
+    },
+    {
+      "key": "aishell4/test/M_R003S02C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 105.92690000000194,
+        "confusion": 32.44869999999935,
+        "false alarm": 31.020700000002243,
+        "correct": 2060.7705999999985,
+        "total": 2199.1461999999997,
+        "diarization error rate": 0.07702821213069123
+      },
+      "exclude_overlap": {
+        "missed detection": 35.532800000000194,
+        "confusion": 20.973799999999528,
+        "false alarm": 30.790700000002225,
+        "correct": 1797.4033999999983,
+        "total": 1853.9099999999978,
+        "diarization error rate": 0.047088208165446024
+      }
+    },
+    {
+      "key": "aishell4/test/M_R003S02C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 103.66429999999873,
+        "confusion": 31.996299999998996,
+        "false alarm": 33.98920000000242,
+        "correct": 2063.485600000002,
+        "total": 2199.1461999999997,
+        "diarization error rate": 0.07714348413943564
+      },
+      "exclude_overlap": {
+        "missed detection": 34.67540000000038,
+        "confusion": 20.65699999999947,
+        "false alarm": 33.82690000000212,
+        "correct": 1798.577599999998,
+        "total": 1853.9099999999978,
+        "diarization error rate": 0.048092571915574145
+      }
+    },
+    {
+      "key": "aishell4/test/L_R003S04C02",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 23.638800000002483,
+        "confusion": 14.202900000000394,
+        "false alarm": 67.309100000001,
+        "correct": 1815.3215999999986,
+        "total": 1853.1633000000013,
+        "diarization error rate": 0.056741248868895575
+      },
+      "exclude_overlap": {
+        "missed detection": 13.407700000001405,
+        "confusion": 11.019699999999997,
+        "false alarm": 67.309100000001,
+        "correct": 1746.4782999999998,
+        "total": 1770.9057000000014,
+        "diarization error rate": 0.05180202424104362
+      }
+    },
+    {
+      "key": "aishell4/test/L_R003S04C02",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 18.853300000001532,
+        "confusion": 16.505000000000113,
+        "false alarm": 77.2755999999999,
+        "correct": 1817.8049999999996,
+        "total": 1853.1633000000013,
+        "diarization error rate": 0.060779263219815256
+      },
+      "exclude_overlap": {
+        "missed detection": 11.147700000000903,
+        "confusion": 11.892299999999754,
+        "false alarm": 77.20029999999993,
+        "correct": 1747.8657000000007,
+        "total": 1770.9057000000014,
+        "diarization error rate": 0.056603973887486225
+      }
+    },
+    {
+      "key": "aishell4/test/S_R004S03C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 32.38740000000158,
+        "confusion": 2.3131999999999984,
+        "false alarm": 1.3136999999998693,
+        "correct": 1986.4391999999975,
+        "total": 2021.139799999999,
+        "diarization error rate": 0.01781880699197624
+      },
+      "exclude_overlap": {
+        "missed detection": 32.38740000000158,
+        "confusion": 2.3131999999999984,
+        "false alarm": 1.3136999999998693,
+        "correct": 1986.4391999999975,
+        "total": 2021.139799999999,
+        "diarization error rate": 0.01781880699197624
+      }
+    },
+    {
+      "key": "aishell4/test/S_R004S03C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 39.22699999999641,
+        "confusion": 2.3032000000000004,
+        "false alarm": 1.9532999999999916,
+        "correct": 1979.6096000000025,
+        "total": 2021.139799999999,
+        "diarization error rate": 0.021514345519293824
+      },
+      "exclude_overlap": {
+        "missed detection": 39.22699999999641,
+        "confusion": 2.3032000000000004,
+        "false alarm": 1.9532999999999916,
+        "correct": 1979.6096000000025,
+        "total": 2021.139799999999,
+        "diarization error rate": 0.021514345519293824
+      }
+    },
+    {
+      "key": "ami/test/ES2004c",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 142.41000000000116,
+        "confusion": 3.934999999999583,
+        "false alarm": 16.630000000000074,
+        "correct": 1825.0050000000008,
+        "total": 1971.3500000000015,
+        "diarization error rate": 0.08267177315037953
+      },
+      "exclude_overlap": {
+        "missed detection": 79.1450000000007,
+        "confusion": 1.314999999999948,
+        "false alarm": 16.630000000000074,
+        "correct": 1608.6600000000033,
+        "total": 1689.120000000004,
+        "diarization error rate": 0.05747963436582392
+      }
+    },
+    {
+      "key": "ami/test/ES2004c",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 93.11000000000081,
+        "confusion": 2.8899999999994037,
+        "false alarm": 42.48999999999971,
+        "correct": 1875.3500000000013,
+        "total": 1971.3500000000017,
+        "diarization error rate": 0.07025135059730632
+      },
+      "exclude_overlap": {
+        "missed detection": 31.900000000001455,
+        "confusion": 1.2299999999999471,
+        "false alarm": 42.48999999999971,
+        "correct": 1655.9900000000025,
+        "total": 1689.120000000004,
+        "diarization error rate": 0.04476887373306866
+      }
+    },
+    {
+      "key": "aishell4/test/M_R003S05C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 74.63800000000074,
+        "confusion": 22.22910000000016,
+        "false alarm": 110.42610000000104,
+        "correct": 1932.6649999999966,
+        "total": 2029.5320999999974,
+        "diarization error rate": 0.10213841899815342
+      },
+      "exclude_overlap": {
+        "missed detection": 45.844000000000875,
+        "confusion": 13.01759999999959,
+        "false alarm": 109.16860000000088,
+        "correct": 1760.7328999999968,
+        "total": 1819.5944999999974,
+        "diarization error rate": 0.09234486035212877
+      }
+    },
+    {
+      "key": "aishell4/test/M_R003S05C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 79.09040000000182,
+        "confusion": 22.049300000001637,
+        "false alarm": 105.80749999999983,
+        "correct": 1928.3923999999938,
+        "total": 2029.5320999999974,
+        "diarization error rate": 0.1019679363534105
+      },
+      "exclude_overlap": {
+        "missed detection": 49.09990000000148,
+        "confusion": 12.969600000000952,
+        "false alarm": 104.28699999999975,
+        "correct": 1757.5249999999949,
+        "total": 1819.5944999999974,
+        "diarization error rate": 0.0914250400295244
+      }
+    },
+    {
+      "key": "ami/test/ES2004b",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 175.11500000000225,
+        "confusion": 2.624999999999389,
+        "false alarm": 12.065000000000701,
+        "correct": 1792.169999999999,
+        "total": 1969.9100000000005,
+        "diarization error rate": 0.0963521176094351
+      },
+      "exclude_overlap": {
+        "missed detection": 101.63500000000138,
+        "confusion": 0.44999999999977547,
+        "false alarm": 11.68500000000082,
+        "correct": 1608.4849999999974,
+        "total": 1710.5699999999986,
+        "diarization error rate": 0.06650999374477634
+      }
+    },
+    {
+      "key": "ami/test/ES2004b",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 108.4450000000004,
+        "confusion": 3.269999999999712,
+        "false alarm": 21.31000000000087,
+        "correct": 1858.1950000000004,
+        "total": 1969.9100000000005,
+        "diarization error rate": 0.0675284657674721
+      },
+      "exclude_overlap": {
+        "missed detection": 44.50000000000007,
+        "confusion": 0.5700000000000074,
+        "false alarm": 21.000000000000924,
+        "correct": 1665.4999999999984,
+        "total": 1710.5699999999983,
+        "diarization error rate": 0.03862455204990212
+      }
+    },
+    {
+      "key": "aishell4/test/S_R004S01C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 57.66940000000277,
+        "confusion": 1.4121999999998707,
+        "false alarm": 2.165799999999521,
+        "correct": 1973.6440999999984,
+        "total": 2032.725700000001,
+        "diarization error rate": 0.030130676263896365
+      },
+      "exclude_overlap": {
+        "missed detection": 49.85940000000224,
+        "confusion": 1.1956000000001268,
+        "false alarm": 2.165799999999521,
+        "correct": 1943.5783999999978,
+        "total": 1994.6334000000002,
+        "diarization error rate": 0.02668199579932928
+      }
+    },
+    {
+      "key": "aishell4/test/S_R004S01C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 58.335500000000536,
+        "confusion": 1.6467000000000098,
+        "false alarm": 2.6255999999997215,
+        "correct": 1972.7435000000005,
+        "total": 2032.7257000000009,
+        "diarization error rate": 0.030799925440013986
+      },
+      "exclude_overlap": {
+        "missed detection": 51.371799999999965,
+        "confusion": 1.2001000000002477,
+        "false alarm": 2.6255999999997215,
+        "correct": 1942.0614999999998,
+        "total": 1994.6334000000002,
+        "diarization error rate": 0.027673004974247364
+      }
+    },
+    {
+      "key": "aishell4/test/S_R003S02C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 30.19859999999804,
+        "confusion": 2.8153999999993857,
+        "false alarm": 34.508899999998675,
+        "correct": 1974.4995000000017,
+        "total": 2007.513499999999,
+        "diarization error rate": 0.03363509137049197
+      },
+      "exclude_overlap": {
+        "missed detection": 23.776299999998148,
+        "confusion": 2.4647999999995136,
+        "false alarm": 34.15969999999879,
+        "correct": 1919.2439000000002,
+        "total": 1945.4849999999979,
+        "diarization error rate": 0.0310466541762062
+      }
+    },
+    {
+      "key": "aishell4/test/S_R003S02C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 27.398099999997775,
+        "confusion": 4.475599999999581,
+        "false alarm": 34.593999999999824,
+        "correct": 1975.6398000000017,
+        "total": 2007.513499999999,
+        "diarization error rate": 0.03310946601355219
+      },
+      "exclude_overlap": {
+        "missed detection": 20.745199999997162,
+        "confusion": 3.726999999999798,
+        "false alarm": 34.411000000000286,
+        "correct": 1921.0128000000009,
+        "total": 1945.4849999999979,
+        "diarization error rate": 0.030266591621111092
+      }
+    },
+    {
+      "key": "aishell4/test/L_R003S01C02",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 48.3904,
+        "confusion": 52.53619999999867,
+        "false alarm": 97.14470000000176,
+        "correct": 1980.877499999997,
+        "total": 2081.8040999999957,
+        "diarization error rate": 0.09514406278669585
+      },
+      "exclude_overlap": {
+        "missed detection": 29.84040000000061,
+        "confusion": 30.963499999999073,
+        "false alarm": 94.00700000000131,
+        "correct": 1746.3528000000003,
+        "total": 1807.1567000000002,
+        "diarization error rate": 0.0856654544677841
+      }
+    },
+    {
+      "key": "aishell4/test/L_R003S01C02",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 41.56500000000055,
+        "confusion": 50.95609999999871,
+        "false alarm": 117.16370000000157,
+        "correct": 1989.2829999999965,
+        "total": 2081.8040999999957,
+        "diarization error rate": 0.10072263763915215
+      },
+      "exclude_overlap": {
+        "missed detection": 27.444600000001103,
+        "confusion": 31.811199999998934,
+        "false alarm": 114.47480000000147,
+        "correct": 1747.9009,
+        "total": 1807.1567000000002,
+        "diarization error rate": 0.0961347734814593
+      }
+    },
+    {
+      "key": "aishell4/test/S_R003S04C01",
+      "model": "base",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 49.44249999999977,
+        "confusion": 41.9858999999999,
+        "false alarm": 62.52069999999665,
+        "correct": 2164.406199999998,
+        "total": 2255.834599999998,
+        "diarization error rate": 0.06824485270329503
+      },
+      "exclude_overlap": {
+        "missed detection": 10.194999999999897,
+        "confusion": 15.503200000000277,
+        "false alarm": 57.55069999999742,
+        "correct": 1781.7750999999987,
+        "total": 1807.4732999999987,
+        "diarization error rate": 0.046058163072172434
+      }
+    },
+    {
+      "key": "aishell4/test/S_R003S04C01",
+      "model": "sft",
+      "dataset": "aishell4",
+      "include_overlap": {
+        "missed detection": 49.0639999999988,
+        "confusion": 39.60759999999948,
+        "false alarm": 65.69170000000085,
+        "correct": 2167.1629999999996,
+        "total": 2255.834599999998,
+        "diarization error rate": 0.06842846545575605
+      },
+      "exclude_overlap": {
+        "missed detection": 16.662299999999487,
+        "confusion": 14.83720000000011,
+        "false alarm": 57.763100000001,
+        "correct": 1775.9737999999993,
+        "total": 1807.473299999999,
+        "diarization error rate": 0.04938529382425768
+      }
+    },
+    {
+      "key": "ami/test/TS3003c",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 191.9399999999995,
+        "confusion": 2.1649999999999636,
+        "false alarm": 22.614999999999892,
+        "correct": 1544.674999999999,
+        "total": 1738.7799999999986,
+        "diarization error rate": 0.12463911478162822
+      },
+      "exclude_overlap": {
+        "missed detection": 134.7799999999989,
+        "confusion": 1.7650000000001,
+        "false alarm": 22.614999999999892,
+        "correct": 1487.2649999999994,
+        "total": 1623.8099999999984,
+        "diarization error rate": 0.09801639354357902
+      }
+    },
+    {
+      "key": "ami/test/TS3003c",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 200.62999999999954,
+        "confusion": 0.42000000000007276,
+        "false alarm": 26.709999999999653,
+        "correct": 1537.7299999999989,
+        "total": 1738.7799999999986,
+        "diarization error rate": 0.1309883941614232
+      },
+      "exclude_overlap": {
+        "missed detection": 149.72999999999803,
+        "confusion": 0.27500000000009095,
+        "false alarm": 26.709999999999653,
+        "correct": 1473.805,
+        "total": 1623.8099999999981,
+        "diarization error rate": 0.10882738744064759
+      }
+    },
+    {
+      "key": "ami/test/TS3003d",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 281.56000000000154,
+        "confusion": 10.644999999998547,
+        "false alarm": 71.12499999999382,
+        "correct": 1459.6249999999968,
+        "total": 1751.829999999997,
+        "diarization error rate": 0.2074002614408901
+      },
+      "exclude_overlap": {
+        "missed detection": 163.9650000000022,
+        "confusion": 5.454999999998961,
+        "false alarm": 71.11999999999371,
+        "correct": 1331.3599999999988,
+        "total": 1500.7799999999997,
+        "diarization error rate": 0.1602766561388044
+      }
+    },
+    {
+      "key": "ami/test/TS3003d",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 269.57499999999794,
+        "confusion": 7.274999999999352,
+        "false alarm": 35.88999999999726,
+        "correct": 1474.9799999999996,
+        "total": 1751.8299999999967,
+        "diarization error rate": 0.17852188853941028
+      },
+      "exclude_overlap": {
+        "missed detection": 171.55499999999907,
+        "confusion": 4.934999999999263,
+        "false alarm": 35.88999999999726,
+        "correct": 1324.2900000000013,
+        "total": 1500.7799999999995,
+        "diarization error rate": 0.1415130798651339
+      }
+    },
+    {
+      "key": "ami/test/EN2002c",
+      "model": "base",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 1680.659999999998,
+        "confusion": 2.815000000000019,
+        "false alarm": 2.9899999999998315,
+        "correct": 1259.195000000001,
+        "total": 2942.669999999999,
+        "diarization error rate": 0.5731070762266915
+      },
+      "exclude_overlap": {
+        "missed detection": 850.6050000000007,
+        "confusion": 2.6350000000001828,
+        "false alarm": 2.9899999999998315,
+        "correct": 986.65,
+        "total": 1839.8900000000008,
+        "diarization error rate": 0.46537021234965154
+      }
+    },
+    {
+      "key": "ami/test/EN2002c",
+      "model": "sft",
+      "dataset": "ami",
+      "include_overlap": {
+        "missed detection": 692.3349999999913,
+        "confusion": 5.844999999999789,
+        "false alarm": 5.424999999999663,
+        "correct": 2244.4900000000084,
+        "total": 2942.669999999999,
+        "diarization error rate": 0.23910428284516813
+      },
+      "exclude_overlap": {
+        "missed detection": 148.17999999999608,
+        "confusion": 3.8399999999999075,
+        "false alarm": 5.424999999999663,
+        "correct": 1687.870000000005,
+        "total": 1839.890000000001,
+        "diarization error rate": 0.08557305056280297
+      }
+    }
+  ]
+}

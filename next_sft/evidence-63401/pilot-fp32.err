@@ -1,0 +1,4 @@
+[transformers] `MossTranscribeDiarizeProcessor` defines `feature_extractor_class = 'AutoFeatureExtractor'`, which is deprecated. Register the correct mapping in `AutoFeatureExtractor` instead.
+Loading weights:   0%|          | 0/683 [00:00<?, ?it/s]Loading weights:  46%|████▌     | 312/683 [00:00<00:00, 3083.95it/s]Loading weights: 100%|██████████| 683/683 [00:00<00:00, 3660.18it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:07<00:00,  7.42s/it]Writing model shards: 100%|██████████| 1/1 [00:07<00:00,  7.42s/it]

@@ -1,0 +1,96 @@
+# Local credentials, connection state, and machine-specific configuration
+.env
+.env.*
+ssh_connection.json
+*_connection.json
+*.pem
+*.key
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.conda/
+
+# Node/report-app dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Training outputs, checkpoints, caches, and runtime state
+artifacts/
+logs/
+checkpoints/
+results/
+outputs/
+tensorboard/.venv/
+tensorboard/*.log
+tensorboard/*.pid
+*.pid
+*.lock
+
+# Large model/data files and generated bundles
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.zip
+*.tgz
+*.tar
+*.tar.gz
+
+# Dataset manifests and generated evaluation tables/predictions
+*.jsonl
+*.csv
+**/predictions/
+**/remote_failures/
+**/references.json
+**/*prediction*.json
+**/remote_inventory.json
+**/remote_environment.json
+**/*environment*.json
+**/*status*.json
+!smoke_train.jsonl
+
+# Generated media and temporary exports
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+tmp/
+tensorboard/events/
+**/inference_model/
+**/vllm_trace.json
+**/hf_alignment.json
+
+# Vendored upstream/framework snapshots; keep experiment-specific patches/scripts
+ms_swift/upstream/
+rswa/source_snapshot/
+rswa/vllm_snapshot/
+evaluation/source_snapshot/
+rswa/audit_*/source/
+
+# Generated report applications and copied source bundles
+full_attention_v2/*-report/
+full_attention_v2/overnight/
+full_attention_v2/dev5/
+short_recovery/.venv-test/
+short_recovery_generation/problem-*/
+
+# Local tokenizer scratch/export files
+tokenizer*.json
+*_tokenizer*.json

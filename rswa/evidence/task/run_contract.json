@@ -1,0 +1,173 @@
+{
+  "files": {
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/finetune.py": {
+      "bytes": 5947,
+      "sha256": "ffb8fdc617d0010a7a64dd0a774cec642b58966dbef051fa37875d2f983f1fc7"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/__init__.py": {
+      "bytes": 1293,
+      "sha256": "989087110e877549ba7879e985d72f2d6e505524384cba51b1ce81c3b71711da"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/app/__init__.py": {
+      "bytes": 57,
+      "sha256": "395d13ad9dfac14d04fabfe1dc7b56676bd9234051b08e4ce1b48fac8884b0fb"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/app/cli.py": {
+      "bytes": 4215,
+      "sha256": "a1e9074b8b5d5b6e95bcb56b62133f9432932e7b0438a20d2ecc121c577543b3"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/app/ffmpeg.py": {
+      "bytes": 2591,
+      "sha256": "38a436b55783e7a40d37b5e036816d1eca92619d079bc4e6d8d23ee8ef34dcb9"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/app/jobs.py": {
+      "bytes": 19344,
+      "sha256": "d2c688ecc70bf1aecdefed983da9349ff4c1c506aafd9387a8e0069c379d5a0f"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/app/model_runner.py": {
+      "bytes": 6856,
+      "sha256": "083b0413dff3d3e6bc1dbb87d7bf429d9a726c983670fff61bb26c846c2643fb"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/app/server.py": {
+      "bytes": 10003,
+      "sha256": "7ac67ab1744813044c2433ca720c34129524f4c53f755b35ed22b1383155ba98"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/app/vllm_runner.py": {
+      "bytes": 8887,
+      "sha256": "0304d991567289147052c00a4a81d3ee2c281023859e5472dbfa1df252ace28a"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/app/web_cli.py": {
+      "bytes": 2312,
+      "sha256": "05c97d5be854ab0705ffd69c7d02a5a50c5b3d59d77639a41139758876ae9eed"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/configuration_moss_transcribe_diarize.py": {
+      "bytes": 2663,
+      "sha256": "b4d12b0f4609af69b61c2fe3aa5fbaf476af22278369e4540745bc47d1d37892"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/inference_utils.py": {
+      "bytes": 8784,
+      "sha256": "1d97700b83ed95438be2e3a59529b3726d7bf7f7cdd488ad2097180bad15b86b"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/modeling_moss_transcribe_diarize.py": {
+      "bytes": 15334,
+      "sha256": "e5fed522f246a315036a20d545e9f804ea01d81f5b0d246ba833ea635a1f4056"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/processing_moss_transcribe_diarize.py": {
+      "bytes": 11055,
+      "sha256": "86383310dd3ebf8e372c9bb09eb5d9b72ed226d01478097c1fd566a2a9d2e667"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/subtitle/__init__.py": {
+      "bytes": 639,
+      "sha256": "3fda2cd684e05ebd6b709c8ff4a617288158c30ea4cc07e45f8b5f4df8b7023a"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/subtitle/export.py": {
+      "bytes": 5106,
+      "sha256": "8d5975c774b0bea00ed1d4f15bb7019584b386eefd9aed15d7a7fdf4be81b1ee"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/subtitle/layout.py": {
+      "bytes": 1089,
+      "sha256": "616b1c8fb931bc655d3bdc79f35ad013f1c1dd6493ab4659cecb9fa013e4a2b7"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/subtitle/models.py": {
+      "bytes": 2171,
+      "sha256": "ec234746bdf1e4dab1aa1656bc36127a1452e1d5b6f23ec4e356c73f02e074e0"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/subtitle/postprocess.py": {
+      "bytes": 8113,
+      "sha256": "808409a3768a519240f3a5d01e954cccde19cff7f7b8e7e8cace11dec8355243"
+    },
+    "/work/qt28/moss/MOSS-Transcribe-Diarize/moss_transcribe_diarize/transcript_parser.py": {
+      "bytes": 8862,
+      "sha256": "475c564edc128afde69ae27f1fe8575412b1d6ac8f9d6be38b6c7f4bd16b8412"
+    },
+    "/work/qt28/moss/dkucc/ms_swift_20260914/moss_plugin.py": {
+      "bytes": 6447,
+      "sha256": "f00b43f5b929bc39f8ffe7c503bd25c0e5211353467045e905b541ea68ae0000"
+    },
+    "/work/qt28/moss/dkucc/rswa_20260920/data/dev.jsonl": {
+      "bytes": 1094121,
+      "sha256": "3a3f3cce9966ae2a7d7ada1140a5db48b1efaabdbb1e19db5ef8ce0b51c2517e"
+    },
+    "/work/qt28/moss/dkucc/rswa_20260920/data/dev_inputs.json": {
+      "bytes": 13014,
+      "sha256": "5decc7a06bc9b0da2153a6ee303815e7571be28ce1d863dc40d15a31e767f522"
+    },
+    "/work/qt28/moss/dkucc/rswa_20260920/data/references.json": {
+      "bytes": 14739802,
+      "sha256": "521d8b99c1d0997c4faa476069d20ecf77b0043fd1c9865caa52bfdb2b5c241a"
+    },
+    "/work/qt28/moss/dkucc/rswa_20260920/data/sentinel.json": {
+      "bytes": 5665,
+      "sha256": "b868afe26ef2f087591fea34d31d56d3111398c1f8749bda22b2ed932fbc109f"
+    },
+    "/work/qt28/moss/dkucc/rswa_20260920/data/train.jsonl": {
+      "bytes": 25126702,
+      "sha256": "ff24eae8c1b2f9650654b3bc84b005e55d0206bb7d202d8f61b14bfb6e6d064f"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/added_tokens.json": {
+      "bytes": 707,
+      "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/chat_template.jinja": {
+      "bytes": 4762,
+      "sha256": "8641466a16b184ebaf7c4903391e607cfd532ab937e81a64120628ab79d827f4"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/config.json": {
+      "bytes": 2335,
+      "sha256": "2b2b7a6e61334152bdd7ecf8a4da3073b4940a097e193d1d2b22093e77535234"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/configuration_moss_transcribe_diarize.py": {
+      "bytes": 2663,
+      "sha256": "b4d12b0f4609af69b61c2fe3aa5fbaf476af22278369e4540745bc47d1d37892"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/generation_config.json": {
+      "bytes": 107,
+      "sha256": "e53a4b3ce4f944230cf1ca8fed0c42f4ff0d8c1443eaf98b5315d987334dd9e4"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/merges.txt": {
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/model-00000-of-00001.safetensors": {
+      "bytes": 1817113576,
+      "sha256": "9a0ceb4ab7330357db3ff583dba8d83625d5b733b00e1d55d6970e11b07026c4"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/model.safetensors.index.json": {
+      "bytes": 65401,
+      "sha256": "0345ac5d8f360abe4e9adadb5fecd38e7730052b75f64bb58182818b1544cc36"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/modeling_moss_transcribe_diarize.py": {
+      "bytes": 15101,
+      "sha256": "a01da90fe1f7cb88942b8c56f443e7b4ecd307ed4b4c356ac08d7503dd7422c1"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/preprocessor_config.json": {
+      "bytes": 315,
+      "sha256": "ba2e601484abc80f4cded977f9a4fd4a53175b7d35c2f2511f0cfc3a32ad2499"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/processing_moss_transcribe_diarize.py": {
+      "bytes": 10975,
+      "sha256": "6f228d22d9379e2f6a6830b18ce7336b22da8267547e96e65545d871d7f48766"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/processor_config.json": {
+      "bytes": 292,
+      "sha256": "a978c2dd54a65b576c3dae4b654fe9bcbac1184c6db2df0afb2c90fcdc872ae7"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/special_tokens_map.json": {
+      "bytes": 613,
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/tokenizer.json": {
+      "bytes": 11423222,
+      "sha256": "bcf03774334462d6e34b5005cb11120a62275f146ee2953e68731ecdbce84fbb"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/tokenizer_config.json": {
+      "bytes": 503,
+      "sha256": "61d04c96104177240688396655ae3f7cf38ce2ea036db867a1d2b6883e27c3d5"
+    },
+    "/work/qt28/moss/models/MOSS-Transcribe-Diarize/vocab.json": {
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "scope": "base weight bytes, processor, tokenizer, external plugin and frozen splits"
+}

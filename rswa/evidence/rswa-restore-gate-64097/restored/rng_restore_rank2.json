@@ -1,0 +1,8 @@
+{
+  "python": true,
+  "numpy": true,
+  "cpu": true,
+  "cuda": true,
+  "rank": 2,
+  "passed": true
+}

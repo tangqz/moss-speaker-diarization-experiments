@@ -1,0 +1,44 @@
+{
+  "typical_index": 76,
+  "typical_duration": 1976.561125,
+  "selection": "upper median training audio duration",
+  "samples": {
+    "smoke": {
+      "records": 4,
+      "distinct_meetings": 1,
+      "effective_batch": 4,
+      "audio": "/work/qt28/moss/data/external/ami/audio/ES2005a.Mix-Headset.wav",
+      "sha256": "15c7503b5390be91c9dd3d052c11d3dec6a2c2f26c380f0863a00afa0a34821d"
+    },
+    "typical": {
+      "records": 4,
+      "distinct_meetings": 1,
+      "effective_batch": 4,
+      "audio": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1981.wav",
+      "sha256": "5642581e7882c509f43d3ed4fc7204722c96465747be5604d46f2515e565af8b"
+    },
+    "longest": {
+      "records": 4,
+      "distinct_meetings": 1,
+      "effective_batch": 4,
+      "audio": "/work/qt28/moss/data/external/ami/audio/EN2009d.Mix-Headset.wav",
+      "sha256": "225ce9149337cd17d33becff75f80d389d46ecd83bda46b64586031862389499"
+    }
+  },
+  "varied_indices": [
+    139,
+    182,
+    40,
+    420,
+    67,
+    418,
+    519,
+    41,
+    68,
+    142,
+    102,
+    371
+  ],
+  "varied_selection": "12 duration quantiles of training; originals unchanged",
+  "test_predictions_used": false
+}

@@ -1,0 +1,296 @@
+{
+  "protocol": "CER_cpCER_DER_v1",
+  "expected_predictions": 52,
+  "scored_predictions": 52,
+  "complete": true,
+  "errors": [],
+  "missing": [],
+  "groups": {
+    "base/alimeeting/dev": {
+      "completed": 8,
+      "expected": 8,
+      "coverage": 1.0,
+      "complete": true,
+      "truncated": 0,
+      "empty_predictions": 0,
+      "reference_characters": 81086,
+      "character_errors": 15299,
+      "cp_character_errors": 12032,
+      "CER": 0.18867622030930123,
+      "cpCER": 0.14838566460301408,
+      "DeltaCP": -0.04029055570628715,
+      "audio_hours": 4.205059722222222,
+      "processing_hours": 0.432671317966241,
+      "RTF": 0.10289302567564719,
+      "audio_seconds_per_processing_second": 9.718831703446357,
+      "max_peak_allocated_gib": 25.995227813720703,
+      "DER_collar_0": {
+        "total": 17632.599999999937,
+        "confusion": 230.13999999999876,
+        "missed detection": 1241.2799999999982,
+        "false alarm": 749.269999999995,
+        "correct": 16161.179999999938,
+        "DER": 0.12594228871522067
+      },
+      "DER_collar_0.25": {
+        "total": 13988.509999999957,
+        "confusion": 119.87000000000037,
+        "missed detection": 688.9699999999987,
+        "false alarm": 244.06499999999633,
+        "correct": 13179.669999999956,
+        "DER": 0.07526927456891397
+      }
+    },
+    "base/ami/dev": {
+      "completed": 18,
+      "expected": 18,
+      "coverage": 1.0,
+      "complete": true,
+      "truncated": 0,
+      "empty_predictions": 0,
+      "reference_characters": 364785,
+      "character_errors": 52089,
+      "cp_character_errors": 35740,
+      "CER": 0.14279370039886508,
+      "cpCER": 0.09797551982674726,
+      "DeltaCP": -0.044818180572117824,
+      "audio_hours": 9.66717373263889,
+      "processing_hours": 0.954622928235266,
+      "RTF": 0.09874891614001008,
+      "audio_seconds_per_processing_second": 10.126693427016058,
+      "max_peak_allocated_gib": 26.83000373840332,
+      "DER_collar_0": {
+        "total": 31558.655,
+        "confusion": 361.97000000000696,
+        "missed detection": 4246.454999999997,
+        "false alarm": 915.13999999999,
+        "correct": 26950.229999999992,
+        "DER": 0.1750253615054252
+      },
+      "DER_collar_0.25": {
+        "total": 27115.975000000006,
+        "confusion": 191.00500000000278,
+        "missed detection": 3154.355,
+        "false alarm": 350.21000000000083,
+        "correct": 23770.615,
+        "DER": 0.13628755742694124
+      }
+    },
+    "sft/alimeeting/dev": {
+      "completed": 8,
+      "expected": 8,
+      "coverage": 1.0,
+      "complete": true,
+      "truncated": 5,
+      "empty_predictions": 0,
+      "reference_characters": 81086,
+      "character_errors": 65223,
+      "cp_character_errors": 91553,
+      "CER": 0.8043682016624325,
+      "cpCER": 1.1290851688330907,
+      "DeltaCP": 0.3247169671706583,
+      "audio_hours": 4.205059722222222,
+      "processing_hours": 1.3811681595672336,
+      "RTF": 0.32845387480902083,
+      "audio_seconds_per_processing_second": 3.0445675228567453,
+      "max_peak_allocated_gib": 25.99522829055786,
+      "DER_collar_0": {
+        "total": 17632.599999999944,
+        "confusion": 3897.9999999999927,
+        "missed detection": 8946.769999999979,
+        "false alarm": 5227.145999999997,
+        "correct": 4787.829999999971,
+        "DER": 1.024914987012694
+      },
+      "DER_collar_0.25": {
+        "total": 13988.509999999955,
+        "confusion": 3269.3549999999927,
+        "missed detection": 6689.724999999987,
+        "false alarm": 4331.790999999999,
+        "correct": 4029.4299999999757,
+        "DER": 1.0216149539872386
+      }
+    },
+    "sft/ami/dev": {
+      "completed": 18,
+      "expected": 18,
+      "coverage": 1.0,
+      "complete": true,
+      "truncated": 11,
+      "empty_predictions": 0,
+      "reference_characters": 364785,
+      "character_errors": 331593,
+      "cp_character_errors": 342288,
+      "CER": 0.9090094165056128,
+      "cpCER": 0.938328056252313,
+      "DeltaCP": 0.029318639746700112,
+      "audio_hours": 9.66717373263889,
+      "processing_hours": 2.8236426160039585,
+      "RTF": 0.2920856388947069,
+      "audio_seconds_per_processing_second": 3.4236534318638205,
+      "max_peak_allocated_gib": 26.83000421524048,
+      "DER_collar_0": {
+        "total": 31558.655000000013,
+        "confusion": 783.5300000000001,
+        "missed detection": 28699.935000000005,
+        "false alarm": 325.0599999999994,
+        "correct": 2075.1900000000005,
+        "DER": 0.944543580833847
+      },
+      "DER_collar_0.25": {
+        "total": 27115.975000000006,
+        "confusion": 660.2999999999996,
+        "missed detection": 24528.320000000007,
+        "false alarm": 233.88499999999968,
+        "correct": 1927.3550000000005,
+        "DER": 0.9375471470231109
+      }
+    }
+  },
+  "paired_comparisons": {
+    "alimeeting/dev": {
+      "base": {
+        "completed": 8,
+        "expected": 8,
+        "coverage": 1.0,
+        "complete": true,
+        "truncated": 0,
+        "empty_predictions": 0,
+        "reference_characters": 81086,
+        "character_errors": 15299,
+        "cp_character_errors": 12032,
+        "CER": 0.18867622030930123,
+        "cpCER": 0.14838566460301408,
+        "DeltaCP": -0.04029055570628715,
+        "audio_hours": 4.205059722222222,
+        "processing_hours": 0.432671317966241,
+        "RTF": 0.10289302567564719,
+        "audio_seconds_per_processing_second": 9.718831703446357,
+        "max_peak_allocated_gib": 25.995227813720703,
+        "DER_collar_0": {
+          "total": 17632.599999999937,
+          "confusion": 230.13999999999876,
+          "missed detection": 1241.2799999999982,
+          "false alarm": 749.269999999995,
+          "correct": 16161.179999999938,
+          "DER": 0.12594228871522067
+        },
+        "DER_collar_0.25": {
+          "total": 13988.509999999957,
+          "confusion": 119.87000000000037,
+          "missed detection": 688.9699999999987,
+          "false alarm": 244.06499999999633,
+          "correct": 13179.669999999956,
+          "DER": 0.07526927456891397
+        }
+      },
+      "sft": {
+        "completed": 8,
+        "expected": 8,
+        "coverage": 1.0,
+        "complete": true,
+        "truncated": 5,
+        "empty_predictions": 0,
+        "reference_characters": 81086,
+        "character_errors": 65223,
+        "cp_character_errors": 91553,
+        "CER": 0.8043682016624325,
+        "cpCER": 1.1290851688330907,
+        "DeltaCP": 0.3247169671706583,
+        "audio_hours": 4.205059722222222,
+        "processing_hours": 1.3811681595672336,
+        "RTF": 0.32845387480902083,
+        "audio_seconds_per_processing_second": 3.0445675228567453,
+        "max_peak_allocated_gib": 25.99522829055786,
+        "DER_collar_0": {
+          "total": 17632.599999999944,
+          "confusion": 3897.9999999999927,
+          "missed detection": 8946.769999999979,
+          "false alarm": 5227.145999999997,
+          "correct": 4787.829999999971,
+          "DER": 1.024914987012694
+        },
+        "DER_collar_0.25": {
+          "total": 13988.509999999955,
+          "confusion": 3269.3549999999927,
+          "missed detection": 6689.724999999987,
+          "false alarm": 4331.790999999999,
+          "correct": 4029.4299999999757,
+          "DER": 1.0216149539872386
+        }
+      }
+    },
+    "ami/dev": {
+      "base": {
+        "completed": 18,
+        "expected": 18,
+        "coverage": 1.0,
+        "complete": true,
+        "truncated": 0,
+        "empty_predictions": 0,
+        "reference_characters": 364785,
+        "character_errors": 52089,
+        "cp_character_errors": 35740,
+        "CER": 0.14279370039886508,
+        "cpCER": 0.09797551982674726,
+        "DeltaCP": -0.044818180572117824,
+        "audio_hours": 9.66717373263889,
+        "processing_hours": 0.954622928235266,
+        "RTF": 0.09874891614001008,
+        "audio_seconds_per_processing_second": 10.126693427016058,
+        "max_peak_allocated_gib": 26.83000373840332,
+        "DER_collar_0": {
+          "total": 31558.655,
+          "confusion": 361.97000000000696,
+          "missed detection": 4246.454999999997,
+          "false alarm": 915.13999999999,
+          "correct": 26950.229999999992,
+          "DER": 0.1750253615054252
+        },
+        "DER_collar_0.25": {
+          "total": 27115.975000000006,
+          "confusion": 191.00500000000278,
+          "missed detection": 3154.355,
+          "false alarm": 350.21000000000083,
+          "correct": 23770.615,
+          "DER": 0.13628755742694124
+        }
+      },
+      "sft": {
+        "completed": 18,
+        "expected": 18,
+        "coverage": 1.0,
+        "complete": true,
+        "truncated": 11,
+        "empty_predictions": 0,
+        "reference_characters": 364785,
+        "character_errors": 331593,
+        "cp_character_errors": 342288,
+        "CER": 0.9090094165056128,
+        "cpCER": 0.938328056252313,
+        "DeltaCP": 0.029318639746700112,
+        "audio_hours": 9.66717373263889,
+        "processing_hours": 2.8236426160039585,
+        "RTF": 0.2920856388947069,
+        "audio_seconds_per_processing_second": 3.4236534318638205,
+        "max_peak_allocated_gib": 26.83000421524048,
+        "DER_collar_0": {
+          "total": 31558.655000000013,
+          "confusion": 783.5300000000001,
+          "missed detection": 28699.935000000005,
+          "false alarm": 325.0599999999994,
+          "correct": 2075.1900000000005,
+          "DER": 0.944543580833847
+        },
+        "DER_collar_0.25": {
+          "total": 27115.975000000006,
+          "confusion": 660.2999999999996,
+          "missed detection": 24528.320000000007,
+          "false alarm": 233.88499999999968,
+          "correct": 1927.3550000000005,
+          "DER": 0.9375471470231109
+        }
+      }
+    }
+  }
+}

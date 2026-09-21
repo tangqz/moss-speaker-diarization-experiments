@@ -1,0 +1,1 @@
+{"event": "start", "mode": "contracts", "precision": null, "device": 0, "gpu": "NVIDIA A40", "free_gib": 44.161865234375, "total_gib": 44.423828125, "torch": "2.14.0+cu130"}

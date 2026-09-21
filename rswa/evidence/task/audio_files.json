@@ -1,0 +1,4328 @@
+[
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1002d.Mix-Headset.wav",
+    "bytes": 40416640,
+    "inode": 6478163928,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2009d.Mix-Headset.wav",
+    "bytes": 170379992,
+    "inode": 6482427505,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2105_M3164.wav",
+    "bytes": 61663836,
+    "inode": 6481437824,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2108_M3206.wav",
+    "bytes": 57400850,
+    "inode": 6481437826,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0055.wav",
+    "bytes": 65066220,
+    "inode": 6480318566,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2108_M3210.wav",
+    "bytes": 58059832,
+    "inode": 6482018273,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200618_M_R001S04C01.wav",
+    "bytes": 61900662,
+    "inode": 6536697801,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200702_S_R001S05C01.wav",
+    "bytes": 66211782,
+    "inode": 6478541599,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1963.wav",
+    "bytes": 62228160,
+    "inode": 6477836772,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0122.wav",
+    "bytes": 60295340,
+    "inode": 6492243267,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0108.wav",
+    "bytes": 61383884,
+    "inode": 6492243266,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200715_M_R002S07C01.wav",
+    "bytes": 59600706,
+    "inode": 6481958864,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200702_S_R001S01C01.wav",
+    "bytes": 60112488,
+    "inode": 6479669942,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M4025.wav",
+    "bytes": 60015024,
+    "inode": 6482018266,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1965.wav",
+    "bytes": 60591480,
+    "inode": 6481490547,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0110.wav",
+    "bytes": 54323244,
+    "inode": 6480847112,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0118.wav",
+    "bytes": 61181484,
+    "inode": 6481958887,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2001_M2205.wav",
+    "bytes": 75662606,
+    "inode": 6537547267,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200805_S_R001S08C01.wav",
+    "bytes": 71417836,
+    "inode": 6537610657,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2008b.Mix-Headset.wav",
+    "bytes": 71413122,
+    "inode": 6480370673,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1975.wav",
+    "bytes": 60528120,
+    "inode": 6479533607,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4004.wav",
+    "bytes": 59810650,
+    "inode": 6480370751,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0176.wav",
+    "bytes": 31273300,
+    "inode": 6492243309,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200714_M_R002S02C01.wav",
+    "bytes": 66753312,
+    "inode": 6481887105,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0150.wav",
+    "bytes": 58418828,
+    "inode": 6492243272,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0129.wav",
+    "bytes": 59035820,
+    "inode": 6492243269,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0071.wav",
+    "bytes": 62182700,
+    "inode": 6482280295,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200805_S_R001S01C01.wav",
+    "bytes": 70251628,
+    "inode": 6481490506,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0151.wav",
+    "bytes": 60658028,
+    "inode": 6478819121,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0063.wav",
+    "bytes": 64834988,
+    "inode": 6480847111,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200616_M_R001S04C01.wav",
+    "bytes": 57911466,
+    "inode": 6534486077,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200706_L_R001S08C01.wav",
+    "bytes": 59094732,
+    "inode": 6482280271,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2001_M2206.wav",
+    "bytes": 74325806,
+    "inode": 6479669964,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200713_M_R002S07C01.wav",
+    "bytes": 56579096,
+    "inode": 6535012015,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2006b.Mix-Headset.wav",
+    "bytes": 97672322,
+    "inode": 6482081176,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4020.wav",
+    "bytes": 64277248,
+    "inode": 6535792235,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2003a.Mix-Headset.wav",
+    "bytes": 36472536,
+    "inode": 6492243169,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0092.wav",
+    "bytes": 60809804,
+    "inode": 6537399724,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1954.wav",
+    "bytes": 64064044,
+    "inode": 6479533604,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200621_M_R002S05C01.wav",
+    "bytes": 68594500,
+    "inode": 6479976974,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200703_M_R002S06C01.wav",
+    "bytes": 58134366,
+    "inode": 6481437803,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1005c.Mix-Headset.wav",
+    "bytes": 65926759,
+    "inode": 6536757806,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200714_M_R002S01C01.wav",
+    "bytes": 59561598,
+    "inode": 6481887104,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200623_S_R001S04C01.wav",
+    "bytes": 59695564,
+    "inode": 6479669940,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200713_M_R002S04C01.wav",
+    "bytes": 65633766,
+    "inode": 6486739392,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0193.wav",
+    "bytes": 61707404,
+    "inode": 6481302308,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4059.wav",
+    "bytes": 68269606,
+    "inode": 6492243354,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1001c.Mix-Headset.wav",
+    "bytes": 46254806,
+    "inode": 6481039135,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M4080.wav",
+    "bytes": 56870444,
+    "inode": 6535792277,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200704_M_R002S06C01.wav",
+    "bytes": 68957232,
+    "inode": 6481887098,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0166.wav",
+    "bytes": 60959116,
+    "inode": 6535912702,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M4062.wav",
+    "bytes": 59110278,
+    "inode": 6535912747,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M4032.wav",
+    "bytes": 56903564,
+    "inode": 6481039248,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200704_M_R002S08C01.wav",
+    "bytes": 63632324,
+    "inode": 6481236809,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3006d.Mix-Headset.wav",
+    "bytes": 95088044,
+    "inode": 6482018158,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M1986.wav",
+    "bytes": 57998552,
+    "inode": 6481825708,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1001a.Mix-Headset.wav",
+    "bytes": 29089836,
+    "inode": 6480255334,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200712_M_R002S07C01.wav",
+    "bytes": 58866540,
+    "inode": 6481887101,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4030.wav",
+    "bytes": 62459246,
+    "inode": 6492243351,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200709_L_R002S06C01.wav",
+    "bytes": 61940930,
+    "inode": 6481748463,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1950.wav",
+    "bytes": 57976736,
+    "inode": 6492243341,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200620_M_R002S05C01.wav",
+    "bytes": 68996520,
+    "inode": 6534486086,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M4082.wav",
+    "bytes": 57183062,
+    "inode": 6477836813,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1000d.Mix-Headset.wav",
+    "bytes": 83786786,
+    "inode": 6536757803,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1001d.Mix-Headset.wav",
+    "bytes": 24991104,
+    "inode": 6481180764,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0171.wav",
+    "bytes": 60667884,
+    "inode": 6478819135,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200623_S_R001S08C01.wav",
+    "bytes": 60906124,
+    "inode": 6480904051,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200703_M_R002S03C01.wav",
+    "bytes": 60813766,
+    "inode": 6481490471,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200707_L_R001S03C01.wav",
+    "bytes": 68065580,
+    "inode": 6481748461,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2012b.Mix-Headset.wav",
+    "bytes": 71669378,
+    "inode": 6537088708,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200630_S_R001S05C01.wav",
+    "bytes": 66004428,
+    "inode": 6480318564,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3007a.Mix-Headset.wav",
+    "bytes": 51499052,
+    "inode": 6537609909,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0069.wav",
+    "bytes": 65129420,
+    "inode": 6498606060,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2009a.Mix-Headset.wav",
+    "bytes": 44870700,
+    "inode": 6486425330,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2015b.Mix-Headset.wav",
+    "bytes": 73435522,
+    "inode": 6481039134,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1000c.Mix-Headset.wav",
+    "bytes": 67657772,
+    "inode": 6481114958,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1981.wav",
+    "bytes": 63250000,
+    "inode": 6481302311,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M1940.wav",
+    "bytes": 56659122,
+    "inode": 6481039217,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3007b.Mix-Headset.wav",
+    "bytes": 107355520,
+    "inode": 6480903942,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4057.wav",
+    "bytes": 63274218,
+    "inode": 6537485926,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0178.wav",
+    "bytes": 60922604,
+    "inode": 6492243335,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0072.wav",
+    "bytes": 66629868,
+    "inode": 6479208166,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2009b.Mix-Headset.wav",
+    "bytes": 45930540,
+    "inode": 6482329527,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0116.wav",
+    "bytes": 59402860,
+    "inode": 6481958885,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0109.wav",
+    "bytes": 61979244,
+    "inode": 6481958884,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2014d.Mix-Headset.wav",
+    "bytes": 93163564,
+    "inode": 6481825622,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M1938.wav",
+    "bytes": 57600044,
+    "inode": 6492243358,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2002b.Mix-Headset.wav",
+    "bytes": 72952194,
+    "inode": 6534945955,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2108_M3230.wav",
+    "bytes": 58685036,
+    "inode": 6535792282,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200807_S_R001S06C01.wav",
+    "bytes": 71487596,
+    "inode": 6478541602,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0003_M0047.wav",
+    "bytes": 68293228,
+    "inode": 6479977002,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0099.wav",
+    "bytes": 68313964,
+    "inode": 6495638371,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3007c.Mix-Headset.wav",
+    "bytes": 77440044,
+    "inode": 6536757813,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0073.wav",
+    "bytes": 62824652,
+    "inode": 6479208167,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2108_M3200.wav",
+    "bytes": 57000202,
+    "inode": 6480370773,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2005d.Mix-Headset.wav",
+    "bytes": 55397762,
+    "inode": 6478685294,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200702_S_R001S03C01.wav",
+    "bytes": 73515910,
+    "inode": 6534486113,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200715_M_R002S01C01.wav",
+    "bytes": 59653146,
+    "inode": 6480719427,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200621_M_R002S03C01.wav",
+    "bytes": 74340998,
+    "inode": 6536697805,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200706_L_R001S07C01.wav",
+    "bytes": 69967896,
+    "inode": 6536826663,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2012c.Mix-Headset.wav",
+    "bytes": 70678232,
+    "inode": 6534869219,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200710_M_R002S03C01.wav",
+    "bytes": 60825512,
+    "inode": 6481236812,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200807_S_R001S07C01.wav",
+    "bytes": 75526828,
+    "inode": 6481958874,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2004a.Mix-Headset.wav",
+    "bytes": 110261634,
+    "inode": 6521530320,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200702_S_R001S02C01.wav",
+    "bytes": 70715430,
+    "inode": 6479669943,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4015.wav",
+    "bytes": 61385800,
+    "inode": 6481490552,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200806_S_R001S05C01.wav",
+    "bytes": 73544844,
+    "inode": 6481958873,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1997.wav",
+    "bytes": 63234512,
+    "inode": 6482082310,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200808_S_R001S02C01.wav",
+    "bytes": 72523500,
+    "inode": 6479669944,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200707_L_R001S04C01.wav",
+    "bytes": 59592874,
+    "inode": 6494379537,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200715_M_R002S05C01.wav",
+    "bytes": 61046052,
+    "inode": 6534486108,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200705_M_R002S04C01.wav",
+    "bytes": 58398186,
+    "inode": 6478165057,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0052.wav",
+    "bytes": 67963148,
+    "inode": 6537088783,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3012d.Mix-Headset.wav",
+    "bytes": 74931244,
+    "inode": 6481302053,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0053.wav",
+    "bytes": 65597260,
+    "inode": 6487534448,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200712_M_R002S02C01.wav",
+    "bytes": 57768634,
+    "inode": 6479208155,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1960.wav",
+    "bytes": 57372288,
+    "inode": 6477836771,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200708_L_R002S01C01.wav",
+    "bytes": 62199548,
+    "inode": 6481302271,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200715_M_R002S03C01.wav",
+    "bytes": 61745528,
+    "inode": 6478601330,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0091.wav",
+    "bytes": 65844684,
+    "inode": 6478819116,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200705_M_R002S07C01.wav",
+    "bytes": 57685862,
+    "inode": 6481958839,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200706_L_R001S05C01.wav",
+    "bytes": 67279462,
+    "inode": 6536757877,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0191.wav",
+    "bytes": 62340044,
+    "inode": 6479533603,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200701_S_R001S02C01.wav",
+    "bytes": 67654764,
+    "inode": 6481958870,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1971.wav",
+    "bytes": 71348512,
+    "inode": 6492243346,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200624_S_R001S05C01.wav",
+    "bytes": 63686760,
+    "inode": 6480719435,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3011d.Mix-Headset.wav",
+    "bytes": 69037270,
+    "inode": 6478163933,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1004a.Mix-Headset.wav",
+    "bytes": 25500093,
+    "inode": 6537088711,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200704_M_R002S07C01.wav",
+    "bytes": 62273324,
+    "inode": 6486739390,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3012c.Mix-Headset.wav",
+    "bytes": 76047062,
+    "inode": 6477956420,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200620_M_R002S04C01.wav",
+    "bytes": 70755338,
+    "inode": 6535912699,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200701_S_R001S07C01.wav",
+    "bytes": 62033848,
+    "inode": 6481958872,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200708_L_R002S08C01.wav",
+    "bytes": 71835982,
+    "inode": 6536826667,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200630_S_R001S03C01.wav",
+    "bytes": 70115372,
+    "inode": 6480719436,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200630_S_R001S02C01.wav",
+    "bytes": 68361660,
+    "inode": 6477836736,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200623_S_R001S07C01.wav",
+    "bytes": 65579612,
+    "inode": 6481887131,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200621_M_R002S02C01.wav",
+    "bytes": 63257688,
+    "inode": 6478742223,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200618_M_R001S01C01.wav",
+    "bytes": 62795312,
+    "inode": 6535912698,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IN1002.Mix-Headset.wav",
+    "bytes": 79120600,
+    "inode": 6480460078,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2005a.Mix-Headset.wav",
+    "bytes": 15292120,
+    "inode": 6492243173,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200617_M_R001S05C01.wav",
+    "bytes": 65137112,
+    "inode": 6481748468,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2108_M2692.wav",
+    "bytes": 67824858,
+    "inode": 6481039249,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3011b.Mix-Headset.wav",
+    "bytes": 70854700,
+    "inode": 6486425332,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200622_M_R002S02C01.wav",
+    "bytes": 71569294,
+    "inode": 6479976977,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3012b.Mix-Headset.wav",
+    "bytes": 78637100,
+    "inode": 6481958664,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200621_M_R002S07C01.wav",
+    "bytes": 66960078,
+    "inode": 6482082305,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2007a.Mix-Headset.wav",
+    "bytes": 38601772,
+    "inode": 6480459783,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1001b.Mix-Headset.wav",
+    "bytes": 67734230,
+    "inode": 6537609904,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3005c.Mix-Headset.wav",
+    "bytes": 76896044,
+    "inode": 6534485882,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4017.wav",
+    "bytes": 76903974,
+    "inode": 6535912719,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200618_M_R001S07C01.wav",
+    "bytes": 62994828,
+    "inode": 6480577363,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200715_M_R002S06C01.wav",
+    "bytes": 61295304,
+    "inode": 6477836735,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200710_M_R002S08C01.wav",
+    "bytes": 58649902,
+    "inode": 6481825686,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0145.wav",
+    "bytes": 57013104,
+    "inode": 6537485880,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200703_M_R002S01C01.wav",
+    "bytes": 58664036,
+    "inode": 6479976980,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0085.wav",
+    "bytes": 65396204,
+    "inode": 6478021754,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200714_M_R002S03C01.wav",
+    "bytes": 70589228,
+    "inode": 6478601318,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0004_M0012.wav",
+    "bytes": 63029260,
+    "inode": 6537399722,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200630_S_R001S07C01.wav",
+    "bytes": 65376356,
+    "inode": 6480318565,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IN1008.Mix-Headset.wav",
+    "bytes": 109302658,
+    "inode": 6481958791,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200624_S_R001S02C01.wav",
+    "bytes": 66666422,
+    "inode": 6481958866,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0105.wav",
+    "bytes": 63406444,
+    "inode": 6537399726,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1005a.Mix-Headset.wav",
+    "bytes": 32796093,
+    "inode": 6536757804,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1977.wav",
+    "bytes": 63434934,
+    "inode": 6481302309,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1007a.Mix-Headset.wav",
+    "bytes": 30913427,
+    "inode": 6537609906,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0183.wav",
+    "bytes": 61557164,
+    "inode": 6481039201,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2010a.Mix-Headset.wav",
+    "bytes": 20617260,
+    "inode": 6481039132,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0192.wav",
+    "bytes": 60237004,
+    "inode": 6480318571,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4051.wav",
+    "bytes": 58889866,
+    "inode": 6480318575,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3010a.Mix-Headset.wav",
+    "bytes": 33312812,
+    "inode": 6482018160,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200701_S_R001S05C01.wav",
+    "bytes": 63522402,
+    "inode": 6481958871,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2108_M3244.wav",
+    "bytes": 58455546,
+    "inode": 6537547270,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200622_M_R002S06C01.wav",
+    "bytes": 72200112,
+    "inode": 6481490469,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1998.wav",
+    "bytes": 77789660,
+    "inode": 6481236862,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0153.wav",
+    "bytes": 60971916,
+    "inode": 6481490517,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3012a.Mix-Headset.wav",
+    "bytes": 27499222,
+    "inode": 6477956419,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2006a.Mix-Headset.wav",
+    "bytes": 112815832,
+    "inode": 6479730730,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1004b.Mix-Headset.wav",
+    "bytes": 69814759,
+    "inode": 6537609905,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M1932.wav",
+    "bytes": 56389776,
+    "inode": 6480370753,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0102.wav",
+    "bytes": 62688364,
+    "inode": 6478819117,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M1947.wav",
+    "bytes": 50295168,
+    "inode": 6481490566,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0005_M0040.wav",
+    "bytes": 64222380,
+    "inode": 6478685316,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0004_M0018.wav",
+    "bytes": 54791372,
+    "inode": 6480515022,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2001e.Mix-Headset.wav",
+    "bytes": 130231682,
+    "inode": 6480903933,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0086.wav",
+    "bytes": 63735404,
+    "inode": 6537485873,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200714_M_R002S07C01.wav",
+    "bytes": 57394528,
+    "inode": 6481887106,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0148.wav",
+    "bytes": 60694028,
+    "inode": 6492243271,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4052.wav",
+    "bytes": 64212748,
+    "inode": 6480370752,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200709_L_R002S05C01.wav",
+    "bytes": 63302862,
+    "inode": 6479208137,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200712_M_R002S04C01.wav",
+    "bytes": 61033580,
+    "inode": 6479208156,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4056.wav",
+    "bytes": 63665554,
+    "inode": 6480318576,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0079.wav",
+    "bytes": 65552684,
+    "inode": 6478819115,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0119.wav",
+    "bytes": 57308716,
+    "inode": 6495638372,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3011c.Mix-Headset.wav",
+    "bytes": 76640044,
+    "inode": 6479129083,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0190.wav",
+    "bytes": 63370476,
+    "inode": 6537485923,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0124.wav",
+    "bytes": 58056876,
+    "inode": 6478165066,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0004_M0022.wav",
+    "bytes": 62961644,
+    "inode": 6480847110,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200713_M_R002S01C01.wav",
+    "bytes": 64110228,
+    "inode": 6479730822,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4035.wav",
+    "bytes": 66960288,
+    "inode": 6537485925,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2001a.Mix-Headset.wav",
+    "bytes": 168007726,
+    "inode": 6479848332,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1945.wav",
+    "bytes": 63019942,
+    "inode": 6492243338,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200706_L_R001S03C01.wav",
+    "bytes": 62658258,
+    "inode": 6534486053,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200623_S_R001S05C01.wav",
+    "bytes": 67036428,
+    "inode": 6480318561,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M1935.wav",
+    "bytes": 58024082,
+    "inode": 6535792241,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0125.wav",
+    "bytes": 58119404,
+    "inode": 6478541604,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0135.wav",
+    "bytes": 26581420,
+    "inode": 6537485877,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0100.wav",
+    "bytes": 65821004,
+    "inode": 6492243265,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200806_S_R001S01C01.wav",
+    "bytes": 69403948,
+    "inode": 6536826671,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4026.wav",
+    "bytes": 70313990,
+    "inode": 6481039204,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0075.wav",
+    "bytes": 61283724,
+    "inode": 6480318568,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200709_L_R002S03C01.wav",
+    "bytes": 59594860,
+    "inode": 6481887089,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0070.wav",
+    "bytes": 66472652,
+    "inode": 6521530371,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4028.wav",
+    "bytes": 65708412,
+    "inode": 6480318574,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200617_M_R001S08C01.wav",
+    "bytes": 61124940,
+    "inode": 6486425407,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4071.wav",
+    "bytes": 59911834,
+    "inode": 6481236865,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200709_L_R002S07C01.wav",
+    "bytes": 58490160,
+    "inode": 6535792223,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200707_L_R001S05C01.wav",
+    "bytes": 70297524,
+    "inode": 6534486054,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200617_M_R001S02C01.wav",
+    "bytes": 71575788,
+    "inode": 6534486082,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200622_M_R002S04C01.wav",
+    "bytes": 70083158,
+    "inode": 6481490468,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2008c.Mix-Headset.wav",
+    "bytes": 67283926,
+    "inode": 6534485876,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0106.wav",
+    "bytes": 65491724,
+    "inode": 6536757893,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200617_M_R001S01C01.wav",
+    "bytes": 66864304,
+    "inode": 6486739388,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IN1009.Mix-Headset.wav",
+    "bytes": 40203138,
+    "inode": 6481958792,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3007d.Mix-Headset.wav",
+    "bytes": 90377644,
+    "inode": 6537485829,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4075.wav",
+    "bytes": 58533320,
+    "inode": 6481236866,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200712_M_R002S05C01.wav",
+    "bytes": 60022412,
+    "inode": 6481236818,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0004_M0017.wav",
+    "bytes": 61945708,
+    "inode": 6480515021,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0078.wav",
+    "bytes": 64353324,
+    "inode": 6537088786,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M4012.wav",
+    "bytes": 63005852,
+    "inode": 6477836809,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3005d.Mix-Headset.wav",
+    "bytes": 85510444,
+    "inode": 6536757810,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0060.wav",
+    "bytes": 68237932,
+    "inode": 6498606059,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2002d.Mix-Headset.wav",
+    "bytes": 83973504,
+    "inode": 6534945956,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200807_S_R001S08C01.wav",
+    "bytes": 73567436,
+    "inode": 6481490508,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0098.wav",
+    "bytes": 63634604,
+    "inode": 6536757892,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0172.wav",
+    "bytes": 59307564,
+    "inode": 6479533578,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200709_L_R002S08C01.wav",
+    "bytes": 65292466,
+    "inode": 6535792224,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200707_L_R001S08C01.wav",
+    "bytes": 63445478,
+    "inode": 6536826665,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200706_L_R001S02C01.wav",
+    "bytes": 69048684,
+    "inode": 6482427586,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2108_M3243.wav",
+    "bytes": 58820904,
+    "inode": 6537485968,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0050.wav",
+    "bytes": 66319596,
+    "inode": 6537399723,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1928.wav",
+    "bytes": 57543548,
+    "inode": 6481236859,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200618_M_R001S08C01.wav",
+    "bytes": 63818838,
+    "inode": 6478742219,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0139.wav",
+    "bytes": 46578244,
+    "inode": 6478819120,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0143.wav",
+    "bytes": 59034572,
+    "inode": 6478165070,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1953.wav",
+    "bytes": 59719694,
+    "inode": 6492243342,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0005_M0035.wav",
+    "bytes": 66662860,
+    "inode": 6482280293,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200617_M_R001S07C01.wav",
+    "bytes": 63121852,
+    "inode": 6482280276,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3006b.Mix-Headset.wav",
+    "bytes": 75324800,
+    "inode": 6536757811,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3009b.Mix-Headset.wav",
+    "bytes": 78721750,
+    "inode": 6537485830,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200713_M_R002S08C01.wav",
+    "bytes": 66101830,
+    "inode": 6486739393,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200703_M_R002S02C01.wav",
+    "bytes": 60746506,
+    "inode": 6481887097,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200709_L_R002S01C01.wav",
+    "bytes": 68650854,
+    "inode": 6536826668,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200702_S_R001S04C01.wav",
+    "bytes": 69480020,
+    "inode": 6481490505,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200705_M_R002S05C01.wav",
+    "bytes": 57637516,
+    "inode": 6479208152,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1972.wav",
+    "bytes": 59985126,
+    "inode": 6492243347,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200618_M_R001S05C01.wav",
+    "bytes": 63398050,
+    "inode": 6481887094,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0140.wav",
+    "bytes": 58812108,
+    "inode": 6477836744,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1967.wav",
+    "bytes": 59528776,
+    "inode": 6481490548,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2014b.Mix-Headset.wav",
+    "bytes": 74236632,
+    "inode": 6480255331,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200708_L_R002S04C01.wav",
+    "bytes": 60570956,
+    "inode": 6536697792,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0144.wav",
+    "bytes": 54915500,
+    "inode": 6478165072,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200704_M_R002S01C01.wav",
+    "bytes": 75507916,
+    "inode": 6480460089,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1000a.Mix-Headset.wav",
+    "bytes": 50645452,
+    "inode": 6537609903,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2108_M3225.wav",
+    "bytes": 59773762,
+    "inode": 6480370774,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1006d.Mix-Headset.wav",
+    "bytes": 58854759,
+    "inode": 6534869221,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200621_M_R002S08C01.wav",
+    "bytes": 66987052,
+    "inode": 6482082306,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M4083.wav",
+    "bytes": 56954638,
+    "inode": 6480370772,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/ami/ES2010d.wav",
+    "bytes": 31015128,
+    "inode": 6479607251,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0186.wav",
+    "bytes": 59154924,
+    "inode": 6492243336,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200622_M_R002S08C01.wav",
+    "bytes": 69532716,
+    "inode": 6536697807,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200710_M_R002S05C01.wav",
+    "bytes": 55357356,
+    "inode": 6534946056,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IN1014.Mix-Headset.wav",
+    "bytes": 118171864,
+    "inode": 6537610620,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0162.wav",
+    "bytes": 61934718,
+    "inode": 6477836747,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3005a.Mix-Headset.wav",
+    "bytes": 42203180,
+    "inode": 6536757809,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1003c.Mix-Headset.wav",
+    "bytes": 60044093,
+    "inode": 6478601291,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200706_L_R001S04C01.wav",
+    "bytes": 66469678,
+    "inode": 6481887087,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200704_M_R002S04C01.wav",
+    "bytes": 62233126,
+    "inode": 6481236807,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4031.wav",
+    "bytes": 61320696,
+    "inode": 6477836774,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0121.wav",
+    "bytes": 62286380,
+    "inode": 6478165065,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2016b.Mix-Headset.wav",
+    "bytes": 77191212,
+    "inode": 6480255333,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2005b.Mix-Headset.wav",
+    "bytes": 74024322,
+    "inode": 6492243174,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M1944.wav",
+    "bytes": 56227902,
+    "inode": 6535792249,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200616_M_R001S08C01.wav",
+    "bytes": 66300916,
+    "inode": 6482329567,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2013a.Mix-Headset.wav",
+    "bytes": 26405592,
+    "inode": 6478601288,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0123.wav",
+    "bytes": 57404108,
+    "inode": 6480904055,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IN1013.Mix-Headset.wav",
+    "bytes": 100548140,
+    "inode": 6481958806,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200807_S_R001S04C01.wav",
+    "bytes": 71456460,
+    "inode": 6480719437,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2001d.Mix-Headset.wav",
+    "bytes": 113484162,
+    "inode": 6481376460,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200702_S_R001S07C01.wav",
+    "bytes": 60142478,
+    "inode": 6478207993,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0087.wav",
+    "bytes": 67085484,
+    "inode": 6478021755,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200709_L_R002S04C01.wav",
+    "bytes": 59585180,
+    "inode": 6480370744,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200705_M_R002S03C01.wav",
+    "bytes": 73346220,
+    "inode": 6481236810,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200703_M_R002S04C01.wav",
+    "bytes": 59221494,
+    "inode": 6478165054,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0138.wav",
+    "bytes": 56036044,
+    "inode": 6478165069,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200705_M_R002S08C01.wav",
+    "bytes": 59090018,
+    "inode": 6478165058,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2105_M3318.wav",
+    "bytes": 59182320,
+    "inode": 6477836814,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200806_S_R001S07C01.wav",
+    "bytes": 74182796,
+    "inode": 6481490507,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4033.wav",
+    "bytes": 65705296,
+    "inode": 6481039205,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2009c.Mix-Headset.wav",
+    "bytes": 62621740,
+    "inode": 6536697699,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200712_M_R002S01C01.wav",
+    "bytes": 68129884,
+    "inode": 6481958843,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200706_L_R001S01C01.wav",
+    "bytes": 64354860,
+    "inode": 6481887086,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200616_M_R001S03C01.wav",
+    "bytes": 72627340,
+    "inode": 6535792226,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0004_M0025.wav",
+    "bytes": 64833652,
+    "inode": 6478685315,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0149.wav",
+    "bytes": 59917932,
+    "inode": 6480847114,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3009d.Mix-Headset.wav",
+    "bytes": 65798444,
+    "inode": 6480459786,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200702_S_R001S08C01.wav",
+    "bytes": 60406984,
+    "inode": 6478207994,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0112.wav",
+    "bytes": 62577804,
+    "inode": 6480847113,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1956.wav",
+    "bytes": 61645608,
+    "inode": 6492243343,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200621_M_R002S04C01.wav",
+    "bytes": 73122348,
+    "inode": 6481236805,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M1933.wav",
+    "bytes": 59170508,
+    "inode": 6537547234,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0142.wav",
+    "bytes": 59950892,
+    "inode": 6537485879,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0141.wav",
+    "bytes": 57077484,
+    "inode": 6477836745,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0074.wav",
+    "bytes": 60340300,
+    "inode": 6536757890,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2016a.Mix-Headset.wav",
+    "bytes": 44294104,
+    "inode": 6478601290,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0146.wav",
+    "bytes": 58858636,
+    "inode": 6480904057,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200703_M_R002S08C01.wav",
+    "bytes": 57879416,
+    "inode": 6536697809,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200616_M_R001S02C01.wav",
+    "bytes": 47447626,
+    "inode": 6482427590,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M1961.wav",
+    "bytes": 59083148,
+    "inode": 6481437813,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200714_M_R002S04C01.wav",
+    "bytes": 67136586,
+    "inode": 6481490476,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0168.wav",
+    "bytes": 61878124,
+    "inode": 6492243275,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200623_S_R001S06C01.wav",
+    "bytes": 66795620,
+    "inode": 6481490501,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200714_M_R002S05C01.wav",
+    "bytes": 58895034,
+    "inode": 6481958846,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2003c.Mix-Headset.wav",
+    "bytes": 72221740,
+    "inode": 6534945957,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0058.wav",
+    "bytes": 65686060,
+    "inode": 6537485872,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200616_M_R001S01C01.wav",
+    "bytes": 59802708,
+    "inode": 6534486076,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200618_M_R001S03C01.wav",
+    "bytes": 59193764,
+    "inode": 6481236804,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200715_M_R002S02C01.wav",
+    "bytes": 58460594,
+    "inode": 6481887129,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0152.wav",
+    "bytes": 61649100,
+    "inode": 6479208172,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2001b.Mix-Headset.wav",
+    "bytes": 110460290,
+    "inode": 6536757798,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M1942.wav",
+    "bytes": 57660788,
+    "inode": 6535792244,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2008d.Mix-Headset.wav",
+    "bytes": 84026412,
+    "inode": 6480370677,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0083.wav",
+    "bytes": 66959564,
+    "inode": 6492243262,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3011a.Mix-Headset.wav",
+    "bytes": 48312364,
+    "inode": 6479129082,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1007b.Mix-Headset.wav",
+    "bytes": 41686759,
+    "inode": 6534485878,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3006a.Mix-Headset.wav",
+    "bytes": 40091692,
+    "inode": 6480459785,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200630_S_R001S08C01.wav",
+    "bytes": 66980652,
+    "inode": 6481958869,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IN1007.Mix-Headset.wav",
+    "bytes": 77162712,
+    "inode": 6537610593,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200707_L_R001S01C01.wav",
+    "bytes": 63875538,
+    "inode": 6479208130,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2012a.Mix-Headset.wav",
+    "bytes": 35345112,
+    "inode": 6481825621,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200715_M_R002S08C01.wav",
+    "bytes": 56245874,
+    "inode": 6481958865,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200701_S_R001S01C01.wav",
+    "bytes": 68873196,
+    "inode": 6534486112,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0175.wav",
+    "bytes": 58414042,
+    "inode": 6492243307,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200616_M_R001S07C01.wav",
+    "bytes": 63014334,
+    "inode": 6482427592,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200807_S_R001S02C01.wav",
+    "bytes": 72013772,
+    "inode": 6478541600,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1007d.Mix-Headset.wav",
+    "bytes": 64929836,
+    "inode": 6534485879,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0163.wav",
+    "bytes": 60314636,
+    "inode": 6479533561,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0005_M0041.wav",
+    "bytes": 66003500,
+    "inode": 6482082309,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200624_S_R001S01C01.wav",
+    "bytes": 68789712,
+    "inode": 6481490502,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0056.wav",
+    "bytes": 65278316,
+    "inode": 6480318567,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200701_S_R001S08C01.wav",
+    "bytes": 56833632,
+    "inode": 6481490504,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M4073.wav",
+    "bytes": 56852918,
+    "inode": 6535912748,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2003d.Mix-Headset.wav",
+    "bytes": 75232984,
+    "inode": 6492243171,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3009c.Mix-Headset.wav",
+    "bytes": 82560044,
+    "inode": 6478021686,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0115.wav",
+    "bytes": 59191564,
+    "inode": 6478819119,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2002c.Mix-Headset.wav",
+    "bytes": 77557804,
+    "inode": 6480459782,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2003a.Mix-Headset.wav",
+    "bytes": 71688920,
+    "inode": 6481376467,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1007c.Mix-Headset.wav",
+    "bytes": 67622759,
+    "inode": 6482279688,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200713_M_R002S03C01.wav",
+    "bytes": 73638316,
+    "inode": 6481686356,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2007d.Mix-Headset.wav",
+    "bytes": 39984514,
+    "inode": 6535524598,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0051.wav",
+    "bytes": 70508044,
+    "inode": 6478685317,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0084.wav",
+    "bytes": 64840524,
+    "inode": 6481958882,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200623_S_R001S02C01.wav",
+    "bytes": 67167546,
+    "inode": 6534486110,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2006a.Mix-Headset.wav",
+    "bytes": 41098968,
+    "inode": 6487534436,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200621_M_R002S06C01.wav",
+    "bytes": 64641020,
+    "inode": 6478742224,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200713_M_R002S02C01.wav",
+    "bytes": 71888460,
+    "inode": 6479208158,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200704_M_R002S02C01.wav",
+    "bytes": 60746104,
+    "inode": 6479533545,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0064.wav",
+    "bytes": 63602572,
+    "inode": 6482280294,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200701_S_R001S06C01.wav",
+    "bytes": 66832140,
+    "inode": 6477836737,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200624_S_R001S03C01.wav",
+    "bytes": 70934592,
+    "inode": 6478207992,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0130.wav",
+    "bytes": 59917420,
+    "inode": 6492243270,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0101.wav",
+    "bytes": 64200044,
+    "inode": 6477836738,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2005a.Mix-Headset.wav",
+    "bytes": 173287554,
+    "inode": 6486425327,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200707_L_R001S02C01.wav",
+    "bytes": 59381050,
+    "inode": 6482329565,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2007b.Mix-Headset.wav",
+    "bytes": 53931052,
+    "inode": 6477836636,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0147.wav",
+    "bytes": 60786124,
+    "inode": 6479208171,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M4078.wav",
+    "bytes": 57654334,
+    "inode": 6535792276,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0184.wav",
+    "bytes": 60448844,
+    "inode": 6481039202,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2003b.Mix-Headset.wav",
+    "bytes": 67514072,
+    "inode": 6492243170,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200805_S_R001S06C01.wav",
+    "bytes": 68884940,
+    "inode": 6536826670,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1979.wav",
+    "bytes": 64000044,
+    "inode": 6481236861,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200701_S_R001S04C01.wav",
+    "bytes": 57511372,
+    "inode": 6479607245,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0004_M0028.wav",
+    "bytes": 59961018,
+    "inode": 6480515023,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2015c.Mix-Headset.wav",
+    "bytes": 68348632,
+    "inode": 6481114957,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3008b.Mix-Headset.wav",
+    "bytes": 74270764,
+    "inode": 6482018159,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4070.wav",
+    "bytes": 60661142,
+    "inode": 6481236864,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200712_M_R002S08C01.wav",
+    "bytes": 66874506,
+    "inode": 6481236820,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2005c.Mix-Headset.wav",
+    "bytes": 73468972,
+    "inode": 6487534435,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200617_M_R001S03C01.wav",
+    "bytes": 64929538,
+    "inode": 6536697797,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0111.wav",
+    "bytes": 61589004,
+    "inode": 6478819118,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1006c.Mix-Headset.wav",
+    "bytes": 62406759,
+    "inode": 6537485823,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2015a.Mix-Headset.wav",
+    "bytes": 36689964,
+    "inode": 6537088709,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0090.wav",
+    "bytes": 65675084,
+    "inode": 6492243264,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1021_M1959.wav",
+    "bytes": 62600338,
+    "inode": 6537485952,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3008c.Mix-Headset.wav",
+    "bytes": 80256044,
+    "inode": 6494378852,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200713_M_R002S06C01.wav",
+    "bytes": 61969356,
+    "inode": 6481686357,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IN1001.Mix-Headset.wav",
+    "bytes": 110840024,
+    "inode": 6537399663,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2016c.Mix-Headset.wav",
+    "bytes": 73868674,
+    "inode": 6534869220,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200708_L_R002S07C01.wav",
+    "bytes": 62077228,
+    "inode": 6479208135,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1987.wav",
+    "bytes": 59031366,
+    "inode": 6537485924,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200704_M_R002S05C01.wav",
+    "bytes": 61468294,
+    "inode": 6481958837,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200706_L_R001S06C01.wav",
+    "bytes": 67055074,
+    "inode": 6482329563,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200705_M_R002S02C01.wav",
+    "bytes": 72709724,
+    "inode": 6535845294,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1004d.Mix-Headset.wav",
+    "bytes": 62892093,
+    "inode": 6482279686,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0179.wav",
+    "bytes": 31839404,
+    "inode": 6481490543,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1929.wav",
+    "bytes": 59944006,
+    "inode": 6477836769,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200620_M_R002S08C01.wav",
+    "bytes": 72261172,
+    "inode": 6536697803,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1989.wav",
+    "bytes": 79987192,
+    "inode": 6535792232,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200621_M_R002S01C01.wav",
+    "bytes": 69933844,
+    "inode": 6482280278,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2008a.Mix-Headset.wav",
+    "bytes": 33387564,
+    "inode": 6481114955,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2108_M3199.wav",
+    "bytes": 60281516,
+    "inode": 6535792279,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200623_S_R001S03C01.wav",
+    "bytes": 66195926,
+    "inode": 6481490500,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2014c.Mix-Headset.wav",
+    "bytes": 72752856,
+    "inode": 6481039133,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200624_S_R001S04C01.wav",
+    "bytes": 62808178,
+    "inode": 6481887132,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2010b.Mix-Headset.wav",
+    "bytes": 56063362,
+    "inode": 6534625971,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0057.wav",
+    "bytes": 65067564,
+    "inode": 6521530370,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0134.wav",
+    "bytes": 56586604,
+    "inode": 6480904056,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0120.wav",
+    "bytes": 55964076,
+    "inode": 6478165064,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200805_S_R001S03C01.wav",
+    "bytes": 71169036,
+    "inode": 6479607246,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200623_S_R001S01C01.wav",
+    "bytes": 62370476,
+    "inode": 6534486109,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0093.wav",
+    "bytes": 63606444,
+    "inode": 6521530374,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0080.wav",
+    "bytes": 59503884,
+    "inode": 6535912701,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200616_M_R001S05C01.wav",
+    "bytes": 65222812,
+    "inode": 6536697793,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3009a.Mix-Headset.wav",
+    "bytes": 48188800,
+    "inode": 6537088716,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200714_M_R002S06C01.wav",
+    "bytes": 62624908,
+    "inode": 6478601319,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2016d.Mix-Headset.wav",
+    "bytes": 48744152,
+    "inode": 6536826571,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0054.wav",
+    "bytes": 63431756,
+    "inode": 6537088784,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0159.wav",
+    "bytes": 57400876,
+    "inode": 6479208173,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1005b.Mix-Headset.wav",
+    "bytes": 69825427,
+    "inode": 6536757805,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0160.wav",
+    "bytes": 59021844,
+    "inode": 6479533560,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0158.wav",
+    "bytes": 58195540,
+    "inode": 6478819122,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4007.wav",
+    "bytes": 63879990,
+    "inode": 6535792234,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1948.wav",
+    "bytes": 75818028,
+    "inode": 6481490546,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200704_M_R002S03C01.wav",
+    "bytes": 61780692,
+    "inode": 6481825681,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4041.wav",
+    "bytes": 62496412,
+    "inode": 6492243352,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2105_M3175.wav",
+    "bytes": 61939782,
+    "inode": 6481437825,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1002b.Mix-Headset.wav",
+    "bytes": 75765426,
+    "inode": 6481039136,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200705_M_R002S06C01.wav",
+    "bytes": 57799728,
+    "inode": 6481236811,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2010c.Mix-Headset.wav",
+    "bytes": 58808364,
+    "inode": 6481958659,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200708_L_R002S03C01.wav",
+    "bytes": 62112684,
+    "inode": 6536697791,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4005.wav",
+    "bytes": 66036244,
+    "inode": 6481039203,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200705_M_R002S01C01.wav",
+    "bytes": 66804430,
+    "inode": 6478165056,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2009d.Mix-Headset.wav",
+    "bytes": 67678252,
+    "inode": 6478021685,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200710_M_R002S01C01.wav",
+    "bytes": 58250732,
+    "inode": 6479208154,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1002c.Mix-Headset.wav",
+    "bytes": 66588093,
+    "inode": 6480459784,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3010d.Mix-Headset.wav",
+    "bytes": 61462442,
+    "inode": 6481958663,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200622_M_R002S01C01.wav",
+    "bytes": 74304460,
+    "inode": 6491102999,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1004c.Mix-Headset.wav",
+    "bytes": 72444093,
+    "inode": 6482018156,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2015d.Mix-Headset.wav",
+    "bytes": 61810050,
+    "inode": 6480255332,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3010c.Mix-Headset.wav",
+    "bytes": 68544044,
+    "inode": 6486425331,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0117.wav",
+    "bytes": 56873676,
+    "inode": 6481958886,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200624_S_R001S07C01.wav",
+    "bytes": 58576894,
+    "inode": 6480318562,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4011.wav",
+    "bytes": 58686722,
+    "inode": 6481490550,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3010b.Mix-Headset.wav",
+    "bytes": 66735488,
+    "inode": 6478163932,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4021.wav",
+    "bytes": 65120044,
+    "inode": 6481490553,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0107.wav",
+    "bytes": 62193324,
+    "inode": 6477836740,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200617_M_R001S04C01.wav",
+    "bytes": 69695794,
+    "inode": 6480577360,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200618_M_R001S06C01.wav",
+    "bytes": 59997278,
+    "inode": 6534486084,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2007c.Mix-Headset.wav",
+    "bytes": 76077100,
+    "inode": 6479669911,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4043.wav",
+    "bytes": 65375392,
+    "inode": 6535912720,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2009b.Mix-Headset.wav",
+    "bytes": 79177090,
+    "inode": 6535011960,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0094.wav",
+    "bytes": 63907404,
+    "inode": 6521530375,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200708_L_R002S05C01.wav",
+    "bytes": 63688012,
+    "inode": 6481887088,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200622_M_R002S03C01.wav",
+    "bytes": 70845240,
+    "inode": 6481958833,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2012d.Mix-Headset.wav",
+    "bytes": 30388952,
+    "inode": 6536826570,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0126.wav",
+    "bytes": 59405988,
+    "inode": 6479208170,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1003a.Mix-Headset.wav",
+    "bytes": 29231830,
+    "inode": 6537088710,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1946.wav",
+    "bytes": 54657710,
+    "inode": 6492243339,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0185.wav",
+    "bytes": 58396428,
+    "inode": 6481490544,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200703_M_R002S07C01.wav",
+    "bytes": 61132584,
+    "inode": 6478165055,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2013d.Mix-Headset.wav",
+    "bytes": 60753964,
+    "inode": 6495638317,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IN1012.Mix-Headset.wav",
+    "bytes": 99485912,
+    "inode": 6481555344,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0077.wav",
+    "bytes": 64304844,
+    "inode": 6481958881,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2006d.Mix-Headset.wav",
+    "bytes": 62958296,
+    "inode": 6537088702,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200624_S_R001S06C01.wav",
+    "bytes": 60679930,
+    "inode": 6479669941,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4055.wav",
+    "bytes": 61127806,
+    "inode": 6492243353,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200701_S_R001S03C01.wav",
+    "bytes": 72762988,
+    "inode": 6481887133,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1949.wav",
+    "bytes": 65409720,
+    "inode": 6492243340,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4063.wav",
+    "bytes": 66009794,
+    "inode": 6537547228,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2006c.Mix-Headset.wav",
+    "bytes": 69813976,
+    "inode": 6478207871,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1006b.Mix-Headset.wav",
+    "bytes": 69124140,
+    "inode": 6482279687,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200617_M_R001S06C01.wav",
+    "bytes": 68574694,
+    "inode": 6536697799,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200710_M_R002S07C01.wav",
+    "bytes": 57431668,
+    "inode": 6481236813,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0003_M0046.wav",
+    "bytes": 65468236,
+    "inode": 6479977001,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200712_M_R002S06C01.wav",
+    "bytes": 60260782,
+    "inode": 6481490474,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200715_M_R002S04C01.wav",
+    "bytes": 64994712,
+    "inode": 6479400201,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1000b.Mix-Headset.wav",
+    "bytes": 74997452,
+    "inode": 6536757802,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1006a.Mix-Headset.wav",
+    "bytes": 27222759,
+    "inode": 6537088712,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200630_S_R001S01C01.wav",
+    "bytes": 67927464,
+    "inode": 6481958868,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R2108_M3223.wav",
+    "bytes": 61126248,
+    "inode": 6537547268,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2009c.Mix-Headset.wav",
+    "bytes": 99199704,
+    "inode": 6480459779,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200630_S_R001S06C01.wav",
+    "bytes": 60259770,
+    "inode": 6480904053,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0097.wav",
+    "bytes": 62606604,
+    "inode": 6480904054,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0004_M0027.wav",
+    "bytes": 64338620,
+    "inode": 6479208165,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2013c.Mix-Headset.wav",
+    "bytes": 75459970,
+    "inode": 6477836637,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200622_M_R002S05C01.wav",
+    "bytes": 65213722,
+    "inode": 6481958834,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2014a.Mix-Headset.wav",
+    "bytes": 36768472,
+    "inode": 6481114956,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1003b.Mix-Headset.wav",
+    "bytes": 52673427,
+    "inode": 6482018155,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0076.wav",
+    "bytes": 58692876,
+    "inode": 6478819114,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1969.wav",
+    "bytes": 59345036,
+    "inode": 6480318573,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200620_M_R002S07C01.wav",
+    "bytes": 70286736,
+    "inode": 6478207991,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2006b.Mix-Headset.wav",
+    "bytes": 69860056,
+    "inode": 6537088701,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200708_L_R002S02C01.wav",
+    "bytes": 66062724,
+    "inode": 6479208133,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200616_M_R001S06C01.wav",
+    "bytes": 64392186,
+    "inode": 6486739386,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200622_M_R002S07C01.wav",
+    "bytes": 69997996,
+    "inode": 6535845292,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3008a.Mix-Headset.wav",
+    "bytes": 43271552,
+    "inode": 6537609910,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0170.wav",
+    "bytes": 58624268,
+    "inode": 6479533566,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2013b.Mix-Headset.wav",
+    "bytes": 68116184,
+    "inode": 6478601289,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200713_M_R002S05C01.wav",
+    "bytes": 62555580,
+    "inode": 6481490475,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200710_M_R002S06C01.wav",
+    "bytes": 59096780,
+    "inode": 6481825683,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4039.wav",
+    "bytes": 65231566,
+    "inode": 6535792236,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200707_L_R001S06C01.wav",
+    "bytes": 68272312,
+    "inode": 6536757878,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200624_S_R001S08C01.wav",
+    "bytes": 63545696,
+    "inode": 6480318563,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0169.wav",
+    "bytes": 58471532,
+    "inode": 6535912708,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3005b.Mix-Headset.wav",
+    "bytes": 78077312,
+    "inode": 6534485881,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200714_M_R002S08C01.wav",
+    "bytes": 68621964,
+    "inode": 6481490477,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0133.wav",
+    "bytes": 33144524,
+    "inode": 6477836743,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0167.wav",
+    "bytes": 59506124,
+    "inode": 6492243274,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200712_M_R002S03C01.wav",
+    "bytes": 64008168,
+    "inode": 6534946057,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4013.wav",
+    "bytes": 76931084,
+    "inode": 6481490551,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200618_M_R001S02C01.wav",
+    "bytes": 63957804,
+    "inode": 6482329568,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0161.wav",
+    "bytes": 57605160,
+    "inode": 6478165074,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1995.wav",
+    "bytes": 66645410,
+    "inode": 6535792233,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200703_M_R002S05C01.wav",
+    "bytes": 58384988,
+    "inode": 6479533543,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R1019_M1993.wav",
+    "bytes": 69135478,
+    "inode": 6481302313,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IN1005.Mix-Headset.wav",
+    "bytes": 89562668,
+    "inode": 6480460077,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200707_L_R001S07C01.wav",
+    "bytes": 71633772,
+    "inode": 6481748462,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200630_S_R001S04C01.wav",
+    "bytes": 66707438,
+    "inode": 6480904052,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3006c.Mix-Headset.wav",
+    "bytes": 82695552,
+    "inode": 6536757812,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200710_M_R002S04C01.wav",
+    "bytes": 59217668,
+    "inode": 6478165059,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1003d.Mix-Headset.wav",
+    "bytes": 67217427,
+    "inode": 6482279685,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3008d.Mix-Headset.wav",
+    "bytes": 89440044,
+    "inode": 6494378853,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/IN1016.Mix-Headset.wav",
+    "bytes": 115337432,
+    "inode": 6537610622,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200620_M_R002S06C01.wav",
+    "bytes": 69249940,
+    "inode": 6481039171,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R0014_M0089.wav",
+    "bytes": 66467724,
+    "inode": 6536757891,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2002a.Mix-Headset.wav",
+    "bytes": 40724524,
+    "inode": 6481489883,
+    "device": 48
+  },
+  {
+    "split": "train",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/20200807_S_R001S03C01.wav",
+    "bytes": 69220620,
+    "inode": 6478541601,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8001_M8004.wav",
+    "bytes": 50363244,
+    "inode": 6480515008,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8003_M8001.wav",
+    "bytes": 66176044,
+    "inode": 6480904009,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8007_M8010.wav",
+    "bytes": 59402346,
+    "inode": 6478207981,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8007_M8011.wav",
+    "bytes": 59569516,
+    "inode": 6481748453,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8008_M8013.wav",
+    "bytes": 71663100,
+    "inode": 6482018224,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8009_M8018.wav",
+    "bytes": 52949068,
+    "inode": 6480904015,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8009_M8019.wav",
+    "bytes": 63165676,
+    "inode": 6481748454,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8009_M8020.wav",
+    "bytes": 61134238,
+    "inode": 6480904017,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1008a.Mix-Headset.wav",
+    "bytes": 30204093,
+    "inode": 6536757807,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1008b.Mix-Headset.wav",
+    "bytes": 56593427,
+    "inode": 6537485824,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1008c.Mix-Headset.wav",
+    "bytes": 49484093,
+    "inode": 6536757808,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1008d.Mix-Headset.wav",
+    "bytes": 47388093,
+    "inode": 6537485825,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2011a.Mix-Headset.wav",
+    "bytes": 35643096,
+    "inode": 6478685295,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2011b.Mix-Headset.wav",
+    "bytes": 50600664,
+    "inode": 6534869217,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2011c.Mix-Headset.wav",
+    "bytes": 51714092,
+    "inode": 6534869218,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2011d.Mix-Headset.wav",
+    "bytes": 63434456,
+    "inode": 6481825620,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3004a.Mix-Headset.wav",
+    "bytes": 43050368,
+    "inode": 6537609908,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3004b.Mix-Headset.wav",
+    "bytes": 71873920,
+    "inode": 6537088715,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3004c.Mix-Headset.wav",
+    "bytes": 95040044,
+    "inode": 6537485827,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3004d.Mix-Headset.wav",
+    "bytes": 88025644,
+    "inode": 6537485828,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/IB4001.Mix-Headset.wav",
+    "bytes": 56980866,
+    "inode": 6478929993,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/IB4002.Mix-Headset.wav",
+    "bytes": 60235820,
+    "inode": 6480255384,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/IB4003.Mix-Headset.wav",
+    "bytes": 64744152,
+    "inode": 6535792214,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/IB4004.Mix-Headset.wav",
+    "bytes": 76570668,
+    "inode": 6480318537,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/IB4010.Mix-Headset.wav",
+    "bytes": 94737794,
+    "inode": 6480318539,
+    "device": 48
+  },
+  {
+    "split": "dev",
+    "path": "/work/qt28/moss/data/external/ami/audio/IB4011.Mix-Headset.wav",
+    "bytes": 77343448,
+    "inode": 6480318540,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8002_M8002.wav",
+    "bytes": 66128684,
+    "inode": 6480904020,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8002_M8003.wav",
+    "bytes": 65348076,
+    "inode": 6481958828,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8004_M8005.wav",
+    "bytes": 66976482,
+    "inode": 6479208126,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8004_M8006.wav",
+    "bytes": 62886924,
+    "inode": 6481958829,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8005_M8007.wav",
+    "bytes": 59829454,
+    "inode": 6536697783,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8005_M8008.wav",
+    "bytes": 62746332,
+    "inode": 6536697785,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8005_M8009.wav",
+    "bytes": 56863724,
+    "inode": 6494379533,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8006_M8012.wav",
+    "bytes": 58629900,
+    "inode": 6494379534,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8008_M8014.wav",
+    "bytes": 61986978,
+    "inode": 6479730809,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8008_M8015.wav",
+    "bytes": 60677976,
+    "inode": 6536697786,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8008_M8016.wav",
+    "bytes": 58847408,
+    "inode": 6482329559,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8008_M8017.wav",
+    "bytes": 58241708,
+    "inode": 6479533540,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8009_M8021.wav",
+    "bytes": 64268808,
+    "inode": 6534486050,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8009_M8022.wav",
+    "bytes": 64593972,
+    "inode": 6537399714,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8009_M8023.wav",
+    "bytes": 62807414,
+    "inode": 6481748456,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8009_M8024.wav",
+    "bytes": 59343206,
+    "inode": 6479333475,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8009_M8025.wav",
+    "bytes": 66081862,
+    "inode": 6481748457,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8009_M8026.wav",
+    "bytes": 63459668,
+    "inode": 6482280267,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8009_M8027.wav",
+    "bytes": 60199982,
+    "inode": 6479730810,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/alimeeting/R8009_M8028.wav",
+    "bytes": 61537436,
+    "inode": 6479730811,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/L_R003S01C02.wav",
+    "bytes": 75614284,
+    "inode": 6482018216,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/L_R003S02C02.wav",
+    "bytes": 71894700,
+    "inode": 6478207982,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/L_R003S03C02.wav",
+    "bytes": 72576524,
+    "inode": 6486425399,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/L_R003S04C02.wav",
+    "bytes": 74399532,
+    "inode": 6537610658,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/L_R004S01C01.wav",
+    "bytes": 70253900,
+    "inode": 6478207996,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/L_R004S02C01.wav",
+    "bytes": 71253484,
+    "inode": 6479669945,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/L_R004S03C01.wav",
+    "bytes": 71288620,
+    "inode": 6481958876,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/L_R004S06C01.wav",
+    "bytes": 70731244,
+    "inode": 6481490509,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/M_R003S01C01.wav",
+    "bytes": 73030764,
+    "inode": 6479607247,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/M_R003S02C01.wav",
+    "bytes": 74280332,
+    "inode": 6479669946,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/M_R003S04C01.wav",
+    "bytes": 72215308,
+    "inode": 6480719438,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/M_R003S05C01.wav",
+    "bytes": 74918924,
+    "inode": 6534486114,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/S_R003S01C01.wav",
+    "bytes": 71056972,
+    "inode": 6480719439,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/S_R003S02C01.wav",
+    "bytes": 75561580,
+    "inode": 6480515012,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/S_R003S03C01.wav",
+    "bytes": 72936396,
+    "inode": 6480515013,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/S_R003S04C01.wav",
+    "bytes": 76605708,
+    "inode": 6479607248,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/S_R004S01C01.wav",
+    "bytes": 75069100,
+    "inode": 6478207997,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/S_R004S02C01.wav",
+    "bytes": 74219916,
+    "inode": 6481958877,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/S_R004S03C01.wav",
+    "bytes": 74467852,
+    "inode": 6481958879,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/audio16k/aishell4/S_R004S04C01.wav",
+    "bytes": 73580716,
+    "inode": 6478207999,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1009a.Mix-Headset.wav",
+    "bytes": 26844093,
+    "inode": 6537088714,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1009b.Mix-Headset.wav",
+    "bytes": 65676093,
+    "inode": 6482279689,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1009c.Mix-Headset.wav",
+    "bytes": 58268093,
+    "inode": 6482018157,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/IS1009d.Mix-Headset.wav",
+    "bytes": 62225427,
+    "inode": 6478163930,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2004a.Mix-Headset.wav",
+    "bytes": 33579394,
+    "inode": 6537485822,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2004b.Mix-Headset.wav",
+    "bytes": 75055832,
+    "inode": 6492243172,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2004c.Mix-Headset.wav",
+    "bytes": 74699820,
+    "inode": 6482427507,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/ES2004d.Mix-Headset.wav",
+    "bytes": 71113346,
+    "inode": 6481887032,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3003a.Mix-Headset.wav",
+    "bytes": 48180608,
+    "inode": 6478163931,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3003b.Mix-Headset.wav",
+    "bytes": 70729772,
+    "inode": 6534485880,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3003c.Mix-Headset.wav",
+    "bytes": 82240044,
+    "inode": 6537609907,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/TS3003d.Mix-Headset.wav",
+    "bytes": 83782444,
+    "inode": 6537485826,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2002a.Mix-Headset.wav",
+    "bytes": 68566744,
+    "inode": 6481376466,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2002b.Mix-Headset.wav",
+    "bytes": 57179180,
+    "inode": 6534945953,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2002c.Mix-Headset.wav",
+    "bytes": 95112236,
+    "inode": 6478207869,
+    "device": 48
+  },
+  {
+    "split": "test",
+    "path": "/work/qt28/moss/data/external/ami/audio/EN2002d.Mix-Headset.wav",
+    "bytes": 70716802,
+    "inode": 6477836632,
+    "device": 48
+  }
+]

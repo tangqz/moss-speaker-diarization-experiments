@@ -1,0 +1,153 @@
+{
+  "kernel": [
+    {
+      "window": null,
+      "prefix": 173,
+      "length": 173,
+      "queries": 173,
+      "max_abs_error": 0.007381916046142578
+    },
+    {
+      "window": null,
+      "prefix": 173,
+      "length": 174,
+      "queries": 1,
+      "max_abs_error": 0.0015656054019927979
+    },
+    {
+      "window": null,
+      "prefix": 173,
+      "length": 301,
+      "queries": 1,
+      "max_abs_error": 0.000990152359008789
+    },
+    {
+      "window": null,
+      "prefix": 173,
+      "length": 302,
+      "queries": 1,
+      "max_abs_error": 0.0009810328483581543
+    },
+    {
+      "window": null,
+      "prefix": 173,
+      "length": 700,
+      "queries": 1,
+      "max_abs_error": 0.0006887912750244141
+    },
+    {
+      "window": null,
+      "prefix": 173,
+      "length": 700,
+      "queries": 31,
+      "max_abs_error": 0.0011519193649291992
+    },
+    {
+      "window": 128,
+      "prefix": 173,
+      "length": 173,
+      "queries": 173,
+      "max_abs_error": 0.008140325546264648
+    },
+    {
+      "window": 128,
+      "prefix": 173,
+      "length": 174,
+      "queries": 1,
+      "max_abs_error": 0.00125199556350708
+    },
+    {
+      "window": 128,
+      "prefix": 173,
+      "length": 301,
+      "queries": 1,
+      "max_abs_error": 0.0010354816913604736
+    },
+    {
+      "window": 128,
+      "prefix": 173,
+      "length": 302,
+      "queries": 1,
+      "max_abs_error": 0.0011129677295684814
+    },
+    {
+      "window": 128,
+      "prefix": 173,
+      "length": 700,
+      "queries": 1,
+      "max_abs_error": 0.001030057668685913
+    },
+    {
+      "window": 128,
+      "prefix": 173,
+      "length": 700,
+      "queries": 31,
+      "max_abs_error": 0.001238018274307251
+    },
+    {
+      "window": 256,
+      "prefix": 173,
+      "length": 173,
+      "queries": 173,
+      "max_abs_error": 0.008021116256713867
+    },
+    {
+      "window": 256,
+      "prefix": 173,
+      "length": 174,
+      "queries": 1,
+      "max_abs_error": 0.0014919638633728027
+    },
+    {
+      "window": 256,
+      "prefix": 173,
+      "length": 301,
+      "queries": 1,
+      "max_abs_error": 0.0008564889430999756
+    },
+    {
+      "window": 256,
+      "prefix": 173,
+      "length": 302,
+      "queries": 1,
+      "max_abs_error": 0.0011426806449890137
+    },
+    {
+      "window": 256,
+      "prefix": 173,
+      "length": 700,
+      "queries": 1,
+      "max_abs_error": 0.0010835528373718262
+    },
+    {
+      "window": 256,
+      "prefix": 173,
+      "length": 700,
+      "queries": 31,
+      "max_abs_error": 0.0011110901832580566
+    }
+  ],
+  "eviction": [
+    {
+      "window": 128,
+      "prefix": 173,
+      "max_live_blocks": 20,
+      "block_size": 16,
+      "output_tokens": 1535,
+      "prefix_pinned": true
+    },
+    {
+      "window": 256,
+      "prefix": 173,
+      "max_live_blocks": 28,
+      "block_size": 16,
+      "output_tokens": 3071,
+      "prefix_pinned": true
+    }
+  ],
+  "penalty": {
+    "passed": true,
+    "scope": "all_generated_tokens_only"
+  },
+  "passed": true
+}

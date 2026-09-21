@@ -1,0 +1,68 @@
+2026-09-20T06:14:29-04:00
+dkucc-login-01.rc.duke.edu
+uid=1588194(qt28) gid=1000000(dukeusers) groups=1000000(dukeusers),100016589(dkucc),100017669(dkucc-faculty) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+PARTITION AVAIL TIMELIMIT NODES GRES
+common-gpu up 7-00:00:00 2 gpu:a40:8
+qt28|faculty||1|cpu=1000,gres/gpu=4,mem=500000M
+qt28|faculty|common|1000|cpu=1000,mem=500000M
+Filesystem                                                Size  Used Avail Use% Mounted on
+oit-nas-dku13.oit.duke.edu:/ifs/oit-nas-dku13/dkucc-work   70T   41T   30T  59% /work
+oit-nas-dku13.oit.duke.edu:/ifs/oit-nas-dku13/dkucc-home  1.0T   26G  999G   3% /dkucc/home
+28G	/work/qt28/moss/envs
+44G	/work/qt28/moss/checkpoints
+762G	/work/qt28/moss/results
+61bc29cd4120be7b5d3b761b64cd5dff57263642
+/work/qt28/moss/envs/ms-swift-20260914/pyvenv.cfg
+/work/qt28/moss/envs/vllm-moss-20260914/pyvenv.cfg
+/work/qt28/moss/dkucc/ms_swift_20260914/moss_plugin.py
+/work/qt28/moss/dkucc/ms_swift_20260914/native_sft.sh
+/work/qt28/moss/dkucc/ms_swift_20260914/evaluation/dev_inputs.json
+/work/qt28/moss/dkucc/ms_swift_20260914/data_receipts.json
+{
+  "train": {
+    "path": "/work/qt28/moss/dkucc/ms_swift_20260914/data/train.jsonl",
+    "records": 536,
+    "sha256": "ff24eae8c1b2f9650654b3bc84b005e55d0206bb7d202d8f61b14bfb6e6d064f"
+  },
+  "dev": {
+    "path": "/work/qt28/moss/dkucc/ms_swift_20260914/data/dev.jsonl",
+    "records": 26,
+    "sha256": "3a3f3cce9966ae2a7d7ada1140a5db48b1efaabdbb1e19db5ef8ce0b51c2517e"
+  },
+  "original_train_sha256": "e2f0e529ef17e2996c753a6ac31b3be11242cbb81cce5dc5fd8e88a3c1ef6c8a",
+  "smoke": {
+    "path": "/work/qt28/moss/dkucc/ms_swift_20260914/data/smoke.jsonl",
+    "records": 4,
+    "sha256": "15c7503b5390be91c9dd3d052c11d3dec6a2c2f26c380f0863a00afa0a34821d"
+  },
+  "longest": {
+    "path": "/work/qt28/moss/dkucc/ms_swift_20260914/data/longest.jsonl",
+    "records": 4,
+    "sha256": "225ce9149337cd17d33becff75f80d389d46ecd83bda46b64586031862389499"
+  },
+  "smoke_index": 139,
+  "longest_index": 1,
+  "targets_unchanged": true
+}{
+  "processor_class": "MossTranscribeDiarizeProcessor",
+  "auto_map": {
+    "AutoProcessor": "processing_moss_transcribe_diarize.MossTranscribeDiarizeProcessor"
+  },
+  "audio_tokens_per_second": 12.5,
+  "audio_merge_size": 4,
+  "time_marker_every_seconds": 5,
+  "enable_time_marker": true
+}
+{
+  "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:46:43) [GCC 14.3.0]",
+  "site_packages": "/work/qt28/moss/envs/ms-swift-20260914/lib/python3.12/site-packages",
+  "packages": {
+    "torch": "2.14.0",
+    "transformers": "5.12.1",
+    "ms-swift": "4.6.0.dev0",
+    "accelerate": "1.15.0",
+    "triton": "3.8.0"
+  }
+}
+RSWA_PREFLIGHT_INVENTORY_COMPLETE

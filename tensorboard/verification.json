@@ -1,0 +1,13 @@
+{
+  "url": "http://127.0.0.1:6006",
+  "run": "full_attention_v2_63421",
+  "http_data_verified": true,
+  "training_points_verified": 3,
+  "latest_displayed_step": 3,
+  "scalar_tags": 76,
+  "baseline_loss_matches": true,
+  "status_text_verified": true,
+  "visual_inspected": true,
+  "browser_console_errors": 0,
+  "screenshot": "C:\\Users\\qizhi\\Documents\\ChatGPT\\\u8bf4\u8bdd\u4eba\u65e5\u5fd7\\output\\playwright\\tensorboard-recovery-status.png"
+}

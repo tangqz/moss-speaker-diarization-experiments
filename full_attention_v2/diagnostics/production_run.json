@@ -1,0 +1,19 @@
+{
+  "job": 63441,
+  "remote_run": "/work/qt28/moss/results/full-attention-v2-diagnostic-63441",
+  "source_training_job": 63421,
+  "checkpoints": [
+    0,
+    10,
+    50
+  ],
+  "training_updates": 0,
+  "expected_generated_cases": 8,
+  "purpose": "Production-matched preprocessing: six step-50 sentinels, full base TS3004c recheck and full step-10 TS3004c recheck.",
+  "preprocessing_fix_evidence_job": 63440,
+  "status": "completed",
+  "completed_utc": "2026-09-12T23:12:55.485666+00:00",
+  "training_status": "paused_for_sentinel_failure",
+  "quality_pass": false,
+  "delivery_complete": true
+}

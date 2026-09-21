@@ -1,0 +1,29 @@
+{
+  "job": 63443,
+  "verified_utc": "2026-09-13T02:50:18.906663+00:00",
+  "slurm_state": "RUNNING",
+  "allocation": {
+    "gpus": 4,
+    "gpu_type": "NVIDIA A40",
+    "cpus": 32,
+    "memory_gib": 384,
+    "node": "dkucc-core-gpu-dkurc-d-it09-8"
+  },
+  "learning_rate": 2e-06,
+  "learning_rate_ratio": 0.2,
+  "schedule_horizon": 402,
+  "max_executed_steps": 50,
+  "verified_updates": 3,
+  "latest_tensorboard_step": 6,
+  "matched_exposure": true,
+  "precision_verified": true,
+  "first_step_update_lost_count": 0,
+  "source_checks": "local and remote passed",
+  "source_manifest_sha256": "aa39b789b16b2a6914eaaf994ed62d353560647b61d5f5704683708fe7cceba0",
+  "tensorboard_http": 200,
+  "tensorboard_run": "lr2e6_full_attention_63443",
+  "future_monitor": "Existing 45-minute heartbeat, current local route updated; automation_update tool unavailable.",
+  "short_trial_complete": false,
+  "full_dev_performed": false,
+  "test_performed": false
+}

@@ -1,0 +1,237 @@
+{
+  "summary": {
+    "scope": "MS-Swift trained-model full-generation loops ending at the output cap; excludes Base, finite local repetitions and engineering smoke tests",
+    "inventory_utc": "2026-09-15T03:15:43.347439+00:00",
+    "completed_prediction_records_scanned": 238,
+    "completed_prediction_identities": 238,
+    "failures": 3,
+    "onset_in_overlap_under_timestamp_alignment": 2,
+    "onset_outside_overlap": 0,
+    "unresolved": 1,
+    "overlap_fraction_among_locatable": 1.0,
+    "locatable_coverage": 0.6666666666666666,
+    "all_case_overlap_fraction": null,
+    "possible_all_case_fraction_if_timestamp_alignment_accepted": [
+      0.6666666666666666,
+      1.0
+    ],
+    "bound_is_not_confidence_interval": true,
+    "no_forced_word_alignment_performed": true
+  },
+  "cases": [
+    {
+      "key": "alimeeting/test/R8005_M8009",
+      "model_path": "/work/qt28/moss/results/ms-swift-63521/vllm_exports/checkpoint-20",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\predictions\\sft\\alimeeting\\test\\R8005_M8009.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\references.json",
+      "raw_sha256": "ddebe4cb7de2bce000de021d815477a2cdb6c1c36bbacfa8be58925386472302",
+      "original_generated_ids_verified": true,
+      "first_loop_token_index_zero_based": 17306,
+      "first_loop_token_number_one_based": 17307,
+      "first_loop_token_id": 47815,
+      "first_loop_token_text": "外",
+      "reference_candidate": {
+        "start": 983.66,
+        "end": 994.21,
+        "speaker": "S01",
+        "text": "唉假货到现在整理的也不错，但你也得会淘会买拼多多也有真的，知道吗？就买那假一赔十的，买的时候问你是假一赔十吗是，哎这个可以买。"
+      },
+      "candidate_utterance_overlap": {
+        "start": 983.66,
+        "end": 994.21,
+        "speech_seconds": 10.550000000000068,
+        "overlap_seconds": 7.099999999999909,
+        "overlap_fraction_of_wall_time": 0.6729857819905084,
+        "overlap_fraction_of_speech": 0.6729857819905084,
+        "peak_speakers": 4
+      },
+      "candidate_overlap_intervals": [
+        [
+          983.66,
+          983.79
+        ],
+        [
+          983.79,
+          983.84
+        ],
+        [
+          983.84,
+          984.91
+        ],
+        [
+          984.91,
+          985.45
+        ],
+        [
+          985.45,
+          986.17
+        ],
+        [
+          988.71,
+          989.62
+        ],
+        [
+          990.45,
+          990.85
+        ],
+        [
+          990.85,
+          990.95
+        ],
+        [
+          990.95,
+          991.32
+        ],
+        [
+          991.32,
+          991.66
+        ],
+        [
+          991.66,
+          992.4
+        ],
+        [
+          992.48,
+          992.66
+        ],
+        [
+          992.66,
+          993.0
+        ],
+        [
+          993.0,
+          994.21
+        ]
+      ],
+      "candidate_nonoverlap_intervals": [
+        [
+          986.17,
+          988.71
+        ],
+        [
+          989.62,
+          990.45
+        ],
+        [
+          992.4,
+          992.48
+        ]
+      ],
+      "generated_utterance_start": 983.61,
+      "first_loop_token_audio_time": null,
+      "onset_overlap_class": "unresolved",
+      "reason": "The first 外 follows 就买那假一赔十的 within a 10.55s reference utterance; there is no word-level label time. Its utterance contains both overlapped and non-overlapped speech."
+    },
+    {
+      "key": "alimeeting/test/R8005_M8008",
+      "model_path": "/work/qt28/moss/results/ms-swift-63521/vllm_exports/checkpoint-20",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\predictions\\sft\\alimeeting\\test\\R8005_M8008.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\references.json",
+      "raw_sha256": "4a8120fd3d6c8f753368112be0b12b077bb1a89ee197607967f18136162cb50b",
+      "original_generated_ids_verified": true,
+      "first_loop_token_index_zero_based": 18053,
+      "first_loop_token_number_one_based": 18054,
+      "first_loop_token_id": 16,
+      "first_loop_token_text": "1",
+      "first_repeated_timestamp_tag": "[1458.88]",
+      "token_definition": "First numeric token in first repeated tag; shared delimiter ][ is not by itself the structural error.",
+      "preceding_new_utterance_start": 1458.7,
+      "time_anchor_interval": [
+        1458.7,
+        1458.88
+      ],
+      "reference_speakers_at_endpoints": {
+        "1458.7": [
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "1458.88": [
+          "S02",
+          "S03"
+        ]
+      },
+      "minimum_reference_speakers_across_anchor_interval": 2,
+      "maximum_reference_speakers_across_anchor_interval": 3,
+      "reference_utterances": [
+        {
+          "start": 1456.95,
+          "end": 1458.85,
+          "speaker": "S04",
+          "text": "这个真的是分距离的，就是。"
+        },
+        {
+          "start": 1458.0,
+          "end": 1461.42,
+          "speaker": "S03",
+          "text": "哦没有我从我从山东买的。"
+        },
+        {
+          "start": 1458.64,
+          "end": 1460.63,
+          "speaker": "S02",
+          "text": "对生鲜配送这是可以的。"
+        }
+      ],
+      "onset_overlap_class": "overlap_under_generated_timestamp_alignment",
+      "first_loop_token_audio_time": null,
+      "limitation": "The token's exact place in generated_ids is known; the numeric timestamps are semantic audio anchors, not acoustic forced alignment."
+    },
+    {
+      "key": "alimeeting/dev/R8003_M8001",
+      "model_path": "/work/qt28/moss/results/ms-swift-63521/vllm_exports/checkpoint-40",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\dev-40\\predictions\\sft\\alimeeting\\dev\\R8003_M8001.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\dev-40\\references.json",
+      "raw_sha256": "0514affdfc76d7a2622d9177aa3eedeb6c4fc16e9365e9433c8aef21748b6093",
+      "original_generated_ids_verified": true,
+      "first_loop_token_index_zero_based": 12474,
+      "first_loop_token_number_one_based": 12475,
+      "first_loop_token_id": 16,
+      "first_loop_token_text": "1",
+      "first_repeated_timestamp_tag": "[1322.01]",
+      "token_definition": "First numeric token in first repeated tag; shared delimiter ][ is not by itself the structural error.",
+      "preceding_new_utterance_start": 1321.81,
+      "time_anchor_interval": [
+        1321.81,
+        1322.01
+      ],
+      "reference_speakers_at_endpoints": {
+        "1321.81": [
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "1322.01": [
+          "S02",
+          "S03",
+          "S04"
+        ]
+      },
+      "minimum_reference_speakers_across_anchor_interval": 3,
+      "maximum_reference_speakers_across_anchor_interval": 3,
+      "reference_utterances": [
+        {
+          "start": 1315.51,
+          "end": 1328.38,
+          "speaker": "S04",
+          "text": "现在都是都是公众都是公众场合儿，你不管你给老师什么东西，你要跟老师接触好多人那都看着呢，人家老师也也是害怕的。"
+        },
+        {
+          "start": 1319.61,
+          "end": 1324.37,
+          "speaker": "S03",
+          "text": "都是公，嗯，对公众，都都是公众场合，对，就。"
+        },
+        {
+          "start": 1320.68,
+          "end": 1322.16,
+          "speaker": "S02",
+          "text": "嗯，都是公众场合。"
+        }
+      ],
+      "onset_overlap_class": "overlap_under_generated_timestamp_alignment",
+      "first_loop_token_audio_time": null,
+      "limitation": "The token's exact place in generated_ids is known; the numeric timestamps are semantic audio anchors, not acoustic forced alignment."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "script": "sync_tensorboard.py",
+  "pid": 50816,
+  "follow_remote_state": true,
+  "started": "2026-09-15T09:39:34.9035081+08:00"
+}

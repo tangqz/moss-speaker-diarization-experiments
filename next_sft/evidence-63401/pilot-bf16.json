@@ -1,0 +1,199 @@
+{
+  "precision": "bf16",
+  "seed": 0,
+  "start": "original_base",
+  "attention": "full",
+  "sp": 1,
+  "data_indices": [
+    468,
+    270,
+    85,
+    422,
+    243,
+    434,
+    153,
+    512,
+    465,
+    150,
+    93,
+    277,
+    352,
+    74,
+    42,
+    387
+  ],
+  "data_audios": [
+    "/work/qt28/moss/data/audio16k/aishell4/20200703_M_R002S07C01.wav",
+    "/work/qt28/moss/data/audio16k/aishell4/20200710_M_R002S05C01.wav",
+    "/work/qt28/moss/data/external/ami/audio/ES2014d.Mix-Headset.wav",
+    "/work/qt28/moss/data/external/ami/audio/TS3009a.Mix-Headset.wav",
+    "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0143.wav",
+    "/work/qt28/moss/data/audio16k/alimeeting/R2105_M3175.wav",
+    "/work/qt28/moss/data/audio16k/alimeeting/R0015_M0145.wav",
+    "/work/qt28/moss/data/audio16k/alimeeting/R0020_M0169.wav",
+    "/work/qt28/moss/data/external/ami/audio/IS1003a.Mix-Headset.wav",
+    "/work/qt28/moss/data/audio16k/aishell4/20200618_M_R001S07C01.wav",
+    "/work/qt28/moss/data/audio16k/alimeeting/R0008_M0073.wav",
+    "/work/qt28/moss/data/audio16k/alimeeting/R1019_M4031.wav",
+    "/work/qt28/moss/data/external/ami/audio/TS3009c.Mix-Headset.wav",
+    "/work/qt28/moss/data/external/ami/audio/ES2015b.Mix-Headset.wav",
+    "/work/qt28/moss/data/audio16k/aishell4/20200714_M_R002S01C01.wav",
+    "/work/qt28/moss/data/audio16k/aishell4/20200617_M_R001S03C01.wav"
+  ],
+  "effective_batch": 4,
+  "steps_planned": 4,
+  "schedule_horizon": 402,
+  "warmup": 0,
+  "learning_rate": 1e-05,
+  "weight_decay": 0.0,
+  "note": "One GPU with accumulation 4, full meetings; isolated diagnostic, not DDP qualification or final training.",
+  "initial_validation": [
+    {
+      "key": "ami/dev/IS1008a",
+      "loss": 0.3901991546154022,
+      "supervised_tokens": 5827
+    },
+    {
+      "key": "alimeeting/dev/R8009_M8018",
+      "loss": 0.4432714879512787,
+      "supervised_tokens": 19057
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "loss": 0.5257863998413086,
+      "lr": 1e-05,
+      "grad_norm": 5.125,
+      "seconds": 112.65612853318453,
+      "supervised_tokens": 66609,
+      "peak_allocated_gib": 9.296882152557373,
+      "peak_reserved_gib": 10.4453125
+    },
+    {
+      "step": 2,
+      "loss": 0.6824657320976257,
+      "lr": 9.975124378109452e-06,
+      "grad_norm": 5.6875,
+      "seconds": 113.14930972829461,
+      "supervised_tokens": 113740,
+      "peak_allocated_gib": 11.272322177886963,
+      "peak_reserved_gib": 12.0078125
+    },
+    {
+      "step": 3,
+      "loss": 0.49620646610856056,
+      "lr": 9.950248756218906e-06,
+      "grad_norm": 2.25,
+      "seconds": 81.24187757447362,
+      "supervised_tokens": 70265,
+      "peak_allocated_gib": 11.559643745422363,
+      "peak_reserved_gib": 12.0078125
+    },
+    {
+      "step": 4,
+      "loss": 0.4954579845070839,
+      "lr": 9.925373134328359e-06,
+      "grad_norm": 1.7265625,
+      "seconds": 107.03922002390027,
+      "supervised_tokens": 78555,
+      "peak_allocated_gib": 11.688788414001465,
+      "peak_reserved_gib": 12.41796875
+    }
+  ],
+  "first_step_update_audit": [
+    {
+      "parameter": "model.language_model.embed_tokens.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65076,
+      "reference_nonzero_but_actual_zero": 64473,
+      "lost_fraction": 0.9907339111193066,
+      "nonzero_gradient": 65498,
+      "actual_update_norm": 0.00023588583280798048,
+      "reference_update_norm": 0.0005155990947969258,
+      "update_error_norm": 0.0004896402242593467
+    },
+    {
+      "parameter": "model.language_model.layers.0.self_attn.q_proj.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65508,
+      "reference_nonzero_but_actual_zero": 58585,
+      "lost_fraction": 0.8943182512059595,
+      "nonzero_gradient": 65508,
+      "actual_update_norm": 0.0010491266148164868,
+      "reference_update_norm": 0.0025227805599570274,
+      "update_error_norm": 0.0024084672331809998
+    },
+    {
+      "parameter": "model.language_model.layers.14.mlp.down_proj.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65503,
+      "reference_nonzero_but_actual_zero": 57272,
+      "lost_fraction": 0.8743416332076394,
+      "nonzero_gradient": 65503,
+      "actual_update_norm": 0.0011441180249676108,
+      "reference_update_norm": 0.0025497262831777334,
+      "update_error_norm": 0.0024110092781484127
+    },
+    {
+      "parameter": "model.language_model.layers.27.mlp.down_proj.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65341,
+      "reference_nonzero_but_actual_zero": 57940,
+      "lost_fraction": 0.8867326793284461,
+      "nonzero_gradient": 65510,
+      "actual_update_norm": 0.001078878645785153,
+      "reference_update_norm": 0.002506423508748412,
+      "update_error_norm": 0.0023839196655899286
+    },
+    {
+      "parameter": "model.whisper_encoder.layers.0.fc1.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65507,
+      "reference_nonzero_but_actual_zero": 52555,
+      "lost_fraction": 0.8022806722945639,
+      "nonzero_gradient": 65507,
+      "actual_update_norm": 0.0013136107008904219,
+      "reference_update_norm": 0.002244519302621484,
+      "update_error_norm": 0.002050330163910985
+    },
+    {
+      "parameter": "model.whisper_encoder.layers.23.fc2.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65520,
+      "reference_nonzero_but_actual_zero": 56832,
+      "lost_fraction": 0.8673992673992674,
+      "nonzero_gradient": 65520,
+      "actual_update_norm": 0.0011672216933220625,
+      "reference_update_norm": 0.00252870237454772,
+      "update_error_norm": 0.0023830565623939037
+    },
+    {
+      "parameter": "model.vq_adaptor.layers.0.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65518,
+      "reference_nonzero_but_actual_zero": 53855,
+      "lost_fraction": 0.8219878506669923,
+      "nonzero_gradient": 65518,
+      "actual_update_norm": 0.0013548745773732662,
+      "reference_update_norm": 0.002551686717197299,
+      "update_error_norm": 0.0023518556263297796
+    }
+  ],
+  "optimizer_state_dtypes": {
+    "torch.bfloat16": 1366
+  },
+  "final_validation": [
+    {
+      "key": "ami/dev/IS1008a",
+      "loss": 0.32480552792549133,
+      "supervised_tokens": 5827
+    },
+    {
+      "key": "alimeeting/dev/R8009_M8018",
+      "loss": 0.38536515831947327,
+      "supervised_tokens": 19057
+    }
+  ],
+  "status": "completed"
+}

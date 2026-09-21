@@ -1,0 +1,72 @@
+{
+  "history": [
+    {
+      "step": 5,
+      "complete": true,
+      "utc": "2026-09-15T02:41:55.261682+00:00",
+      "score": 12.647940745656985,
+      "base_score": 11.762315703969513,
+      "eligible": false,
+      "catastrophic": false,
+      "failures": [
+        "ami:cpCER_regression",
+        "ami:DER_regression",
+        "no_improvement_over_base"
+      ]
+    },
+    {
+      "step": 30,
+      "score": 11.714543986446747,
+      "base_score": 11.762315703969513,
+      "eligible": true,
+      "catastrophic": false,
+      "failures": []
+    },
+    {
+      "step": 60,
+      "score": 11.714619303389965,
+      "base_score": 11.762315703969513,
+      "eligible": true,
+      "catastrophic": false,
+      "failures": []
+    },
+    {
+      "step": 90,
+      "score": 11.697563448770275,
+      "base_score": 11.762315703969513,
+      "eligible": true,
+      "catastrophic": false,
+      "failures": []
+    },
+    {
+      "step": 120,
+      "score": 12.813500945966677,
+      "base_score": 11.762315703969513,
+      "eligible": false,
+      "catastrophic": false,
+      "failures": [
+        "ami:cpCER_regression",
+        "ami:DER_regression",
+        "no_improvement_over_base"
+      ]
+    },
+    {
+      "step": 150,
+      "score": 11.509634670974838,
+      "base_score": 11.762315703969513,
+      "eligible": true,
+      "catastrophic": false,
+      "failures": []
+    }
+  ],
+  "decision": {
+    "selected_step": 150,
+    "best_eligible_score": 11.509634670974838,
+    "stale_evaluations": 0,
+    "stop": false,
+    "minimum_stop_step": 134,
+    "plateau_deferred": false,
+    "reason": "continue"
+  },
+  "utc": "2026-09-15T08:15:57.159959+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "job": 64098,
+  "status": "engineering_inference_stopped_for_backend_comparison",
+  "training_step_completed": true,
+  "training_window": 256,
+  "training_sample": "typical",
+  "training_seconds_per_update": 77.73,
+  "training_peak_gib": 18.4,
+  "flex_typical_decode_tokens_per_second_observed": 10,
+  "flex_longest_prefill_observation": "still in initial generation stage more than five minutes after prompt rendering; no completed long trace claimed",
+  "reason": "Validate installed native Triton R-SWA path before committing repeated long-meeting evaluations to FlexAttention",
+  "replacement_gate_job": 64276,
+  "original_results_preserved": true,
+  "formal_training_started": false,
+  "test_evaluation_started": false
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "key": "alimeeting/dev/R8001_M8004",
+    "dataset": "alimeeting",
+    "split": "dev",
+    "session_id": "R8001_M8004",
+    "audio": "/work/qt28/moss/data/audio16k/alimeeting/R8001_M8004.wav",
+    "prompt": "请将音频转写为文本，每一段需以起始时间戳和说话人编号（[S01]、[S02]、[S03]…）开头，正文为对应的语音内容，并在段末标注结束时间戳，以清晰标明该段语音范围。",
+    "duration": 1573.85,
+    "prompt_len": 20797,
+    "rank": 0
+  },
+  {
+    "key": "ami/dev/IS1008a",
+    "dataset": "ami",
+    "split": "dev",
+    "session_id": "IS1008a",
+    "audio": "/work/qt28/moss/data/external/ami/audio/IS1008a.Mix-Headset.wav",
+    "prompt": "请将音频转写为文本，每一段需以起始时间戳和说话人编号（[S01]、[S02]、[S03]…）开头，正文为对应的语音内容，并在段末标注结束时间戳，以清晰标明该段语音范围。",
+    "duration": 943.8333125,
+    "prompt_len": 12428,
+    "rank": 1
+  }
+]

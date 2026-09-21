@@ -1,0 +1,24 @@
+{
+  "checkpoint-25/worker-0-status.json": {
+    "rank": 0,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-25",
+    "stage": "generating",
+    "key": "ami/dev/TS3004c",
+    "generated_tokens": 32768,
+    "updated_utc": "2026-09-12T18:59:53.410758+00:00",
+    "elapsed_seconds": 1402.936830792576
+  },
+  "checkpoint-50/worker-1-status.json": {
+    "rank": 1,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+    "stage": "generating",
+    "key": "ami/dev/TS3004c",
+    "generated_tokens": 33280,
+    "updated_utc": "2026-09-12T18:59:55.243114+00:00",
+    "elapsed_seconds": 1404.8025981634855
+  },
+  "logs/generate-25.log": "t-25\", \"stage\": \"generating\", \"key\": \"ami/dev/TS3004c\", \"generated_tokens\": 31744, \"updated_utc\": \"2026-09-12T18:59:00.339971+00:00\", \"elapsed_seconds\": 1349.8660451322794}\n{\"event\": \"generation_progress\", \"utc\": \"2026-09-12T18:59:13.551076+00:00\", \"rank\": 0, \"gpu\": \"NVIDIA A40\", \"checkpoint\": \"/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-25\", \"stage\": \"generating\", \"key\": \"ami/dev/TS3004c\", \"generated_tokens\": 32000, \"updated_utc\": \"2026-09-12T18:59:13.543197+00:00\", \"elapsed_seconds\": 1363.0692719221115}\n{\"event\": \"generation_progress\", \"utc\": \"2026-09-12T18:59:26.802504+00:00\", \"rank\": 0, \"gpu\": \"NVIDIA A40\", \"checkpoint\": \"/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-25\", \"stage\": \"generating\", \"key\": \"ami/dev/TS3004c\", \"generated_tokens\": 32256, \"updated_utc\": \"2026-09-12T18:59:26.794381+00:00\", \"elapsed_seconds\": 1376.3204559497535}\n{\"event\": \"generation_progress\", \"utc\": \"2026-09-12T18:59:40.093076+00:00\", \"rank\": 0, \"gpu\": \"NVIDIA A40\", \"checkpoint\": \"/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-25\", \"stage\": \"generating\", \"key\": \"ami/dev/TS3004c\", \"generated_tokens\": 32512, \"updated_utc\": \"2026-09-12T18:59:40.085115+00:00\", \"elapsed_seconds\": 1389.6111907437444}\n{\"event\": \"generation_progress\", \"utc\": \"2026-09-12T18:59:53.419376+00:00\", \"rank\": 0, \"gpu\": \"NVIDIA A40\", \"checkpoint\": \"/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-25\", \"stage\": \"generating\", \"key\": \"ami/dev/TS3004c\", \"generated_tokens\": 32768, \"updated_utc\": \"2026-09-12T18:59:53.410758+00:00\", \"elapsed_seconds\": 1402.936830792576}\n",
+  "logs/generate-50.log": "nt-50\", \"stage\": \"generating\", \"key\": \"ami/dev/TS3004c\", \"generated_tokens\": 32256, \"updated_utc\": \"2026-09-12T18:59:02.187310+00:00\", \"elapsed_seconds\": 1351.74679479748}\n{\"event\": \"generation_progress\", \"utc\": \"2026-09-12T18:59:15.401514+00:00\", \"rank\": 1, \"gpu\": \"NVIDIA A40\", \"checkpoint\": \"/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50\", \"stage\": \"generating\", \"key\": \"ami/dev/TS3004c\", \"generated_tokens\": 32512, \"updated_utc\": \"2026-09-12T18:59:15.394490+00:00\", \"elapsed_seconds\": 1364.9539605528116}\n{\"event\": \"generation_progress\", \"utc\": \"2026-09-12T18:59:28.647121+00:00\", \"rank\": 1, \"gpu\": \"NVIDIA A40\", \"checkpoint\": \"/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50\", \"stage\": \"generating\", \"key\": \"ami/dev/TS3004c\", \"generated_tokens\": 32768, \"updated_utc\": \"2026-09-12T18:59:28.639651+00:00\", \"elapsed_seconds\": 1378.1991351358593}\n{\"event\": \"generation_progress\", \"utc\": \"2026-09-12T18:59:41.928003+00:00\", \"rank\": 1, \"gpu\": \"NVIDIA A40\", \"checkpoint\": \"/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50\", \"stage\": \"generating\", \"key\": \"ami/dev/TS3004c\", \"generated_tokens\": 33024, \"updated_utc\": \"2026-09-12T18:59:41.921444+00:00\", \"elapsed_seconds\": 1391.4809283688664}\n{\"event\": \"generation_progress\", \"utc\": \"2026-09-12T18:59:55.249571+00:00\", \"rank\": 1, \"gpu\": \"NVIDIA A40\", \"checkpoint\": \"/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50\", \"stage\": \"generating\", \"key\": \"ami/dev/TS3004c\", \"generated_tokens\": 33280, \"updated_utc\": \"2026-09-12T18:59:55.243114+00:00\", \"elapsed_seconds\": 1404.8025981634855}\n"
+}

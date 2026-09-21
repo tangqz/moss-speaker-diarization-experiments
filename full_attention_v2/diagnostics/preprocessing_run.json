@@ -1,0 +1,12 @@
+{
+  "job": 63440,
+  "remote_run": "/work/qt28/moss/results/full-attention-v2-diagnostic-63440",
+  "source_training_job": 63421,
+  "checkpoints": [
+    0,
+    10
+  ],
+  "key": "ami/dev/TS3004c",
+  "training_updates": 0,
+  "purpose": "Paired CUDA audio preprocessing contexts and 512-token prefixes; not full generation."
+}

@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "scope": "Independent fixed expected-array and numeric objective review; not GPU/SP validation",
+  "checks": [
+    "numeric timestamps and legal overlap",
+    "substitution target D/E preserved",
+    "repeat3 D/E at positions7/8",
+    "EOS remains input-only outside window",
+    "unequal clean/aux budget equals 2.5",
+    "gold excluded and low-prob noise filtered"
+  ],
+  "budget_example": {
+    "nc": 36,
+    "na": 64,
+    "total": 100,
+    "lambda_value": 0.1,
+    "clean_scale": 2.7777777777777777,
+    "aux_scale": 0.15625
+  }
+}

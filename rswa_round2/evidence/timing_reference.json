@@ -1,0 +1,6 @@
+{
+  "steps": 134,
+  "train_hours": 1.9841707215696158,
+  "mean_seconds_per_update": 53.306079086944905,
+  "source": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/update_metrics.rank0.jsonl"
+}

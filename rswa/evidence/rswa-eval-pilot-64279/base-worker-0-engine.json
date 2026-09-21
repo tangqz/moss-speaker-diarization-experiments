@@ -1,0 +1,35 @@
+{
+  "config": {
+    "model": "/work/qt28/moss/models/MOSS-Transcribe-Diarize",
+    "tokenizer": "/work/qt28/moss/models/MOSS-Transcribe-Diarize",
+    "trust_remote_code": true,
+    "model_impl": "vllm",
+    "dtype": "bfloat16",
+    "tensor_parallel_size": 1,
+    "max_model_len": 131072,
+    "max_num_seqs": 1,
+    "max_num_batched_tokens": 24576,
+    "gpu_memory_utilization": 0.55,
+    "enable_prefix_caching": false,
+    "mm_processor_cache_gb": 0,
+    "disable_log_stats": false,
+    "generation_config": "vllm",
+    "seed": 0,
+    "limit_mm_per_prompt": {
+      "audio": 1
+    },
+    "attention_config": {
+      "backend": "TRITON_ATTN"
+    },
+    "worker_extension_cls": "moss_vllm_rswa.WorkerExtension",
+    "rswa_window": null,
+    "penalty_scope": "all_generated_tokens_only",
+    "model_runner": "v1",
+    "flashinfer_sampler": false
+  },
+  "version": "0.23.1rc1.dev949+g68b4a1d58",
+  "torch": "2.11.0+cu130",
+  "startup_seconds": 94.99620050191879,
+  "memory_semantics": "per-request worker allocator peak includes preallocated vLLM KV pool; active blocks recorded separately",
+  "utc": "2026-09-20T12:22:14.891425+00:00"
+}

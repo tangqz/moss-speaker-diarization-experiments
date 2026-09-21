@@ -1,0 +1,235 @@
+{
+  "complete": true,
+  "window": "128",
+  "sample": "smoke",
+  "weights": "/work/qt28/moss/models/MOSS-Transcribe-Diarize",
+  "trajectory_manifest_sha256": "2f369aa217321970bbb7bf60a1dbca35b829ad73c8761370992525ea28655250",
+  "startup_seconds": 69.49800745770335,
+  "runtime": [
+    {
+      "window": 128,
+      "layers": [
+        {
+          "name": "language_model.model.layers.0.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.1.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.2.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.3.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.4.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.5.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.6.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.7.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.8.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.9.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.10.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.11.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.12.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.13.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.14.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.15.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.16.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.17.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.18.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.19.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.20.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.21.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.22.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.23.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.24.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.25.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.26.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        },
+        {
+          "name": "language_model.model.layers.27.self_attn.attn",
+          "spec": "RSWASpec",
+          "window": 128,
+          "block_size": 16
+        }
+      ],
+      "penalty_scope": "all_generated_tokens_only",
+      "model_runner": "vllm.v1.worker.gpu_model_runner"
+    }
+  ],
+  "attention_backend": "TRITON_ATTN",
+  "quality_claim": false,
+  "engineering_only": true,
+  "not_applicable": [
+    {
+      "tokens": 4096,
+      "reason": "original gold trajectory or logical context too short"
+    },
+    {
+      "tokens": 8192,
+      "reason": "original gold trajectory or logical context too short"
+    },
+    {
+      "tokens": 16384,
+      "reason": "original gold trajectory or logical context too short"
+    },
+    {
+      "tokens": 32768,
+      "reason": "original gold trajectory or logical context too short"
+    },
+    {
+      "tokens": 65536,
+      "reason": "original gold trajectory or logical context too short"
+    }
+  ],
+  "summaries": {
+    "300": {
+      "seconds": {
+        "median": 2.008088704198599,
+        "p90": 2.008088704198599,
+        "minimum": 2.008088704198599,
+        "maximum": 2.008088704198599,
+        "repeats": 1
+      },
+      "prefill_seconds": {
+        "median": 0.5675316490232944,
+        "p90": 0.5675316490232944,
+        "minimum": 0.5675316490232944,
+        "maximum": 0.5675316490232944,
+        "repeats": 1
+      },
+      "decode_seconds": {
+        "median": 1.304860919713974,
+        "p90": 1.304860919713974,
+        "minimum": 1.304860919713974,
+        "maximum": 1.304860919713974,
+        "repeats": 1
+      }
+    }
+  }
+}

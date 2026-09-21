@@ -1,0 +1,8 @@
+{
+  "job": "64633",
+  "phase": {
+    "kind": "ablate",
+    "window": "128",
+    "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30"
+  }
+}

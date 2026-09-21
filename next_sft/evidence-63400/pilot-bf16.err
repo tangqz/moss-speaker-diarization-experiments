@@ -1,0 +1,37 @@
+[transformers] `MossTranscribeDiarizeProcessor` defines `feature_extractor_class = 'AutoFeatureExtractor'`, which is deprecated. Register the correct mapping in `AutoFeatureExtractor` instead.
+Loading weights:   0%|          | 0/683 [00:00<?, ?it/s]Loading weights: 100%|██████████| 683/683 [00:00<00:00, 12247.64it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/__w/pytorch/pytorch/aten/src/ATen/native/cuda/IndexKernel.cu:111: operator(): block: [127,0,0], thread: [127,0,0] Assertion `-sizes[i] <= index && index < sizes[i] && "index out of bounds"` failed.
+Traceback (most recent call last):
+  File "/work/qt28/moss/dkucc/next_sft/probes.py", line 408, in <module>
+    else: pilot(a.run,processor,a.precision)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/qt28/moss/dkucc/next_sft/probes.py", line 362, in pilot
+    samples = update_sample(model) if step==0 else None
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/work/qt28/moss/dkucc/next_sft/probes.py", line 297, in update_sample
+    idx = torch.linspace(0,p.numel()-1,min(65536,p.numel()),device=p.device).long().unique()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/dkucc/home/qt28/envs/moss312/lib/python3.12/site-packages/torch/_tensor.py", line 1090, in unique
+    return torch.unique(
+           ^^^^^^^^^^^^^
+  File "/dkucc/home/qt28/envs/moss312/lib/python3.12/site-packages/torch/_jit_internal.py", line 637, in fn
+    return if_false(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/dkucc/home/qt28/envs/moss312/lib/python3.12/site-packages/torch/_jit_internal.py", line 637, in fn
+    return if_false(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/dkucc/home/qt28/envs/moss312/lib/python3.12/site-packages/torch/functional.py", line 1102, in _return_output
+    output, _, _ = _unique_impl(input, sorted, return_inverse, return_counts, dim)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/dkucc/home/qt28/envs/moss312/lib/python3.12/site-packages/torch/functional.py", line 973, in _unique_impl
+    output, inverse_indices, counts = torch._unique2(
+                                      ^^^^^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: device-side assert triggered
+Search for `cudaErrorAssert' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+The CUDA driver logged these messages, which may provide useful details:
+Returning 710 (CUDA_ERROR_ASSERT) from cuStreamSynchronize
+
+

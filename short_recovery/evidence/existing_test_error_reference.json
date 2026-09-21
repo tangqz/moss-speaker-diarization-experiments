@@ -1,0 +1,30 @@
+{
+  "schema_version": "existing-test-rate-reference-v1",
+  "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63643\\raw\\evaluations\\test-150\\metrics_summary.json",
+  "source_sha256": "30048ac600bd6b952982c697ca5d888d5073dc68efbbc9c21396df154891d9ec",
+  "checkpoint": "ms-swift-63643/checkpoint-150",
+  "scope": "existing known-test metric scale only; token calibration uses Dev",
+  "groups": [
+    {
+      "group": "sft/aishell4/test",
+      "meetings": 20,
+      "CER": 0.1392909528685689,
+      "cpCER": 0.14303268480336534,
+      "truncated": 0
+    },
+    {
+      "group": "sft/alimeeting/test",
+      "meetings": 20,
+      "CER": 0.2051112180846754,
+      "cpCER": 0.17000376525763417,
+      "truncated": 1
+    },
+    {
+      "group": "sft/ami/test",
+      "meetings": 16,
+      "CER": 0.17945204695759628,
+      "cpCER": 0.12267443190919701,
+      "truncated": 0
+    }
+  ]
+}

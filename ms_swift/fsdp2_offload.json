@@ -1,0 +1,13 @@
+{
+  "fsdp": "full_shard auto_wrap",
+  "fsdp_config": {
+    "fsdp_version": 2,
+    "reshard_after_forward": true,
+    "auto_wrap_policy": "TRANSFORMER_BASED_WRAP",
+    "transformer_layer_cls_to_wrap": ["Qwen3DecoderLayer", "WhisperEncoderLayer"],
+    "cpu_ram_efficient_loading": true,
+    "state_dict_type": "FULL_STATE_DICT",
+    "activation_checkpointing": true,
+    "activation_cpu_offload": true
+  }
+}

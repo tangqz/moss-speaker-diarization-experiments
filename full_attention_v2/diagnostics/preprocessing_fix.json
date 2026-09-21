@@ -1,0 +1,8 @@
+{
+  "original_sha256": "eeb98f7723518488e974066d90f3c236622b9e67cbdc8f2e62d530d53a368165",
+  "corrected_sha256": "b01db8701e04ecba615813839a2e419d0b687b1cb8d922f3509b19032501a7e3",
+  "change": "Wrap only full-meeting prepare_inputs in the historical/production CUDA BF16 autocast context; record that context. Model forward and generation unchanged.",
+  "evidence_job": 63440,
+  "prefix_scope": 512,
+  "training_updates": 0
+}

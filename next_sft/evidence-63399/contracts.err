@@ -1,0 +1,13 @@
+[transformers] `MossTranscribeDiarizeProcessor` defines `feature_extractor_class = 'AutoFeatureExtractor'`, which is deprecated. Register the correct mapping in `AutoFeatureExtractor` instead.
+Loading weights:   0%|          | 0/683 [00:00<?, ?it/s]Loading weights: 100%|██████████| 683/683 [00:00<00:00, 12250.31it/s]
+Traceback (most recent call last):
+  File "/work/qt28/moss/dkucc/next_sft/probes.py", line 403, in <module>
+    if a.mode=='contracts': contracts(a.run,processor)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/qt28/moss/dkucc/next_sft/probes.py", line 145, in contracts
+    batch = move(DataCollator(processor,8192)([sample]))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/qt28/moss/MOSS-Transcribe-Diarize/finetune.py", line 112, in __call__
+    prompt_ids = self.processor.expand_audio_token(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MossTranscribeDiarizeProcessor' object has no attribute 'expand_audio_token'. Did you mean: '_expand_audio_token'?

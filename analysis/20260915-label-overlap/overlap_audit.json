@@ -1,0 +1,2098 @@
+{
+  "summary": {
+    "unique_output_failures": 23,
+    "unique_meetings": 13,
+    "duplicate_copies_removed": 31,
+    "groups": {
+      "earlier_SFT": {
+        "cases": 20,
+        "unique_meetings": 12,
+        "resolved_anchors": 20,
+        "overlap_at_generated_anchor": 9
+      },
+      "MS-Swift": {
+        "cases": 3,
+        "unique_meetings": 3,
+        "resolved_anchors": 3,
+        "overlap_at_generated_anchor": 2
+      }
+    },
+    "limitations": [
+      "Generated timestamps are approximate anchors, not forced word alignments.",
+      "One long repeated tail is one failure event; its thousands of tokens are not independent observations.",
+      "The same meeting/checkpoint can have different predictions under historical inference variants.",
+      "No causal enrichment test is claimed from this failure-only inventory."
+    ]
+  },
+  "cases": [
+    {
+      "key": "ami/dev/IB4001",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\ami\\dev\\IB4001.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+      "raw_sha256": "6e3f5ca638c803873b80026c3400e442789a81204fca8ecb97b97b51c3c5b89d",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 14992,
+        "period_characters": 20,
+        "repeated_unit": "][Mm][219.99][219.99",
+        "repeated_tail_characters": 64375
+      },
+      "anchor_seconds": 219.99,
+      "anchor_method": "repeated_generated_timestamp",
+      "annotation_speakers_at_anchor": 1,
+      "whole_meeting": {
+        "start": 0,
+        "end": 1780.6506875,
+        "speech_seconds": 1334.7300000000018,
+        "overlap_seconds": 223.08999999999915,
+        "overlap_fraction_of_wall_time": 0.12528566190217424,
+        "overlap_fraction_of_speech": 0.16714241831681229,
+        "peak_speakers": 3
+      },
+      "reference_candidates": [
+        {
+          "start": 214.12,
+          "end": 226.67,
+          "speaker": "S03",
+          "text": "Uh do we know if there will be a lot of people coming across the hall in terms of security stuff if we can I mean my idea is to put the photocopier and the fax in the hall."
+        }
+      ],
+      "context_before_loop": "][Mm][219.84][219.84][Mm][219.85][219.85][Mm][219.86][219.86][Mm][219.87][219.87][Mm][219.88][219.88][Mm][219.89][219.89][Mm][219.90][219.90][Mm][219.91][219.91][Mm][219.92][219.92][Mm][219.93][219.93][Mm][219.94][219.94][Mm][219.95][219.95][Mm][219.96][219.96][Mm][219.97][219.97][Mm][219.98][219.98",
+      "context_after_loop": "][Mm][219.99][219.99][Mm][219.99][219.99][Mm][219.99][219.99][Mm][219.99][219.99][Mm][219.99][219.99",
+      "window_10s": {
+        "start": 214.99,
+        "end": 224.99,
+        "speech_seconds": 10.0,
+        "overlap_seconds": 0.0,
+        "overlap_fraction_of_wall_time": 0.0,
+        "overlap_fraction_of_speech": 0.0,
+        "peak_speakers": 1
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 214.12,
+          "end": 226.67,
+          "speaker": "S03",
+          "text": "Uh do we know if there will be a lot of people coming across the hall in terms of security stuff if we can I mean my idea is to put the photocopier and the fax in the hall.",
+          "overlap": {
+            "start": 214.12,
+            "end": 226.67,
+            "speech_seconds": 12.549999999999983,
+            "overlap_seconds": 0.0,
+            "overlap_fraction_of_wall_time": 0.0,
+            "overlap_fraction_of_speech": 0.0,
+            "peak_speakers": 1
+          }
+        }
+      ]
+    },
+    {
+      "key": "alimeeting/test/R8009_M8021",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8009_M8021.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+      "raw_sha256": "0c459790e2002666a97aa0bf5326393aa090a7a4582707c79a2dc0f39d4542fd",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 29785,
+        "period_characters": 9,
+        "repeated_unit": "][1938.80",
+        "repeated_tail_characters": 45932
+      },
+      "anchor_seconds": 1938.8,
+      "anchor_method": "repeated_generated_timestamp",
+      "annotation_speakers_at_anchor": 1,
+      "whole_meeting": {
+        "start": 0,
+        "end": 2008.398875,
+        "speech_seconds": 1632.02,
+        "overlap_seconds": 186.6700000000002,
+        "overlap_fraction_of_wall_time": 0.09294468460603982,
+        "overlap_fraction_of_speech": 0.11437972573865528,
+        "peak_speakers": 2
+      },
+      "reference_candidates": [
+        {
+          "start": 1937.16,
+          "end": 1938.65,
+          "speaker": "S02",
+          "text": "然后。"
+        },
+        {
+          "start": 1938.65,
+          "end": 1940.75,
+          "speaker": "S02",
+          "text": "环节的话，就。"
+        }
+      ],
+      "context_before_loop": "那我给你讲个啥。[1921.01][1921.58][S02]那也行。[1922.81][1923.78][S02]大概就这些。[1925.03][1925.68][S02]那就是。[1926.78][1925.75][S01]对。[1926.35][1927.15][S02]会场会场会议场地的选择是。[1931.28][1931.28][S02]商场嘛。[1932.25][1932.28][S01]对。[1932.98][1932.91][S02]主持人的选择就下面我来落实。[1936.08][1936.11][S01]对。[1936.78][1937.15][S02]然后。[1938.35",
+      "context_after_loop": "][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80][1938.80]",
+      "window_10s": {
+        "start": 1933.8,
+        "end": 1943.8,
+        "speech_seconds": 8.8599999999999,
+        "overlap_seconds": 0.0,
+        "overlap_fraction_of_wall_time": 0.0,
+        "overlap_fraction_of_speech": 0.0,
+        "peak_speakers": 1
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 1937.16,
+          "end": 1938.65,
+          "speaker": "S02",
+          "text": "然后。",
+          "overlap": {
+            "start": 1937.16,
+            "end": 1938.65,
+            "speech_seconds": 1.490000000000009,
+            "overlap_seconds": 0.0,
+            "overlap_fraction_of_wall_time": 0.0,
+            "overlap_fraction_of_speech": 0.0,
+            "peak_speakers": 1
+          }
+        },
+        {
+          "start": 1938.65,
+          "end": 1940.75,
+          "speaker": "S02",
+          "text": "环节的话，就。",
+          "overlap": {
+            "start": 1938.65,
+            "end": 1940.75,
+            "speech_seconds": 2.099999999999909,
+            "overlap_seconds": 0.0,
+            "overlap_fraction_of_wall_time": 0.0,
+            "overlap_fraction_of_speech": 0.0,
+            "peak_speakers": 1
+          }
+        }
+      ]
+    },
+    {
+      "key": "alimeeting/test/R8006_M8012",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8006_M8012.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+      "raw_sha256": "86343e5611c241c63cc31f2e7c2ae5b2f51c3b4ca2da7daf3b520970842b34c4",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 13148,
+        "period_characters": 2,
+        "repeated_unit": "，对",
+        "repeated_tail_characters": 55036
+      },
+      "anchor_seconds": 985.38,
+      "anchor_method": "generated_start_of_unfinished_utterance",
+      "annotation_speakers_at_anchor": 2,
+      "whole_meeting": {
+        "start": 0,
+        "end": 1832.183,
+        "speech_seconds": 1765.34,
+        "overlap_seconds": 516.160000000002,
+        "overlap_fraction_of_wall_time": 0.28171858378775594,
+        "overlap_fraction_of_speech": 0.2923856027734046,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 982.81,
+          "end": 988.49,
+          "speaker": "S02",
+          "text": "那你谁能老盯着他呀？那咱没有那么多人呀。啊。"
+        },
+        {
+          "start": 985.31,
+          "end": 990.53,
+          "speaker": "S04",
+          "text": "你画好停车位呀。现在不都能画好停车位，你认领你自己的停车位就行了。"
+        }
+      ],
+      "context_before_loop": "85][S01]对，宣传确实比较到位，对，对。[974.11][971.05][S03]对。[971.35][973.41][S03]啊，还是跟门岗有关系啊，他不是。[976.21][975.31][S01]对。[975.65][975.61][S02]跟门岗，那他自己小区的车，你不让他进来。[978.91][978.78][S03]自己小区的车可以进，进来是对的，他进来对了，他不往规制地儿停，那你就知道你这个位置不好了。[984.05][980.65][S02]对吧。[981.15][982.75][S02]那你谁能老盯着他呀，那咱没有那么多人呀。[986.91][985.38][S01]啊",
+      "context_after_loop": "，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对，对",
+      "window_10s": {
+        "start": 980.38,
+        "end": 990.38,
+        "speech_seconds": 10.0,
+        "overlap_seconds": 6.910000000000082,
+        "overlap_fraction_of_wall_time": 0.6910000000000082,
+        "overlap_fraction_of_speech": 0.6910000000000082,
+        "peak_speakers": 3
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 982.81,
+          "end": 988.49,
+          "speaker": "S02",
+          "text": "那你谁能老盯着他呀？那咱没有那么多人呀。啊。",
+          "overlap": {
+            "start": 982.81,
+            "end": 988.49,
+            "speech_seconds": 5.680000000000064,
+            "overlap_seconds": 4.500000000000114,
+            "overlap_fraction_of_wall_time": 0.7922535211267717,
+            "overlap_fraction_of_speech": 0.7922535211267717,
+            "peak_speakers": 3
+          }
+        },
+        {
+          "start": 985.31,
+          "end": 990.53,
+          "speaker": "S04",
+          "text": "你画好停车位呀。现在不都能画好停车位，你认领你自己的停车位就行了。",
+          "overlap": {
+            "start": 985.31,
+            "end": 990.53,
+            "speech_seconds": 5.220000000000027,
+            "overlap_seconds": 5.220000000000027,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 3
+          }
+        }
+      ]
+    },
+    {
+      "key": "alimeeting/test/R8005_M8009",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8005_M8009.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+      "raw_sha256": "f4fa013412d5e469c69508b8e5329bcff9248437582b9a0886f5f72dc1f497bc",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 6865,
+        "period_characters": 2,
+        "repeated_unit": "，就",
+        "repeated_tail_characters": 59741
+      },
+      "anchor_seconds": 328.71,
+      "anchor_method": "generated_start_of_unfinished_utterance",
+      "annotation_speakers_at_anchor": 1,
+      "whole_meeting": {
+        "start": 0,
+        "end": 1776.99,
+        "speech_seconds": 1735.7999999999993,
+        "overlap_seconds": 1128.3199999999993,
+        "overlap_fraction_of_wall_time": 0.6349613672558648,
+        "overlap_fraction_of_speech": 0.6500288051618849,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 321.86,
+          "end": 328.29,
+          "speaker": "S04",
+          "text": "现在现现现在这年代不一样了，嗯，嗯。"
+        },
+        {
+          "start": 323.66,
+          "end": 331.1,
+          "speaker": "S03",
+          "text": "不是师兄你说是你不不不不我还是那认为就是说呦大哥回来了都是我们单位发的，俺们头儿这是我们头儿发的。"
+        },
+        {
+          "start": 328.85,
+          "end": 330.75,
+          "speaker": "S02",
+          "text": "真的你别，你们别记住你公司。"
+        },
+        {
+          "start": 328.85,
+          "end": 331.83,
+          "speaker": "S04",
+          "text": "嗯，嗯，嗯是。"
+        }
+      ],
+      "context_before_loop": "7][S02]对，都发。[315.41][319.93][S01]啊，你是那个比较说那个，那你要买个卡，你以后，卡，你以后。[325.01][320.05][S04]啊，你你这要够多，够多，够多。[322.51][321.69][S03]那可以。[322.27][322.41][S02]哎，哎，那那年代年代不一样，啊，嗯。[327.97][323.58][S03]不是，你你说是，不不不不，我还是认为就是说，哟，大哥回来，这是我们单位发的，我们头儿，这我们头儿发的。[330.97][325.97][S04]对。[326.31][328.71][S04]就让你们，你们别介意，就，就，就让你们别介意",
+      "context_after_loop": "，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就，就",
+      "window_10s": {
+        "start": 323.71,
+        "end": 333.71,
+        "speech_seconds": 10.0,
+        "overlap_seconds": 8.729999999999961,
+        "overlap_fraction_of_wall_time": 0.8729999999999961,
+        "overlap_fraction_of_speech": 0.8729999999999961,
+        "peak_speakers": 4
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 321.86,
+          "end": 328.29,
+          "speaker": "S04",
+          "text": "现在现现现在这年代不一样了，嗯，嗯。",
+          "overlap": {
+            "start": 321.86,
+            "end": 328.29,
+            "speech_seconds": 6.430000000000007,
+            "overlap_seconds": 6.430000000000007,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 323.66,
+          "end": 331.1,
+          "speaker": "S03",
+          "text": "不是师兄你说是你不不不不我还是那认为就是说呦大哥回来了都是我们单位发的，俺们头儿这是我们头儿发的。",
+          "overlap": {
+            "start": 323.66,
+            "end": 331.1,
+            "speech_seconds": 7.439999999999998,
+            "overlap_seconds": 6.8799999999999955,
+            "overlap_fraction_of_wall_time": 0.9247311827956985,
+            "overlap_fraction_of_speech": 0.9247311827956985,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 328.85,
+          "end": 330.75,
+          "speaker": "S02",
+          "text": "真的你别，你们别记住你公司。",
+          "overlap": {
+            "start": 328.85,
+            "end": 330.75,
+            "speech_seconds": 1.8999999999999773,
+            "overlap_seconds": 1.8999999999999773,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 3
+          }
+        },
+        {
+          "start": 328.85,
+          "end": 331.83,
+          "speaker": "S04",
+          "text": "嗯，嗯，嗯是。",
+          "overlap": {
+            "start": 328.85,
+            "end": 331.83,
+            "speech_seconds": 2.9799999999999613,
+            "overlap_seconds": 2.349999999999966,
+            "overlap_fraction_of_wall_time": 0.7885906040268444,
+            "overlap_fraction_of_speech": 0.7885906040268444,
+            "peak_speakers": 3
+          }
+        }
+      ]
+    },
+    {
+      "key": "alimeeting/test/R8005_M8007",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8005_M8007.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+      "raw_sha256": "b40e8c4a2cfd43447911a8c45def3742f9d4cb4b1ca97c422f288dbc20913aad",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 24037,
+        "period_characters": 2,
+        "repeated_unit": "你去",
+        "repeated_tail_characters": 45681
+      },
+      "anchor_seconds": 1207.04,
+      "anchor_method": "generated_start_of_unfinished_utterance",
+      "annotation_speakers_at_anchor": 4,
+      "whole_meeting": {
+        "start": 0,
+        "end": 1869.6690625,
+        "speech_seconds": 1841.140000000001,
+        "overlap_seconds": 872.6099999999981,
+        "overlap_fraction_of_wall_time": 0.4667189597891729,
+        "overlap_fraction_of_speech": 0.47395092171154696,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 1204.48,
+          "end": 1207.47,
+          "speaker": "S01",
+          "text": "那就是你到时候，到时候你汇总，然后那个。"
+        },
+        {
+          "start": 1206.45,
+          "end": 1217.93,
+          "speaker": "S02",
+          "text": "对，我做一电子表儿发群里，你们也都看一下儿，然后你待会儿你去那个宜宜宜家的时候儿也，对，到时候在在在群里，大家都都汇都汇总一下儿看一下儿有什么。"
+        },
+        {
+          "start": 1206.6,
+          "end": 1208.16,
+          "speaker": "S04",
+          "text": "那我我。"
+        },
+        {
+          "start": 1206.64,
+          "end": 1207.08,
+          "speaker": "S03",
+          "text": "嗯。"
+        }
+      ],
+      "context_before_loop": "是。[1198.08][1197.64][S01]然后。[1198.12][1197.96][S03]或者是。[1198.44][1198.36][S02]我到时候我负责，那我统计，回头。[1200.78][1201.54][S02]啊，行，我作为统计，然后我作为电子表儿，回头发那个，发一个什么，发一个什么。[1205.50][1204.36][S01]那就你，到时候到时候你汇总，然后那个。[1207.18][1206.32][S03]哦。[1206.98][1206.46][S04]啊，我我我。[1207.60][1207.04][S02]作为电子表儿，发群里，你们也都看一下，然后你待会儿，",
+      "context_after_loop": "你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去你去",
+      "window_10s": {
+        "start": 1202.04,
+        "end": 1212.04,
+        "speech_seconds": 10.0,
+        "overlap_seconds": 5.759999999999991,
+        "overlap_fraction_of_wall_time": 0.5759999999999991,
+        "overlap_fraction_of_speech": 0.5759999999999991,
+        "peak_speakers": 4
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 1204.48,
+          "end": 1207.47,
+          "speaker": "S01",
+          "text": "那就是你到时候，到时候你汇总，然后那个。",
+          "overlap": {
+            "start": 1204.48,
+            "end": 1207.47,
+            "speech_seconds": 2.990000000000009,
+            "overlap_seconds": 2.2999999999999545,
+            "overlap_fraction_of_wall_time": 0.7692307692307517,
+            "overlap_fraction_of_speech": 0.7692307692307517,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 1206.45,
+          "end": 1217.93,
+          "speaker": "S02",
+          "text": "对，我做一电子表儿发群里，你们也都看一下儿，然后你待会儿你去那个宜宜宜家的时候儿也，对，到时候在在在群里，大家都都汇都汇总一下儿看一下儿有什么。",
+          "overlap": {
+            "start": 1206.45,
+            "end": 1217.93,
+            "speech_seconds": 11.480000000000018,
+            "overlap_seconds": 10.13000000000011,
+            "overlap_fraction_of_wall_time": 0.8824041811846771,
+            "overlap_fraction_of_speech": 0.8824041811846771,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 1206.6,
+          "end": 1208.16,
+          "speaker": "S04",
+          "text": "那我我。",
+          "overlap": {
+            "start": 1206.6,
+            "end": 1208.16,
+            "speech_seconds": 1.5600000000001728,
+            "overlap_seconds": 1.5600000000001728,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 1206.64,
+          "end": 1207.08,
+          "speaker": "S03",
+          "text": "嗯。",
+          "overlap": {
+            "start": 1206.64,
+            "end": 1207.08,
+            "speech_seconds": 0.4399999999998272,
+            "overlap_seconds": 0.4399999999998272,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 4
+          }
+        }
+      ]
+    },
+    {
+      "key": "alimeeting/test/R8004_M8006",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8004_M8006.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+      "raw_sha256": "4d5488faab95c8864b7a97b3f3a5d254b7a7960fc57bb436dbafa8c5bd37b726",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 4668,
+        "period_characters": 1,
+        "repeated_unit": "那",
+        "repeated_tail_characters": 61812
+      },
+      "anchor_seconds": 228.15,
+      "anchor_method": "generated_start_of_unfinished_utterance",
+      "annotation_speakers_at_anchor": 2,
+      "whole_meeting": {
+        "start": 0,
+        "end": 1965.215,
+        "speech_seconds": 1936.1500000000008,
+        "overlap_seconds": 1156.520000000001,
+        "overlap_fraction_of_wall_time": 0.5884954063550303,
+        "overlap_fraction_of_speech": 0.5973297523435687,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 221.57,
+          "end": 231.47,
+          "speaker": "S03",
+          "text": "是，对，而且不管是新手，你很多老玩家你也可以给他老玩家回归福利，是不是？老玩家回归以后，对你可以给他送东西，是。"
+        },
+        {
+          "start": 227.58,
+          "end": 235.31,
+          "speaker": "S01",
+          "text": "嗯对，而且我觉得，还还可以把环节涉及的更冒险一点儿，吸引人的，人的注意力。"
+        },
+        {
+          "start": 228.29,
+          "end": 228.78,
+          "speaker": "S04",
+          "text": "对对对。"
+        }
+      ],
+      "context_before_loop": "17.81][214.85][S04]对，可以，可以，可以，给更多的人玩儿。[217.79][218.04][S02]所以这样就通过这种办法可能就延长我们客户的一个使用时间，对吧？哎。[223.31][221.45][S03]是，对，而且不管是新手，你很多老玩家，你也可以给他老玩家回归福利，是不是，老玩家回归以后，对你可以给他送东西，是。[231.25][221.65][S01]是。[222.05][223.98][S04]对。[224.35][227.45][S01]嗯，对，而且我觉得，还可以把环节设计的更冒险一点儿，吸引人的人的注意力。[235.21][228.15][S04]对对对，啊，",
+      "context_after_loop": "那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那",
+      "window_10s": {
+        "start": 223.15,
+        "end": 233.15,
+        "speech_seconds": 10.0,
+        "overlap_seconds": 6.579999999999984,
+        "overlap_fraction_of_wall_time": 0.6579999999999984,
+        "overlap_fraction_of_speech": 0.6579999999999984,
+        "peak_speakers": 4
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 221.57,
+          "end": 231.47,
+          "speaker": "S03",
+          "text": "是，对，而且不管是新手，你很多老玩家你也可以给他老玩家回归福利，是不是？老玩家回归以后，对你可以给他送东西，是。",
+          "overlap": {
+            "start": 221.57,
+            "end": 231.47,
+            "speech_seconds": 9.900000000000006,
+            "overlap_seconds": 6.47999999999999,
+            "overlap_fraction_of_wall_time": 0.6545454545454531,
+            "overlap_fraction_of_speech": 0.6545454545454531,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 227.58,
+          "end": 235.31,
+          "speaker": "S01",
+          "text": "嗯对，而且我觉得，还还可以把环节涉及的更冒险一点儿，吸引人的，人的注意力。",
+          "overlap": {
+            "start": 227.58,
+            "end": 235.31,
+            "speech_seconds": 7.72999999999999,
+            "overlap_seconds": 7.72999999999999,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 228.29,
+          "end": 228.78,
+          "speaker": "S04",
+          "text": "对对对。",
+          "overlap": {
+            "start": 228.29,
+            "end": 228.78,
+            "speech_seconds": 0.4900000000000091,
+            "overlap_seconds": 0.4900000000000091,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 3
+          }
+        }
+      ]
+    },
+    {
+      "key": "alimeeting/dev/R8003_M8001",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\dev\\R8003_M8001.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+      "raw_sha256": "63aca8108a00e71020525dc84877c1c48bb9a1dc5917a4c343dcaef1e7c54ac1",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 13772,
+        "period_characters": 1,
+        "repeated_unit": "窃",
+        "repeated_tail_characters": 54586
+      },
+      "anchor_seconds": 1096.21,
+      "anchor_method": "generated_start_of_unfinished_utterance",
+      "annotation_speakers_at_anchor": 0,
+      "whole_meeting": {
+        "start": 0,
+        "end": 2068.0,
+        "speech_seconds": 1877.1800000000005,
+        "overlap_seconds": 333.49999999999756,
+        "overlap_fraction_of_wall_time": 0.16126692456479572,
+        "overlap_fraction_of_speech": 0.17766010718204833,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [],
+      "context_before_loop": "061.61][1060.68][S01]当天用闪送邮寄，或者是咱们亲自看看接送孩子的时候，或者是这个这个。[1069.27][1067.37][S02]嗯。[1067.76][1069.88][S01]中午的时时间或者什么的去拜访一下到学校，然后把这个东西递交给老师。[1075.07][1076.73][S02]我觉得老师基本上来说这种比较有有有有有有受人尊重的这种职业，他基本上来说呢是。[1087.01][1088.00][S02]有的时候你在教师节这个特别特定的节日，你送他什么，他都会有一些。[1095.50][1094.22][S03]啊。[1094.47][1096.21][S03]",
+      "context_after_loop": "窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃",
+      "window_10s": {
+        "start": 1091.21,
+        "end": 1101.21,
+        "speech_seconds": 7.75,
+        "overlap_seconds": 0.37999999999988177,
+        "overlap_fraction_of_wall_time": 0.037999999999988175,
+        "overlap_fraction_of_speech": 0.04903225806450087,
+        "peak_speakers": 2
+      },
+      "reference_utterance_overlap": []
+    },
+    {
+      "key": "alimeeting/dev/R8001_M8004",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+      "raw_sha256": "56e8528408457844fe5ef5c90e283e4de34e7aa1ca38553fb338de40f6818aef",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 7221,
+        "period_characters": 1,
+        "repeated_unit": "你",
+        "repeated_tail_characters": 60013
+      },
+      "anchor_seconds": 526.28,
+      "anchor_method": "generated_start_of_unfinished_utterance",
+      "annotation_speakers_at_anchor": 4,
+      "whole_meeting": {
+        "start": 0,
+        "end": 1573.85,
+        "speech_seconds": 1491.5399999999993,
+        "overlap_seconds": 456.3400000000008,
+        "overlap_fraction_of_wall_time": 0.2899513930806626,
+        "overlap_fraction_of_speech": 0.3059522372849545,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 520.48,
+          "end": 528.09,
+          "speaker": "S02",
+          "text": "对我觉得反正可以几个平台直呃那个全部同时下单，同同时同时开始，因为现在这个呃。"
+        },
+        {
+          "start": 523.78,
+          "end": 532.95,
+          "speaker": "S04",
+          "text": "呃呃是，我感觉现在不用做平台，就是像各大各大就各大电商那种官方旗舰店都可以做直播的有这种功能。"
+        },
+        {
+          "start": 524.65,
+          "end": 527.01,
+          "speaker": "S01",
+          "text": "对，反正收入费用嗯。"
+        },
+        {
+          "start": 526.02,
+          "end": 535.86,
+          "speaker": "S03",
+          "text": "对不不，不一定是自己做，直接找那个大V去合作完后，可以请他们来我们的平台，呃完后。嗯。"
+        }
+      ],
+      "context_before_loop": "[S01]对，带上边去，啊，嗯。[511.81][513.48][S01]跟不上，反正我觉得不不也不未必，不也不未必，咱们可以说这个，刚才说自己做一个也是也是可以，是吧，嗯。[521.21][513.51][S04]对。[513.81][514.01][S03]跟不上，这这这这个。[515.61][520.45][S02]对我觉得反正可以几个平台直呃那个全部同时下来，同同时，对，对，对，对，对，对。[527.41][524.01][S04]呃，我感觉现在不用做平台，就是像各大各大。[527.61][524.61][S01]对。[524.88][526.28][S03]对，你你你你做直接卖出去，",
+      "context_after_loop": "你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你",
+      "window_10s": {
+        "start": 521.28,
+        "end": 531.28,
+        "speech_seconds": 10.0,
+        "overlap_seconds": 7.730000000000018,
+        "overlap_fraction_of_wall_time": 0.7730000000000018,
+        "overlap_fraction_of_speech": 0.7730000000000018,
+        "peak_speakers": 4
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 520.48,
+          "end": 528.09,
+          "speaker": "S02",
+          "text": "对我觉得反正可以几个平台直呃那个全部同时下单，同同时同时开始，因为现在这个呃。",
+          "overlap": {
+            "start": 520.48,
+            "end": 528.09,
+            "speech_seconds": 7.610000000000014,
+            "overlap_seconds": 5.310000000000059,
+            "overlap_fraction_of_wall_time": 0.6977660972404796,
+            "overlap_fraction_of_speech": 0.6977660972404796,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 523.78,
+          "end": 532.95,
+          "speaker": "S04",
+          "text": "呃呃是，我感觉现在不用做平台，就是像各大各大就各大电商那种官方旗舰店都可以做直播的有这种功能。",
+          "overlap": {
+            "start": 523.78,
+            "end": 532.95,
+            "speech_seconds": 9.170000000000073,
+            "overlap_seconds": 9.170000000000073,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 524.65,
+          "end": 527.01,
+          "speaker": "S01",
+          "text": "对，反正收入费用嗯。",
+          "overlap": {
+            "start": 524.65,
+            "end": 527.01,
+            "speech_seconds": 2.3600000000000136,
+            "overlap_seconds": 2.3600000000000136,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 526.02,
+          "end": 535.86,
+          "speaker": "S03",
+          "text": "对不不，不一定是自己做，直接找那个大V去合作完后，可以请他们来我们的平台，呃完后。嗯。",
+          "overlap": {
+            "start": 526.02,
+            "end": 535.86,
+            "speech_seconds": 9.840000000000032,
+            "overlap_seconds": 9.840000000000032,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 4
+          }
+        }
+      ]
+    },
+    {
+      "key": "ami/dev/TS3004c",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-50\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-50\\references.json",
+      "raw_sha256": "7ef74654d9ce7f26f26503e6868afcc431950b4f98274a81348f58a5c15511e4",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "repeated_utterance_with_changing_timestamps",
+        "char_offset": 53715,
+        "repeated_unit": "Mm.",
+        "repeated_segments": 1695,
+        "generated_onset_timestamp": 2502.38
+      },
+      "anchor_seconds": 2502.38,
+      "anchor_method": "generated_start_of_first_repeated_utterance",
+      "annotation_speakers_at_anchor": 0,
+      "whole_meeting": {
+        "start": 0,
+        "end": 2970.0,
+        "speech_seconds": 1938.0700000000002,
+        "overlap_seconds": 293.6899999999996,
+        "overlap_fraction_of_wall_time": 0.09888552188552176,
+        "overlap_fraction_of_speech": 0.1515373541719337,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [],
+      "context_before_loop": " have to stop now, okay, we just we have to stop it now.[2451.63][2451.41][S01]Yeah.[2451.65][2451.89][S03]Okay.[2452.25][2452.30][S04]Fine.[2452.63][2466.92][S03]Thirty minutes?[2467.55][2468.46][S02]Yeah.[2468.67][2469.42][S03]Okay.[2469.86][2472.06][S03]Ciao.[2472.37][2501.56][S01]Hallo?[2501.91]",
+      "context_after_loop": "[2502.38][S03]Mm.[2502.51][2502.89][S04]Mm.[2503.16][2503.16][S03]Mm.[2503.28][2503.28][S04]Mm.[2503",
+      "window_10s": {
+        "start": 2497.38,
+        "end": 2507.38,
+        "speech_seconds": 0.0,
+        "overlap_seconds": 0.0,
+        "overlap_fraction_of_wall_time": 0.0,
+        "overlap_fraction_of_speech": null,
+        "peak_speakers": 0
+      },
+      "reference_utterance_overlap": []
+    },
+    {
+      "key": "aishell4/test/L_R003S04C02",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-ddp4-62994",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\aishell4\\test\\L_R003S04C02.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\references.json",
+      "raw_sha256": "3e25ab14baa1cc1df20b215c7eefdad2729c82da16f708e7b032a5783d6d0a60",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 4303,
+        "period_characters": 1,
+        "repeated_unit": "这",
+        "repeated_tail_characters": 62098
+      },
+      "anchor_seconds": 536.54,
+      "anchor_method": "generated_start_of_unfinished_utterance",
+      "annotation_speakers_at_anchor": 1,
+      "whole_meeting": {
+        "start": 0,
+        "end": 2324.984,
+        "speech_seconds": 1952.5258000000001,
+        "overlap_seconds": 58.075399999999135,
+        "overlap_fraction_of_wall_time": 0.024978838564049963,
+        "overlap_fraction_of_speech": 0.029743729890790244,
+        "peak_speakers": 3
+      },
+      "reference_candidates": [
+        {
+          "start": 528.88,
+          "end": 544.49,
+          "speaker": "S05",
+          "text": "孩子上学交学费老婆呃要买衣服嗯家庭要用度你说你说这这这这呃俗话儿说阎王还不差饿鬼呐是吧"
+        }
+      ],
+      "context_before_loop": "顿[495.21][495.78][S05]是说我这儿这个这个这个消防器材嗯不过关啊线路老化设备陈旧[504.01][504.98][S05]那不是没坏吗那不是也能将就着用吗[508.11][508.61][S05]对不对啊[509.78][512.04][S05]啊再一个你说[514.11][515.14][S05]呃嫌这个什么消极怠工啊什么的那你就说是你半年没开工资啦啊[525.61][526.04][S05]你说这这这这[528.48][529.04][S05]孩子上学交学费老婆要买衣服嗯家庭要用度你说[536.28][536.54][S05]你说这这这这这你说这这你说这这你说这这这你说",
+      "context_after_loop": "这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这这",
+      "window_10s": {
+        "start": 531.54,
+        "end": 541.54,
+        "speech_seconds": 10.0,
+        "overlap_seconds": 0.0,
+        "overlap_fraction_of_wall_time": 0.0,
+        "overlap_fraction_of_speech": 0.0,
+        "peak_speakers": 1
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 528.88,
+          "end": 544.49,
+          "speaker": "S05",
+          "text": "孩子上学交学费老婆呃要买衣服嗯家庭要用度你说你说这这这这呃俗话儿说阎王还不差饿鬼呐是吧",
+          "overlap": {
+            "start": 528.88,
+            "end": 544.49,
+            "speech_seconds": 15.610000000000014,
+            "overlap_seconds": 0.0,
+            "overlap_fraction_of_wall_time": 0.0,
+            "overlap_fraction_of_speech": 0.0,
+            "peak_speakers": 1
+          }
+        }
+      ]
+    },
+    {
+      "key": "alimeeting/dev/R8001_M8004",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63443/checkpoint-50",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63443\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63443\\raw\\run\\evaluations\\sentinel-50\\references.json",
+      "raw_sha256": "aa98ced441eadf9b95811fea32f5617aecbe066ceee56de73d193bf118cb911f",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 7142,
+        "period_characters": 8,
+        "repeated_unit": "][527.15",
+        "repeated_tail_characters": 68680
+      },
+      "anchor_seconds": 527.15,
+      "anchor_method": "repeated_generated_timestamp",
+      "annotation_speakers_at_anchor": 3,
+      "whole_meeting": {
+        "start": 0,
+        "end": 1573.85,
+        "speech_seconds": 1491.5399999999993,
+        "overlap_seconds": 456.3400000000008,
+        "overlap_fraction_of_wall_time": 0.2899513930806626,
+        "overlap_fraction_of_speech": 0.3059522372849545,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 520.48,
+          "end": 528.09,
+          "speaker": "S02",
+          "text": "对我觉得反正可以几个平台直呃那个全部同时下单，同同时同时开始，因为现在这个呃。"
+        },
+        {
+          "start": 523.78,
+          "end": 532.95,
+          "speaker": "S04",
+          "text": "呃呃是，我感觉现在不用做平台，就是像各大各大就各大电商那种官方旗舰店都可以做直播的有这种功能。"
+        },
+        {
+          "start": 524.65,
+          "end": 527.01,
+          "speaker": "S01",
+          "text": "对，反正收入费用嗯。"
+        },
+        {
+          "start": 526.02,
+          "end": 535.86,
+          "speaker": "S03",
+          "text": "对不不，不一定是自己做，直接找那个大V去合作完后，可以请他们来我们的平台，呃完后。嗯。"
+        }
+      ],
+      "context_before_loop": "14.22][509.22][S01]对，带上边儿去，啊，嗯。[511.84][513.45][S01]跟不上，咱们我觉得不不也未必，不也未必，咱们可以说这个，刚才说自己做一个也是也是可以，是吧，嗯。[521.20][513.50][S04]对。[513.83][514.00][S03]跟不上，这这这这个。[515.58][520.42][S02]对我觉得反正可以几个平台直呃那个全部同时下单，同同时同时开始，因为毕竟这个。[527.35][524.00][S04]呃我感觉现在不用做平台，就是像各大各大。[527.63][524.57][S01]对。[524.87][526.25][526.69",
+      "context_after_loop": "][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][527.15][52",
+      "window_10s": {
+        "start": 522.15,
+        "end": 532.15,
+        "speech_seconds": 10.0,
+        "overlap_seconds": 8.600000000000023,
+        "overlap_fraction_of_wall_time": 0.8600000000000023,
+        "overlap_fraction_of_speech": 0.8600000000000023,
+        "peak_speakers": 4
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 520.48,
+          "end": 528.09,
+          "speaker": "S02",
+          "text": "对我觉得反正可以几个平台直呃那个全部同时下单，同同时同时开始，因为现在这个呃。",
+          "overlap": {
+            "start": 520.48,
+            "end": 528.09,
+            "speech_seconds": 7.610000000000014,
+            "overlap_seconds": 5.310000000000059,
+            "overlap_fraction_of_wall_time": 0.6977660972404796,
+            "overlap_fraction_of_speech": 0.6977660972404796,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 523.78,
+          "end": 532.95,
+          "speaker": "S04",
+          "text": "呃呃是，我感觉现在不用做平台，就是像各大各大就各大电商那种官方旗舰店都可以做直播的有这种功能。",
+          "overlap": {
+            "start": 523.78,
+            "end": 532.95,
+            "speech_seconds": 9.170000000000073,
+            "overlap_seconds": 9.170000000000073,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 524.65,
+          "end": 527.01,
+          "speaker": "S01",
+          "text": "对，反正收入费用嗯。",
+          "overlap": {
+            "start": 524.65,
+            "end": 527.01,
+            "speech_seconds": 2.3600000000000136,
+            "overlap_seconds": 2.3600000000000136,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 526.02,
+          "end": 535.86,
+          "speaker": "S03",
+          "text": "对不不，不一定是自己做，直接找那个大V去合作完后，可以请他们来我们的平台，呃完后。嗯。",
+          "overlap": {
+            "start": 526.02,
+            "end": 535.86,
+            "speech_seconds": 9.840000000000032,
+            "overlap_seconds": 9.840000000000032,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 4
+          }
+        }
+      ]
+    },
+    {
+      "key": "ami/dev/TS3004c",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-25",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-25\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-25\\references.json",
+      "raw_sha256": "5c5223755d35e71d493bda3e0e6f7f9ed39eda52e09a72ce8f5e640df87b6eef",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "repeated_utterance_with_changing_timestamps",
+        "char_offset": 53865,
+        "repeated_unit": "Mm.",
+        "repeated_segments": 1692,
+        "generated_onset_timestamp": 2502.35
+      },
+      "anchor_seconds": 2502.35,
+      "anchor_method": "generated_start_of_first_repeated_utterance",
+      "annotation_speakers_at_anchor": 0,
+      "whole_meeting": {
+        "start": 0,
+        "end": 2970.0,
+        "speech_seconds": 1938.0700000000002,
+        "overlap_seconds": 293.6899999999996,
+        "overlap_fraction_of_wall_time": 0.09888552188552176,
+        "overlap_fraction_of_speech": 0.1515373541719337,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [],
+      "context_before_loop": ", so[2451.61][2448.70][S04]We have to stop now, okay, we just we have to stop it now.[2451.61][2451.88][S02]Okay.[2452.24][2452.28][S03]Fine.[2452.59][2466.91][S02]Thirty minutes?[2467.51][2468.44][S04]Yep.[2468.66][2469.40][S02]Okay.[2469.82][2472.04][S02]Ciao.[2472.33][2501.55][S04]Hallo?[2501.90]",
+      "context_after_loop": "[2502.35][S02]Mm.[2502.48][2502.87][S03]Mm.[2503.08][2503.08][S02]Mm.[2503.17][2503.17][S03]Mm.[2503",
+      "window_10s": {
+        "start": 2497.35,
+        "end": 2507.35,
+        "speech_seconds": 0.0,
+        "overlap_seconds": 0.0,
+        "overlap_fraction_of_wall_time": 0.0,
+        "overlap_fraction_of_speech": null,
+        "peak_speakers": 0
+      },
+      "reference_utterance_overlap": []
+    },
+    {
+      "key": "ami/dev/TS3004c",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-10",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\step10-check\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\step10-check\\references.json",
+      "raw_sha256": "b3d0ec8d141621325971055e39fbe9eb2a2c6f1509bd0f14f8d9704b5f7b9e1e",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 605,
+        "period_characters": 22,
+        "repeated_unit": "][Música][66.65][66.66",
+        "repeated_tail_characters": 89575
+      },
+      "anchor_seconds": 66.65,
+      "anchor_method": "repeated_generated_timestamp",
+      "annotation_speakers_at_anchor": 2,
+      "whole_meeting": {
+        "start": 0,
+        "end": 2970.0,
+        "speech_seconds": 1938.0700000000002,
+        "overlap_seconds": 293.6899999999996,
+        "overlap_fraction_of_wall_time": 0.09888552188552176,
+        "overlap_fraction_of_speech": 0.1515373541719337,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 64.71,
+          "end": 67.04,
+          "speaker": "S03",
+          "text": "Hello. Oop."
+        },
+        {
+          "start": 66.45,
+          "end": 67.64,
+          "speaker": "S02",
+          "text": "Why won't it wake up?"
+        }
+      ],
+      "context_before_loop": "heck check check check.[65.90][64.70][Música][65.25][65.57][Música][66.00][66.41][Música][66.65][66.42][Música][66.65][66.44][Música][66.65][66.46][Música][66.65][66.52][Música][66.65][66.54][Música][66.65][66.55][Música][66.65][66.56][Música][66.65][66.57][Música][66.65][66.58][Música][66.65][66.59",
+      "context_after_loop": "][Música][66.65][66.66][Música][66.65][66.66][Música][66.65][66.66][Música][66.65][66.66][Música][66",
+      "window_10s": {
+        "start": 61.650000000000006,
+        "end": 71.65,
+        "speech_seconds": 3.8899999999999935,
+        "overlap_seconds": 2.15000000000002,
+        "overlap_fraction_of_wall_time": 0.215000000000002,
+        "overlap_fraction_of_speech": 0.5526992287917798,
+        "peak_speakers": 2
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 64.71,
+          "end": 67.04,
+          "speaker": "S03",
+          "text": "Hello. Oop.",
+          "overlap": {
+            "start": 64.71,
+            "end": 67.04,
+            "speech_seconds": 2.3300000000000125,
+            "overlap_seconds": 1.940000000000012,
+            "overlap_fraction_of_wall_time": 0.8326180257510736,
+            "overlap_fraction_of_speech": 0.8326180257510736,
+            "peak_speakers": 2
+          }
+        },
+        {
+          "start": 66.45,
+          "end": 67.64,
+          "speaker": "S02",
+          "text": "Why won't it wake up?",
+          "overlap": {
+            "start": 66.45,
+            "end": 67.64,
+            "speech_seconds": 1.1899999999999977,
+            "overlap_seconds": 0.5900000000000034,
+            "overlap_fraction_of_wall_time": 0.4957983193277349,
+            "overlap_fraction_of_speech": 0.4957983193277349,
+            "peak_speakers": 2
+          }
+        }
+      ]
+    },
+    {
+      "key": "ami/dev/TS3004c",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\references.json",
+      "raw_sha256": "6881894c20468182eb8edf9e1afaa8e5b3cb5abcfbcf9e96bb5935e7d1745c34",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "repeated_utterance_with_changing_timestamps",
+        "char_offset": 54815,
+        "repeated_unit": "Mm.",
+        "repeated_segments": 1657,
+        "generated_onset_timestamp": 2502.38
+      },
+      "anchor_seconds": 2502.38,
+      "anchor_method": "generated_start_of_first_repeated_utterance",
+      "annotation_speakers_at_anchor": 0,
+      "whole_meeting": {
+        "start": 0,
+        "end": 2970.0,
+        "speech_seconds": 1938.0700000000002,
+        "overlap_seconds": 293.6899999999996,
+        "overlap_fraction_of_wall_time": 0.09888552188552176,
+        "overlap_fraction_of_speech": 0.1515373541719337,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [],
+      "context_before_loop": " have to stop now, okay, we just we have to stop it now.[2451.63][2451.39][S01]Yeah.[2451.65][2451.89][S02]Okay.[2452.26][2452.30][S03]Fine.[2452.63][2466.92][S02]Thirty minutes?[2467.55][2468.46][S04]Yeah.[2468.67][2469.42][S02]Okay.[2469.86][2472.06][S02]Ciao.[2472.37][2501.56][S04]Hallo?[2501.92]",
+      "context_after_loop": "[2502.38][S01]Mm.[2502.51][2502.89][S02]Mm.[2503.15][2503.15][S01]Mm.[2503.22][2503.22][S02]Mm.[2503",
+      "window_10s": {
+        "start": 2497.38,
+        "end": 2507.38,
+        "speech_seconds": 0.0,
+        "overlap_seconds": 0.0,
+        "overlap_fraction_of_wall_time": 0.0,
+        "overlap_fraction_of_speech": null,
+        "peak_speakers": 0
+      },
+      "reference_utterance_overlap": []
+    },
+    {
+      "key": "alimeeting/dev/R8001_M8004",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-50",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\references.json",
+      "raw_sha256": "e110b6c2026ad76129905df8a1887d2af217fbc08aaf878716c267401f3079fe",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 18462,
+        "period_characters": 1,
+        "repeated_unit": "下",
+        "repeated_tail_characters": 51141
+      },
+      "anchor_seconds": 1190.85,
+      "anchor_method": "generated_start_of_unfinished_utterance",
+      "annotation_speakers_at_anchor": 1,
+      "whole_meeting": {
+        "start": 0,
+        "end": 1573.85,
+        "speech_seconds": 1491.5399999999993,
+        "overlap_seconds": 456.3400000000008,
+        "overlap_fraction_of_wall_time": 0.2899513930806626,
+        "overlap_fraction_of_speech": 0.3059522372849545,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 1184.66,
+          "end": 1194.96,
+          "speaker": "S02",
+          "text": "你还要沟通一下是先那个，咱们还要确定一个流程。我觉得有一个时间点是先做哪步然后先是先是直播还是先是？"
+        },
+        {
+          "start": 1190.88,
+          "end": 1196.71,
+          "speaker": "S01",
+          "text": "这样我们就下下周，下周二吧，下周二之前把这方案定过来，好不好，那有没有意见。"
+        }
+      ],
+      "context_before_loop": "][S03]我们走流量，走流量走一次，然后把这个东西推出来。[1170.02][1169.12][S01]好。[1169.34][1170.88][S01]但那咱们的所有的这个都要一步一步都一起去推行啊，包括说咱们做，如果做这个宣传的时候，咱们的产品，咱们的盲盒产品肯定要是在这个直播间这边儿去上线的，啊，所以说这边要加快速度去跟去谈一下，啊。[1185.32][1184.60][S03]嗯，还要沟通一下是先那个，咱们还要确定一个流程，我觉得有一个时间点是先做直播，然后先先做直播，对，对。[1194.58][1189.08][S01]嗯。[1189.32][1190.85][S01]这样我们就，",
+      "context_after_loop": "下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下下",
+      "window_10s": {
+        "start": 1185.85,
+        "end": 1195.85,
+        "speech_seconds": 10.0,
+        "overlap_seconds": 4.9699999999998,
+        "overlap_fraction_of_wall_time": 0.49699999999998,
+        "overlap_fraction_of_speech": 0.49699999999998,
+        "peak_speakers": 4
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 1184.66,
+          "end": 1194.96,
+          "speaker": "S02",
+          "text": "你还要沟通一下是先那个，咱们还要确定一个流程。我觉得有一个时间点是先做哪步然后先是先是直播还是先是？",
+          "overlap": {
+            "start": 1184.66,
+            "end": 1194.96,
+            "speech_seconds": 10.299999999999955,
+            "overlap_seconds": 4.729999999999791,
+            "overlap_fraction_of_wall_time": 0.4592233009708555,
+            "overlap_fraction_of_speech": 0.4592233009708555,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 1190.88,
+          "end": 1196.71,
+          "speaker": "S01",
+          "text": "这样我们就下下周，下周二吧，下周二之前把这方案定过来，好不好，那有没有意见。",
+          "overlap": {
+            "start": 1190.88,
+            "end": 1196.71,
+            "speech_seconds": 5.829999999999927,
+            "overlap_seconds": 5.829999999999927,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 4
+          }
+        }
+      ]
+    },
+    {
+      "key": "alimeeting/test/R8005_M8009",
+      "model_path": "/work/qt28/moss/results/ms-swift-63521/vllm_exports/checkpoint-20",
+      "backend": "vllm",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\predictions\\sft\\alimeeting\\test\\R8005_M8009.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\references.json",
+      "raw_sha256": "ddebe4cb7de2bce000de021d815477a2cdb6c1c36bbacfa8be58925386472302",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 20591,
+        "period_characters": 1,
+        "repeated_unit": "外",
+        "repeated_tail_characters": 48230
+      },
+      "anchor_seconds": 983.61,
+      "anchor_method": "generated_start_of_unfinished_utterance",
+      "annotation_speakers_at_anchor": 1,
+      "whole_meeting": {
+        "start": 0,
+        "end": 1776.99,
+        "speech_seconds": 1735.7999999999993,
+        "overlap_seconds": 1128.3199999999993,
+        "overlap_fraction_of_wall_time": 0.6349613672558648,
+        "overlap_fraction_of_speech": 0.6500288051618849,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 979.88,
+          "end": 983.84,
+          "speaker": "S04",
+          "text": "拼多多，拼多多他不说假货比较多吗？"
+        },
+        {
+          "start": 983.66,
+          "end": 994.21,
+          "speaker": "S01",
+          "text": "唉假货到现在整理的也不错，但你也得会淘会买拼多多也有真的，知道吗？就买那假一赔十的，买的时候问你是假一赔十吗是，哎这个可以买。"
+        },
+        {
+          "start": 983.79,
+          "end": 986.17,
+          "speaker": "S02",
+          "text": "嗯嗯。嗯，是。"
+        }
+      ],
+      "context_before_loop": "对，比较，对，京东贵点儿。[976.11][972.68][S03]京东啊。[973.41][976.38][S03]贵，贵点儿。[977.01][978.34][S03]贵点儿质量，贵点儿质量好也行。[980.81][978.61][S04]对，对，对，对。[980.81][979.11][S02]对，对。[980.81][980.21][S01]还有。[980.81][980.31][S02]对，我感觉。[981.21][981.41][S02]他多，假货比较多。[983.71][983.61][S01]呃，假货他现在整体这个，货大家也得会会买，拼多多也有，真的，知道吗，就买那假一赔十的，",
+      "context_after_loop": "外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外外",
+      "window_10s": {
+        "start": 978.61,
+        "end": 988.61,
+        "speech_seconds": 10.0,
+        "overlap_seconds": 6.039999999999964,
+        "overlap_fraction_of_wall_time": 0.6039999999999963,
+        "overlap_fraction_of_speech": 0.6039999999999963,
+        "peak_speakers": 4
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 979.88,
+          "end": 983.84,
+          "speaker": "S04",
+          "text": "拼多多，拼多多他不说假货比较多吗？",
+          "overlap": {
+            "start": 979.88,
+            "end": 983.84,
+            "speech_seconds": 3.9600000000000364,
+            "overlap_seconds": 2.4400000000000546,
+            "overlap_fraction_of_wall_time": 0.6161616161616242,
+            "overlap_fraction_of_speech": 0.6161616161616242,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 983.66,
+          "end": 994.21,
+          "speaker": "S01",
+          "text": "唉假货到现在整理的也不错，但你也得会淘会买拼多多也有真的，知道吗？就买那假一赔十的，买的时候问你是假一赔十吗是，哎这个可以买。",
+          "overlap": {
+            "start": 983.66,
+            "end": 994.21,
+            "speech_seconds": 10.550000000000068,
+            "overlap_seconds": 7.099999999999909,
+            "overlap_fraction_of_wall_time": 0.6729857819905084,
+            "overlap_fraction_of_speech": 0.6729857819905084,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 983.79,
+          "end": 986.17,
+          "speaker": "S02",
+          "text": "嗯嗯。嗯，是。",
+          "overlap": {
+            "start": 983.79,
+            "end": 986.17,
+            "speech_seconds": 2.3799999999999955,
+            "overlap_seconds": 2.3799999999999955,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 3
+          }
+        }
+      ]
+    },
+    {
+      "key": "alimeeting/test/R8005_M8008",
+      "model_path": "/work/qt28/moss/results/ms-swift-63521/vllm_exports/checkpoint-20",
+      "backend": "vllm",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\predictions\\sft\\alimeeting\\test\\R8005_M8008.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\references.json",
+      "raw_sha256": "4a8120fd3d6c8f753368112be0b12b077bb1a89ee197607967f18136162cb50b",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 22895,
+        "period_characters": 9,
+        "repeated_unit": "][1458.88",
+        "repeated_tail_characters": 53420
+      },
+      "anchor_seconds": 1458.88,
+      "anchor_method": "repeated_generated_timestamp",
+      "annotation_speakers_at_anchor": 2,
+      "whole_meeting": {
+        "start": 0,
+        "end": 1960.8215,
+        "speech_seconds": 1863.499999999998,
+        "overlap_seconds": 476.510000000001,
+        "overlap_fraction_of_wall_time": 0.2430154912112097,
+        "overlap_fraction_of_speech": 0.2557070029514363,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 1456.95,
+          "end": 1458.85,
+          "speaker": "S04",
+          "text": "这个真的是分距离的，就是。"
+        },
+        {
+          "start": 1458.0,
+          "end": 1461.42,
+          "speaker": "S03",
+          "text": "哦没有我从我从山东买的。"
+        },
+        {
+          "start": 1458.64,
+          "end": 1460.63,
+          "speaker": "S02",
+          "text": "对生鲜配送这是可以的。"
+        }
+      ],
+      "context_before_loop": "得，但是你得保证这快递员把这箱再给你还回来啊。[1446.41][1444.12][S04]距离。[1444.72][1445.96][S04]呃距离限制它是很重要的。[1448.02][1447.92][S01]对，给他寄过去，反正只要是客户有这个需求的话，我们一定要做到。[1452.02][1451.98][S03]啊其实到现在倒是也行，买个那个肉什么的，生肉都能。[1456.51][1456.78][S04]这个真的是分距离的，就是。[1458.88][1457.85][S03]啊。[1458.25][1458.48][S02]对，生鲜配送这个是可以的。[1460.65][1458.70",
+      "context_after_loop": "][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88][1458.88]",
+      "window_10s": {
+        "start": 1453.88,
+        "end": 1463.88,
+        "speech_seconds": 9.450000000000045,
+        "overlap_seconds": 3.8700000000003456,
+        "overlap_fraction_of_wall_time": 0.38700000000003454,
+        "overlap_fraction_of_speech": 0.40952380952384415,
+        "peak_speakers": 3
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 1456.95,
+          "end": 1458.85,
+          "speaker": "S04",
+          "text": "这个真的是分距离的，就是。",
+          "overlap": {
+            "start": 1456.95,
+            "end": 1458.85,
+            "speech_seconds": 1.8999999999998636,
+            "overlap_seconds": 0.849999999999909,
+            "overlap_fraction_of_wall_time": 0.4473684210526158,
+            "overlap_fraction_of_speech": 0.4473684210526158,
+            "peak_speakers": 3
+          }
+        },
+        {
+          "start": 1458.0,
+          "end": 1461.42,
+          "speaker": "S03",
+          "text": "哦没有我从我从山东买的。",
+          "overlap": {
+            "start": 1458.0,
+            "end": 1461.42,
+            "speech_seconds": 3.4200000000000728,
+            "overlap_seconds": 2.7600000000002183,
+            "overlap_fraction_of_wall_time": 0.8070175438596958,
+            "overlap_fraction_of_speech": 0.8070175438596958,
+            "peak_speakers": 3
+          }
+        },
+        {
+          "start": 1458.64,
+          "end": 1460.63,
+          "speaker": "S02",
+          "text": "对生鲜配送这是可以的。",
+          "overlap": {
+            "start": 1458.64,
+            "end": 1460.63,
+            "speech_seconds": 1.990000000000009,
+            "overlap_seconds": 1.990000000000009,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 3
+          }
+        }
+      ]
+    },
+    {
+      "key": "ami/dev/TS3004c",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-20",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63439\\raw\\run\\checkpoint-20\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63439\\raw\\run\\checkpoint-20\\references.json",
+      "raw_sha256": "0bceb2a20437c2c6c45310a7c4b69d374fb535a5b416b85c53223c69614699d2",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "repeated_utterance_with_changing_timestamps",
+        "char_offset": 55072,
+        "repeated_unit": "Mm.",
+        "repeated_segments": 1643,
+        "generated_onset_timestamp": 2502.38
+      },
+      "anchor_seconds": 2502.38,
+      "anchor_method": "generated_start_of_first_repeated_utterance",
+      "annotation_speakers_at_anchor": 0,
+      "whole_meeting": {
+        "start": 0,
+        "end": 2970.0,
+        "speech_seconds": 1938.0700000000002,
+        "overlap_seconds": 293.6899999999996,
+        "overlap_fraction_of_wall_time": 0.09888552188552176,
+        "overlap_fraction_of_speech": 0.1515373541719337,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [],
+      "context_before_loop": "e have to stop now, okay, we just we have to stop it now.[2451.61][2451.41][S04]Yeah.[2451.61][2451.91][S02]Okay.[2452.21][2452.31][S01]Fine.[2452.55][2466.91][S01]Thirty minutes?[2467.51][2468.48][S03]Yep.[2468.65][2469.41][S01]Okay.[2469.81][2472.08][S01]Ciao.[2472.31][2501.58][S03]Hallo?[2501.85]",
+      "context_after_loop": "[2502.38][S04]Mm.[2502.45][2502.81][S01]Mm.[2503.01][2503.01][S04]Mm.[2503.11][2503.11][S01]Mm.[2503",
+      "window_10s": {
+        "start": 2497.38,
+        "end": 2507.38,
+        "speech_seconds": 0.0,
+        "overlap_seconds": 0.0,
+        "overlap_fraction_of_wall_time": 0.0,
+        "overlap_fraction_of_speech": null,
+        "peak_speakers": 0
+      },
+      "reference_utterance_overlap": []
+    },
+    {
+      "key": "ami/dev/TS3004c",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-10",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63439\\raw\\run\\checkpoint-10\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63439\\raw\\run\\checkpoint-10\\references.json",
+      "raw_sha256": "67e56c79358edb9fea04a510c9d3e8cd67d63889d4b2eb3086f9b8026277241f",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 505,
+        "period_characters": 17,
+        "repeated_unit": "][?][66.70][66.70",
+        "repeated_tail_characters": 79177
+      },
+      "anchor_seconds": 66.7,
+      "anchor_method": "repeated_generated_timestamp",
+      "annotation_speakers_at_anchor": 2,
+      "whole_meeting": {
+        "start": 0,
+        "end": 2970.0,
+        "speech_seconds": 1938.0700000000002,
+        "overlap_seconds": 293.6899999999996,
+        "overlap_fraction_of_wall_time": 0.09888552188552176,
+        "overlap_fraction_of_speech": 0.1515373541719337,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 64.71,
+          "end": 67.04,
+          "speaker": "S03",
+          "text": "Hello. Oop."
+        },
+        {
+          "start": 66.45,
+          "end": 67.64,
+          "speaker": "S02",
+          "text": "Why won't it wake up?"
+        }
+      ],
+      "context_before_loop": "f them.[60.59][61.30][S01]Okay.[61.75][63.88][S02]Come on.[64.44][64.32][S01]Check check check check.[65.90][64.69][S03]Hello.[65.27][65.57][S01]Check.[65.95][66.41][?][66.65][66.42][?][66.62][66.44][?][66.66][66.52][?][66.68][66.54][?][66.68][66.56][?][66.68][66.57][?][66.68][66.68][?][66.70][66.69",
+      "context_after_loop": "][?][66.70][66.70][?][66.70][66.70][?][66.70][66.70][?][66.70][66.70][?][66.70][66.70][?][66.70][66.",
+      "window_10s": {
+        "start": 61.7,
+        "end": 71.7,
+        "speech_seconds": 3.8399999999999963,
+        "overlap_seconds": 2.15000000000002,
+        "overlap_fraction_of_wall_time": 0.215000000000002,
+        "overlap_fraction_of_speech": 0.559895833333339,
+        "peak_speakers": 2
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 64.71,
+          "end": 67.04,
+          "speaker": "S03",
+          "text": "Hello. Oop.",
+          "overlap": {
+            "start": 64.71,
+            "end": 67.04,
+            "speech_seconds": 2.3300000000000125,
+            "overlap_seconds": 1.940000000000012,
+            "overlap_fraction_of_wall_time": 0.8326180257510736,
+            "overlap_fraction_of_speech": 0.8326180257510736,
+            "peak_speakers": 2
+          }
+        },
+        {
+          "start": 66.45,
+          "end": 67.64,
+          "speaker": "S02",
+          "text": "Why won't it wake up?",
+          "overlap": {
+            "start": 66.45,
+            "end": 67.64,
+            "speech_seconds": 1.1899999999999977,
+            "overlap_seconds": 0.5900000000000034,
+            "overlap_fraction_of_wall_time": 0.4957983193277349,
+            "overlap_fraction_of_speech": 0.4957983193277349,
+            "peak_speakers": 2
+          }
+        }
+      ]
+    },
+    {
+      "key": "alimeeting/dev/R8003_M8001",
+      "model_path": "/work/qt28/moss/results/ms-swift-63521/vllm_exports/checkpoint-40",
+      "backend": "vllm",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\dev-40\\predictions\\sft\\alimeeting\\dev\\R8003_M8001.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\dev-40\\references.json",
+      "raw_sha256": "0514affdfc76d7a2622d9177aa3eedeb6c4fc16e9365e9433c8aef21748b6093",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 15799,
+        "period_characters": 9,
+        "repeated_unit": "1][1322.0",
+        "repeated_tail_characters": 59697
+      },
+      "anchor_seconds": 1322.01,
+      "anchor_method": "repeated_generated_timestamp",
+      "annotation_speakers_at_anchor": 3,
+      "whole_meeting": {
+        "start": 0,
+        "end": 2068.0,
+        "speech_seconds": 1877.1800000000005,
+        "overlap_seconds": 333.49999999999756,
+        "overlap_fraction_of_wall_time": 0.16126692456479572,
+        "overlap_fraction_of_speech": 0.17766010718204833,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 1315.51,
+          "end": 1328.38,
+          "speaker": "S04",
+          "text": "现在都是都是公众都是公众场合儿，你不管你给老师什么东西，你要跟老师接触好多人那都看着呢，人家老师也也是害怕的。"
+        },
+        {
+          "start": 1319.61,
+          "end": 1324.37,
+          "speaker": "S03",
+          "text": "都是公，嗯，对公众，都都是公众场合，对，就。"
+        },
+        {
+          "start": 1320.68,
+          "end": 1322.16,
+          "speaker": "S02",
+          "text": "嗯，都是公众场合。"
+        }
+      ],
+      "context_before_loop": "众。[1319.31][1315.41][S01]当面给。[1316.04][1316.51][S02]嗯。[1316.95][1317.05][S03]对。[1317.41][1318.40][S02]对。[1318.97][1319.51][S03]都是公。[1320.15][1319.58][S04]都是场合儿。[1320.58][1320.20][S01]确实是，嗯。[1321.35][1321.08][S02]都是公众场合儿。[1322.07][1321.14][S04]所以如果你给老师什么东西，你要跟老师接触，好多人那儿都看着呢，人家老师也也不太怕。[1328.27][1321.8",
+      "context_after_loop": "1][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01][1322.01",
+      "window_10s": {
+        "start": 1317.01,
+        "end": 1327.01,
+        "speech_seconds": 10.0,
+        "overlap_seconds": 6.270000000000209,
+        "overlap_fraction_of_wall_time": 0.6270000000000209,
+        "overlap_fraction_of_speech": 0.6270000000000209,
+        "peak_speakers": 4
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 1315.51,
+          "end": 1328.38,
+          "speaker": "S04",
+          "text": "现在都是都是公众都是公众场合儿，你不管你给老师什么东西，你要跟老师接触好多人那都看着呢，人家老师也也是害怕的。",
+          "overlap": {
+            "start": 1315.51,
+            "end": 1328.38,
+            "speech_seconds": 12.870000000000118,
+            "overlap_seconds": 8.230000000000246,
+            "overlap_fraction_of_wall_time": 0.6394716394716526,
+            "overlap_fraction_of_speech": 0.6394716394716526,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 1319.61,
+          "end": 1324.37,
+          "speaker": "S03",
+          "text": "都是公，嗯，对公众，都都是公众场合，对，就。",
+          "overlap": {
+            "start": 1319.61,
+            "end": 1324.37,
+            "speech_seconds": 4.759999999999991,
+            "overlap_seconds": 4.759999999999991,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 1320.68,
+          "end": 1322.16,
+          "speaker": "S02",
+          "text": "嗯，都是公众场合。",
+          "overlap": {
+            "start": 1320.68,
+            "end": 1322.16,
+            "speech_seconds": 1.4800000000000182,
+            "overlap_seconds": 1.4800000000000182,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 4
+          }
+        }
+      ]
+    },
+    {
+      "key": "alimeeting/dev/R8007_M8011",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63458/lr2e-6/checkpoint-20",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\sft\\alimeeting\\dev\\R8007_M8011.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\references.json",
+      "raw_sha256": "0754211d7b6d95de64f9c0ea2e91865a2206e3df2f6a2206e60897796af4cbc5",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 14725,
+        "period_characters": 9,
+        "repeated_unit": "0][1113.3",
+        "repeated_tail_characters": 61011
+      },
+      "anchor_seconds": 1113.3,
+      "anchor_method": "repeated_generated_timestamp",
+      "annotation_speakers_at_anchor": 2,
+      "whole_meeting": {
+        "start": 0,
+        "end": 1861.546,
+        "speech_seconds": 1801.9399999999996,
+        "overlap_seconds": 442.77999999999986,
+        "overlap_fraction_of_wall_time": 0.2378560615746266,
+        "overlap_fraction_of_speech": 0.24572405296513755,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 1111.78,
+          "end": 1113.04,
+          "speaker": "S03",
+          "text": "对，很很高兴的。"
+        },
+        {
+          "start": 1113.18,
+          "end": 1114.53,
+          "speaker": "S01",
+          "text": "对至少我今天我是。"
+        },
+        {
+          "start": 1113.21,
+          "end": 1114.07,
+          "speaker": "S02",
+          "text": "对自己动手儿。"
+        }
+      ],
+      "context_before_loop": "抑比较压抑性的这个环境里边，大家还是也能做到一个类似于自娱自乐吧。[1106.56][1099.30][S02]对娱乐。[1100.56][1106.52][S02]嗯嗯。[1107.06][1106.88][S03]对还是很快乐的那个。[1108.78][1107.28][S01]这个是这个对对用户一个比较好的影响。[1110.14][1109.90][S03]虽然作废了，但是心里还是很美的。[1112.21][1111.74][S02]对很很高兴的。[1113.00][1113.12][S01]对，至少我今天我是做到了一些什么东西，我有付出的，对我有付出的。[1118.98][1113.2",
+      "context_after_loop": "0][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30][1113.30",
+      "window_10s": {
+        "start": 1108.3,
+        "end": 1118.3,
+        "speech_seconds": 8.989999999999782,
+        "overlap_seconds": 3.9999999999995453,
+        "overlap_fraction_of_wall_time": 0.3999999999999545,
+        "overlap_fraction_of_speech": 0.4449388209120848,
+        "peak_speakers": 2
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 1111.78,
+          "end": 1113.04,
+          "speaker": "S03",
+          "text": "对，很很高兴的。",
+          "overlap": {
+            "start": 1111.78,
+            "end": 1113.04,
+            "speech_seconds": 1.259999999999991,
+            "overlap_seconds": 0.43000000000006366,
+            "overlap_fraction_of_wall_time": 0.34126984126989424,
+            "overlap_fraction_of_speech": 0.34126984126989424,
+            "peak_speakers": 2
+          }
+        },
+        {
+          "start": 1113.18,
+          "end": 1114.53,
+          "speaker": "S01",
+          "text": "对至少我今天我是。",
+          "overlap": {
+            "start": 1113.18,
+            "end": 1114.53,
+            "speech_seconds": 1.349999999999909,
+            "overlap_seconds": 0.8599999999999,
+            "overlap_fraction_of_wall_time": 0.6370370370370059,
+            "overlap_fraction_of_speech": 0.6370370370370059,
+            "peak_speakers": 2
+          }
+        },
+        {
+          "start": 1113.21,
+          "end": 1114.07,
+          "speaker": "S02",
+          "text": "对自己动手儿。",
+          "overlap": {
+            "start": 1113.21,
+            "end": 1114.07,
+            "speech_seconds": 0.8599999999999,
+            "overlap_seconds": 0.8599999999999,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 2
+          }
+        }
+      ]
+    },
+    {
+      "key": "alimeeting/dev/R8007_M8010",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63458/lr2e-6/checkpoint-20",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\sft\\alimeeting\\dev\\R8007_M8010.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\references.json",
+      "raw_sha256": "71fea6e42ba2149be2eb628955150b0ec532ded59a7d756c0d5d78d9b007b135",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 10160,
+        "period_characters": 8,
+        "repeated_unit": "8][504.6",
+        "repeated_tail_characters": 65414
+      },
+      "anchor_seconds": 504.68,
+      "anchor_method": "repeated_generated_timestamp",
+      "annotation_speakers_at_anchor": 2,
+      "whole_meeting": {
+        "start": 0,
+        "end": 1856.3219375,
+        "speech_seconds": 1822.1000000000004,
+        "overlap_seconds": 1046.7400000000002,
+        "overlap_fraction_of_wall_time": 0.5638784840358545,
+        "overlap_fraction_of_speech": 0.5744690192634871,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [
+        {
+          "start": 502.5,
+          "end": 513.26,
+          "speaker": "S02",
+          "text": "这个吧就没啥要求，只要说得亮堂的，瞅着特别，特别舒服，温馨的那种，完了员工干活儿，工作了就特别得劲儿，嗯。"
+        },
+        {
+          "start": 503.62,
+          "end": 505.35,
+          "speaker": "S03",
+          "text": "嗯地板砖。"
+        },
+        {
+          "start": 504.79,
+          "end": 505.57,
+          "speaker": "S01",
+          "text": "没啥要求。"
+        }
+      ],
+      "context_before_loop": "494.91][490.37][S01]对，到时候，哦，是小隔间儿呗。[492.62][493.18][S03]现在。[493.72][493.43][S02]要是空间够用的话，咱们可以会议室。[496.35][494.48][S01]还有一个会议室，对，到时候那个装修的这个风格的话，你觉得就是有什么是陶瓷呀，还是说这个地板啊墙啊。[503.47][495.25][S04]对。[495.70][502.38][S02]这个吧，就是没啥要求，只要是得亮堂儿的瞅着特别特别舒服温馨的多，完了员工干活儿工作了特别有劲儿，嗯。[513.10][504.53][S01]地板上。[505.14][504.5",
+      "context_after_loop": "8][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][504.68][5",
+      "window_10s": {
+        "start": 499.68,
+        "end": 509.68,
+        "speech_seconds": 10.0,
+        "overlap_seconds": 7.170000000000016,
+        "overlap_fraction_of_wall_time": 0.7170000000000016,
+        "overlap_fraction_of_speech": 0.7170000000000016,
+        "peak_speakers": 3
+      },
+      "reference_utterance_overlap": [
+        {
+          "start": 502.5,
+          "end": 513.26,
+          "speaker": "S02",
+          "text": "这个吧就没啥要求，只要说得亮堂的，瞅着特别，特别舒服，温馨的那种，完了员工干活儿，工作了就特别得劲儿，嗯。",
+          "overlap": {
+            "start": 502.5,
+            "end": 513.26,
+            "speech_seconds": 10.759999999999991,
+            "overlap_seconds": 10.350000000000023,
+            "overlap_fraction_of_wall_time": 0.961895910780672,
+            "overlap_fraction_of_speech": 0.961895910780672,
+            "peak_speakers": 4
+          }
+        },
+        {
+          "start": 503.62,
+          "end": 505.35,
+          "speaker": "S03",
+          "text": "嗯地板砖。",
+          "overlap": {
+            "start": 503.62,
+            "end": 505.35,
+            "speech_seconds": 1.7300000000000182,
+            "overlap_seconds": 1.7300000000000182,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 3
+          }
+        },
+        {
+          "start": 504.79,
+          "end": 505.57,
+          "speaker": "S01",
+          "text": "没啥要求。",
+          "overlap": {
+            "start": 504.79,
+            "end": 505.57,
+            "speech_seconds": 0.7799999999999727,
+            "overlap_seconds": 0.7799999999999727,
+            "overlap_fraction_of_wall_time": 1.0,
+            "overlap_fraction_of_speech": 1.0,
+            "peak_speakers": 3
+          }
+        }
+      ]
+    },
+    {
+      "key": "alimeeting/dev/R8003_M8001",
+      "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63458/lr2e-6/checkpoint-20",
+      "backend": "hf",
+      "source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\sft\\alimeeting\\dev\\R8003_M8001.json",
+      "reference_source": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\references.json",
+      "raw_sha256": "91b453f174c6e08af9432965b9dd35ec544d31d51cd2fec7dc4d475ef061866e",
+      "generated_tokens": 65536,
+      "loop": {
+        "kind": "exact_periodic_tail",
+        "char_offset": 12770,
+        "period_characters": 1,
+        "repeated_unit": "窃",
+        "repeated_tail_characters": 55506
+      },
+      "anchor_seconds": 1096.14,
+      "anchor_method": "generated_start_of_unfinished_utterance",
+      "annotation_speakers_at_anchor": 0,
+      "whole_meeting": {
+        "start": 0,
+        "end": 2068.0,
+        "speech_seconds": 1877.1800000000005,
+        "overlap_seconds": 333.49999999999756,
+        "overlap_fraction_of_wall_time": 0.16126692456479572,
+        "overlap_fraction_of_speech": 0.17766010718204833,
+        "peak_speakers": 4
+      },
+      "reference_candidates": [],
+      "context_before_loop": "[1059.77][S03]当天或者改天。[1061.11][1060.63][S01]当天用闪送邮寄，或者是咱们亲自看看接送孩子的时候儿，或者是这个这个中午的时时间或者什么的去拜访一下儿到学校，然后把这个东西递交给老师。[1075.05][1067.35][S02]嗯。[1067.81][1076.69][S02]我觉得老师基本上来说这种比较有有有有有有受人尊重的这种职业，他基本来说呢是。[1087.01][1087.96][S02]有的时候你在教师节这个特别特定的节日，你送他什么，他都会有一些。[1095.51][1094.18][S03]啊。[1094.51][1096.14][S03]",
+      "context_after_loop": "窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃窃",
+      "window_10s": {
+        "start": 1091.14,
+        "end": 1101.14,
+        "speech_seconds": 7.75,
+        "overlap_seconds": 0.37999999999988177,
+        "overlap_fraction_of_wall_time": 0.037999999999988175,
+        "overlap_fraction_of_speech": 0.04903225806450087,
+        "peak_speakers": 2
+      },
+      "reference_utterance_overlap": []
+    }
+  ],
+  "duplicates": [
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63421\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-50\\predictions\\sft\\ami\\dev\\TS3004c.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\cases\\step10-check\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\step10-check\\predictions\\sft\\ami\\dev\\TS3004c.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\cases\\sentinel-target\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\ami\\dev\\TS3004c.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\cases\\sentinel-3\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\eval-62994-63363\\predictions\\sft\\aishell4\\test\\L_R003S04C02.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\aishell4\\test\\L_R003S04C02.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\eval-62994-63363\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\eval-62994-63363\\predictions\\sft\\alimeeting\\dev\\R8003_M8001.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\dev\\R8003_M8001.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8004_M8006.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8004_M8006.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8005_M8007.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8005_M8007.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8005_M8009.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8005_M8009.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8006_M8012.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8006_M8012.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8009_M8021.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\alimeeting\\test\\R8009_M8021.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\eval-62994-63363\\predictions\\sft\\ami\\dev\\IB4001.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\eval-62994-63363\\raw\\results\\eval-62994-63363\\predictions\\sft\\ami\\dev\\IB4001.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-63421\\evaluations\\sentinel-50\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-50\\predictions\\sft\\ami\\dev\\TS3004c.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-63443\\evaluations\\sentinel-50\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63443\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-63458\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\sft\\alimeeting\\dev\\R8003_M8001.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\sft\\alimeeting\\dev\\R8003_M8001.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-63458\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\sft\\alimeeting\\dev\\R8007_M8010.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\sft\\alimeeting\\dev\\R8007_M8010.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-63458\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\sft\\alimeeting\\dev\\R8007_M8011.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63458\\raw\\run\\trials\\lr2e-6\\evaluations\\dev-20\\predictions\\sft\\alimeeting\\dev\\R8007_M8011.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-diagnostic-63432\\checkpoint-25\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-25\\predictions\\sft\\ami\\dev\\TS3004c.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-diagnostic-63432\\checkpoint-50\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63432\\raw\\run\\checkpoint-50\\predictions\\sft\\ami\\dev\\TS3004c.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-diagnostic-63439\\checkpoint-10\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63439\\raw\\run\\checkpoint-10\\predictions\\sft\\ami\\dev\\TS3004c.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-diagnostic-63439\\checkpoint-20\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63439\\raw\\run\\checkpoint-20\\predictions\\sft\\ami\\dev\\TS3004c.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-diagnostic-63441\\cases\\sentinel-3\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-diagnostic-63441\\cases\\sentinel-target\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\ami\\dev\\TS3004c.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-diagnostic-63441\\cases\\step10-check\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\step10-check\\predictions\\sft\\ami\\dev\\TS3004c.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-diagnostic-63441\\evaluations\\sentinel-50\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\alimeeting\\dev\\R8001_M8004.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-diagnostic-63441\\evaluations\\sentinel-50\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\sentinel-50\\predictions\\sft\\ami\\dev\\TS3004c.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\full-attention-v2-diagnostic-63441\\evaluations\\step10-check\\predictions\\sft\\ami\\dev\\TS3004c.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\full_attention_v2\\artifacts\\63441\\raw\\run\\evaluations\\step10-check\\predictions\\sft\\ami\\dev\\TS3004c.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\ms-swift-63521\\evaluations\\dev-40\\predictions\\sft\\alimeeting\\dev\\R8003_M8001.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\dev-40\\predictions\\sft\\alimeeting\\dev\\R8003_M8001.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\ms-swift-63521\\evaluations\\test-20\\predictions\\sft\\alimeeting\\test\\R8005_M8008.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\predictions\\sft\\alimeeting\\test\\R8005_M8008.json"
+    },
+    {
+      "copy": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\analysis\\20260915-label-overlap\\remote_failures\\ms-swift-63521\\evaluations\\test-20\\predictions\\sft\\alimeeting\\test\\R8005_M8009.json",
+      "retained": "C:\\Users\\qizhi\\Documents\\ChatGPT\\说话人日志\\dkucc\\artifacts\\ms-swift-63521\\complete\\ms-swift-63521\\evaluations\\test-20\\predictions\\sft\\alimeeting\\test\\R8005_M8009.json"
+    }
+  ]
+}

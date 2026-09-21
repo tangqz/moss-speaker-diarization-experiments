@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "failure-concentration",
+      "title": "少数输出失败主导了分数退步",
+      "queries": [
+        {
+          "id": "meeting-decomposition",
+          "columns": [
+            {
+              "field": "group",
+              "label": "数据划分"
+            },
+            {
+              "field": "meetings",
+              "label": "全部会议数"
+            },
+            {
+              "field": "delta_pp",
+              "label": "cpCER 变化（百分点）"
+            },
+            {
+              "field": "failure_meetings",
+              "label": "截断或严重格式失效会议数"
+            },
+            {
+              "field": "failure_share_pct",
+              "label": "这些会议对净增量的贡献（%）"
+            }
+          ],
+          "rows": [
+            {
+              "group": "alimeeting/test",
+              "meetings": 20,
+              "delta_pp": 17.65858168940914,
+              "failure_meetings": 5,
+              "failure_share_pct": 85.08232118758434
+            },
+            {
+              "group": "aishell4/test",
+              "meetings": 20,
+              "delta_pp": 9.430160794841282,
+              "failure_meetings": 3,
+              "failure_share_pct": 94.44150965545577
+            },
+            {
+              "group": "ami/dev",
+              "meetings": 18,
+              "delta_pp": 25.771344764724425,
+              "failure_meetings": 5,
+              "failure_share_pct": 105.62706095096266
+            }
+          ],
+          "source": {
+            "label": "MOSS 62994 逐会议诊断",
+            "files": [
+              "per_record_metrics.json",
+              "output_diagnosis.json"
+            ],
+            "caveats": [
+              "失败组依据输出行为进行后验分类，贡献比例不等于训练因素的因果贡献。",
+              "正式评分和原始预测未改动；AMI dev 的贡献超过 100% 是因为其他会议的改善抵消了一部分损失。"
+            ],
+            "metricDefinitions": [
+              {
+                "label": "cpCER 增量贡献",
+                "definition": "每组会议的训练后减原始 cp 字符错误数，除以该数据划分全部参考字符数，再乘 100。"
+              }
+            ]
+          },
+          "methods": [
+            {
+              "language": "calculation",
+              "code": "贡献百分点 = 100 × 子组 cp 字符错误净增量 / 全组参考字符数；净增量贡献比例 = 100 × 子组错误净增量 / 全组错误净增量。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parser-recovery",
+      "title": "局部格式错误会扩大为后续片段丢失",
+      "queries": [
+        {
+          "id": "parser-checks",
+          "source": {
+            "label": "原始输出与实际解析器",
+            "files": [
+              "transcript_parser.py",
+              "output_diagnosis.json"
+            ],
+            "caveats": [
+              "独立合法片段扫描是诊断，未替换正式协议；即便恢复后，两个中文测试集仍退步。"
+            ],
+            "evidenceFlow": [
+              {
+                "kind": "validation",
+                "title": "最小复现",
+                "detail": "三段文本在中间多一个时间戳后，原解析器只读到第一段；独立合法片段扫描可读取三段。"
+              },
+              {
+                "kind": "validation",
+                "title": "完整输出核对",
+                "detail": "原始模型 82 场的 CER/cpCER 在独立扫描下全部不变，SFT 有 10 场变化。AMI dev TS3004b 从 0 段恢复到 503 个合法片段。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "training-precision",
+      "title": "优化器低精度是优先验证项，尚未证明是根因",
+      "queries": [
+        {
+          "id": "training-audit",
+          "source": {
+            "label": "训练配置与优化器元数据",
+            "files": [
+              "memory_sft.py",
+              "train_target_audit.json"
+            ],
+            "caveats": [
+              "尚未执行其他条件相同的 FP32 更新对照，不能确认精度对本次退步的因果贡献。",
+              "536 条目标结构检查通过不等于全量音频和标注语义已人工验收。"
+            ],
+            "evidenceFlow": [
+              {
+                "kind": "validation",
+                "title": "实际状态",
+                "detail": "683 组参数的 Adam exp_avg 和 exp_avg_sq 均为 BF16，权重以 BF16 加载；未配置 FP32 主权重。"
+              },
+              {
+                "kind": "validation",
+                "title": "训练目标检查",
+                "detail": "536 条训练目标共 355402 个片段，语法与原解析器一致性检查无异常。"
+              },
+              {
+                "kind": "validation",
+                "title": "监控缺口",
+                "detail": "eval_strategy=NO；只有 400、402 步检查点，缺少早期生成表现。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "bfloat16-paper",
+          "source": {
+            "label": "Revisiting BFloat16 Training",
+            "links": [
+              {
+                "label": "原始研究",
+                "url": "https://arxiv.org/abs/2010.06192"
+              }
+            ]
+          },
+          "summary": "研究确认低精度权重更新中的舍入可抵消小更新；这支持精度诊断的机制合理性，不证明本次具体退步由它造成。"
+        }
+      ]
+    }
+  ]
+}

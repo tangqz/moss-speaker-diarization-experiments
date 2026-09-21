@@ -1,0 +1,63 @@
+<h1>结论</h1>
+<callout emoji="✅" background-color="light-green" border-color="green">
+  <p><b>最小有效配置：repetition_penalty=1.02，temperature=0。</b>150-step 在问题样本上的循环被打断，完整 Test 复评中两模型均完成 56/56 条且无截断；因此本轮不需要调整 temperature，也没有进入温度采样或重新训练。</p>
+</callout>
+<p>这次实验验证的是“模型权重与解码配置组合”的工程表现，不单独证明模型权重已经恢复了出错后的恢复能力。训练目标和损失保持不变。</p>
+
+<h1>1. 实验协议</h1>
+<p>实验对象为 Base 与 MS-Swift checkpoint-150，先在已知问题样本 <code>alimeeting/test/R8005_M8009</code> 上进行完整会议生成。temperature 固定为 0，其他采样参数保持 top_p=1、top_k=-1、min_p=0、presence_penalty=0、frequency_penalty=0。</p>
+<table>
+  <thead><tr><th>配置</th><th>repetition_penalty</th><th>temperature</th><th>用途</th></tr></thead>
+  <tbody>
+    <tr><td>A0</td><td>1.00</td><td>0</td><td>原始 greedy 对照</td></tr>
+    <tr><td>A1</td><td>1.02</td><td>0</td><td>极轻重复惩罚</td></tr>
+    <tr><td>A2</td><td>1.05</td><td>0</td><td>轻度重复惩罚</td></tr>
+    <tr><td>A3</td><td>1.10</td><td>0</td><td>较明显重复惩罚</td></tr>
+  </tbody>
+</table>
+
+<h1>2. 问题样本结果与门控</h1>
+<p>A0 重现了历史故障：Base 正常结束，但 checkpoint-150 在 40,000 token 上限处截断，并连续生成 token“外”22,957 次。A1 已使 checkpoint-150 在 31,704 token 处正常 EOS，最长连续相同 token 仅 5；Base 也保持正常 EOS。A1、A2、A3 三组均通过结构和指标门控，按预先声明的最小值优先规则选择 A1。</p>
+<table>
+  <thead><tr><th>配置</th><th>Base 输出</th><th>Base 最长连续 run</th><th>Step 150 输出</th><th>Step 150 最长连续 run</th><th>结构状态</th></tr></thead>
+  <tbody>
+    <tr><td>A0</td><td>32,393 token，EOS</td><td>75</td><td>40,000 token，截断</td><td>22,957</td><td>Step 150 失败</td></tr>
+    <tr><td>A1</td><td>32,189 token，EOS</td><td>64</td><td>31,704 token，EOS</td><td>5</td><td>通过</td></tr>
+    <tr><td>A2</td><td>32,135 token，EOS</td><td>5</td><td>31,975 token，EOS</td><td>5</td><td>通过</td></tr>
+    <tr><td>A3</td><td>31,545 token，EOS</td><td>6</td><td>31,437 token，EOS</td><td>5</td><td>通过</td></tr>
+  </tbody>
+</table>
+<p>A1 相对 A0 在问题样本上的指标变化为：Base CER -0.362 pp、cpCER -0.369 pp、DER@0.25 -0.160 pp；Step 150 CER -21.487 pp、cpCER -24.204 pp、DER@0.25 -31.081 pp。两模型均满足不超过 1 个百分点退化的门控。</p>
+
+<h1>3. 完整 Test 复评</h1>
+<p>Base 与 checkpoint-150 均在同一 A1 配置下从头重新生成 56 条 Test 会议，未复用旧预测。下表的 Delta 是新配置减历史 greedy，单位为百分点；Truncated 为截断条数。</p>
+<table>
+  <thead><tr><th>模型 / 数据集</th><th>CER</th><th>cpCER</th><th>DER@0.25</th><th>Truncated</th><th>Delta CER</th><th>Delta cpCER</th><th>Delta DER</th></tr></thead>
+  <tbody>
+    <tr><td>Base / AISHELL-4</td><td>13.917%</td><td>13.617%</td><td>5.571%</td><td>0</td><td>+0.023</td><td>-0.518</td><td>-0.352</td></tr>
+    <tr><td>Base / AliMeeting</td><td>19.042%</td><td>15.298%</td><td>7.655%</td><td>0</td><td>-0.100</td><td>-0.052</td><td>-0.111</td></tr>
+    <tr><td>Base / AMI</td><td>21.242%</td><td>16.549%</td><td>22.377%</td><td>0</td><td>+0.199</td><td>+0.263</td><td>+0.158</td></tr>
+    <tr><td>Step 150 / AISHELL-4</td><td>13.943%</td><td>13.647%</td><td>5.649%</td><td>0</td><td>+0.014</td><td>-0.656</td><td>-0.314</td></tr>
+    <tr><td>Step 150 / AliMeeting</td><td>19.066%</td><td>15.307%</td><td>7.642%</td><td>0</td><td>-1.445</td><td>-1.693</td><td>-2.078</td></tr>
+    <tr><td>Step 150 / AMI</td><td>15.792%</td><td>10.000%</td><td>16.989%</td><td>0</td><td>-2.153</td><td>-2.267</td><td>-1.953</td></tr>
+  </tbody>
+</table>
+<p>完整 Test 的质量检查为 major_parse_loss=0、catastrophic_count_with_overlap=0。结果支持采用 A1 作为当前工程基线：Step 150 在 AliMeeting 和 AMI 上有明显收益，AISHELL-4 基本持平；Base 的变化均在小幅波动范围内。</p>
+
+<h1>4. D0/D1 诊断摘要</h1>
+<p>D1 固定前缀实验显示，恢复能力同时受模型权重和错误历史路径影响：gold_r8 可推进，而 gold_r32/r64/r128 在各模型上都持续重复；Step 150 的 step150_bad_r64 在 256 token 预算内未恢复，部分较浅的错误历史则可以逃逸。该结果支持“微调削弱出错后的恢复能力”作为当前最有支持的机制假说，但尚未完成权重层面的因果验证。</p>
+<p>D0 的 HF BF16、HF FP32 结果已完成；vLLM 阶段因显存残留和 FlashInfer 编译环境问题未完成。根据本次明确决定，没有补跑 vLLM D0，因此不把它表述为完整的 HF/vLLM 后端等价性结论。</p>
+
+<h1>5. 结论边界与后续</h1>
+<p>本次配置选择使用了已知 Test 问题样本 R8005_M8009，因此完整 Test 是工程复评，不是独立盲测。当前结论是：先固定 temperature=0，采用 repetition_penalty=1.02；后续若要形成泛化结论，应在未参与选择的 Dev 或压力样本上复核，并在 Base 与 Step 150 之间始终使用同一解码策略。</p>
+
+<h1>6. 任务与结果路径</h1>
+<table>
+  <thead><tr><th>阶段</th><th>任务</th><th>结果</th></tr></thead>
+  <tbody>
+    <tr><td>重复惩罚单样本 sweep</td><td><code>63693</code></td><td>A1/A2/A3 通过，选择 A1</td></tr>
+    <tr><td>完整 Test 复评</td><td><code>63698</code></td><td>Base 与 Step 150 各 56/56，无截断</td></tr>
+    <tr><td>完整报告</td><td><code>/work/qt28/moss/results/ms-swift-63643/decoding-interventions-20260915/full-test/comparison_with_greedy.md</code></td><td>已生成</td></tr>
+    <tr><td>D0/D1 摘要</td><td><code>/work/qt28/moss/results/ms-swift-63643/evaluations/recovery-diagnostics-d0-d1/summary.md</code></td><td>已生成，含 vLLM 未补跑边界</td></tr>
+  </tbody>
+</table>

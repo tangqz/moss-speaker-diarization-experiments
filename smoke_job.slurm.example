@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+# Before submitting:
+#   1. Replace every <netid> below.
+#   2. Create /work/<netid>/moss/logs.
+#   3. Put a valid smoke_train.jsonl and its audio under /work/<netid>/moss/data.
+#   4. Make sure the MOSS repository and .venv exist at MOSS_ROOT.
+
+#SBATCH --job-name=moss-smoke
+#SBATCH --partition=common-gpu
+#SBATCH --gres=gpu:1
+#SBATCH --exclusive
+#SBATCH --time=00:30:00
+#SBATCH --output=/work/<netid>/moss/logs/%x-%j.out
+#SBATCH --error=/work/<netid>/moss/logs/%x-%j.err
+
+set -euo pipefail
+
+MOSS_ROOT="/work/<netid>/moss/MOSS-Transcribe-Diarize"
+TRAIN_JSONL="/work/<netid>/moss/data/smoke_train.jsonl"
+OUTPUT_DIR="/work/<netid>/moss/checkpoints/smoke-${SLURM_JOB_ID}"
+
+cd "$MOSS_ROOT"
+source .venv/bin/activate
+export TOKENIZERS_PARALLELISM=false
+
+echo "job=${SLURM_JOB_ID} host=$(hostname)"
+nvidia-smi
+
+python finetune.py \
+  --train_jsonl "$TRAIN_JSONL" \
+  --model_name_or_path OpenMOSS-Team/MOSS-Transcribe-Diarize \
+  --output_dir "$OUTPUT_DIR" \
+  --per_device_train_batch_size 1 \
+  --max_steps 2 \
+  --learning_rate 1e-5 \
+  --max_length 8192 \
+  --bf16 \
+  --gradient_checkpointing \
+  --logging_steps 1 \
+  --save_strategy no \
+  --report_to none \
+  --dataloader_num_workers 0

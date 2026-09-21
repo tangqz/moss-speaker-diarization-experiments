@@ -1,0 +1,78 @@
+{
+  "checkpoint-0/worker-0-status.json": {
+    "rank": 0,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/models/MOSS-Transcribe-Diarize",
+    "stage": "done",
+    "key": "ami/dev/TS3004c",
+    "generated_tokens": 25344,
+    "updated_utc": "2026-09-12T20:11:39.420379+00:00",
+    "elapsed_seconds": 1008.8006092645228,
+    "outcome": "ok",
+    "failures": 0
+  },
+  "checkpoint-1/worker-1-status.json": {
+    "rank": 1,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-1",
+    "stage": "done",
+    "key": "ami/dev/TS3004c",
+    "generated_tokens": 26624,
+    "updated_utc": "2026-09-12T20:12:41.793750+00:00",
+    "elapsed_seconds": 1071.7418200224638,
+    "outcome": "ok",
+    "failures": 0
+  },
+  "checkpoint-10/worker-2-status.json": {
+    "rank": 2,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-10",
+    "stage": "done",
+    "key": "ami/dev/TS3004c",
+    "generated_tokens": 65536,
+    "updated_utc": "2026-09-12T20:52:07.019499+00:00",
+    "elapsed_seconds": 3440.80637056008,
+    "outcome": "ok",
+    "failures": 0
+  },
+  "checkpoint-20/worker-3-status.json": {
+    "rank": 3,
+    "gpu": "NVIDIA A40",
+    "checkpoint": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-20",
+    "stage": "generating",
+    "key": "ami/dev/TS3004c",
+    "generated_tokens": 44288,
+    "updated_utc": "2026-09-12T20:53:55.447725+00:00",
+    "elapsed_seconds": 3542.214770898223
+  },
+  "checkpoint-0/predictions/sft/ami/dev/TS3004c.json": {
+    "status": "ok",
+    "model_path": "/work/qt28/moss/models/MOSS-Transcribe-Diarize",
+    "generated_tokens": 25546,
+    "ended_eos": true,
+    "truncated": false,
+    "finished_utc": "2026-09-12T20:11:38.803739+00:00",
+    "error_type": null,
+    "error": null
+  },
+  "checkpoint-1/predictions/sft/ami/dev/TS3004c.json": {
+    "status": "ok",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-1",
+    "generated_tokens": 26811,
+    "ended_eos": true,
+    "truncated": false,
+    "finished_utc": "2026-09-12T20:12:41.238725+00:00",
+    "error_type": null,
+    "error": null
+  },
+  "checkpoint-10/predictions/sft/ami/dev/TS3004c.json": {
+    "status": "ok",
+    "model_path": "/work/qt28/moss/checkpoints/full-attention-v2-63421/checkpoint-10",
+    "generated_tokens": 65536,
+    "ended_eos": false,
+    "truncated": true,
+    "finished_utc": "2026-09-12T20:52:06.330011+00:00",
+    "error_type": null,
+    "error": null
+  }
+}

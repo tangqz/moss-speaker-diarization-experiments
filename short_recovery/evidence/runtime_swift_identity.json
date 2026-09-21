@@ -1,0 +1,9 @@
+{
+  "checked_date": "2026-09-15",
+  "method": "read-only remote importlib.util.find_spec and importlib.metadata",
+  "python": "/work/qt28/moss/envs/ms-swift-20260914/bin/python",
+  "version": "4.6.0.dev0",
+  "editable": true,
+  "swift_source": "/work/qt28/moss/dkucc/ms_swift_20260914/ms-swift-0673cf75dca7d0b9b608b4a76632fb508ead5076",
+  "origin": "/work/qt28/moss/dkucc/ms_swift_20260914/ms-swift-0673cf75dca7d0b9b608b4a76632fb508ead5076/swift/__init__.py"
+}

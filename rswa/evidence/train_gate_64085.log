@@ -1,0 +1,65 @@
+index, uuid, name, memory.total [MiB]
+0, GPU-5fba32c7-8dbd-c30b-baaf-d6826ab004c7, NVIDIA A40, 46068 MiB
+1, GPU-333992ba-d02a-b5e7-4f98-ef04f26d2bd3, NVIDIA A40, 46068 MiB
+2, GPU-234a1972-ed07-c21b-e7a6-c1a92555fb37, NVIDIA A40, 46068 MiB
+3, GPU-3bab5309-e2b5-4426-1db0-73c4b554522c, NVIDIA A40, 46068 MiB
+/work/qt28/moss/envs/ms-swift-20260914/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/work/qt28/moss/envs/ms-swift-20260914/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/work/qt28/moss/results/rswa-train-gate-64085/source/sp_contract.py", line 40, in <module>
+[rank1]:     if __name__=='__main__':main()
+[rank1]:                             ^^^^^^
+[rank1]:   File "/work/qt28/moss/results/rswa-train-gate-64085/source/sp_contract.py", line 15, in main
+[rank1]:     sp.world_size=world;sp.sp_world_size=world;sp.rp_world_size=1;sp.sp_group=dist.group.WORLD
+[rank1]:                                                                   ^^^^^^^^^^^
+[rank1]: AttributeError: property 'sp_group' of 'SequenceParallel' object has no setter
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/work/qt28/moss/results/rswa-train-gate-64085/source/sp_contract.py", line 40, in <module>
+[rank0]:     if __name__=='__main__':main()
+[rank0]:                             ^^^^^^
+[rank0]:   File "/work/qt28/moss/results/rswa-train-gate-64085/source/sp_contract.py", line 15, in main
+[rank0]:     sp.world_size=world;sp.sp_world_size=world;sp.rp_world_size=1;sp.sp_group=dist.group.WORLD
+[rank0]:                                                                   ^^^^^^^^^^^
+[rank0]: AttributeError: property 'sp_group' of 'SequenceParallel' object has no setter
+W0920 06:27:14.166000 1483049 torch/distributed/elastic/multiprocessing/api.py:1028] Sending process 1483072 closing signal SIGTERM
+E0920 06:27:14.334000 1483049 torch/distributed/elastic/multiprocessing/api.py:1002] failed (exitcode: 1) local_rank: 1 (pid: 1483073) of binary: /work/qt28/moss/envs/ms-swift-20260914/bin/python
+Traceback (most recent call last):
+  File "/work/qt28/moss/envs/ms-swift-20260914/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/work/qt28/moss/envs/ms-swift-20260914/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 380, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/work/qt28/moss/envs/ms-swift-20260914/lib/python3.12/site-packages/torch/distributed/run.py", line 1138, in main
+    run(args)
+  File "/work/qt28/moss/envs/ms-swift-20260914/lib/python3.12/site-packages/torch/distributed/run.py", line 1129, in run
+    elastic_launch(
+  File "/work/qt28/moss/envs/ms-swift-20260914/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 197, in __call__
+    return launch_agent(
+           ^^^^^^^^^^^^^
+  File "/work/qt28/moss/envs/ms-swift-20260914/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 386, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/work/qt28/moss/results/rswa-train-gate-64085/source/sp_contract.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-09-20_06:27:14
+  host      : dkucc-core-gpu-dkurc-d-it09-8.rc.duke.edu
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 1483072) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-09-20_06:27:14
+  host      : dkucc-core-gpu-dkurc-d-it09-8.rc.duke.edu
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 1483073) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

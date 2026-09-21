@@ -1,0 +1,80 @@
+{
+  "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/base",
+  "functional": true,
+  "failures": [],
+  "S": 11.447950410640413,
+  "ce": 0.5239125818240774,
+  "RTF": 0.10000511098055165,
+  "corpora": {
+    "alimeeting": {
+      "completed": 8,
+      "expected": 8,
+      "coverage": 1.0,
+      "complete": true,
+      "truncated": 0,
+      "empty_predictions": 0,
+      "reference_characters": 81086,
+      "character_errors": 15299,
+      "cp_character_errors": 12032,
+      "CER": 0.18867622030930123,
+      "cpCER": 0.14838566460301408,
+      "DeltaCP": -0.04029055570628715,
+      "audio_hours": 4.205059722222222,
+      "processing_hours": 0.432671317966241,
+      "RTF": 0.10289302567564719,
+      "audio_seconds_per_processing_second": 9.718831703446357,
+      "max_peak_allocated_gib": 25.995227813720703,
+      "DER_collar_0": {
+        "total": 17632.599999999937,
+        "confusion": 230.13999999999876,
+        "missed detection": 1241.2799999999982,
+        "false alarm": 749.269999999995,
+        "correct": 16161.179999999938,
+        "DER": 0.12594228871522067
+      },
+      "DER_collar_0.25": {
+        "total": 13988.509999999957,
+        "confusion": 119.87000000000037,
+        "missed detection": 688.9699999999987,
+        "false alarm": 244.06499999999633,
+        "correct": 13179.669999999956,
+        "DER": 0.07526927456891397
+      }
+    },
+    "ami": {
+      "completed": 18,
+      "expected": 18,
+      "coverage": 1.0,
+      "complete": true,
+      "truncated": 0,
+      "empty_predictions": 0,
+      "reference_characters": 364785,
+      "character_errors": 52089,
+      "cp_character_errors": 35740,
+      "CER": 0.14279370039886508,
+      "cpCER": 0.09797551982674726,
+      "DeltaCP": -0.044818180572117824,
+      "audio_hours": 9.66717373263889,
+      "processing_hours": 0.954622928235266,
+      "RTF": 0.09874891614001008,
+      "audio_seconds_per_processing_second": 10.126693427016058,
+      "max_peak_allocated_gib": 26.83000373840332,
+      "DER_collar_0": {
+        "total": 31558.655,
+        "confusion": 361.97000000000696,
+        "missed detection": 4246.454999999997,
+        "false alarm": 915.13999999999,
+        "correct": 26950.229999999992,
+        "DER": 0.1750253615054252
+      },
+      "DER_collar_0.25": {
+        "total": 27115.975000000006,
+        "confusion": 191.00500000000278,
+        "missed detection": 3154.355,
+        "false alarm": 350.21000000000083,
+        "correct": 23770.615,
+        "DER": 0.13628755742694124
+      }
+    }
+  }
+}

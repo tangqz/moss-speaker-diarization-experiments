@@ -1,0 +1,226 @@
+{
+  "jobs": {
+    "replay": "63399",
+    "contracts": "63400",
+    "paired_training": "63401",
+    "common_inference": "63402"
+  },
+  "actual_train_records": 16,
+  "optimizer_steps": 4,
+  "supervised_tokens": 329169,
+  "pilot_max_context": 61920,
+  "formal_max_context": 116527,
+  "update_audit": [
+    {
+      "precision": "bf16",
+      "component": "LM tied embedding / output",
+      "parameter": "model.language_model.embed_tokens.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65076,
+      "reference_nonzero_but_actual_zero": 64473,
+      "lost_fraction": 0.9907339111193066,
+      "nonzero_gradient": 65498,
+      "actual_update_norm": 0.00023588583280798048,
+      "reference_update_norm": 0.0005155990947969258,
+      "update_error_norm": 0.0004896402242593467
+    },
+    {
+      "precision": "bf16",
+      "component": "LM layer 0 · Q projection",
+      "parameter": "model.language_model.layers.0.self_attn.q_proj.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65508,
+      "reference_nonzero_but_actual_zero": 58585,
+      "lost_fraction": 0.8943182512059595,
+      "nonzero_gradient": 65508,
+      "actual_update_norm": 0.0010491266148164868,
+      "reference_update_norm": 0.0025227805599570274,
+      "update_error_norm": 0.0024084672331809998
+    },
+    {
+      "precision": "bf16",
+      "component": "LM layer 14 · FFN down",
+      "parameter": "model.language_model.layers.14.mlp.down_proj.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65503,
+      "reference_nonzero_but_actual_zero": 57272,
+      "lost_fraction": 0.8743416332076394,
+      "nonzero_gradient": 65503,
+      "actual_update_norm": 0.0011441180249676108,
+      "reference_update_norm": 0.0025497262831777334,
+      "update_error_norm": 0.0024110092781484127
+    },
+    {
+      "precision": "bf16",
+      "component": "LM layer 27 · FFN down",
+      "parameter": "model.language_model.layers.27.mlp.down_proj.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65341,
+      "reference_nonzero_but_actual_zero": 57940,
+      "lost_fraction": 0.8867326793284461,
+      "nonzero_gradient": 65510,
+      "actual_update_norm": 0.001078878645785153,
+      "reference_update_norm": 0.002506423508748412,
+      "update_error_norm": 0.0023839196655899286
+    },
+    {
+      "precision": "bf16",
+      "component": "Audio layer 0 · FFN up",
+      "parameter": "model.whisper_encoder.layers.0.fc1.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65507,
+      "reference_nonzero_but_actual_zero": 52555,
+      "lost_fraction": 0.8022806722945639,
+      "nonzero_gradient": 65507,
+      "actual_update_norm": 0.0013136107008904219,
+      "reference_update_norm": 0.002244519302621484,
+      "update_error_norm": 0.002050330163910985
+    },
+    {
+      "precision": "bf16",
+      "component": "Audio layer 23 · FFN down",
+      "parameter": "model.whisper_encoder.layers.23.fc2.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65520,
+      "reference_nonzero_but_actual_zero": 56832,
+      "lost_fraction": 0.8673992673992674,
+      "nonzero_gradient": 65520,
+      "actual_update_norm": 0.0011672216933220625,
+      "reference_update_norm": 0.00252870237454772,
+      "update_error_norm": 0.0023830565623939037
+    },
+    {
+      "precision": "bf16",
+      "component": "Audio adapter · input projection",
+      "parameter": "model.vq_adaptor.layers.0.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65518,
+      "reference_nonzero_but_actual_zero": 53855,
+      "lost_fraction": 0.8219878506669923,
+      "nonzero_gradient": 65518,
+      "actual_update_norm": 0.0013548745773732662,
+      "reference_update_norm": 0.002551686717197299,
+      "update_error_norm": 0.0023518556263297796
+    },
+    {
+      "precision": "fp32",
+      "component": "LM tied embedding / output",
+      "parameter": "model.language_model.embed_tokens.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65089,
+      "reference_nonzero_but_actual_zero": 0,
+      "lost_fraction": 0.0,
+      "nonzero_gradient": 65534,
+      "actual_update_norm": 0.0005156405386514962,
+      "reference_update_norm": 0.0005156404804438353,
+      "update_error_norm": 3.730885378416815e-09
+    },
+    {
+      "precision": "fp32",
+      "component": "LM layer 0 · Q projection",
+      "parameter": "model.language_model.layers.0.self_attn.q_proj.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65521,
+      "reference_nonzero_but_actual_zero": 0,
+      "lost_fraction": 0.0,
+      "nonzero_gradient": 65521,
+      "actual_update_norm": 0.0025214652996510267,
+      "reference_update_norm": 0.0025214652996510267,
+      "update_error_norm": 2.841835433642359e-09
+    },
+    {
+      "precision": "fp32",
+      "component": "LM layer 14 · FFN down",
+      "parameter": "model.language_model.layers.14.mlp.down_proj.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65525,
+      "reference_nonzero_but_actual_zero": 0,
+      "lost_fraction": 0.0,
+      "nonzero_gradient": 65525,
+      "actual_update_norm": 0.002549312077462673,
+      "reference_update_norm": 0.002549312077462673,
+      "update_error_norm": 8.280641061730876e-09
+    },
+    {
+      "precision": "fp32",
+      "component": "LM layer 27 · FFN down",
+      "parameter": "model.language_model.layers.27.mlp.down_proj.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65359,
+      "reference_nonzero_but_actual_zero": 0,
+      "lost_fraction": 0.0,
+      "nonzero_gradient": 65529,
+      "actual_update_norm": 0.0025058756582438946,
+      "reference_update_norm": 0.0025058756582438946,
+      "update_error_norm": 7.326601547674727e-09
+    },
+    {
+      "precision": "fp32",
+      "component": "Audio layer 0 · FFN up",
+      "parameter": "model.whisper_encoder.layers.0.fc1.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65523,
+      "reference_nonzero_but_actual_zero": 0,
+      "lost_fraction": 0.0,
+      "nonzero_gradient": 65523,
+      "actual_update_norm": 0.002180700656026602,
+      "reference_update_norm": 0.002180700423195958,
+      "update_error_norm": 5.217113407951501e-09
+    },
+    {
+      "precision": "fp32",
+      "component": "Audio layer 23 · FFN down",
+      "parameter": "model.whisper_encoder.layers.23.fc2.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65527,
+      "reference_nonzero_but_actual_zero": 0,
+      "lost_fraction": 0.0,
+      "nonzero_gradient": 65527,
+      "actual_update_norm": 0.0025289852637797594,
+      "reference_update_norm": 0.0025289852637797594,
+      "update_error_norm": 3.1379350229343572e-09
+    },
+    {
+      "precision": "fp32",
+      "component": "Audio adapter · input projection",
+      "parameter": "model.vq_adaptor.layers.0.weight",
+      "sampled": 65536,
+      "reference_nonzero": 65531,
+      "reference_nonzero_but_actual_zero": 0,
+      "lost_fraction": 0.0,
+      "nonzero_gradient": 65531,
+      "actual_update_norm": 0.0025519365444779396,
+      "reference_update_norm": 0.002551936311647296,
+      "update_error_norm": 5.825901983058657e-09
+    }
+  ],
+  "common_inference_validation": [
+    {
+      "key": "ami/dev/IS1008a",
+      "supervised_tokens": 5827,
+      "base": 0.3901991546154022,
+      "bf16_4step": 0.32480552792549133,
+      "fp32_4step": 0.3060290515422821
+    },
+    {
+      "key": "alimeeting/dev/R8009_M8018",
+      "supervised_tokens": 19057,
+      "base": 0.4432714879512787,
+      "bf16_4step": 0.38536515831947327,
+      "fp32_4step": 0.3653024137020111
+    }
+  ],
+  "training_seconds": {
+    "bf16": 414.08653585985303,
+    "fp32": 486.27584643289447
+  },
+  "fp32_time_increase_percent": 17.433387546190062,
+  "peak_allocated_gib": {
+    "bf16": 11.688788414001465,
+    "fp32": 19.295207977294922
+  },
+  "max_long_prefix_cache_logit_rms": 0.07900823652744293,
+  "all_8_long_prefix_cache_top1_same": true,
+  "full_generation_validated": false,
+  "formal_ddp4_fp32_qualified": false
+}

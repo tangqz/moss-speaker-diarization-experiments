@@ -1,0 +1,104 @@
+[
+  {
+    "key": "alimeeting/test/R8005_M8009",
+    "dataset": "alimeeting",
+    "split": "test",
+    "session_id": "R8005_M8009",
+    "model": "base",
+    "duration": 1776.99,
+    "rank": 1,
+    "generated_tokens": 32393,
+    "prompt_len": 23500,
+    "e2e_seconds": 357.22767213732004,
+    "generation_seconds": 355.72898223251104,
+    "rtf": 0.20102964683949828,
+    "peak_allocated_gib": null,
+    "peak_reserved_gib": null,
+    "ended_eos": true,
+    "truncated": false,
+    "parse_empty": false,
+    "text": {
+      "reference_characters": 14353,
+      "hypothesis_characters": 11090,
+      "character_errors": 7045,
+      "cp_character_errors": 6007,
+      "substitutions": 2806,
+      "deletions": 3751,
+      "insertions": 488,
+      "CER": 0.4908381523026545,
+      "cpCER": 0.4185187765623911,
+      "DeltaCP": -0.07231937574026336,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 4
+    },
+    "diarization": {
+      "DER_collar_0": {
+        "correct": 2464.6299999999874,
+        "total": 3344.159999999996,
+        "confusion": 86.2699999999998,
+        "false alarm": 110.24999999999818,
+        "missed detection": 793.2600000000001,
+        "diarization error rate": 0.29597268073297905
+      },
+      "DER_collar_0.25": {
+        "correct": 1772.2799999999984,
+        "total": 2360.96,
+        "confusion": 44.95499999999984,
+        "false alarm": 47.91000000000035,
+        "missed detection": 543.7249999999981,
+        "diarization error rate": 0.2696318446733525
+      }
+    }
+  },
+  {
+    "key": "alimeeting/test/R8005_M8009",
+    "dataset": "alimeeting",
+    "split": "test",
+    "session_id": "R8005_M8009",
+    "model": "sft",
+    "duration": 1776.99,
+    "rank": 0,
+    "generated_tokens": 65536,
+    "prompt_len": 23500,
+    "e2e_seconds": 924.7523697316647,
+    "generation_seconds": 923.4524178877473,
+    "rtf": 0.5204038119132154,
+    "peak_allocated_gib": null,
+    "peak_reserved_gib": null,
+    "ended_eos": false,
+    "truncated": true,
+    "parse_empty": false,
+    "text": {
+      "reference_characters": 14353,
+      "hypothesis_characters": 6495,
+      "character_errors": 10125,
+      "cp_character_errors": 9423,
+      "substitutions": 1731,
+      "deletions": 8126,
+      "insertions": 268,
+      "CER": 0.7054274367728001,
+      "cpCER": 0.6565178011565527,
+      "DeltaCP": -0.04890963561624748,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 4
+    },
+    "diarization": {
+      "DER_collar_0": {
+        "correct": 1416.0799999999967,
+        "total": 3344.159999999997,
+        "confusion": 49.93000000000061,
+        "false alarm": 58.34999999999991,
+        "missed detection": 1878.1499999999955,
+        "diarization error rate": 0.5939996890100945
+      },
+      "DER_collar_0.25": {
+        "correct": 1019.6099999999997,
+        "total": 2360.96,
+        "confusion": 25.34500000000061,
+        "false alarm": 25.10000000000021,
+        "missed detection": 1316.0049999999956,
+        "diarization error rate": 0.578768805909459
+      }
+    }
+  }
+]

@@ -1,0 +1,563 @@
+{
+  "schema_version": "local-ul30-audit-v1",
+  "audit_scope": "R8005_M8009 local UL30 known-problem sample",
+  "cpu_only": true,
+  "inputs": {
+    "base": "dkucc\\artifacts\\ms-swift-63521\\truncated-test-examples\\R8005_M8009\\base_prediction.json",
+    "b": null,
+    "c": null,
+    "reference": "dkucc/artifacts/ms-swift-63643/raw/evaluations/test-150/references.json",
+    "metrics_fallback": "dkucc\\artifacts\\ms-swift-63643\\raw\\evaluations\\test-150\\per_record_metrics.json",
+    "metrics_by_model": {
+      "base": "dkucc\\artifacts\\ms-swift-63643\\raw\\evaluations\\test-150\\per_record_metrics.json",
+      "b": "dkucc\\artifacts\\ms-swift-63643\\raw\\evaluations\\test-150\\per_record_metrics.json",
+      "c": "dkucc\\artifacts\\ms-swift-63643\\raw\\evaluations\\test-150\\per_record_metrics.json"
+    },
+    "key": "alimeeting/test/R8005_M8009"
+  },
+  "reference": {
+    "key": "alimeeting/test/R8005_M8009",
+    "duration": null,
+    "segment_count": 1081
+  },
+  "input_consistency": {
+    "same_key": true,
+    "same_audio": true,
+    "same_prompt_ids_sha256": true,
+    "same_prompt_len": true,
+    "same_decoding": true,
+    "same_dtype": true,
+    "same_actual_max_new_tokens_cap": true,
+    "prompt_ids_sha256": {
+      "base": "8af914fc851859fe6e46eb001c5c109084e6fdc6b1a5877ba1fd1b3b3d417fc4"
+    },
+    "decoding": {
+      "base": {
+        "temperature": 0,
+        "repetition_penalty": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0,
+        "max_context": 131072,
+        "max_new_tokens_cap": 65536,
+        "eos_token_id": 151645,
+        "actual_max_new_tokens_cap": 65536,
+        "dtype": "bfloat16"
+      }
+    },
+    "prompt_len": {
+      "base": 23500
+    },
+    "audio": {
+      "base": "/work/qt28/moss/data/audio16k/alimeeting/R8005_M8009.wav"
+    },
+    "comparable_model_count": 1,
+    "all_input_checks_pass": true,
+    "metrics_delta_vs_base": {},
+    "note": "matching prompt hash and decoding fields support input parity; they do not prove audio/data parity beyond recorded fields"
+  },
+  "models": {
+    "base": {
+      "key": "alimeeting/test/R8005_M8009",
+      "model": "base",
+      "path_fields": {
+        "audio": "/work/qt28/moss/data/audio16k/alimeeting/R8005_M8009.wav",
+        "session_id": "R8005_M8009",
+        "backend": "vllm",
+        "model_path": "/work/qt28/moss/models/MOSS-Transcribe-Diarize"
+      },
+      "prompt": {
+        "prompt_ids_sha256": "8af914fc851859fe6e46eb001c5c109084e6fdc6b1a5877ba1fd1b3b3d417fc4",
+        "prompt_len": 23500,
+        "prompt_sha256": "33985304d81e53d82befa049cddf6863f9fe91aece2644855ee4e46c9a9f8d42",
+        "official_prompt_ids_checked": false
+      },
+      "decoding": {
+        "temperature": 0,
+        "repetition_penalty": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0,
+        "max_context": 131072,
+        "max_new_tokens_cap": 65536,
+        "eos_token_id": 151645,
+        "actual_max_new_tokens_cap": 65536,
+        "dtype": "bfloat16"
+      },
+      "output": {
+        "generated_tokens": 32393,
+        "generated_ids_count": 32393,
+        "ended_eos": true,
+        "truncated": false,
+        "max_new_tokens": 65536,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "parse_empty": false,
+        "major_parse_loss": false,
+        "segment_count": 1085,
+        "maximum_segment_end": 1773.11,
+        "reference_maximum_end": 1773.08,
+        "potential_premature_segment_end": false,
+        "last_segment": {
+          "start": 1770.11,
+          "end": 1773.11,
+          "speaker": "S02",
+          "text": "对，咱们把这定好就行了，好的，嗯。"
+        }
+      },
+      "repetition": {
+        "longest_identical_run": {
+          "start": 17130,
+          "end_exclusive": 17205,
+          "length": 75,
+          "token": 47815,
+          "prefix_token_ids": [
+            99392,
+            101037,
+            3837,
+            80158,
+            99565,
+            99212,
+            99436,
+            14777,
+            100551,
+            94498,
+            9370,
+            3837
+          ],
+          "suffix_token_ids": [
+            1773,
+            58,
+            24,
+            24,
+            18,
+            13,
+            24,
+            16,
+            1457,
+            24,
+            23,
+            19
+          ],
+          "context_note": "token IDs are reported because no tokenizer/model is loaded by this CPU audit"
+        },
+        "periodic_runs": [
+          {
+            "start": 17130,
+            "end": 17205,
+            "period": 1,
+            "length": 75
+          }
+        ],
+        "raw_token_repeat_signal": true,
+        "natural_text_repeat_candidates": [
+          {
+            "segment_index": 586,
+            "start_char": 43,
+            "width": 3,
+            "repetitions": 25,
+            "phrase": "外外外",
+            "segment_start": 983.61,
+            "segment_end": 993.91,
+            "speaker": "S01",
+            "candidate_only": true,
+            "note": "may be natural speech repetition; inspect context before interpretation"
+          },
+          {
+            "segment_index": 586,
+            "start_char": 43,
+            "width": 5,
+            "repetitions": 15,
+            "phrase": "外外外外外",
+            "segment_start": 983.61,
+            "segment_end": 993.91,
+            "speaker": "S01",
+            "candidate_only": true,
+            "note": "may be natural speech repetition; inspect context before interpretation"
+          },
+          {
+            "segment_index": 586,
+            "start_char": 43,
+            "width": 2,
+            "repetitions": 37,
+            "phrase": "外外",
+            "segment_start": 983.61,
+            "segment_end": 993.91,
+            "speaker": "S01",
+            "candidate_only": true,
+            "note": "may be natural speech repetition; inspect context before interpretation"
+          },
+          {
+            "segment_index": 586,
+            "start_char": 43,
+            "width": 4,
+            "repetitions": 18,
+            "phrase": "外外外外",
+            "segment_start": 983.61,
+            "segment_end": 993.91,
+            "speaker": "S01",
+            "candidate_only": true,
+            "note": "may be natural speech repetition; inspect context before interpretation"
+          },
+          {
+            "segment_index": 586,
+            "start_char": 43,
+            "width": 6,
+            "repetitions": 12,
+            "phrase": "外外外外外外",
+            "segment_start": 983.61,
+            "segment_end": 993.91,
+            "speaker": "S01",
+            "candidate_only": true,
+            "note": "may be natural speech repetition; inspect context before interpretation"
+          },
+          {
+            "segment_index": 586,
+            "start_char": 43,
+            "width": 8,
+            "repetitions": 9,
+            "phrase": "外外外外外外外外",
+            "segment_start": 983.61,
+            "segment_end": 993.91,
+            "speaker": "S01",
+            "candidate_only": true,
+            "note": "may be natural speech repetition; inspect context before interpretation"
+          },
+          {
+            "segment_index": 586,
+            "start_char": 43,
+            "width": 9,
+            "repetitions": 8,
+            "phrase": "外外外外外外外外外",
+            "segment_start": 983.61,
+            "segment_end": 993.91,
+            "speaker": "S01",
+            "candidate_only": true,
+            "note": "may be natural speech repetition; inspect context before interpretation"
+          },
+          {
+            "segment_index": 586,
+            "start_char": 43,
+            "width": 7,
+            "repetitions": 10,
+            "phrase": "外外外外外外外",
+            "segment_start": 983.61,
+            "segment_end": 993.91,
+            "speaker": "S01",
+            "candidate_only": true,
+            "note": "may be natural speech repetition; inspect context before interpretation"
+          }
+        ],
+        "note": "raw-token signals and text candidates require human/context review"
+      },
+      "time_coverage": {
+        "method": "union_of_reference_speech_intervals_minus_union_of_prediction_segments",
+        "reference_speech_seconds_union": 1735.7999999999993,
+        "predicted_segment_seconds_union": 1745.6899999999987,
+        "uncovered_seconds_union": 11.150000000000542,
+        "uncovered_ratio_union": 0.006423551100357499,
+        "reference_interval_count": 52,
+        "prediction_interval_count": 66,
+        "uncovered_intervals": [
+          {
+            "start": 15.71,
+            "end": 16.34,
+            "seconds": 0.629999999999999
+          },
+          {
+            "start": 62.18,
+            "end": 62.28,
+            "seconds": 0.10000000000000142
+          },
+          {
+            "start": 70.31,
+            "end": 70.64,
+            "seconds": 0.3299999999999983
+          },
+          {
+            "start": 75.18,
+            "end": 75.2,
+            "seconds": 0.01999999999999602
+          },
+          {
+            "start": 100.87,
+            "end": 101.01,
+            "seconds": 0.14000000000000057
+          },
+          {
+            "start": 174.91,
+            "end": 174.93,
+            "seconds": 0.020000000000010232
+          },
+          {
+            "start": 238.31,
+            "end": 238.38,
+            "seconds": 0.06999999999999318
+          },
+          {
+            "start": 243.81,
+            "end": 243.88,
+            "seconds": 0.06999999999999318
+          },
+          {
+            "start": 323.31,
+            "end": 323.54,
+            "seconds": 0.2300000000000182
+          },
+          {
+            "start": 331.31,
+            "end": 331.48,
+            "seconds": 0.17000000000001592
+          },
+          {
+            "start": 347.41,
+            "end": 347.78,
+            "seconds": 0.3699999999999477
+          },
+          {
+            "start": 413.84,
+            "end": 414.01,
+            "seconds": 0.17000000000001592
+          },
+          {
+            "start": 480.84,
+            "end": 480.88,
+            "seconds": 0.040000000000020464
+          },
+          {
+            "start": 514.14,
+            "end": 514.44,
+            "seconds": 0.3000000000000682
+          },
+          {
+            "start": 561.01,
+            "end": 561.11,
+            "seconds": 0.10000000000002274
+          },
+          {
+            "start": 595.14,
+            "end": 595.23,
+            "seconds": 0.09000000000003183
+          },
+          {
+            "start": 624.71,
+            "end": 625.21,
+            "seconds": 0.5
+          },
+          {
+            "start": 634.51,
+            "end": 634.7,
+            "seconds": 0.19000000000005457
+          },
+          {
+            "start": 651.11,
+            "end": 651.34,
+            "seconds": 0.2300000000000182
+          },
+          {
+            "start": 725.54,
+            "end": 725.61,
+            "seconds": 0.07000000000005002
+          },
+          {
+            "start": 740.91,
+            "end": 741.01,
+            "seconds": 0.10000000000002274
+          },
+          {
+            "start": 747.61,
+            "end": 747.84,
+            "seconds": 0.2300000000000182
+          },
+          {
+            "start": 749.84,
+            "end": 749.89,
+            "seconds": 0.049999999999954525
+          },
+          {
+            "start": 790.34,
+            "end": 790.51,
+            "seconds": 0.16999999999995907
+          },
+          {
+            "start": 951.11,
+            "end": 951.41,
+            "seconds": 0.2999999999999545
+          },
+          {
+            "start": 1009.31,
+            "end": 1009.44,
+            "seconds": 0.13000000000010914
+          },
+          {
+            "start": 1010.51,
+            "end": 1010.64,
+            "seconds": 0.12999999999999545
+          },
+          {
+            "start": 1027.11,
+            "end": 1027.34,
+            "seconds": 0.2300000000000182
+          },
+          {
+            "start": 1042.01,
+            "end": 1042.11,
+            "seconds": 0.09999999999990905
+          },
+          {
+            "start": 1046.11,
+            "end": 1046.64,
+            "seconds": 0.5300000000002001
+          },
+          {
+            "start": 1095.11,
+            "end": 1095.18,
+            "seconds": 0.07000000000016371
+          },
+          {
+            "start": 1113.01,
+            "end": 1113.1,
+            "seconds": 0.08999999999991815
+          },
+          {
+            "start": 1130.41,
+            "end": 1130.54,
+            "seconds": 0.12999999999988177
+          },
+          {
+            "start": 1168.04,
+            "end": 1168.84,
+            "seconds": 0.7999999999999545
+          },
+          {
+            "start": 1219.34,
+            "end": 1219.64,
+            "seconds": 0.3000000000001819
+          },
+          {
+            "start": 1353.71,
+            "end": 1353.81,
+            "seconds": 0.09999999999990905
+          },
+          {
+            "start": 1390.71,
+            "end": 1390.84,
+            "seconds": 0.12999999999988177
+          },
+          {
+            "start": 1391.28,
+            "end": 1391.51,
+            "seconds": 0.2300000000000182
+          },
+          {
+            "start": 1422.61,
+            "end": 1422.81,
+            "seconds": 0.20000000000004547
+          },
+          {
+            "start": 1485.04,
+            "end": 1485.08,
+            "seconds": 0.03999999999996362
+          },
+          {
+            "start": 1487.21,
+            "end": 1487.31,
+            "seconds": 0.09999999999990905
+          },
+          {
+            "start": 1487.84,
+            "end": 1488.74,
+            "seconds": 0.900000000000091
+          },
+          {
+            "start": 1500.11,
+            "end": 1500.18,
+            "seconds": 0.07000000000016371
+          },
+          {
+            "start": 1517.01,
+            "end": 1517.18,
+            "seconds": 0.17000000000007276
+          },
+          {
+            "start": 1526.01,
+            "end": 1526.04,
+            "seconds": 0.029999999999972715
+          },
+          {
+            "start": 1531.31,
+            "end": 1531.32,
+            "seconds": 0.009999999999990905
+          },
+          {
+            "start": 1558.84,
+            "end": 1558.87,
+            "seconds": 0.029999999999972715
+          },
+          {
+            "start": 1583.84,
+            "end": 1584.81,
+            "seconds": 0.9700000000000273
+          },
+          {
+            "start": 1588.08,
+            "end": 1588.11,
+            "seconds": 0.029999999999972715
+          },
+          {
+            "start": 1589.94,
+            "end": 1589.98,
+            "seconds": 0.03999999999996362
+          },
+          {
+            "start": 1651.01,
+            "end": 1651.24,
+            "seconds": 0.2300000000000182
+          },
+          {
+            "start": 1667.01,
+            "end": 1667.11,
+            "seconds": 0.09999999999990905
+          },
+          {
+            "start": 1669.04,
+            "end": 1669.05,
+            "seconds": 0.009999999999990905
+          },
+          {
+            "start": 1681.81,
+            "end": 1682.04,
+            "seconds": 0.2300000000000182
+          },
+          {
+            "start": 1742.61,
+            "end": 1742.64,
+            "seconds": 0.03000000000020009
+          },
+          {
+            "start": 1769.51,
+            "end": 1769.81,
+            "seconds": 0.2999999999999545
+          }
+        ],
+        "note": "time coverage only; this is not a text-correctness or diarization score"
+      },
+      "metrics": {
+        "available": true,
+        "source": "dkucc\\artifacts\\ms-swift-63643\\raw\\evaluations\\test-150\\per_record_metrics.json",
+        "reference_characters": 14353,
+        "character_errors": 7045,
+        "cp_character_errors": 6007,
+        "substitutions": 2806,
+        "deletions": 3751,
+        "insertions": 488,
+        "CER": 0.4908381523026545,
+        "cpCER": 0.4185187765623911,
+        "DeltaCP": -0.07231937574026336
+      }
+    }
+  },
+  "interpretation": {
+    "raw_token_loops": "Signals are reported for review; a natural repeated phrase is not automatically a failure.",
+    "time_coverage": "Uncovered seconds/ratio are reference-speech interval coverage only and do not imply text correctness.",
+    "acceptance": "Apply the UL30 design's human-reviewed pathology, EOS, truncation, parse, and integrity gates after inspecting this report."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "design_only": true,
+  "paired_pilots_completed": true,
+  "post_reload_completed": true,
+  "failures_retained": true,
+  "unique_dev_sentinels": 6,
+  "figure_groups": 3,
+  "visual_inspection": "All three PNG research figures inspected for data ranges, legends and clipping.",
+  "remaining_formal_entry_gates": [
+    "Verify source and data hashes plus installed package versions; pin the verified training processor class.",
+    "One full 4-GPU FP32 update with a global batch including the longest 116527-token meeting; finite loss/gradients and measured GPU/RAM headroom.",
+    "Numerical comparison of single-GPU accumulation4 and DDP4 on one identical global batch, using an independent global token denominator.",
+    "Save, unload, reload and resume while preserving FP32 parameters and Adam moments, step, data order and the 402-step scheduler horizon.",
+    "Confirm prediction logits agree between live training weights cast to BF16 and the saved/reloaded BF16 inference model on fixed full-audio prefixes.",
+    "Freeze sentinel manifest, checkpoint selection protocol and score parser before v2 free generation."
+  ]
+}

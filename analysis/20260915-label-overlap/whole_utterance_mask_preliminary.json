@@ -1,0 +1,23 @@
+{
+  "ami": {
+    "meetings": 136,
+    "segments": 66337,
+    "overlap_intersecting_segments": 51942,
+    "target_characters": 5457866,
+    "masked_segment_characters": 4360212
+  },
+  "alimeeting": {
+    "meetings": 209,
+    "segments": 186364,
+    "overlap_intersecting_segments": 148171,
+    "target_characters": 6844958,
+    "masked_segment_characters": 5484142
+  },
+  "aishell4": {
+    "meetings": 191,
+    "segments": 102701,
+    "overlap_intersecting_segments": 64724,
+    "target_characters": 3871040,
+    "masked_segment_characters": 2317769
+  }
+}

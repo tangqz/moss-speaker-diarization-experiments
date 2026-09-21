@@ -1,0 +1,97 @@
+{
+  "job": 63415,
+  "verified_utc": "2026-09-12T15:13:12.974315+00:00",
+  "through_step": 10,
+  "actual_shuffled_order_matches": true,
+  "global_denominators_match": true,
+  "first_update_lost_count": 0,
+  "first_update_components_sampled": 7,
+  "baseline_full_audio_meetings": 6,
+  "baseline_loss": {
+    "all": 0.5930650410312337,
+    "alimeeting": 0.695303102736045,
+    "ami": 0.44661034502304314
+  },
+  "steps": [
+    {
+      "step": 1,
+      "loss": 0.5253586769104004,
+      "supervised_tokens": 66609,
+      "lr": 1e-05,
+      "grad_norm": 5.177238941192627,
+      "peak_gpu_gib": 17.0275821685791
+    },
+    {
+      "step": 2,
+      "loss": 0.6820347309112549,
+      "supervised_tokens": 113740,
+      "lr": 9.975124378109452e-06,
+      "grad_norm": 5.452479839324951,
+      "peak_gpu_gib": 21.47730302810669
+    },
+    {
+      "step": 3,
+      "loss": 0.47798071429133415,
+      "supervised_tokens": 70265,
+      "lr": 9.950248756218906e-06,
+      "grad_norm": 1.5853289365768433,
+      "peak_gpu_gib": 21.168918132781982
+    },
+    {
+      "step": 4,
+      "loss": 0.479092001914978,
+      "supervised_tokens": 78555,
+      "lr": 9.925373134328359e-06,
+      "grad_norm": 1.3287770748138428,
+      "peak_gpu_gib": 22.42148733139038
+    },
+    {
+      "step": 5,
+      "loss": 0.5458678975701332,
+      "supervised_tokens": 115805,
+      "lr": 9.900497512437812e-06,
+      "grad_norm": 1.2196378707885742,
+      "peak_gpu_gib": 24.80195713043213
+    },
+    {
+      "step": 6,
+      "loss": 0.48135195672512054,
+      "supervised_tokens": 79423,
+      "lr": 9.875621890547264e-06,
+      "grad_norm": 1.0015721321105957,
+      "peak_gpu_gib": 21.952136993408203
+    },
+    {
+      "step": 7,
+      "loss": 0.46087314188480377,
+      "supervised_tokens": 85646,
+      "lr": 9.850746268656717e-06,
+      "grad_norm": 0.7801308631896973,
+      "peak_gpu_gib": 21.95208215713501
+    },
+    {
+      "step": 8,
+      "loss": 0.42265547439455986,
+      "supervised_tokens": 50153,
+      "lr": 9.82587064676617e-06,
+      "grad_norm": 0.7398454546928406,
+      "peak_gpu_gib": 21.127774238586426
+    },
+    {
+      "step": 9,
+      "loss": 0.44774051010608673,
+      "supervised_tokens": 74195,
+      "lr": 9.800995024875622e-06,
+      "grad_norm": 0.8665429353713989,
+      "peak_gpu_gib": 21.462767601013184
+    },
+    {
+      "step": 10,
+      "loss": 0.3920794725418091,
+      "supervised_tokens": 49628,
+      "lr": 9.776119402985076e-06,
+      "grad_norm": 0.9234668016433716,
+      "peak_gpu_gib": 22.090665340423584
+    }
+  ]
+}

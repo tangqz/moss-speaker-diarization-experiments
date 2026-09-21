@@ -1,0 +1,16 @@
+--- 63421/source/generate.py
++++ production_generate.py
+@@ -52,8 +52,11 @@
+                 max_new_tokens_cap=65536,max_context=131072,attention='sdpa',dtype='bfloat16',
+                 logits_to_keep=1,use_cache=True,eos_token_id=151645,pad_token_id=151643),started_utc=now())
+         try:
+-            inputs=prepare_inputs(processor,build_transcription_messages(item['audio'],item['prompt']),
+-                max_length=131072,device=device).to(device)
++            with torch.inference_mode(),torch.autocast('cuda',dtype=torch.bfloat16):
++                inputs=prepare_inputs(processor,build_transcription_messages(item['audio'],item['prompt']),
++                    max_length=131072,device=device).to(device)
++            record['preprocessing']=dict(context='production_cuda_bfloat16_autocast',
++                input_feature_dtype=str(inputs['input_features'].dtype))
+             prompt_len=int(inputs['attention_mask'].sum())
+             assert prompt_len==item['prompt_len']
+             max_new=min(65536,131072-prompt_len)

@@ -1,0 +1,302 @@
+{
+  "version": "0.23.1rc1.dev949+g68b4a1d58",
+  "site_packages": "/work/qt28/moss/envs/vllm-moss-20260914/lib/python3.12/site-packages",
+  "selected": [
+    "model_executor/layers/attention/rswa_attention.py",
+    "model_executor/models/config.py",
+    "config/model.py",
+    "transformers_utils/model_arch_config_convertor.py",
+    "v1/core/single_type_kv_cache_manager.py",
+    "v1/worker/gpu_model_runner.py",
+    "v1/attention/ops/triton_unified_attention.py",
+    "v1/attention/backends/flex_attention.py",
+    "model_executor/models/moss_transcribe_diarize.py",
+    "model_executor/models/unlimited_ocr.py",
+    "model_executor/models/qwen3.py",
+    "model_executor/layers/attention/attention.py",
+    "v1/core/kv_cache_manager.py",
+    "v1/core/kv_cache_utils.py",
+    "v1/kv_cache_interface.py",
+    "v1/attention/backends/flashinfer.py",
+    "v1/attention/backends/triton_attn.py",
+    "v1/attention/backends/flash_attn.py",
+    "v1/attention/backends/utils.py"
+  ],
+  "hits": [
+    {
+      "path": "model_executor/models/mpt.py",
+      "line": 73,
+      "text": "assert not config.attn_config.prefix_lm"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 19,
+      "text": "``rswa_window``) is applied in ``UnlimitedOCRForCausalLMConfig``."
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 96,
+      "text": "\"UnlimitedOCRForCausalLM\","
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 100,
+      "text": "_UNLIMITED_OCR_MAX_CROPS = 32"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 103,
+      "text": "class UnlimitedOCRProcessingInfo(DeepseekOCRProcessingInfo):"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 110,
+      "text": "from vllm.transformers_utils.configs.unlimited_ocr import UnlimitedOCRConfig"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 112,
+      "text": "return self.ctx.get_hf_config(UnlimitedOCRConfig)"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 115,
+      "text": "from vllm.transformers_utils.processors.unlimited_ocr import ("
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 116,
+      "text": "UnlimitedOCRProcessor,"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 124,
+      "text": "max_crops=_UNLIMITED_OCR_MAX_CROPS,"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 127,
+      "text": "UnlimitedOCRProcessor,"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 138,
+      "text": "# cropping=False to match UnlimitedOCRProcessor.tokenize_with_images."
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 146,
+      "text": "max_num=_UNLIMITED_OCR_MAX_CROPS,"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 171,
+      "text": "class UnlimitedOCRMultiModalProcessor(DeepseekOCRMultiModalProcessor):"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 175,
+      "text": "``UnlimitedOCRProcessor.tokenize_with_images``), and -- since that makes the"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 194,
+      "text": "def get_replacement_unlimited_ocr(item_idx: int):"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 205,
+      "text": "# UnlimitedOCRProcessor.tokenize_with_images applies the same"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 220,
+      "text": "replacement=get_replacement_unlimited_ocr,"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 240,
+      "text": "UnlimitedOCRMultiModalProcessor,"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 241,
+      "text": "info=UnlimitedOCRProcessingInfo,"
+    },
+    {
+      "path": "model_executor/models/unlimited_ocr.py",
+      "line": 244,
+      "text": "class UnlimitedOCRForCausalLM(DeepseekOCRForCausalLM):"
+    },
+    {
+      "path": "model_executor/models/registry.py",
+      "line": 355,
+      "text": "\"UnlimitedOCRForCausalLM\": (\"unlimited_ocr\", \"UnlimitedOCRForCausalLM\"),"
+    },
+    {
+      "path": "model_executor/models/config.py",
+      "line": 57,
+      "text": "class UnlimitedOCRForCausalLMConfig(VerifyAndUpdateConfig):"
+    },
+    {
+      "path": "model_executor/models/config.py",
+      "line": 847,
+      "text": "\"UnlimitedOCRForCausalLM\": UnlimitedOCRForCausalLMConfig,"
+    },
+    {
+      "path": "model_executor/models/mimo_v2_mtp.py",
+      "line": 97,
+      "text": "add_swa_attention_sink_bias=getattr("
+    },
+    {
+      "path": "model_executor/models/mimo_v2_mtp.py",
+      "line": 98,
+      "text": "config, \"add_swa_attention_sink_bias\", False"
+    },
+    {
+      "path": "model_executor/models/mimo_v2_mtp.py",
+      "line": 326,
+      "text": "# attention_sink_bias is head-parallel; slice by tp"
+    },
+    {
+      "path": "model_executor/models/mimo_v2_mtp.py",
+      "line": 327,
+      "text": "if \"attention_sink_bias\" in name:"
+    },
+    {
+      "path": "model_executor/models/mimo_v2.py",
+      "line": 231,
+      "text": "add_swa_attention_sink_bias: bool = False,"
+    },
+    {
+      "path": "model_executor/models/mimo_v2.py",
+      "line": 294,
+      "text": "self.attention_sink_bias = ("
+    },
+    {
+      "path": "model_executor/models/mimo_v2.py",
+      "line": 296,
+      "text": "if add_swa_attention_sink_bias"
+    },
+    {
+      "path": "model_executor/models/mimo_v2.py",
+      "line": 315,
+      "text": "has_sinks=self.attention_sink_bias is not None,"
+    },
+    {
+      "path": "model_executor/models/mimo_v2.py",
+      "line": 336,
+      "text": "sinks=self.attention_sink_bias,"
+    },
+    {
+      "path": "model_executor/models/mimo_v2.py",
+      "line": 386,
+      "text": "add_swa_attention_sink_bias=getattr("
+    },
+    {
+      "path": "model_executor/models/mimo_v2.py",
+      "line": 387,
+      "text": "config, \"add_swa_attention_sink_bias\", False"
+    },
+    {
+      "path": "model_executor/models/mimo_v2.py",
+      "line": 758,
+      "text": "if \"attention_sink_bias\" in name:"
+    },
+    {
+      "path": "model_executor/models/qwen3_dflash.py",
+      "line": 142,
+      "text": "add_swa_attention_sink_bias: bool = False,"
+    },
+    {
+      "path": "model_executor/models/qwen3_dflash.py",
+      "line": 191,
+      "text": "self.attention_sink_bias = ("
+    },
+    {
+      "path": "model_executor/models/qwen3_dflash.py",
+      "line": 193,
+      "text": "if add_swa_attention_sink_bias"
+    },
+    {
+      "path": "model_executor/models/qwen3_dflash.py",
+      "line": 208,
+      "text": "sinks=self.attention_sink_bias,"
+    },
+    {
+      "path": "model_executor/models/qwen3_dflash.py",
+      "line": 262,
+      "text": "add_swa_attention_sink_bias = dflash_config.get("
+    },
+    {
+      "path": "model_executor/models/qwen3_dflash.py",
+      "line": 263,
+      "text": "\"attention_sink_bias\","
+    },
+    {
+      "path": "model_executor/models/qwen3_dflash.py",
+      "line": 264,
+      "text": "getattr(config, \"add_swa_attention_sink_bias\", False),"
+    },
+    {
+      "path": "model_executor/models/qwen3_dflash.py",
+      "line": 278,
+      "text": "add_swa_attention_sink_bias=add_swa_attention_sink_bias,"
+    },
+    {
+      "path": "model_executor/models/qwen3_dflash.py",
+      "line": 634,
+      "text": "if \"attention_sink_bias\" in name:"
+    },
+    {
+      "path": "model_executor/models/laguna.py",
+      "line": 271,
+      "text": "attention_sink: bool = False,"
+    },
+    {
+      "path": "model_executor/models/laguna.py",
+      "line": 357,
+      "text": "if attention_sink:"
+    },
+    {
+      "path": "model_executor/models/laguna.py",
+      "line": 489,
+      "text": "attention_sink = is_sliding and getattr("
+    },
+    {
+      "path": "model_executor/models/laguna.py",
+      "line": 490,
+      "text": "config, \"swa_attention_sink_enabled\", False"
+    },
+    {
+      "path": "model_executor/models/laguna.py",
+      "line": 511,
+      "text": "attention_sink=attention_sink,"
+    },
+    {
+      "path": "v1/attention/backends/flex_attention.py",
+      "line": 540,
+      "text": "def get_prefix_lm_mask_mod(self) -> _mask_mod_signature:"
+    },
+    {
+      "path": "v1/attention/backends/flex_attention.py",
+      "line": 546,
+      "text": "def prefix_lm_mask_mod("
+    },
+    {
+      "path": "v1/attention/backends/flex_attention.py",
+      "line": 573,
+      "text": "prefix_lm_mask_mod(b, h, q_idx, logical_q_idx, logical_kv_idx),"
+    },
+    {
+      "path": "v1/attention/backends/flex_attention.py",
+      "line": 640,
+      "text": "prefix_lm_mask_mod = self.get_prefix_lm_mask_mod()"
+    },
+    {
+      "path": "v1/attention/backends/flex_attention.py",
+      "line": 641,
+      "text": "mask_mod = or_masks(mask_mod, prefix_lm_mask_mod)"
+    }
+  ]
+}

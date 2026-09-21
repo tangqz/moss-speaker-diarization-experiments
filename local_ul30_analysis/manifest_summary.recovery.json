@@ -1,0 +1,18 @@
+{
+  "schema_version": "local-ul30-manifest-v1",
+  "arm": "recovery",
+  "source_rows": 120,
+  "expanded_rows": 240,
+  "manifest": "/work/qt28/moss/dkucc/local_ul30/plan.recovery.seed1/train.recovery.jsonl",
+  "manifest_sha256": "5048428a9632d8ea70434f6cb5114360ddb4a0da4c5f3fb8888a12c33e35dd99",
+  "config_sha256": "373313005181afe203036aefb8098c8e1605ae719eabffc2d9cd1ba48cb3b141",
+  "tokenizer_sha256": "f48da6e114751911445a4a6b446dd1c0fed11b09bbe33671b08565bbc401dc2b",
+  "special_ids_sha256": "68720ce73801cac7e63e68d34c0d454e5d6f6fb6e525b33ec61e6eecabbe4250",
+  "all_train_targets_sha256": "6f34cf75b89334c3afaf53813a2f102d78e80cbc8af79dea437f2576ccb30c79",
+  "legal_body_ids": 140014,
+  "legal_body_ids_sha256": "f8618ae247e5ce68d38c427f8f21297e0f964065b27e69c0fb24c68cd7a6a0da",
+  "train_audio_identity_count": 536,
+  "dev_audio_identity_count": 26,
+  "split_isolation": "pass",
+  "status": "pass"
+}

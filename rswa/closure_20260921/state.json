@@ -1,0 +1,1995 @@
+{
+  "queue": [],
+  "groups": {
+    "full-seed0": {
+      "window": "full",
+      "seed": 0,
+      "step": 90,
+      "history": [
+        {
+          "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/base",
+          "functional": true,
+          "failures": [],
+          "S": 11.447950410640413,
+          "ce": 0.5239125818240774,
+          "RTF": 0.10000511098055165,
+          "corpora": {
+            "alimeeting": {
+              "completed": 8,
+              "expected": 8,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 0,
+              "empty_predictions": 0,
+              "reference_characters": 81086,
+              "character_errors": 15299,
+              "cp_character_errors": 12032,
+              "CER": 0.18867622030930123,
+              "cpCER": 0.14838566460301408,
+              "DeltaCP": -0.04029055570628715,
+              "audio_hours": 4.205059722222222,
+              "processing_hours": 0.432671317966241,
+              "RTF": 0.10289302567564719,
+              "audio_seconds_per_processing_second": 9.718831703446357,
+              "max_peak_allocated_gib": 25.995227813720703,
+              "DER_collar_0": {
+                "total": 17632.599999999937,
+                "confusion": 230.13999999999876,
+                "missed detection": 1241.2799999999982,
+                "false alarm": 749.269999999995,
+                "correct": 16161.179999999938,
+                "DER": 0.12594228871522067
+              },
+              "DER_collar_0.25": {
+                "total": 13988.509999999957,
+                "confusion": 119.87000000000037,
+                "missed detection": 688.9699999999987,
+                "false alarm": 244.06499999999633,
+                "correct": 13179.669999999956,
+                "DER": 0.07526927456891397
+              }
+            },
+            "ami": {
+              "completed": 18,
+              "expected": 18,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 0,
+              "empty_predictions": 0,
+              "reference_characters": 364785,
+              "character_errors": 52089,
+              "cp_character_errors": 35740,
+              "CER": 0.14279370039886508,
+              "cpCER": 0.09797551982674726,
+              "DeltaCP": -0.044818180572117824,
+              "audio_hours": 9.66717373263889,
+              "processing_hours": 0.954622928235266,
+              "RTF": 0.09874891614001008,
+              "audio_seconds_per_processing_second": 10.126693427016058,
+              "max_peak_allocated_gib": 26.83000373840332,
+              "DER_collar_0": {
+                "total": 31558.655,
+                "confusion": 361.97000000000696,
+                "missed detection": 4246.454999999997,
+                "false alarm": 915.13999999999,
+                "correct": 26950.229999999992,
+                "DER": 0.1750253615054252
+              },
+              "DER_collar_0.25": {
+                "total": 27115.975000000006,
+                "confusion": 191.00500000000278,
+                "missed detection": 3154.355,
+                "false alarm": 350.21000000000083,
+                "correct": 23770.615,
+                "DER": 0.13628755742694124
+              }
+            }
+          },
+          "step": 0,
+          "checkpoint": "/work/qt28/moss/models/MOSS-Transcribe-Diarize"
+        },
+        {
+          "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-seed0/step-30",
+          "functional": true,
+          "failures": [],
+          "S": 11.487172066149542,
+          "ce": 0.5209814931062023,
+          "RTF": 0.09936987811555606,
+          "corpora": {
+            "alimeeting": {
+              "completed": 8,
+              "expected": 8,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 0,
+              "empty_predictions": 0,
+              "reference_characters": 81086,
+              "character_errors": 15220,
+              "cp_character_errors": 12041,
+              "CER": 0.1877019460819377,
+              "cpCER": 0.1484966578694226,
+              "DeltaCP": -0.03920528821251511,
+              "audio_hours": 4.205059722222222,
+              "processing_hours": 0.43230194922536613,
+              "RTF": 0.10280518655675838,
+              "audio_seconds_per_processing_second": 9.727135697068197,
+              "max_peak_allocated_gib": 25.995227813720703,
+              "DER_collar_0": {
+                "total": 17632.599999999933,
+                "confusion": 226.76999999999862,
+                "missed detection": 1254.9399999999969,
+                "false alarm": 751.2599999999999,
+                "correct": 16150.88999999994,
+                "DER": 0.1266387259961664
+              },
+              "DER_collar_0.25": {
+                "total": 13988.509999999955,
+                "confusion": 116.25999999999883,
+                "missed detection": 695.7249999999999,
+                "false alarm": 245.92999999999986,
+                "correct": 13176.524999999956,
+                "DER": 0.07562742565148126
+              }
+            },
+            "ami": {
+              "completed": 18,
+              "expected": 18,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 0,
+              "empty_predictions": 0,
+              "reference_characters": 364785,
+              "character_errors": 52341,
+              "cp_character_errors": 36198,
+              "CER": 0.14348451827788972,
+              "cpCER": 0.09923105390846663,
+              "DeltaCP": -0.04425346436942308,
+              "audio_hours": 9.66717373263889,
+              "processing_hours": 0.9461801983747218,
+              "RTF": 0.09787557610350703,
+              "audio_seconds_per_processing_second": 10.217053526637363,
+              "max_peak_allocated_gib": 26.83000373840332,
+              "DER_collar_0": {
+                "total": 31558.654999999995,
+                "confusion": 368.82000000000284,
+                "missed detection": 4232.715000000004,
+                "false alarm": 958.8999999999864,
+                "correct": 26957.119999999988,
+                "DER": 0.17619366224574506
+              },
+              "DER_collar_0.25": {
+                "total": 27115.975000000006,
+                "confusion": 192.33000000000212,
+                "missed detection": 3146.085000000001,
+                "false alarm": 352.92999999999705,
+                "correct": 23777.56,
+                "DER": 0.13613174521661123
+              }
+            }
+          },
+          "step": 30,
+          "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30"
+        }
+      ]
+    },
+    "128-seed0": {
+      "window": "128",
+      "seed": 0,
+      "step": 100,
+      "history": [
+        {
+          "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/zero-128",
+          "functional": false,
+          "failures": [
+            {
+              "key": "ami/dev/IS1008a",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011a",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004a",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008c",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8001_M8004",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011b",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011c",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008b",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4001",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8007_M8010",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8007_M8011",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4002",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8009_M8020",
+              "reasons": [
+                "major_parse_loss"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4003",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8003_M8001",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004b",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4004",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4011",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4010",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004c",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            }
+          ],
+          "S": 89.78576882661952,
+          "ce": 0.8092302450942226,
+          "RTF": 0.20062708221087708,
+          "corpora": {
+            "alimeeting": {
+              "completed": 8,
+              "expected": 8,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 1,
+              "empty_predictions": 0,
+              "reference_characters": 81086,
+              "character_errors": 52173,
+              "cp_character_errors": 80062,
+              "CER": 0.6434279653701008,
+              "cpCER": 0.9873714327997435,
+              "DeltaCP": 0.3439434674296426,
+              "audio_hours": 4.205059722222222,
+              "processing_hours": 0.8903228878447165,
+              "RTF": 0.2117265738557009,
+              "audio_seconds_per_processing_second": 4.723072696021308,
+              "max_peak_allocated_gib": 25.99522829055786,
+              "DER_collar_0": {
+                "total": 17632.599999999948,
+                "confusion": 4262.259999999989,
+                "missed detection": 8722.419999999987,
+                "false alarm": 630.3619999999963,
+                "correct": 4647.919999999969,
+                "DER": 0.7721516962898275
+              },
+              "DER_collar_0.25": {
+                "total": 13988.509999999955,
+                "confusion": 3564.229999999991,
+                "missed detection": 6513.614999999989,
+                "false alarm": 338.51699999999676,
+                "correct": 3910.6649999999754,
+                "DER": 0.7446369913593378
+              }
+            },
+            "ami": {
+              "completed": 18,
+              "expected": 18,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 7,
+              "empty_predictions": 0,
+              "reference_characters": 364785,
+              "character_errors": 311249,
+              "cp_character_errors": 337596,
+              "CER": 0.8532395794783229,
+              "cpCER": 0.925465685266664,
+              "DeltaCP": 0.07222610578834107,
+              "audio_hours": 9.66717373263889,
+              "processing_hours": 1.8928228339521835,
+              "RTF": 0.19579898802909912,
+              "audio_seconds_per_processing_second": 5.10727869467529,
+              "max_peak_allocated_gib": 26.83000421524048,
+              "DER_collar_0": {
+                "total": 31558.655000000013,
+                "confusion": 1011.7999999999994,
+                "missed detection": 28404.74500000001,
+                "false alarm": 278.97999999999985,
+                "correct": 2142.11,
+                "DER": 0.9409629466148033
+              },
+              "DER_collar_0.25": {
+                "total": 27115.975000000006,
+                "confusion": 882.955,
+                "missed detection": 24245.420000000006,
+                "false alarm": 196.76999999999967,
+                "correct": 1987.5999999999997,
+                "DER": 0.9339566436390356
+              }
+            }
+          },
+          "step": 0,
+          "checkpoint": "/work/qt28/moss/models/MOSS-Transcribe-Diarize"
+        },
+        {
+          "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/128-seed0/step-30",
+          "functional": false,
+          "failures": [
+            {
+              "key": "ami/dev/IS1008a",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011a",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004a",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008c",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8001_M8004",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011b",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011c",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008b",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "pathological_identical_token_loop"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4001",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8007_M8010",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8007_M8011",
+              "reasons": [
+                "major_parse_loss"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4002",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8009_M8020",
+              "reasons": [
+                "major_parse_loss"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4003",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8003_M8001",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8008_M8013",
+              "reasons": [
+                "major_parse_loss"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004b",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "pathological_identical_token_loop",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4004",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "pathological_identical_token_loop",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4011",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004d",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4010",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004c",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            }
+          ],
+          "S": 94.18016542051635,
+          "ce": 0.8028791121838524,
+          "RTF": 0.2405792464384117,
+          "corpora": {
+            "alimeeting": {
+              "completed": 8,
+              "expected": 8,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 0,
+              "empty_predictions": 0,
+              "reference_characters": 81086,
+              "character_errors": 60194,
+              "cp_character_errors": 89146,
+              "CER": 0.7423476309103915,
+              "cpCER": 1.0994006363613942,
+              "DeltaCP": 0.35705300545100266,
+              "audio_hours": 4.205059722222222,
+              "processing_hours": 0.8452772629002316,
+              "RTF": 0.20101433005415986,
+              "audio_seconds_per_processing_second": 4.974769707863947,
+              "max_peak_allocated_gib": 25.99522829055786,
+              "DER_collar_0": {
+                "total": 17632.599999999944,
+                "confusion": 3861.7499999999845,
+                "missed detection": 8843.479999999983,
+                "false alarm": 1899.0159999999987,
+                "correct": 4927.369999999975,
+                "DER": 0.8282525549266706
+              },
+              "DER_collar_0.25": {
+                "total": 13988.509999999955,
+                "confusion": 3222.2349999999915,
+                "missed detection": 6597.744999999987,
+                "false alarm": 1387.2359999999996,
+                "correct": 4168.529999999977,
+                "DER": 0.8011729626672186
+              }
+            },
+            "ami": {
+              "completed": 18,
+              "expected": 18,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 10,
+              "empty_predictions": 0,
+              "reference_characters": 364785,
+              "character_errors": 307410,
+              "cp_character_errors": 341193,
+              "CER": 0.8427155721863564,
+              "cpCER": 0.9353262880875036,
+              "DeltaCP": 0.09261071590114725,
+              "audio_hours": 9.66717373263889,
+              "processing_hours": 2.492094208087979,
+              "RTF": 0.2577893267474879,
+              "audio_seconds_per_processing_second": 3.8791365516056793,
+              "max_peak_allocated_gib": 26.83000421524048,
+              "DER_collar_0": {
+                "total": 31558.655000000013,
+                "confusion": 1056.6299999999997,
+                "missed detection": 28200.285000000007,
+                "false alarm": 384.3599999999992,
+                "correct": 2301.74,
+                "DER": 0.9392439253193773
+              },
+              "DER_collar_0.25": {
+                "total": 27115.975000000006,
+                "confusion": 918.5699999999997,
+                "missed detection": 24052.075000000008,
+                "false alarm": 282.6449999999995,
+                "correct": 2145.3299999999995,
+                "DER": 0.9313067297045378
+              }
+            }
+          },
+          "step": 30,
+          "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-30"
+        },
+        {
+          "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/128-seed0/step-100",
+          "functional": false,
+          "failures": [
+            {
+              "key": "ami/dev/IS1008a",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011a",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004a",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008c",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8001_M8004",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "pathological_identical_token_loop",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011b",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011c",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "pathological_identical_token_loop",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008b",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4001",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8007_M8010",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8007_M8011",
+              "reasons": [
+                "budget_truncation",
+                "repeated_identical_timestamped_segment_loop"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4002",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8009_M8020",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4003",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8003_M8001",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "pathological_identical_token_loop",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004b",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4004",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4011",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004d",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4010",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004c",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            }
+          ],
+          "S": 100.66438315239384,
+          "ce": 0.750874952144514,
+          "RTF": 0.3031098625360678,
+          "corpora": {
+            "alimeeting": {
+              "completed": 8,
+              "expected": 8,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 5,
+              "empty_predictions": 0,
+              "reference_characters": 81086,
+              "character_errors": 65223,
+              "cp_character_errors": 91553,
+              "CER": 0.8043682016624325,
+              "cpCER": 1.1290851688330907,
+              "DeltaCP": 0.3247169671706583,
+              "audio_hours": 4.205059722222222,
+              "processing_hours": 1.3811681595672336,
+              "RTF": 0.32845387480902083,
+              "audio_seconds_per_processing_second": 3.0445675228567453,
+              "max_peak_allocated_gib": 25.99522829055786,
+              "DER_collar_0": {
+                "total": 17632.599999999944,
+                "confusion": 3897.9999999999927,
+                "missed detection": 8946.769999999979,
+                "false alarm": 5227.145999999997,
+                "correct": 4787.829999999971,
+                "DER": 1.024914987012694
+              },
+              "DER_collar_0.25": {
+                "total": 13988.509999999955,
+                "confusion": 3269.3549999999927,
+                "missed detection": 6689.724999999987,
+                "false alarm": 4331.790999999999,
+                "correct": 4029.4299999999757,
+                "DER": 1.0216149539872386
+              }
+            },
+            "ami": {
+              "completed": 18,
+              "expected": 18,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 11,
+              "empty_predictions": 0,
+              "reference_characters": 364785,
+              "character_errors": 331593,
+              "cp_character_errors": 342288,
+              "CER": 0.9090094165056128,
+              "cpCER": 0.938328056252313,
+              "DeltaCP": 0.029318639746700112,
+              "audio_hours": 9.66717373263889,
+              "processing_hours": 2.8236426160039585,
+              "RTF": 0.2920856388947069,
+              "audio_seconds_per_processing_second": 3.4236534318638205,
+              "max_peak_allocated_gib": 26.83000421524048,
+              "DER_collar_0": {
+                "total": 31558.655000000013,
+                "confusion": 783.5300000000001,
+                "missed detection": 28699.935000000005,
+                "false alarm": 325.0599999999994,
+                "correct": 2075.1900000000005,
+                "DER": 0.944543580833847
+              },
+              "DER_collar_0.25": {
+                "total": 27115.975000000006,
+                "confusion": 660.2999999999996,
+                "missed detection": 24528.320000000007,
+                "false alarm": 233.88499999999968,
+                "correct": 1927.3550000000005,
+                "DER": 0.9375471470231109
+              }
+            }
+          },
+          "step": 100,
+          "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-100"
+        }
+      ]
+    },
+    "256-seed0": {
+      "window": "256",
+      "seed": 0,
+      "step": 150,
+      "history": [
+        {
+          "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/zero-256",
+          "functional": false,
+          "failures": [
+            {
+              "key": "ami/dev/TS3004a",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008c",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011b",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011c",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008b",
+              "reasons": [
+                "major_parse_loss"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8007_M8010",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4003",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8003_M8001",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "pathological_identical_token_loop",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004b",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4004",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4011",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4010",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "pathological_identical_token_loop",
+                "severe_early_end_with_text_deficit"
+              ]
+            }
+          ],
+          "S": 78.66404674006468,
+          "ce": 0.7101833986236347,
+          "RTF": 0.11654669375949939,
+          "corpora": {
+            "alimeeting": {
+              "completed": 8,
+              "expected": 8,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 1,
+              "empty_predictions": 0,
+              "reference_characters": 81086,
+              "character_errors": 33566,
+              "cp_character_errors": 72271,
+              "CER": 0.413955553363096,
+              "cpCER": 0.8912882618454481,
+              "DeltaCP": 0.4773327084823521,
+              "audio_hours": 4.205059722222222,
+              "processing_hours": 0.5783878773181803,
+              "RTF": 0.13754569864052327,
+              "audio_seconds_per_processing_second": 7.27031095762222,
+              "max_peak_allocated_gib": 25.99522829055786,
+              "DER_collar_0": {
+                "total": 17632.599999999948,
+                "confusion": 5557.539999999991,
+                "missed detection": 4228.939999999989,
+                "false alarm": 810.4760000000008,
+                "correct": 7846.1199999999635,
+                "DER": 0.6009865816725843
+              },
+              "DER_collar_0.25": {
+                "total": 13988.509999999955,
+                "confusion": 4557.744999999991,
+                "missed detection": 2906.1499999999937,
+                "false alarm": 380.4809999999999,
+                "correct": 6524.614999999971,
+                "DER": 0.5607728056812348
+              }
+            },
+            "ami": {
+              "completed": 18,
+              "expected": 18,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 2,
+              "empty_predictions": 0,
+              "reference_characters": 364785,
+              "character_errors": 228082,
+              "cp_character_errors": 326277,
+              "CER": 0.6252504900146661,
+              "cpCER": 0.8944364488671409,
+              "DeltaCP": 0.26918595885247476,
+              "audio_hours": 9.66717373263889,
+              "processing_hours": 1.0383750669057998,
+              "RTF": 0.10741247603733198,
+              "audio_seconds_per_processing_second": 9.309905486700101,
+              "max_peak_allocated_gib": 26.83000421524048,
+              "DER_collar_0": {
+                "total": 31558.655000000006,
+                "confusion": 5829.899999999999,
+                "missed detection": 18905.675000000007,
+                "false alarm": 1173.4599999999887,
+                "correct": 6823.079999999997,
+                "DER": 0.8209803301186311
+              },
+              "DER_collar_0.25": {
+                "total": 27115.975000000006,
+                "confusion": 4921.034999999999,
+                "missed detection": 16040.005000000008,
+                "false alarm": 733.4849999999918,
+                "correct": 6154.934999999999,
+                "DER": 0.8000643532087632
+              }
+            }
+          },
+          "step": 0,
+          "checkpoint": "/work/qt28/moss/models/MOSS-Transcribe-Diarize"
+        },
+        {
+          "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-30",
+          "functional": false,
+          "failures": [
+            {
+              "key": "ami/dev/TS3004a",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008c",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8001_M8004",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011b",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011c",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008b",
+              "reasons": [
+                "major_parse_loss"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4003",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8003_M8001",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "pathological_identical_token_loop",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004b",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4004",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4011",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4010",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "pathological_identical_token_loop",
+                "severe_early_end_with_text_deficit"
+              ]
+            }
+          ],
+          "S": 81.29551809125499,
+          "ce": 0.7045025507607711,
+          "RTF": 0.1202178514493698,
+          "corpora": {
+            "alimeeting": {
+              "completed": 8,
+              "expected": 8,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 1,
+              "empty_predictions": 0,
+              "reference_characters": 81086,
+              "character_errors": 38227,
+              "cp_character_errors": 75893,
+              "CER": 0.4714377327775448,
+              "cpCER": 0.9359568852822929,
+              "DeltaCP": 0.46451915250474807,
+              "audio_hours": 4.205059722222222,
+              "processing_hours": 0.6138593809730891,
+              "RTF": 0.1459811326172287,
+              "audio_seconds_per_processing_second": 6.8502003106254845,
+              "max_peak_allocated_gib": 25.99522829055786,
+              "DER_collar_0": {
+                "total": 17632.59999999995,
+                "confusion": 5981.149999999989,
+                "missed detection": 3803.6199999999913,
+                "false alarm": 970.6799999999973,
+                "correct": 7847.829999999963,
+                "DER": 0.6099752730737388
+              },
+              "DER_collar_0.25": {
+                "total": 13988.509999999953,
+                "confusion": 4787.134999999996,
+                "missed detection": 2681.7849999999917,
+                "false alarm": 525.4249999999988,
+                "correct": 6519.589999999968,
+                "DER": 0.5714936758811349
+              }
+            },
+            "ami": {
+              "completed": 18,
+              "expected": 18,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 2,
+              "empty_predictions": 0,
+              "reference_characters": 364785,
+              "character_errors": 243214,
+              "cp_character_errors": 333401,
+              "CER": 0.6667324588456214,
+              "cpCER": 0.9139657606535356,
+              "DeltaCP": 0.24723330180791425,
+              "audio_hours": 9.66717373263889,
+              "processing_hours": 1.053830719774382,
+              "RTF": 0.10901125281491277,
+              "audio_seconds_per_processing_second": 9.173364897455794,
+              "max_peak_allocated_gib": 26.83000421524048,
+              "DER_collar_0": {
+                "total": 31558.65500000001,
+                "confusion": 5076.240000000002,
+                "missed detection": 20560.225000000006,
+                "false alarm": 1147.5900000000017,
+                "correct": 5922.189999999997,
+                "DER": 0.8487071137854258
+              },
+              "DER_collar_0.25": {
+                "total": 27115.975000000006,
+                "confusion": 4310.789999999998,
+                "missed detection": 17464.015000000007,
+                "false alarm": 742.4199999999961,
+                "correct": 5341.169999999999,
+                "DER": 0.8304044018332366
+              }
+            }
+          },
+          "step": 30,
+          "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-30"
+        },
+        {
+          "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-100",
+          "functional": false,
+          "failures": [
+            {
+              "key": "ami/dev/TS3004a",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008c",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011b",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011c",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008b",
+              "reasons": [
+                "major_parse_loss"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4003",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004b",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4004",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4011",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4010",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            }
+          ],
+          "S": 83.6657343062181,
+          "ce": 0.6579913923540351,
+          "RTF": 0.1229220432026503,
+          "corpora": {
+            "alimeeting": {
+              "completed": 8,
+              "expected": 8,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 0,
+              "empty_predictions": 0,
+              "reference_characters": 81086,
+              "character_errors": 29928,
+              "cp_character_errors": 74357,
+              "CER": 0.3690896085637471,
+              "cpCER": 0.9170140344819081,
+              "DeltaCP": 0.5479244259181609,
+              "audio_hours": 4.205059722222222,
+              "processing_hours": 0.45908782997686004,
+              "RTF": 0.10917510340001751,
+              "audio_seconds_per_processing_second": 9.159597461849893,
+              "max_peak_allocated_gib": 25.99522829055786,
+              "DER_collar_0": {
+                "total": 17632.59999999994,
+                "confusion": 6504.8699999999935,
+                "missed detection": 1711.5699999999879,
+                "false alarm": 4374.990000000001,
+                "correct": 9416.159999999958,
+                "DER": 0.7140994521511306
+              },
+              "DER_collar_0.25": {
+                "total": 13988.509999999955,
+                "confusion": 5210.699999999995,
+                "missed detection": 999.0349999999943,
+                "false alarm": 3356.360000000003,
+                "correct": 7778.774999999966,
+                "DER": 0.6838537485407683
+              }
+            },
+            "ami": {
+              "completed": 18,
+              "expected": 18,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 3,
+              "empty_predictions": 0,
+              "reference_characters": 364785,
+              "character_errors": 241877,
+              "cp_character_errors": 333266,
+              "CER": 0.6630672862096851,
+              "cpCER": 0.9135956796469153,
+              "DeltaCP": 0.25052839343723016,
+              "audio_hours": 9.66717373263889,
+              "processing_hours": 1.2461154500788285,
+              "RTF": 0.1289017332823573,
+              "audio_seconds_per_processing_second": 7.7578475830849785,
+              "max_peak_allocated_gib": 26.83000421524048,
+              "DER_collar_0": {
+                "total": 31558.65500000001,
+                "confusion": 5051.0999999999985,
+                "missed detection": 20655.905000000006,
+                "false alarm": 1151.3099999999993,
+                "correct": 5851.65,
+                "DER": 0.8510601925208788
+              },
+              "DER_collar_0.25": {
+                "total": 27115.975000000006,
+                "confusion": 4311.349999999999,
+                "missed detection": 17465.660000000007,
+                "false alarm": 787.979999999998,
+                "correct": 5338.964999999998,
+                "DER": 0.8321659095791318
+              }
+            }
+          },
+          "step": 100,
+          "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-100"
+        },
+        {
+          "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/256-seed0/step-150",
+          "functional": false,
+          "failures": [
+            {
+              "key": "ami/dev/TS3004a",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008c",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011b",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011c",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IS1008b",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8007_M8010",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/ES2011d",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4003",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "alimeeting/dev/R8003_M8001",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "pathological_identical_token_loop",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/TS3004b",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4004",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4011",
+              "reasons": [
+                "major_parse_loss",
+                "severe_early_end_with_text_deficit"
+              ]
+            },
+            {
+              "key": "ami/dev/IB4010",
+              "reasons": [
+                "budget_truncation",
+                "major_parse_loss",
+                "pathological_identical_token_loop",
+                "severe_early_end_with_text_deficit"
+              ]
+            }
+          ],
+          "S": 74.49145439408534,
+          "ce": 0.6384617645649134,
+          "RTF": 0.14036048061772796,
+          "corpora": {
+            "alimeeting": {
+              "completed": 8,
+              "expected": 8,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 1,
+              "empty_predictions": 0,
+              "reference_characters": 81086,
+              "character_errors": 26741,
+              "cp_character_errors": 58573,
+              "CER": 0.32978565966998,
+              "cpCER": 0.7223565103717041,
+              "DeltaCP": 0.3925708507017241,
+              "audio_hours": 4.205059722222222,
+              "processing_hours": 0.5385854630865571,
+              "RTF": 0.12808033622931142,
+              "audio_seconds_per_processing_second": 7.807599741225135,
+              "max_peak_allocated_gib": 25.99522829055786,
+              "DER_collar_0": {
+                "total": 17632.599999999944,
+                "confusion": 4686.259999999995,
+                "missed detection": 4247.979999999994,
+                "false alarm": 775.6300000000041,
+                "correct": 8698.359999999955,
+                "DER": 0.5506771548155136
+              },
+              "DER_collar_0.25": {
+                "total": 13988.509999999955,
+                "confusion": 3833.944999999997,
+                "missed detection": 2912.3849999999975,
+                "false alarm": 363.52000000000265,
+                "correct": 7242.17999999996,
+                "DER": 0.5082635677423842
+              }
+            },
+            "ami": {
+              "completed": 18,
+              "expected": 18,
+              "coverage": 1.0,
+              "complete": true,
+              "truncated": 4,
+              "empty_predictions": 0,
+              "reference_characters": 364785,
+              "character_errors": 245131,
+              "cp_character_errors": 333753,
+              "CER": 0.6719876091396302,
+              "cpCER": 0.9149307126115384,
+              "DeltaCP": 0.24294310347190812,
+              "audio_hours": 9.66717373263889,
+              "processing_hours": 1.4085278918790733,
+              "RTF": 0.14570213909816448,
+              "audio_seconds_per_processing_second": 6.863317218193111,
+              "max_peak_allocated_gib": 26.83000421524048,
+              "DER_collar_0": {
+                "total": 31558.655000000006,
+                "confusion": 5072.689999999997,
+                "missed detection": 20259.425000000007,
+                "false alarm": 1577.8799999999983,
+                "correct": 6226.539999999998,
+                "DER": 0.8526977781530929
+              },
+              "DER_collar_0.25": {
+                "total": 27115.975000000006,
+                "confusion": 4319.455000000002,
+                "missed detection": 17117.170000000006,
+                "false alarm": 1181.0099999999993,
+                "correct": 5679.349999999998,
+                "DER": 0.8341073850377868
+              }
+            }
+          },
+          "step": 150,
+          "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-150"
+        }
+      ]
+    }
+  },
+  "completed": [
+    {
+      "kind": "zero",
+      "window": "full"
+    },
+    {
+      "kind": "zero",
+      "window": "128"
+    },
+    {
+      "kind": "zero",
+      "window": "256"
+    },
+    {
+      "kind": "train",
+      "window": "128",
+      "seed": 0,
+      "target": 30
+    },
+    {
+      "kind": "train",
+      "window": "full",
+      "seed": 0,
+      "target": 30
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 30
+    },
+    {
+      "kind": "train",
+      "window": "128",
+      "seed": 0,
+      "target": 40
+    },
+    {
+      "kind": "train",
+      "window": "full",
+      "seed": 0,
+      "target": 40
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 40
+    },
+    {
+      "kind": "train",
+      "window": "128",
+      "seed": 0,
+      "target": 50
+    },
+    {
+      "kind": "train",
+      "window": "full",
+      "seed": 0,
+      "target": 50
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 50
+    },
+    {
+      "kind": "train",
+      "window": "128",
+      "seed": 0,
+      "target": 60
+    },
+    {
+      "kind": "train",
+      "window": "full",
+      "seed": 0,
+      "target": 60
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 60
+    },
+    {
+      "kind": "train",
+      "window": "128",
+      "seed": 0,
+      "target": 70
+    },
+    {
+      "kind": "train",
+      "window": "full",
+      "seed": 0,
+      "target": 70
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 70
+    },
+    {
+      "kind": "train",
+      "window": "128",
+      "seed": 0,
+      "target": 80
+    },
+    {
+      "kind": "train",
+      "window": "full",
+      "seed": 0,
+      "target": 80
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 80
+    },
+    {
+      "kind": "train",
+      "window": "128",
+      "seed": 0,
+      "target": 90
+    },
+    {
+      "kind": "train",
+      "window": "full",
+      "seed": 0,
+      "target": 90
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 90
+    },
+    {
+      "kind": "train",
+      "window": "128",
+      "seed": 0,
+      "target": 100
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 100
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 120
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 140
+    },
+    {
+      "kind": "train",
+      "window": "256",
+      "seed": 0,
+      "target": 150
+    },
+    {
+      "kind": "extend",
+      "previous": 100,
+      "current": 150,
+      "next_target": 268
+    },
+    {
+      "kind": "select"
+    }
+  ],
+  "approved_max_updates": 2010,
+  "protocol_amendments": [
+    {
+      "path": "/work/qt28/moss/results/moss-rswa-20260920/protocol_amendment_20260921.json",
+      "sha256": "30b780add74adcc0cd146b4a757797340df8eed2e1d28611a48bac808ed23415",
+      "utc": "2026-09-21T07:02:50.358412+00:00"
+    }
+  ],
+  "training_stopped": {
+    "128-seed0": {
+      "step": 100,
+      "reason": "user-directed degradation stop"
+    },
+    "full-seed0": {
+      "step": 90,
+      "reason": "user-directed R256-only continuation"
+    }
+  },
+  "selection": {
+    "full": {
+      "run": "/work/qt28/moss/results/moss-rswa-20260920/dev/full-seed0/step-30",
+      "functional": true,
+      "failures": [],
+      "S": 11.487172066149542,
+      "ce": 0.5209814931062023,
+      "RTF": 0.09936987811555606,
+      "corpora": {
+        "alimeeting": {
+          "completed": 8,
+          "expected": 8,
+          "coverage": 1.0,
+          "complete": true,
+          "truncated": 0,
+          "empty_predictions": 0,
+          "reference_characters": 81086,
+          "character_errors": 15220,
+          "cp_character_errors": 12041,
+          "CER": 0.1877019460819377,
+          "cpCER": 0.1484966578694226,
+          "DeltaCP": -0.03920528821251511,
+          "audio_hours": 4.205059722222222,
+          "processing_hours": 0.43230194922536613,
+          "RTF": 0.10280518655675838,
+          "audio_seconds_per_processing_second": 9.727135697068197,
+          "max_peak_allocated_gib": 25.995227813720703,
+          "DER_collar_0": {
+            "total": 17632.599999999933,
+            "confusion": 226.76999999999862,
+            "missed detection": 1254.9399999999969,
+            "false alarm": 751.2599999999999,
+            "correct": 16150.88999999994,
+            "DER": 0.1266387259961664
+          },
+          "DER_collar_0.25": {
+            "total": 13988.509999999955,
+            "confusion": 116.25999999999883,
+            "missed detection": 695.7249999999999,
+            "false alarm": 245.92999999999986,
+            "correct": 13176.524999999956,
+            "DER": 0.07562742565148126
+          }
+        },
+        "ami": {
+          "completed": 18,
+          "expected": 18,
+          "coverage": 1.0,
+          "complete": true,
+          "truncated": 0,
+          "empty_predictions": 0,
+          "reference_characters": 364785,
+          "character_errors": 52341,
+          "cp_character_errors": 36198,
+          "CER": 0.14348451827788972,
+          "cpCER": 0.09923105390846663,
+          "DeltaCP": -0.04425346436942308,
+          "audio_hours": 9.66717373263889,
+          "processing_hours": 0.9461801983747218,
+          "RTF": 0.09787557610350703,
+          "audio_seconds_per_processing_second": 10.217053526637363,
+          "max_peak_allocated_gib": 26.83000373840332,
+          "DER_collar_0": {
+            "total": 31558.654999999995,
+            "confusion": 368.82000000000284,
+            "missed detection": 4232.715000000004,
+            "false alarm": 958.8999999999864,
+            "correct": 26957.119999999988,
+            "DER": 0.17619366224574506
+          },
+          "DER_collar_0.25": {
+            "total": 27115.975000000006,
+            "confusion": 192.33000000000212,
+            "missed detection": 3146.085000000001,
+            "false alarm": 352.92999999999705,
+            "correct": 23777.56,
+            "DER": 0.13613174521661123
+          }
+        }
+      },
+      "step": 30,
+      "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30"
+    },
+    "windows": {
+      "128": null,
+      "256": null
+    },
+    "winner": null,
+    "test_checkpoints": {
+      "full": {
+        "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/full-seed0/checkpoint-30",
+        "step": 30,
+        "functional": true,
+        "dev_qualified": true
+      },
+      "128": {
+        "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/128-seed0/checkpoint-30",
+        "step": 30,
+        "functional": false,
+        "dev_qualified": false
+      },
+      "256": {
+        "checkpoint": "/work/qt28/moss/results/moss-rswa-20260920/training/256-seed0/checkpoint-150",
+        "step": 150,
+        "functional": false,
+        "dev_qualified": false
+      }
+    }
+  },
+  "closed_by_user": true
+}

@@ -1,0 +1,89 @@
+{
+  "framework": "MS-Swift",
+  "full_attention": true,
+  "full_parameter": true,
+  "base": "/work/qt28/moss/models/MOSS-Transcribe-Diarize",
+  "initial_lr": 1e-07,
+  "scheduler": "linear",
+  "scheduler_horizon": 402,
+  "warmup": 0,
+  "sequence_parallel_size": 4,
+  "fsdp_version": 1,
+  "activation_cpu_offload": true,
+  "global_batch_meetings": 4,
+  "train_loss": "native CE every optimizer step",
+  "dev_loss": "native eval_loss over complete 26 meeting dev every 5 steps",
+  "dev_loss_aggregation": "MS-Swift/Transformers native evaluation reduction",
+  "generation": "official vLLM BF16 greedy complete meetings every 30 steps after cadence change",
+  "maximum_updates_this_pilot": 150,
+  "dev_selection": {
+    "min_delta": 0.1,
+    "patience": 3,
+    "tolerance": 0.1,
+    "catastrophic_stop": true
+  },
+  "test_used": false,
+  "dataset": {
+    "train": {
+      "path": "/work/qt28/moss/dkucc/ms_swift_20260914/data/train.jsonl",
+      "records": 536,
+      "sha256": "ff24eae8c1b2f9650654b3bc84b005e55d0206bb7d202d8f61b14bfb6e6d064f"
+    },
+    "dev": {
+      "path": "/work/qt28/moss/dkucc/ms_swift_20260914/data/dev.jsonl",
+      "records": 26,
+      "sha256": "3a3f3cce9966ae2a7d7ada1140a5db48b1efaabdbb1e19db5ef8ce0b51c2517e"
+    },
+    "original_train_sha256": "e2f0e529ef17e2996c753a6ac31b3be11242cbb81cce5dc5fd8e88a3c1ef6c8a",
+    "smoke": {
+      "path": "/work/qt28/moss/dkucc/ms_swift_20260914/data/smoke.jsonl",
+      "records": 4,
+      "sha256": "15c7503b5390be91c9dd3d052c11d3dec6a2c2f26c380f0863a00afa0a34821d"
+    },
+    "longest": {
+      "path": "/work/qt28/moss/dkucc/ms_swift_20260914/data/longest.jsonl",
+      "records": 4,
+      "sha256": "225ce9149337cd17d33becff75f80d389d46ecd83bda46b64586031862389499"
+    },
+    "smoke_index": 139,
+    "longest_index": 1,
+    "targets_unchanged": true
+  },
+  "gate_run": "/work/qt28/moss/results/ms-swift-fsdp-check-63506",
+  "gate": {
+    "status": "completed_native_swift_smoke_and_longest",
+    "fsdp_version": 1,
+    "activation_cpu_offload": true
+  },
+  "sampler": "native Swift SP sampler currently hardcodes seed 42; CLI seed/data_seed remain 0",
+  "implicit_full_causal": true,
+  "native_ce_chunk_size": 512,
+  "minimum_plateau_stop_step": 134,
+  "checkpoint_interval": 30,
+  "generation_interval": 30,
+  "dev_loss_interval": 5,
+  "evaluation_schedule": [
+    0,
+    5,
+    30,
+    60,
+    90,
+    120,
+    150
+  ],
+  "planned_generation_steps": [
+    30,
+    60,
+    90,
+    120,
+    150
+  ],
+  "schedule_change": {
+    "from_step": 5,
+    "checkpoint_interval": 30,
+    "generation_interval": 30,
+    "dev_loss_interval": 5,
+    "reason": "user_requested",
+    "utc": "2026-09-15T02:42:07.088044+00:00"
+  }
+}

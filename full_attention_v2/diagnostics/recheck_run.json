@@ -1,0 +1,12 @@
+{
+  "job": 63432,
+  "remote_run": "/work/qt28/moss/results/full-attention-v2-diagnostic-63432",
+  "source_training_job": 63421,
+  "checkpoints": [
+    25,
+    50
+  ],
+  "key": "ami/dev/TS3004c",
+  "training_updates": 0,
+  "purpose": "Earlier checkpoint comparison and same-checkpoint repeat; original inference and scoring"
+}

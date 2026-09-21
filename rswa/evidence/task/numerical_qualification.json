@@ -1,0 +1,147 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-09-20T13:22:24.914568+00:00",
+  "full_equivalence_run": "/work/qt28/moss/results/rswa-full-equivalence-64287",
+  "full_equivalence_sha256": {
+    "smoke": "9a4aff4b932955bcd31d30fcd2f936599a49e2e9b0c14bb2199e72cc2070897d",
+    "typical": "0f60b24a5daec79ecda0c89cad5eb3dbfd4b5cccbc6b96444f773820aece1564"
+  },
+  "original_failures_preserved": true,
+  "quality_claim": false,
+  "full_model_observations": {
+    "smoke": [
+      {
+        "mode": "native",
+        "sample": "smoke",
+        "prefix": 6325,
+        "length": 8585,
+        "target_tokens": 2260,
+        "loss": 0.7464212775230408,
+        "gradient_relative_l2": 0.0,
+        "gradient_cosine": 1.0,
+        "max_gradient_difference": 0.0,
+        "seconds": 44.9921097420156,
+        "nonbinding_vs_custom_full_gradient_relative_l2": 0.0,
+        "peak_allocated_gib": 7.981452465057373
+      },
+      {
+        "mode": "native_repeat",
+        "sample": "smoke",
+        "prefix": 6325,
+        "length": 8585,
+        "target_tokens": 2260,
+        "loss": 0.7464212775230408,
+        "gradient_relative_l2": 0.008728038576345477,
+        "gradient_cosine": 0.9999634610239395,
+        "max_gradient_difference": 0.0078125,
+        "seconds": 46.857428431510925,
+        "nonbinding_vs_custom_full_gradient_relative_l2": 0.0,
+        "peak_allocated_gib": 7.977855205535889
+      },
+      {
+        "mode": "custom_full",
+        "sample": "smoke",
+        "prefix": 6325,
+        "length": 8585,
+        "target_tokens": 2260,
+        "loss": 0.7464155554771423,
+        "gradient_relative_l2": 0.02245060726307718,
+        "gradient_cosine": 0.9997863333558018,
+        "max_gradient_difference": 0.029296875,
+        "seconds": 57.45883583649993,
+        "nonbinding_vs_custom_full_gradient_relative_l2": 0.0,
+        "peak_allocated_gib": 7.9789605140686035
+      },
+      {
+        "mode": "nonbinding_window",
+        "sample": "smoke",
+        "prefix": 6325,
+        "length": 8585,
+        "target_tokens": 2260,
+        "loss": 0.7464155554771423,
+        "gradient_relative_l2": 0.023069782275498846,
+        "gradient_cosine": 0.9997731488682936,
+        "max_gradient_difference": 0.029296875,
+        "seconds": 56.973402321338654,
+        "nonbinding_vs_custom_full_gradient_relative_l2": 0.00677549632140355,
+        "peak_allocated_gib": 7.979034423828125
+      }
+    ],
+    "typical": [
+      {
+        "mode": "native",
+        "sample": "typical",
+        "prefix": 26155,
+        "length": 49127,
+        "target_tokens": 22972,
+        "loss": 0.35038453340530396,
+        "gradient_relative_l2": 0.0,
+        "gradient_cosine": 1.0,
+        "max_gradient_difference": 0.0,
+        "seconds": 344.8125703111291,
+        "nonbinding_vs_custom_full_gradient_relative_l2": 0.0,
+        "peak_allocated_gib": 10.068278789520264
+      },
+      {
+        "mode": "native_repeat",
+        "sample": "typical",
+        "prefix": 26155,
+        "length": 49127,
+        "target_tokens": 22972,
+        "loss": 0.35038453340530396,
+        "gradient_relative_l2": 0.008643117476947116,
+        "gradient_cosine": 0.9999679075737913,
+        "max_gradient_difference": 0.00390625,
+        "seconds": 267.73297249153256,
+        "nonbinding_vs_custom_full_gradient_relative_l2": 0.0,
+        "peak_allocated_gib": 10.068446636199951
+      },
+      {
+        "mode": "custom_full",
+        "sample": "typical",
+        "prefix": 26155,
+        "length": 49127,
+        "target_tokens": 22972,
+        "loss": 0.350038081407547,
+        "gradient_relative_l2": 0.01651135213759476,
+        "gradient_cosine": 0.9998677935774689,
+        "max_gradient_difference": 0.01953125,
+        "seconds": 235.47466248646379,
+        "nonbinding_vs_custom_full_gradient_relative_l2": 0.0,
+        "peak_allocated_gib": 10.071377754211426
+      },
+      {
+        "mode": "nonbinding_window",
+        "sample": "typical",
+        "prefix": 26155,
+        "length": 49127,
+        "target_tokens": 22972,
+        "loss": 0.350038081407547,
+        "gradient_relative_l2": 0.016146880641223164,
+        "gradient_cosine": 0.9998724067977371,
+        "max_gradient_difference": 0.01953125,
+        "seconds": 220.8533631376922,
+        "nonbinding_vs_custom_full_gradient_relative_l2": 0.0034254439136320396,
+        "peak_allocated_gib": 10.073582172393799
+      }
+    ]
+  },
+  "decision": "Admit the bounded pre-registered same-backend experiment; this is not bitwise HF/vLLM or resume-trajectory equivalence.",
+  "rationale": [
+    "Independent small FP32 dense-mask forward/gradient tests, 42 dynamic-shape cases and SP4 tests pass; real training and cache accounting use the same visibility rule.",
+    "Short and typical nonbinding windows have exactly the custom-Full CE. Their gradient relative L2 differences (0.0067755 and 0.0034254) are below native-repeat differences (0.0087280 and 0.0086431).",
+    "Custom Full versus native SDPA has CE differences 0.000005722 and 0.000346452; global gradient cosines 0.9997863 and 0.9998678. All 683 trainable parameters have finite gradients. These differences exceed same-implementation repeat noise and are not called bitwise equality.",
+    "All three trained groups share custom FlexAttention, full-parameter native CE, FP32 masters and BF16 computation; all quality comparisons share the native vLLM Triton backend and output-only penalty 1.02.",
+    "Across short/typical/long inference traces, window top-1 agreement is 99.02%-99.76%, with no disagreement at the original margin>0.5 criterion. All 28 HF reference caches are unchanged and physical storage/page bounds pass.",
+    "Raw fixed BF16 logit tolerances failed for native Full controls too and remain false in original reports. Penalized distributions and centered errors supplement, rather than replace, those raw reports.",
+    "Typical R128/R256 maximum KL 0.0169012 and TV 0.0910509 also occur in matched custom Full before the output window binds. Long R256 KL 0.0018453/TV 0.0270171 exceed matched native Full TV 0.0179105; this excess is explicitly retained. No assertion is made that every R-SWA error lies within its matched Full envelope.",
+    "Saved model, Adam, scheduler and all-rank RNG restoration are exact. Continued training is numerically non-bitwise; same-implementation native repeat trajectories also failed the strict initial trajectory tolerance. Original failures and measured noise controls are retained.",
+    "Pipeline operation passed on two Dev meetings, but the three-update engineering checkpoint fails functional quality. It is never used as a formal initialization or selected checkpoint."
+  ],
+  "limitations": [
+    "Engineering inference coverage is three training meetings and finite traces, not a proof of exact equality on every future meeting.",
+    "KL/TV use saved logit positions; top-1 and high-margin checks cover the full saved trajectories.",
+    "Quality and speed gains remain unmeasured by the formal experiment; every failure remains in its scores.",
+    "Cold-cache timing API and forced-history instrumentation passed a 300-token check; the complete fixed-trajectory performance matrix remains pending."
+  ]
+}

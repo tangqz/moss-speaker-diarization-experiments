@@ -1,0 +1,16 @@
+{
+  "trainer_class": "swift.trainers.seq2seq_trainer.Seq2SeqTrainer",
+  "full_parameter": true,
+  "parameter_dtype": "float32",
+  "custom_attention": true,
+  "custom_loss": false,
+  "custom_optimizer": false,
+  "window": "128",
+  "initial_lr": 1e-07,
+  "sequence_parallel_size": 4,
+  "starting_global_step": 0,
+  "optimizer_lr_at_start": [
+    1e-07,
+    1e-07
+  ]
+}
